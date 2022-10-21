@@ -1,0 +1,300 @@
+[
+  {
+    "id": 10192,
+    "url": "allStudies/10192_SE.json",
+    "name": "Software Engineering",
+    "short": "SE",
+    "modules": [
+      {
+        "id": 37247,
+        "short": "M_MsTe",
+        "name": ".Net Technologien",
+        "url": "allModules/37247_M_MsTe.json"
+      },
+      {
+        "id": 28236,
+        "short": "M_AppArch",
+        "name": "Application Architecture",
+        "url": "allModules/28236_M_AppArch.json"
+      },
+      {
+        "id": 37903,
+        "short": "M_Bsys2",
+        "name": "Betriebssysteme 2",
+        "url": "allModules/37903_M_Bsys2.json"
+      },
+      {
+        "id": 24357,
+        "short": "M_CPl",
+        "name": "C++",
+        "url": "allModules/24357_M_CPl.json"
+      },
+      {
+        "id": 39054,
+        "short": "M_DSy",
+        "name": "Distributed Systems",
+        "url": "allModules/39054_M_DSy.json"
+      },
+      {
+        "id": 31603,
+        "short": "M_ParProg",
+        "name": "Parallele Programmierung",
+        "url": "allModules/31603_M_ParProg.json"
+      },
+      {
+        "id": 39045,
+        "short": "M_PF",
+        "name": "Patterns und Frameworks",
+        "url": "allModules/39045_M_PF.json"
+      },
+      {
+        "id": 40311,
+        "short": "M_SecSoW",
+        "name": "Secure Software",
+        "url": "allModules/40311_M_SecSoW.json"
+      },
+      {
+        "id": 36488,
+        "short": "M_SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
+      }
+    ]
+  },
+  {
+    "id": 10193,
+    "url": "allStudies/10193_FrEng.json",
+    "name": "Frontend Engineering",
+    "short": "FrEng",
+    "modules": [
+      {
+        "id": 40870,
+        "short": "M_AIAp",
+        "name": "AI Applications",
+        "url": "allModules/40870_M_AIAp.json"
+      },
+      {
+        "id": 28236,
+        "short": "M_AppArch",
+        "name": "Application Architecture",
+        "url": "allModules/28236_M_AppArch.json"
+      },
+      {
+        "id": 37167,
+        "short": "M_CldSol",
+        "name": "Cloud Solutions",
+        "url": "allModules/37167_M_CldSol.json"
+      },
+      {
+        "id": 38836,
+        "short": "M_ComGra",
+        "name": "Computer Grafik",
+        "url": "allModules/38836_M_ComGra.json"
+      },
+      {
+        "id": 28254,
+        "short": "M_MGE",
+        "name": "Mobile and GUI Engineering",
+        "url": "allModules/28254_M_MGE.json"
+      },
+      {
+        "id": 41106,
+        "short": "M_UX",
+        "name": "User Experience",
+        "url": "allModules/41106_M_UX.json"
+      },
+      {
+        "id": 38945,
+        "short": "M_WE2",
+        "name": "Web Engineering 2",
+        "url": "allModules/38945_M_WE2.json"
+      },
+      {
+        "id": 38901,
+        "short": "M_WE3",
+        "name": "Web Engineering 3",
+        "url": "allModules/38901_M_WE3.json"
+      }
+    ]
+  },
+  {
+    "id": 10194,
+    "url": "allStudies/10194_CySec.json",
+    "name": "Cybersecurity",
+    "short": "CySec",
+    "modules": [
+      {
+        "id": 23311,
+        "short": "M_CN2",
+        "name": "Computernetze 2",
+        "url": "allModules/23311_M_CN2.json"
+      },
+      {
+        "id": 38551,
+        "short": "M_CyDef",
+        "name": "Cyber Defense",
+        "url": "allModules/38551_M_CyDef.json"
+      },
+      {
+        "id": 36457,
+        "short": "M_HackL",
+        "name": "Hacking Lab",
+        "url": "allModules/36457_M_HackL.json"
+      },
+      {
+        "id": 36473,
+        "short": "M_IncResp",
+        "name": "Incident Response",
+        "url": "allModules/36473_M_IncResp.json"
+      },
+      {
+        "id": 36483,
+        "short": "M_NISec",
+        "name": "Network and IoT Security",
+        "url": "allModules/36483_M_NISec.json"
+      },
+      {
+        "id": 36471,
+        "short": "M_PFSec",
+        "name": "Platform Security",
+        "url": "allModules/36471_M_PFSec.json"
+      },
+      {
+        "id": 36488,
+        "short": "M_SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
+      },
+      {
+        "id": 40311,
+        "short": "M_SecSoW",
+        "name": "Secure Software",
+        "url": "allModules/40311_M_SecSoW.json"
+      },
+      {
+        "id": 38945,
+        "short": "M_WE2",
+        "name": "Web Engineering 2",
+        "url": "allModules/38945_M_WE2.json"
+      }
+    ]
+  },
+  {
+    "id": 10195,
+    "url": "allStudies/10195_NetCloud.json",
+    "name": "Network and Cloud Infrastructure",
+    "short": "NetCloud",
+    "modules": [
+      {
+        "id": 29855,
+        "short": "M_CldInf",
+        "name": "Cloud Infrastructure",
+        "url": "allModules/29855_M_CldInf.json"
+      },
+      {
+        "id": 37161,
+        "short": "M_CldOp",
+        "name": "Cloud Operations",
+        "url": "allModules/37161_M_CldOp.json"
+      },
+      {
+        "id": 23311,
+        "short": "M_CN2",
+        "name": "Computernetze 2",
+        "url": "allModules/23311_M_CN2.json"
+      },
+      {
+        "id": 39054,
+        "short": "M_DSy",
+        "name": "Distributed Systems",
+        "url": "allModules/39054_M_DSy.json"
+      },
+      {
+        "id": 36483,
+        "short": "M_NISec",
+        "name": "Network and IoT Security",
+        "url": "allModules/36483_M_NISec.json"
+      },
+      {
+        "id": 39128,
+        "short": "M_NetAut",
+        "name": "Network Automation",
+        "url": "allModules/39128_M_NetAut.json"
+      },
+      {
+        "id": 37152,
+        "short": "M_SDW",
+        "name": "Software Defined Networks",
+        "url": "allModules/37152_M_SDW.json"
+      },
+      {
+        "id": 38945,
+        "short": "M_WE2",
+        "name": "Web Engineering 2",
+        "url": "allModules/38945_M_WE2.json"
+      },
+      {
+        "id": 37157,
+        "short": "M_WIoT",
+        "name": "Wireless and IoT",
+        "url": "allModules/37157_M_WIoT.json"
+      }
+    ]
+  },
+  {
+    "id": 10196,
+    "url": "allStudies/10196_DaEnMaIn.json",
+    "name": "Data Engineering and Machine Intelligence",
+    "short": "DaEnMaIn",
+    "modules": [
+      {
+        "id": 40870,
+        "short": "M_AIAp",
+        "name": "AI Applications",
+        "url": "allModules/40870_M_AIAp.json"
+      },
+      {
+        "id": 39041,
+        "short": "M_BlCh",
+        "name": "Blockchain",
+        "url": "allModules/39041_M_BlCh.json"
+      },
+      {
+        "id": 37167,
+        "short": "M_CldSol",
+        "name": "Cloud Solutions",
+        "url": "allModules/37167_M_CldSol.json"
+      },
+      {
+        "id": 36034,
+        "short": "M_DatAna",
+        "name": "Data Analytics",
+        "url": "allModules/36034_M_DatAna.json"
+      },
+      {
+        "id": 36038,
+        "short": "M_DatEng",
+        "name": "Data Engineering",
+        "url": "allModules/36038_M_DatEng.json"
+      },
+      {
+        "id": 31834,
+        "short": "M_DL",
+        "name": "Deep Learning",
+        "url": "allModules/31834_M_DL.json"
+      },
+      {
+        "id": 31614,
+        "short": "M_MathFML",
+        "name": "Mathematical Foundations for Machine Learning",
+        "url": "allModules/31614_M_MathFML.json"
+      },
+      {
+        "id": 31838,
+        "short": "M_ML",
+        "name": "Statistical Machine Learning",
+        "url": "allModules/31838_M_ML.json"
+      }
+    ]
+  }
+]
