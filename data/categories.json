@@ -86,7 +86,7 @@
     ]
   },
   {
-    "id": "Kat_MaPh",
+    "id": "MaPh",
     "required_ects": 16,
     "name": "Mathematik und Physik",
     "total_ects": 50,
@@ -159,7 +159,7 @@
     ]
   },
   {
-    "id": "Kat_RA",
+    "id": "RA",
     "required_ects": 46,
     "name": "Rahmenausbildung",
     "total_ects": 56,
