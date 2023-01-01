@@ -18,7 +18,7 @@ def getIdForModule(kuerzel):
     return kuerzel.removeprefix('M_')
 
 def getIdForCategory(kuerzel):
-    return kuerzel.removeprefix('I-').removeprefix('I_')
+    return kuerzel.removeprefix('I-').removeprefix('I_').removeprefix('Kat_')
 
 
 # 'kredits' contains categories
