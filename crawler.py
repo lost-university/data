@@ -2,91 +2,103 @@ import requests
 import json
 import os
 import re
-from lxml import html
-from itertools import groupby
+import sys
 
 BASE_URL = 'https://studien.rj.ost.ch/'
 OUTPUT_DIRECTORY = 'data'
-MODULE_PATTERN = re.compile('(.*) \(M_(.*) \/.*')
-CATEGORY_PATTERN = re.compile('(.*) \(.*[_-](.*)\)')
 
-EXCLUDED_MODULES = ['SecSW', 'WSLS', 'WIoT', 'RKI']
+content = requests.get(f'{BASE_URL}allStudies/10191_I.json').content
+jsonContent = json.loads(content)
 
-content = requests.get(f'{BASE_URL}allStudies/10191_I.html').content
-tree = html.fromstring(content)
-
-modules = {}
 categories = {}
+modules = {}
 focuses = []
 
-for category in tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/following-sibling::div'):
-    category_fullname = category.xpath('.//h5/text()')[0][:-1]
+def getIdForModule(kuerzel):
+    return kuerzel.removeprefix('M_')
 
-    module_fullnames = category.xpath('.//a/text()')
-    module_urls = [BASE_URL + url for url in category.xpath('.//a/@href')]
+def getIdForCategory(kuerzel):
+    return kuerzel.removeprefix('I-').removeprefix('I_').removeprefix('Kat_')
 
-    (category_name, category_id) = CATEGORY_PATTERN.search(category_fullname).groups() if category_fullname != 'ohne Kategorie' else (None, None)
 
-    if category_name is not None:
-        (required_ects, _, total_ects) = category.xpath('.//p/text()')[0].partition('/')
-        categories[category_name] = {
-            'id': category_id,
-            'name': category_name,
-            'modules': [],
-            'required_ects': required_ects,
-            'total_ects': total_ects,
+# 'kredits' contains categories
+kredits = jsonContent['kredits']
+for kredit in kredits:
+    category = kredit['kategorien'][0]
+    catId = getIdForCategory(category['kuerzel'])
+    categories[catId] = {
+        'id': catId,
+        'required_ects': kredit['minKredits'],
+        'name': category['bezeichnung'],
+        'total_ects': 0,
+        'modules': [],
+    }
+
+
+# 'zuordnungen' contains modules
+zuordnungen = jsonContent['zuordnungen']
+for zuordnung in zuordnungen:
+    module = {
+        'id': getIdForModule(zuordnung['kuerzel']),
+        'name': zuordnung['bezeichnung'],
+        'url': zuordnung['url'],
+        'isThesis': zuordnung['istAbschlussArbeit'],
+        'isRequired': zuordnung['istPflichtmodul'],
+        'recommendedSemester': zuordnung['semEmpfehlung'],
+        'focuses': [],
+        'categories': [],
+        'ects': 0,
+        'isDeactivated': False
         }
 
-    for (fullname, url) in zip(module_fullnames, module_urls):
-        (module_name, module_id) = MODULE_PATTERN.search(fullname).groups()
-
-        if fullname not in modules and not module_id in EXCLUDED_MODULES:
-            modules[module_id] = {
-                'id': module_id,
-                'name': module_name,
-                'url': url,
-                'categories': [],
-                'ects': None,
-                'focuses': [],
-            }
-
-        if category_name in categories and module_id in modules:
-            modules[module_id]['categories'].append(category_id)
-            categories[category_name]['modules'].append(module_id)
+    if 'kategorien' in zuordnung:
+        module['categories'] = [{ 'id': getIdForCategory(z['kuerzel']), 'name': z['bezeichnung'], 'ects': z['kreditpunkte'] } for z in zuordnung['kategorien']]
+        module['ects'] = zuordnung['kategorien'][0]['kreditpunkte']
+        
+    modules[module['id']] = module
 
 
-for module_id,module in modules.items():
-    print('Fetching details for module', module['name'])
+# load more infos about modules
+for module in modules.values():
+    moduleContent = json.loads(requests.get(f'{BASE_URL}{module["url"]}').content)
+    
+    if 'zustand' in moduleContent and moduleContent['zustand'] == 'deaktiviert':
+        module['isDeactivated'] = True
+        continue
 
-    details_page = requests.get(module['url']).content
-    module_tree = html.fromstring(details_page)
+    if 'categories' in module:
+        for cat in module['categories']:
+            categories[cat['id']]['modules'].append({'id': module['id'], 'name': module['name'],'url': module['url']})
+            categories[cat['id']]['total_ects'] += module['ects']
 
-    modules[module_id]['ects'] = int(module_tree.xpath('//h5[contains(text(),"ECTS-Punkte")]/../following-sibling::div/div/text()')[0])
+modules = {key: value for (key, value) in modules.items() if value['isDeactivated'] == False}
 
-
-for focus in tree.xpath('//h5[contains(text(),"Vertiefungen")]/../following-sibling::div//a'):
-    focuses.append({
-        'name': focus.xpath('./text()')[0].replace(' STD_21 (Profil)', ''),
-        'url': BASE_URL + focus.xpath('./@href')[0],
-        'modules': [],
-    })
+for module in modules.values():
+    del module['isDeactivated']
 
 
-for focus in focuses:
-    print('Fetching details for focus', focus['name'])
+# 'spezialisierungen' contains focuses
+spezialisierungen = jsonContent['spezialisierungen']
+for spez in spezialisierungen:
+    focus = {
+        'id': spez['kuerzel'],
+        'url': spez['url'],
+        'name': spez['bezeichnung'],
+        'modules': []
+        }
+    focusContent = json.loads(requests.get(f'{BASE_URL}{spez["url"]}').content)
+    for zuordnung in focusContent['zuordnungen']:
+        moduleId = getIdForModule(zuordnung['kuerzel'])
+        if moduleId in modules:
+            focus['modules'].append({'id': moduleId, 'name': zuordnung['bezeichnung'], 'url': zuordnung['url']})
+            modules[moduleId]['focuses'].append({'id': focus['id'], 'name': focus['name'], 'url': focus['url']})
+    focuses.append(focus)
 
-    details_page = requests.get(focus['url']).content
-    focus_tree = html.fromstring(details_page)
 
-    module_fullnames = focus_tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/following-sibling::div//a/text()')
-    module_name_and_id = [MODULE_PATTERN.search(module_fullname).groups() for module_fullname in module_fullnames]
-
-    for module_name, module_id in module_name_and_id:
-        if module_id in EXCLUDED_MODULES:
-            continue
-
-        focus['modules'].append(module_id)
-        modules[module_id]['focuses'].append(focus['name'])
+# id should be unique for each module
+idsSet = set([m['id'] for m in modules.values()])
+if len(idsSet) != len(modules):
+    sys.exit(1)
 
 
 modules = list(modules.values())
