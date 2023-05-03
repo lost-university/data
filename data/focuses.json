@@ -69,7 +69,7 @@
       {
         "id": "ComGra",
         "name": "Computer Grafik",
-        "url": "allModules/38836_M_ComGra.json"
+        "url": "allModules/41752_M_ComGra.json"
       },
       {
         "id": "MGE",
@@ -119,14 +119,14 @@
         "url": "allModules/36473_M_IncResp.json"
       },
       {
-        "id": "NISec",
+        "id": "NIoSec",
         "name": "Network and IoT Security",
-        "url": "allModules/36483_M_NISec.json"
+        "url": "allModules/42231_M_NIoSec.json"
       },
       {
-        "id": "PFSec",
+        "id": "PlFSec",
         "name": "Platform Security",
-        "url": "allModules/36471_M_PFSec.json"
+        "url": "allModules/42227_M_PlFSec.json"
       },
       {
         "id": "SecSoW",
@@ -166,9 +166,9 @@
         "url": "allModules/39054_M_DSy.json"
       },
       {
-        "id": "NISec",
+        "id": "NIoSec",
         "name": "Network and IoT Security",
-        "url": "allModules/36483_M_NISec.json"
+        "url": "allModules/42231_M_NIoSec.json"
       },
       {
         "id": "NetAut",

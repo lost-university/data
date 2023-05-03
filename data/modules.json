@@ -591,7 +591,7 @@
   {
     "id": "ComGra",
     "name": "Computer Grafik",
-    "url": "allModules/38836_M_ComGra.json",
+    "url": "allModules/41752_M_ComGra.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 7,
@@ -1291,6 +1291,23 @@
     "ects": 4
   },
   {
+    "id": "LLDIG",
+    "name": "Lernlabor \"Digitalisieren Hands-on\"",
+    "url": "allModules/41732_M_LLDIG.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 7,
+    "focuses": [],
+    "categories": [
+      {
+        "id": "gwr",
+        "name": "Gesellschaft, Wirtschaft und Recht",
+        "ects": 4
+      }
+    ],
+    "ects": 4
+  },
+  {
     "id": "MathFML",
     "name": "Mathematical Foundations for Machine Learning",
     "url": "allModules/31614_M_MathFML.json",
@@ -1366,7 +1383,7 @@
   {
     "id": "NwP",
     "name": "Naturwissenschaftliches Praktikum",
-    "url": "allModules/28732_M_NwP.json",
+    "url": "allModules/41772_M_NwP.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 4,
@@ -1375,15 +1392,15 @@
       {
         "id": "MaPh",
         "name": "Mathematik und Physik",
-        "ects": 4
+        "ects": 2
       }
     ],
-    "ects": 4
+    "ects": 2
   },
   {
-    "id": "NISec",
+    "id": "NIoSec",
     "name": "Network and IoT Security",
-    "url": "allModules/36483_M_NISec.json",
+    "url": "allModules/42231_M_NIoSec.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 5,
@@ -1610,9 +1627,9 @@
     "ects": 4
   },
   {
-    "id": "PFSec",
+    "id": "PlFSec",
     "name": "Platform Security",
-    "url": "allModules/36471_M_PFSec.json",
+    "url": "allModules/42227_M_PlFSec.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 5,
