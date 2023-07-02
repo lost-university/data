@@ -1,7 +1,6 @@
 import requests
 import json
 import os
-import re
 import sys
 
 BASE_URL = 'https://studien.rj.ost.ch/'
@@ -61,6 +60,10 @@ for zuordnung in zuordnungen:
 # load more infos about modules
 for module in modules.values():
     moduleContent = json.loads(requests.get(f'{BASE_URL}{module["url"]}').content)
+
+    # needed for modules, whose credits do not count towards "Studiengang Informatik"
+    if 'kreditpunkte' in moduleContent and module['ects'] == 0:
+        module['ects'] = moduleContent['kreditpunkte'];
     
     if 'zustand' in moduleContent and moduleContent['zustand'] == 'deaktiviert':
         module['isDeactivated'] = True
