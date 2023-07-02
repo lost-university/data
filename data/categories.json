@@ -3,7 +3,7 @@
     "id": "gwr",
     "required_ects": 12,
     "name": "Gesellschaft, Wirtschaft und Recht",
-    "total_ects": 28,
+    "total_ects": 32,
     "modules": [
       {
         "id": "BuPro",
@@ -29,6 +29,11 @@
         "id": "DigBusI",
         "name": "Digital Business f\u00fcr Informatik",
         "url": "allModules/40316_M_DigBusI.json"
+      },
+      {
+        "id": "LLDIG",
+        "name": "Lernlabor \"Digitalisieren Hands-on\"",
+        "url": "allModules/41732_M_LLDIG.json"
       },
       {
         "id": "PmQm",
@@ -89,7 +94,7 @@
     "id": "MaPh",
     "required_ects": 16,
     "name": "Mathematik und Physik",
-    "total_ects": 50,
+    "total_ects": 48,
     "modules": [
       {
         "id": "An1I",
@@ -129,7 +134,7 @@
       {
         "id": "NwP",
         "name": "Naturwissenschaftliches Praktikum",
-        "url": "allModules/28732_M_NwP.json"
+        "url": "allModules/41772_M_NwP.json"
       },
       {
         "id": "Ph1Mech",
@@ -300,7 +305,7 @@
       {
         "id": "ComGra",
         "name": "Computer Grafik",
-        "url": "allModules/38836_M_ComGra.json"
+        "url": "allModules/41752_M_ComGra.json"
       },
       {
         "id": "CN2",
@@ -358,9 +363,9 @@
         "url": "allModules/28254_M_MGE.json"
       },
       {
-        "id": "NISec",
+        "id": "NIoSec",
         "name": "Network and IoT Security",
-        "url": "allModules/36483_M_NISec.json"
+        "url": "allModules/42231_M_NIoSec.json"
       },
       {
         "id": "NetAut",
@@ -378,9 +383,9 @@
         "url": "allModules/39045_M_PF.json"
       },
       {
-        "id": "PFSec",
+        "id": "PlFSec",
         "name": "Platform Security",
-        "url": "allModules/36471_M_PFSec.json"
+        "url": "allModules/42227_M_PlFSec.json"
       },
       {
         "id": "SecSoW",
@@ -564,7 +569,7 @@
       {
         "id": "ComGra",
         "name": "Computer Grafik",
-        "url": "allModules/38836_M_ComGra.json"
+        "url": "allModules/41752_M_ComGra.json"
       },
       {
         "id": "CN1",
@@ -652,9 +657,9 @@
         "url": "allModules/28254_M_MGE.json"
       },
       {
-        "id": "NISec",
+        "id": "NIoSec",
         "name": "Network and IoT Security",
-        "url": "allModules/36483_M_NISec.json"
+        "url": "allModules/42231_M_NIoSec.json"
       },
       {
         "id": "NetAut",
@@ -682,9 +687,9 @@
         "url": "allModules/39045_M_PF.json"
       },
       {
-        "id": "PFSec",
+        "id": "PlFSec",
         "name": "Platform Security",
-        "url": "allModules/36471_M_PFSec.json"
+        "url": "allModules/42227_M_PlFSec.json"
       },
       {
         "id": "SEP1",
