@@ -486,7 +486,7 @@
   {
     "id": "CldOp",
     "name": "Cloud Operations",
-    "url": "allModules/37161_M_CldOp.json",
+    "url": "allModules/43285_M_CldOp.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 6,
@@ -1185,9 +1185,9 @@
     "ects": 4
   },
   {
-    "id": "Inno2",
+    "id": "Inno_2",
     "name": "Innovation 2",
-    "url": "allModules/20110_M_Inno2.json",
+    "url": "allModules/43299_M_Inno_2.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 0,
@@ -1211,6 +1211,34 @@
       }
     ],
     "ects": 2
+  },
+  {
+    "id": "IBN",
+    "name": "Intent-Based Networking",
+    "url": "allModules/43317_M_IBN.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 4,
+    "focuses": [
+      {
+        "id": "NetCloud",
+        "name": "Network and Cloud Infrastructure",
+        "url": "allStudies/10195_NetCloud.json"
+      }
+    ],
+    "categories": [
+      {
+        "id": "Inf",
+        "name": "Informatik",
+        "ects": 4
+      },
+      {
+        "id": "Auf",
+        "name": "Aufbau",
+        "ects": 4
+      }
+    ],
+    "ects": 4
   },
   {
     "id": "Ital1",
@@ -1806,34 +1834,6 @@
     "isRequired": false,
     "recommendedSemester": 5,
     "focuses": [],
-    "categories": [
-      {
-        "id": "Inf",
-        "name": "Informatik",
-        "ects": 4
-      },
-      {
-        "id": "Auf",
-        "name": "Aufbau",
-        "ects": 4
-      }
-    ],
-    "ects": 4
-  },
-  {
-    "id": "SDW",
-    "name": "Software Defined Networks",
-    "url": "allModules/37152_M_SDW.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 4,
-    "focuses": [
-      {
-        "id": "NetCloud",
-        "name": "Network and Cloud Infrastructure",
-        "url": "allStudies/10195_NetCloud.json"
-      }
-    ],
     "categories": [
       {
         "id": "Inf",
