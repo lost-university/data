@@ -43,7 +43,7 @@
       {
         "id": "VwlTg",
         "name": "Volkswirtschaft und Technikgeschichte",
-        "url": "allModules/24472_M_VwlTg.json"
+        "url": "allModules/42760_M_VwlTg.json"
       }
     ]
   },
@@ -51,7 +51,7 @@
     "id": "KomEng",
     "required_ects": 12,
     "name": "Kommunikation und Englisch",
-    "total_ects": 28,
+    "total_ects": 32,
     "modules": [
       {
         "id": "EnglHTw",
@@ -82,6 +82,11 @@
         "id": "KommIng2",
         "name": "Kommunikation 2 f\u00fcr IngenieurInnen  (Teamkommunikation)",
         "url": "allModules/37397_M_KommIng2.json"
+      },
+      {
+        "id": "RheKoI",
+        "name": "Rhetorische Kommunikation f\u00fcr IngenieurInnen",
+        "url": "allModules/43277_M_RheKoI.json"
       },
       {
         "id": "RheKI",
@@ -290,7 +295,7 @@
       {
         "id": "CldOp",
         "name": "Cloud Operations",
-        "url": "allModules/37161_M_CldOp.json"
+        "url": "allModules/43285_M_CldOp.json"
       },
       {
         "id": "CldSol",
@@ -358,6 +363,11 @@
         "url": "allModules/36473_M_IncResp.json"
       },
       {
+        "id": "IBN",
+        "name": "Intent-Based Networking",
+        "url": "allModules/43317_M_IBN.json"
+      },
+      {
         "id": "MGE",
         "name": "Mobile and GUI Engineering",
         "url": "allModules/28254_M_MGE.json"
@@ -396,11 +406,6 @@
         "id": "ServDev",
         "name": "Service Development (ITIL)",
         "url": "allModules/37171_M_ServDev.json"
-      },
-      {
-        "id": "SDW",
-        "name": "Software Defined Networks",
-        "url": "allModules/37152_M_SDW.json"
       },
       {
         "id": "ML",
@@ -554,7 +559,7 @@
       {
         "id": "CldOp",
         "name": "Cloud Operations",
-        "url": "allModules/37161_M_CldOp.json"
+        "url": "allModules/43285_M_CldOp.json"
       },
       {
         "id": "CldSol",
@@ -652,6 +657,11 @@
         "url": "allModules/36473_M_IncResp.json"
       },
       {
+        "id": "IBN",
+        "name": "Intent-Based Networking",
+        "url": "allModules/43317_M_IBN.json"
+      },
+      {
         "id": "MGE",
         "name": "Mobile and GUI Engineering",
         "url": "allModules/28254_M_MGE.json"
@@ -715,11 +725,6 @@
         "id": "ServDev",
         "name": "Service Development (ITIL)",
         "url": "allModules/37171_M_ServDev.json"
-      },
-      {
-        "id": "SDW",
-        "name": "Software Defined Networks",
-        "url": "allModules/37152_M_SDW.json"
       },
       {
         "id": "ML",

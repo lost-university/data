@@ -153,7 +153,7 @@
       {
         "id": "CldOp",
         "name": "Cloud Operations",
-        "url": "allModules/37161_M_CldOp.json"
+        "url": "allModules/43285_M_CldOp.json"
       },
       {
         "id": "CN2",
@@ -166,6 +166,11 @@
         "url": "allModules/39054_M_DSy.json"
       },
       {
+        "id": "IBN",
+        "name": "Intent-Based Networking",
+        "url": "allModules/43317_M_IBN.json"
+      },
+      {
         "id": "NIoSec",
         "name": "Network and IoT Security",
         "url": "allModules/42231_M_NIoSec.json"
@@ -174,11 +179,6 @@
         "id": "NetAut",
         "name": "Network Automation",
         "url": "allModules/39128_M_NetAut.json"
-      },
-      {
-        "id": "SDW",
-        "name": "Software Defined Networks",
-        "url": "allModules/37152_M_SDW.json"
       },
       {
         "id": "WE2",
