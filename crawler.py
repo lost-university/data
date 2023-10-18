@@ -47,7 +47,8 @@ for zuordnung in zuordnungen:
         'focuses': [],
         'categories': [],
         'ects': 0,
-        'isDeactivated': False
+        'isDeactivated': False,
+        'recommendedModuleIds': []
         }
 
     if 'kategorien' in zuordnung:
@@ -73,6 +74,10 @@ for module in modules.values():
         for cat in module['categories']:
             categories[cat['id']]['modules'].append({'id': module['id'], 'name': module['name'],'url': module['url']})
             categories[cat['id']]['total_ects'] += module['ects']
+
+    if 'empfehlungen' in moduleContent:
+        for recommendation in moduleContent['empfehlungen']:
+            module['recommendedModuleIds'].append(getIdForModule(recommendation['kuerzel']))
 
 modules = {key: value for (key, value) in modules.items() if value['isDeactivated'] == False}
 
