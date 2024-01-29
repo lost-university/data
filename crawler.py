@@ -9,6 +9,9 @@ OUTPUT_DIRECTORY = 'data'
 content = requests.get(f'{BASE_URL}allStudies/10191_I.json').content
 jsonContent = json.loads(content)
 
+# certain modules are duplicated and should be excluded
+excluded_module_ids = ['RheKI']
+
 categories = {}
 modules = {}
 focuses = []
@@ -66,6 +69,10 @@ for module in modules.values():
         module['ects'] = moduleContent['kreditpunkte'];
     
     if 'zustand' in moduleContent and moduleContent['zustand'] == 'deaktiviert':
+        module['isDeactivated'] = True
+        continue
+
+    if module['id'] in excluded_module_ids:
         module['isDeactivated'] = True
         continue
 
