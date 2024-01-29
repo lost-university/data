@@ -316,23 +316,6 @@
     "ects": 4
   },
   {
-    "id": "BuPro",
-    "name": "Business Processes f\u00fcr Informatik",
-    "url": "allModules/40825_M_BuPro.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 8,
-    "focuses": [],
-    "categories": [
-      {
-        "id": "gwr",
-        "name": "Gesellschaft, Wirtschaft und Recht",
-        "ects": 4
-      }
-    ],
-    "ects": 4
-  },
-  {
     "id": "WI2",
     "name": "Business Processes f\u00fcr Informatik",
     "url": "allModules/40981_M_WI2.json",
@@ -1215,7 +1198,7 @@
   {
     "id": "IBN",
     "name": "Intent-Based Networking",
-    "url": "allModules/43317_M_IBN.json",
+    "url": "allModules/43556_M_IBN.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 4,
@@ -1640,7 +1623,7 @@
   {
     "id": "PhAI",
     "name": "Physik Anwendungen f\u00fcr Informatik",
-    "url": "allModules/36992_M_PhAI.json",
+    "url": "allModules/43544_M_PhAI.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 4,
@@ -1711,9 +1694,9 @@
     "ects": 3
   },
   {
-    "id": "RheKI",
+    "id": "RheKoI",
     "name": "Rhetorische Kommunikation f\u00fcr IngenieurInnen",
-    "url": "allModules/31909_M_RheKI.json",
+    "url": "allModules/43277_M_RheKoI.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 3,

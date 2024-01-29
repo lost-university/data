@@ -3,13 +3,8 @@
     "id": "gwr",
     "required_ects": 12,
     "name": "Gesellschaft, Wirtschaft und Recht",
-    "total_ects": 32,
+    "total_ects": 28,
     "modules": [
-      {
-        "id": "BuPro",
-        "name": "Business Processes f\u00fcr Informatik",
-        "url": "allModules/40825_M_BuPro.json"
-      },
       {
         "id": "WI2",
         "name": "Business Processes f\u00fcr Informatik",
@@ -84,9 +79,9 @@
         "url": "allModules/37397_M_KommIng2.json"
       },
       {
-        "id": "RheKI",
+        "id": "RheKoI",
         "name": "Rhetorische Kommunikation f\u00fcr IngenieurInnen",
-        "url": "allModules/31909_M_RheKI.json"
+        "url": "allModules/43277_M_RheKoI.json"
       }
     ]
   },
@@ -154,7 +149,7 @@
       {
         "id": "PhAI",
         "name": "Physik Anwendungen f\u00fcr Informatik",
-        "url": "allModules/36992_M_PhAI.json"
+        "url": "allModules/43544_M_PhAI.json"
       },
       {
         "id": "WrStat",
@@ -360,7 +355,7 @@
       {
         "id": "IBN",
         "name": "Intent-Based Networking",
-        "url": "allModules/43317_M_IBN.json"
+        "url": "allModules/43556_M_IBN.json"
       },
       {
         "id": "MGE",
@@ -654,7 +649,7 @@
       {
         "id": "IBN",
         "name": "Intent-Based Networking",
-        "url": "allModules/43317_M_IBN.json"
+        "url": "allModules/43556_M_IBN.json"
       },
       {
         "id": "MGE",
