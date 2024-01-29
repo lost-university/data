@@ -1,3 +1,7 @@
 # ost-planer
 
-Fetch data with `nix-shell --pure --run 'python crawler.py'`
+## Fetching new data with nix
+```
+nix develop
+python crawler.py
+```
