@@ -574,7 +574,7 @@
   {
     "id": "ComGra",
     "name": "Computer Grafik",
-    "url": "allModules/41752_M_ComGra.json",
+    "url": "allModules/43801_M_ComGra.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 7,
@@ -905,6 +905,50 @@
     "ects": 4
   },
   {
+    "id": "EmbSys1",
+    "name": "Embedded Systems 1",
+    "url": "allModules/22062_M_EmbSys1.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 5,
+    "focuses": [],
+    "categories": [
+      {
+        "id": "Inf",
+        "name": "Informatik",
+        "ects": 4
+      },
+      {
+        "id": "Auf",
+        "name": "Aufbau",
+        "ects": 4
+      }
+    ],
+    "ects": 4
+  },
+  {
+    "id": "EmbSys2",
+    "name": "Embedded Systems 2",
+    "url": "allModules/22068_M_EmbSys2.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 6,
+    "focuses": [],
+    "categories": [
+      {
+        "id": "Inf",
+        "name": "Informatik",
+        "ects": 4
+      },
+      {
+        "id": "Auf",
+        "name": "Aufbau",
+        "ects": 4
+      }
+    ],
+    "ects": 4
+  },
+  {
     "id": "EnglHTw",
     "name": "English: How Things work",
     "url": "allModules/22130_M_EnglHTw.json",
@@ -1062,6 +1106,39 @@
       {
         "id": "MaPh",
         "name": "Mathematik und Physik",
+        "ects": 4
+      }
+    ],
+    "ects": 4
+  },
+  {
+    "id": "GenAI",
+    "name": "Generative AI",
+    "url": "allModules/43809_M_GenAI.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 4,
+    "focuses": [
+      {
+        "id": "FrEng",
+        "name": "Frontend Engineering",
+        "url": "allStudies/10193_FrEng.json"
+      },
+      {
+        "id": "DaEnMaIn",
+        "name": "Data Engineering and Machine Intelligence",
+        "url": "allStudies/10196_DaEnMaIn.json"
+      }
+    ],
+    "categories": [
+      {
+        "id": "Inf",
+        "name": "Informatik",
+        "ects": 4
+      },
+      {
+        "id": "Auf",
+        "name": "Aufbau",
         "ects": 4
       }
     ],
@@ -1472,7 +1549,7 @@
   {
     "id": "OOP1",
     "name": "Objektorientierte Programmierung 1",
-    "url": "allModules/38872_M_OOP1.json",
+    "url": "allModules/43813_M_OOP1.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 1,
@@ -1757,7 +1834,7 @@
   {
     "id": "SEProj",
     "name": "SE Project",
-    "url": "allModules/39012_M_SEProj.json",
+    "url": "allModules/43712_M_SEProj.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 6,

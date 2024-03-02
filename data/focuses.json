@@ -69,7 +69,12 @@
       {
         "id": "ComGra",
         "name": "Computer Grafik",
-        "url": "allModules/41752_M_ComGra.json"
+        "url": "allModules/43801_M_ComGra.json"
+      },
+      {
+        "id": "GenAI",
+        "name": "Generative AI",
+        "url": "allModules/43809_M_GenAI.json"
       },
       {
         "id": "MGE",
@@ -221,6 +226,11 @@
         "id": "DL",
         "name": "Deep Learning",
         "url": "allModules/31834_M_DL.json"
+      },
+      {
+        "id": "GenAI",
+        "name": "Generative AI",
+        "url": "allModules/43809_M_GenAI.json"
       },
       {
         "id": "MathFML",
