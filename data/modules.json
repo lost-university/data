@@ -1118,18 +1118,7 @@
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 4,
-    "focuses": [
-      {
-        "id": "FrEng",
-        "name": "Frontend Engineering",
-        "url": "allStudies/10193_FrEng.json"
-      },
-      {
-        "id": "DaEnMaIn",
-        "name": "Data Engineering and Machine Intelligence",
-        "url": "allStudies/10196_DaEnMaIn.json"
-      }
-    ],
+    "focuses": [],
     "categories": [
       {
         "id": "Inf",
