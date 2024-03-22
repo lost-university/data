@@ -3,12 +3,16 @@ import json
 import os
 import sys
 
-def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids = []):
+modules = {}
+
+
+def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[]):
+    global modules
+
     content = requests.get(url).content
     jsonContent = json.loads(content)
 
     categories = {}
-    modules = {}
     focuses = []
 
     def getIdForModule(kuerzel):
@@ -16,7 +20,6 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids = [
 
     def getIdForCategory(kuerzel):
         return kuerzel.removeprefix('I-').removeprefix('I_').removeprefix('Kat_')
-
 
     # 'kredits' contains categories
     kredits = jsonContent['kredits']
@@ -27,10 +30,8 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids = [
             'id': catId,
             'required_ects': kredit['minKredits'],
             'name': category['bezeichnung'],
-            'total_ects': 0,
             'modules': [],
         }
-
 
     # 'zuordnungen' contains modules
     zuordnungen = jsonContent['zuordnungen']
@@ -45,15 +46,16 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids = [
             'focuses': [],
             'categories': [],
             'ects': 0,
-            'isDeactivated': False,
+            'isDeactivated': False
         }
 
         if 'kategorien' in zuordnung:
-            module['categories'] = [{ 'id': getIdForCategory(z['kuerzel']), 'name': z['bezeichnung'], 'ects': z['kreditpunkte'] } for z in zuordnung['kategorien']]
+            module['categories'] = [
+                {'id': getIdForCategory(z['kuerzel']), 'name': z['bezeichnung'], 'ects': z['kreditpunkte']} for z in
+                zuordnung['kategorien']]
             module['ects'] = zuordnung['kategorien'][0]['kreditpunkte']
 
         modules[module['id']] = module
-
 
     # load more infos about modules
     for module in modules.values():
@@ -71,16 +73,19 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids = [
             module['isDeactivated'] = True
             continue
 
+        if module['categories'] == ['IKTS-help']:
+            continue
+
         if 'categories' in module:
             for cat in module['categories']:
-                categories[cat['id']]['modules'].append({'id': module['id'], 'name': module['name'],'url': module['url']})
-                categories[cat['id']]['total_ects'] += module['ects']
+                if cat['id'] in categories:
+                    categories[cat['id']]['modules'].append(
+                        {'id': module['id'], 'name': module['name'], 'url': module['url']})
+                elif cat['id'] == 'GWRIKTS':
+                    categories['gwr']['modules'].append(
+                        {'id': module['id'], 'name': module['name'], 'url': module['url']})
 
     modules = {key: value for (key, value) in modules.items() if value['isDeactivated'] == False}
-
-    for module in modules.values():
-        del module['isDeactivated']
-
 
     # 'spezialisierungen' contains focuses
     spezialisierungen = jsonContent['spezialisierungen']
@@ -89,7 +94,7 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids = [
             'id': spez['kuerzel'],
             'url': spez['url'],
             'name': spez['bezeichnung'],
-            'modules': [],
+            'modules': []
         }
         focusContent = json.loads(requests.get(f'{BASE_URL}{spez["url"]}').content)
         for zuordnung in focusContent['zuordnungen']:
@@ -99,16 +104,15 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids = [
                 modules[moduleId]['focuses'].append({'id': focus['id'], 'name': focus['name'], 'url': focus['url']})
         focuses.append(focus)
 
-
     # id should be unique for each module
     idsSet = set([m['id'] for m in modules.values()])
     if len(idsSet) != len(modules):
         sys.exit(1)
 
+    if 'IKTS-help' in categories.keys():
+        del categories['IKTS-help']
 
-    modules = list(modules.values())
     categories = list(categories.values())
-
 
     if not os.path.exists(output_directory):
         os.mkdir(output_directory)
@@ -116,12 +120,26 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids = [
     with open(f'{output_directory}/categories.json', 'w') as output:
         json.dump(categories, output, indent=2)
 
-    with open(f'{output_directory}/modules.json', 'w') as output:
-        json.dump(modules, output, indent=2)
-
     with open(f'{output_directory}/focuses.json', 'w') as output:
         json.dump(focuses, output, indent=2)
 
+
 BASE_URL = 'https://studien.rj.ost.ch/'
 
-fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10191_I.json', 'data', ['RheKI'])
+fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10246_I.json', 'data23')
+fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10191_I.json', 'data21', ['RheKI'])
+
+for module in modules.values():
+    module['categories_for_coloring'] = [category['id'] for category in module['categories']]
+    del module['focuses']
+    del module['categories']
+    del module['isDeactivated']
+
+output_directory = 'data'
+
+if not os.path.exists(output_directory):
+    os.mkdir(output_directory)
+
+modules = list(modules.values())
+with open(f'{output_directory}/modules.json', 'w') as output:
+    json.dump(modules, output, indent=2)
