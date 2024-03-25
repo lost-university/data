@@ -65,7 +65,7 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
         if 'kreditpunkte' in moduleContent and module['ects'] == 0:
             module['ects'] = moduleContent['kreditpunkte'];
 
-        if 'zustand' in moduleContent and moduleContent['zustand'] == 'deaktiviert':
+        if module['id'].startswith('Kat'):
             module['isDeactivated'] = True
             continue
 
