@@ -55,6 +55,9 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
                 zuordnung['kategorien']]
             module['ects'] = zuordnung['kategorien'][0]['kreditpunkte']
 
+        if module['id'].endswith('_p'):
+            module['name'] += ' (Projektarbeit)'
+
         modules[module['id']] = module
 
     # load more infos about modules
