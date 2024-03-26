@@ -3,8 +3,32 @@
     "id": "gwr",
     "required_ects": 12,
     "name": "Gesellschaft, Wirtschaft und Recht",
-    "total_ects": 28,
     "modules": [
+      {
+        "id": "IKAG",
+        "name": "Alternde Gesellschaften ",
+        "url": "allModules/44020_M_IKAG.json"
+      },
+      {
+        "id": "IKAA_p",
+        "name": "Applied AI (Projektarbeit)",
+        "url": "allModules/44196_M_IKAA_p.json"
+      },
+      {
+        "id": "IKAA",
+        "name": "Applied AI",
+        "url": "allModules/44202_M_IKAA.json"
+      },
+      {
+        "id": "IKBH",
+        "name": "Behavioral Design  ",
+        "url": "allModules/44037_M_IKBH.json"
+      },
+      {
+        "id": "IKBW",
+        "name": "Blickwechsel",
+        "url": "allModules/44040_M_IKBW.json"
+      },
       {
         "id": "WI2",
         "name": "Business Processes f\u00fcr Informatik",
@@ -21,9 +45,174 @@
         "url": "allModules/20794_M_BuRe2a.json"
       },
       {
+        "id": "IKDK",
+        "name": "Demokratie im Zeitalter von KI",
+        "url": "allModules/44043_M_IKDK.json"
+      },
+      {
+        "id": "IKDK_p",
+        "name": "Demokratie im Zeitalter von KI (Projektarbeit)",
+        "url": "allModules/44046_M_IKDK_p.json"
+      },
+      {
         "id": "DigBusI",
         "name": "Digital Business f\u00fcr Informatik",
         "url": "allModules/40316_M_DigBusI.json"
+      },
+      {
+        "id": "IKDL",
+        "name": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
+        "url": "allModules/44250_M_IKDL.json"
+      },
+      {
+        "id": "IKDL_p",
+        "name": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen (Projektarbeit)",
+        "url": "allModules/44247_M_IKDL_p.json"
+      },
+      {
+        "id": "IKDM_A",
+        "name": "Dream Team - Mentoringprogramm f\u00fcr die n\u00e4chste Generation Teil A",
+        "url": "allModules/44241_M_IKDM_A.json"
+      },
+      {
+        "id": "IKDM_B",
+        "name": "Dream Team - Mentoringprogramm f\u00fcr die n\u00e4chste Generation Teil B",
+        "url": "allModules/44244_M_IKDM_B.json"
+      },
+      {
+        "id": "IKEK",
+        "name": "Ethik & KI",
+        "url": "allModules/44049_M_IKEK.json"
+      },
+      {
+        "id": "IKEK_p",
+        "name": "Ethik & KI (Projektarbeit)",
+        "url": "allModules/44052_M_IKEK_p.json"
+      },
+      {
+        "id": "IKMO",
+        "name": "Gemeinden & St\u00e4dte von morgen",
+        "url": "allModules/44055_M_IKMO.json"
+      },
+      {
+        "id": "IKMO_p",
+        "name": "Gemeinden & St\u00e4dte von morgen (Projektarbeit)",
+        "url": "allModules/44058_M_IKMO_p.json"
+      },
+      {
+        "id": "IKGA_p",
+        "name": "Generative AI in der Planung (Projektarbeit)",
+        "url": "allModules/44214_M_IKGA_p.json"
+      },
+      {
+        "id": "IKGA",
+        "name": "Generative AI in der Planung",
+        "url": "allModules/44211_M_IKGA.json"
+      },
+      {
+        "id": "IKGL",
+        "name": "Gesund leben und Langlebigkeit ",
+        "url": "allModules/44061_M_IKGL.json"
+      },
+      {
+        "id": "IKAK_p",
+        "name": "Gesundes Altern mit Hilfe von k\u00fcnstlicher Intelligenz (Projektarbeit)",
+        "url": "allModules/44067_M_IKAK_p.json"
+      },
+      {
+        "id": "IKAK",
+        "name": "Gesundes Altern mit Hilfe von k\u00fcnstlicher Intelligenz ",
+        "url": "allModules/44064_M_IKAK.json"
+      },
+      {
+        "id": "IKNN",
+        "name": "Hackathon zu \"Netto-null in Geb\u00e4uden und Verkehr\"  ",
+        "url": "allModules/44070_M_IKNN.json"
+      },
+      {
+        "id": "IKII",
+        "name": "Ideen Inkubator Klimawende ",
+        "url": "allModules/44073_M_IKII.json"
+      },
+      {
+        "id": "IKII_p",
+        "name": "Ideen Inkubator Klimawende (Projektarbeit)",
+        "url": "allModules/44076_M_IKII_p.json"
+      },
+      {
+        "id": "IKTSV2",
+        "name": "IKTS_Vorlage 2ECTS",
+        "url": "allModules/43909_M_IKTSV2.json"
+      },
+      {
+        "id": "IKTSV3",
+        "name": "IKTS_Vorlage 3ECTS",
+        "url": "allModules/43910_M_IKTSV3.json"
+      },
+      {
+        "id": "IKTSV4",
+        "name": "IKTS_Vorlage 4ECTS",
+        "url": "allModules/43911_M_IKTSV4.json"
+      },
+      {
+        "id": "IKIE",
+        "name": "Interdisziplin\u00e4r entwickeln - ger\u00fcstet f\u00fcr die technikbasierte Arbeitswelt",
+        "url": "allModules/44079_M_IKIE.json"
+      },
+      {
+        "id": "IKLE_p",
+        "name": "IZM-Projekt (Projektarbeit)",
+        "url": "allModules/44085_M_IKLE_p.json"
+      },
+      {
+        "id": "IKLE",
+        "name": "IZM-Projekt",
+        "url": "allModules/44082_M_IKLE.json"
+      },
+      {
+        "id": "IKGE_p",
+        "name": "Klimagerechte Stadt- und Gemeindeentwicklung  (Projektarbeit)",
+        "url": "allModules/44091_M_IKGE_p.json"
+      },
+      {
+        "id": "IKGE",
+        "name": "Klimagerechte Stadt- und Gemeindeentwicklung ",
+        "url": "allModules/44088_M_IKGE.json"
+      },
+      {
+        "id": "IKKP",
+        "name": "Klimakrise: Kann die Politik die Welt noch retten?",
+        "url": "allModules/44226_M_IKKP.json"
+      },
+      {
+        "id": "IKKP_p",
+        "name": "Klimakrise: Kann die Politik die Welt noch retten? (Projektarbeit)",
+        "url": "allModules/44229_M_IKKP_p.json"
+      },
+      {
+        "id": "IKKK_p",
+        "name": "Kommunale Klimawende (Projektarbeit)",
+        "url": "allModules/44187_M_IKKK_p.json"
+      },
+      {
+        "id": "IKKK",
+        "name": "Kommunale Klimawende",
+        "url": "allModules/44184_M_IKKK.json"
+      },
+      {
+        "id": "IKKL_p",
+        "name": "Kreislaufwirtschaft (Projektarbeit)",
+        "url": "allModules/44097_M_IKKL_p.json"
+      },
+      {
+        "id": "IKKL",
+        "name": "Kreislaufwirtschaft ",
+        "url": "allModules/44094_M_IKKL.json"
+      },
+      {
+        "id": "IKLF",
+        "name": "Lernf\u00e4higkeit und Ged\u00e4chtnis",
+        "url": "allModules/44100_M_IKLF.json"
       },
       {
         "id": "LLDIG",
@@ -31,14 +220,214 @@
         "url": "allModules/41732_M_LLDIG.json"
       },
       {
+        "id": "IKDH_p",
+        "name": "Lernlabor \u00abDigitalisieren Hands-on\u00bb (Projektarbeit)",
+        "url": "allModules/44232_M_IKDH_p.json"
+      },
+      {
+        "id": "IKDH",
+        "name": "Lernlabor \u00abDigitalisieren Hands-on\u00bb",
+        "url": "allModules/44235_M_IKDH.json"
+      },
+      {
+        "id": "IKLK",
+        "name": "L\u00f6sungsorientierte Kommunikation f\u00fcr dynamische Arbeitswelten ",
+        "url": "allModules/44103_M_IKLK.json"
+      },
+      {
+        "id": "IKMI_p",
+        "name": "Medien- und Informationskompetenzen in Zeiten von KI (Projektarbeit)",
+        "url": "allModules/44112_M_IKMI_p.json"
+      },
+      {
+        "id": "IKMI",
+        "name": "Medien- und Informationskompetenzen in Zeiten von KI ",
+        "url": "allModules/44109_M_IKMI.json"
+      },
+      {
+        "id": "IKME",
+        "name": "Messbar gesund",
+        "url": "allModules/44115_M_IKME.json"
+      },
+      {
+        "id": "IKNB",
+        "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels",
+        "url": "allModules/44199_M_IKNB.json"
+      },
+      {
+        "id": "IKNB_p",
+        "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels (Projektarbeit)",
+        "url": "allModules/44421_M_IKNB_p.json"
+      },
+      {
+        "id": "IKKA",
+        "name": "Nachhaltigkeit und Klimaschutz angewandt",
+        "url": "allModules/44223_M_IKKA.json"
+      },
+      {
+        "id": "IKNG_p",
+        "name": "Neue Narrative f\u00fcr eine nachhaltige Gesellschaft (Projektarbeit)",
+        "url": "allModules/44124_M_IKNG_p.json"
+      },
+      {
+        "id": "IKNG",
+        "name": "Neue Narrative f\u00fcr eine nachhaltige Gesellschaft ",
+        "url": "allModules/44121_M_IKNG.json"
+      },
+      {
+        "id": "IKNK",
+        "name": "New Work & KI",
+        "url": "allModules/44127_M_IKNK.json"
+      },
+      {
+        "id": "IKNK_p",
+        "name": "New Work & KI (Projektarbeit)",
+        "url": "allModules/44130_M_IKNK_p.json"
+      },
+      {
         "id": "PmQm",
         "name": "Projekt- und Qualit\u00e4tsmanagement",
         "url": "allModules/28231_M_PmQm.json"
       },
       {
+        "id": "IKPS_p",
+        "name": "Prototyping for Startup-Ideas (Projektarbeit)",
+        "url": "allModules/44136_M_IKPS_p.json"
+      },
+      {
+        "id": "IKPS",
+        "name": "Prototyping for Startup-Ideas",
+        "url": "allModules/44491_M_IKPS.json"
+      },
+      {
+        "id": "IKPE",
+        "name": "Psychologisches Empowerment",
+        "url": "allModules/44139_M_IKPE.json"
+      },
+      {
+        "id": "IKRE",
+        "name": "Resilienz: Schl\u00fcsselkompetenz f\u00fcr innere St\u00e4rke ",
+        "url": "allModules/44142_M_IKRE.json"
+      },
+      {
+        "id": "IKSS",
+        "name": "Ski-Nation Schweiz",
+        "url": "allModules/44220_M_IKSS.json"
+      },
+      {
+        "id": "IKSH",
+        "name": "Social and Human Robotic ",
+        "url": "allModules/44145_M_IKSH.json"
+      },
+      {
+        "id": "IKSW",
+        "name": "Stadt der kurzen Wege ",
+        "url": "allModules/44148_M_IKSW.json"
+      },
+      {
+        "id": "IKSW_p",
+        "name": "Stadt der kurzen Wege (Projektarbeit)",
+        "url": "allModules/44151_M_IKSW_p.json"
+      },
+      {
+        "id": "IKST",
+        "name": "Starkes Ich \u2013 Starkes Team",
+        "url": "allModules/44154_M_IKST.json"
+      },
+      {
+        "id": "IKST_p",
+        "name": "Starkes Ich \u2013 Starkes Team (Projektarbeit)",
+        "url": "allModules/44157_M_IKST_p.json"
+      },
+      {
+        "id": "IKSU",
+        "name": "Startup - Weg zur Gr\u00fcndung",
+        "url": "allModules/44253_M_IKSU.json"
+      },
+      {
+        "id": "IKSU_p",
+        "name": "Startup - Weg zur Gr\u00fcndung (Projektarbeit)",
+        "url": "allModules/44256_M_IKSU_p.json"
+      },
+      {
+        "id": "IKSM_p",
+        "name": "Strategisches Management von Naturgefahren (Projektarbeit)",
+        "url": "allModules/44208_M_IKSM_p.json"
+      },
+      {
+        "id": "IKSM",
+        "name": "Strategisches Management von Naturgefahren",
+        "url": "allModules/44205_M_IKSM.json"
+      },
+      {
+        "id": "IKTE_p",
+        "name": "The Internet of Everything (Projektarbeit)",
+        "url": "allModules/44343_M_IKTE_p.json"
+      },
+      {
+        "id": "IKTE",
+        "name": "The Internet of Everything",
+        "url": "allModules/44340_M_IKTE.json"
+      },
+      {
+        "id": "IKUG",
+        "name": "Umwelt und Gesundheit ",
+        "url": "allModules/44160_M_IKUG.json"
+      },
+      {
+        "id": "IKUG_p",
+        "name": "Umwelt und Gesundheit (Projektarbeit)",
+        "url": "allModules/44163_M_IKUG_p.json"
+      },
+      {
+        "id": "IKVK",
+        "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter ",
+        "url": "allModules/44166_M_IKVK.json"
+      },
+      {
+        "id": "IKVK_p",
+        "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter (Projektarbeit)",
+        "url": "allModules/44169_M_IKVK_p.json"
+      },
+      {
+        "id": "IKVA",
+        "name": "Virtual Reality f\u00fcr gesundes Leben und Altern",
+        "url": "allModules/44172_M_IKVA.json"
+      },
+      {
+        "id": "IKVA_p",
+        "name": "Virtual Reality f\u00fcr gesundes Leben und Altern (Projektarbeit)",
+        "url": "allModules/44175_M_IKVA_p.json"
+      },
+      {
+        "id": "IKVR",
+        "name": "Virtual Reality f\u00fcr Klima und Energie ",
+        "url": "allModules/44178_M_IKVR.json"
+      },
+      {
+        "id": "IKVR_p",
+        "name": "Virtual Reality f\u00fcr Klima und Energie (Projektarbeit)",
+        "url": "allModules/44181_M_IKVR_p.json"
+      },
+      {
         "id": "VwlTg",
         "name": "Volkswirtschaft und Technikgeschichte",
         "url": "allModules/42760_M_VwlTg.json"
+      },
+      {
+        "id": "IKGS",
+        "name": "Wissens- und Technologietransfer f\u00fcr nachhaltige Entwicklung im Globalen S\u00fcden",
+        "url": "allModules/44190_M_IKGS.json"
+      },
+      {
+        "id": "IKGS_p",
+        "name": "Wissens- und Technologietransfer f\u00fcr nachhaltige Entwicklung im Globalen S\u00fcden (Projektarbeit)",
+        "url": "allModules/44193_M_IKGS_p.json"
+      },
+      {
+        "id": "BuPro",
+        "name": "Business Processes f\u00fcr Informatik",
+        "url": "allModules/40825_M_BuPro.json"
       }
     ]
   },
@@ -46,7 +435,6 @@
     "id": "KomEng",
     "required_ects": 12,
     "name": "Kommunikation und Englisch",
-    "total_ects": 28,
     "modules": [
       {
         "id": "EnglHTw",
@@ -82,6 +470,11 @@
         "id": "RheKoI",
         "name": "Rhetorische Kommunikation f\u00fcr IngenieurInnen",
         "url": "allModules/43277_M_RheKoI.json"
+      },
+      {
+        "id": "RKI",
+        "name": "Rhetorische Kommunikation f\u00fcr IngenieurInnen",
+        "url": "allModules/25661_M_RKI.json"
       }
     ]
   },
@@ -89,7 +482,6 @@
     "id": "MaPh",
     "required_ects": 16,
     "name": "Mathematik und Physik",
-    "total_ects": 48,
     "modules": [
       {
         "id": "An1I",
@@ -162,7 +554,6 @@
     "id": "RA",
     "required_ects": 46,
     "name": "Rahmenausbildung",
-    "total_ects": 56,
     "modules": [
       {
         "id": "AIFo",
@@ -233,6 +624,11 @@
         "id": "WE1",
         "name": "Web Engineering 1",
         "url": "allModules/38891_M_WE1.json"
+      },
+      {
+        "id": "FunProg",
+        "name": "Funktionale Programmierung",
+        "url": "allModules/38928_M_FunProg.json"
       }
     ]
   },
@@ -240,7 +636,6 @@
     "id": "Auf",
     "required_ects": 48,
     "name": "Aufbau",
-    "total_ects": 158,
     "modules": [
       {
         "id": "MsTe",
@@ -378,6 +773,11 @@
         "url": "allModules/28254_M_MGE.json"
       },
       {
+        "id": "MOSIM",
+        "name": "Modellbildung und Simulation",
+        "url": "allModules/40139_M_MOSIM.json"
+      },
+      {
         "id": "NIoSec",
         "name": "Network and IoT Security",
         "url": "allModules/42231_M_NIoSec.json"
@@ -408,11 +808,6 @@
         "url": "allModules/40311_M_SecSoW.json"
       },
       {
-        "id": "ServDev",
-        "name": "Service Development (ITIL)",
-        "url": "allModules/37171_M_ServDev.json"
-      },
-      {
         "id": "ML",
         "name": "Statistical Machine Learning",
         "url": "allModules/31838_M_ML.json"
@@ -441,6 +836,21 @@
         "id": "WsoT",
         "name": "Wireless and IoT",
         "url": "allModules/40038_M_WsoT.json"
+      },
+      {
+        "id": "SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
+      },
+      {
+        "id": "ServDev",
+        "name": "Service Development (ITIL)",
+        "url": "allModules/37171_M_ServDev.json"
+      },
+      {
+        "id": "WIoT",
+        "name": "Wireless and IoT",
+        "url": "allModules/37157_M_WIoT.json"
       }
     ]
   },
@@ -448,7 +858,6 @@
     "id": "EP",
     "required_ects": 12,
     "name": "Engineering Practice",
-    "total_ects": 12,
     "modules": [
       {
         "id": "SEP1",
@@ -464,6 +873,16 @@
         "id": "SEProj",
         "name": "SE Project",
         "url": "allModules/43712_M_SEProj.json"
+      },
+      {
+        "id": "SE1",
+        "name": "Software-Engineering 1",
+        "url": "allModules/37893_M_SE1.json"
+      },
+      {
+        "id": "SE2",
+        "name": "Software-Engineering 2",
+        "url": "allModules/37191_M_SE2.json"
       }
     ]
   },
@@ -471,7 +890,6 @@
     "id": "SaBa",
     "required_ects": 20,
     "name": "Studien- Bachelorarbeit",
-    "total_ects": 20,
     "modules": [
       {
         "id": "BAI21",
@@ -489,7 +907,6 @@
     "id": "Inf",
     "required_ects": 136,
     "name": "Informatik",
-    "total_ects": 246,
     "modules": [
       {
         "id": "MsTe",
@@ -687,6 +1104,11 @@
         "url": "allModules/28254_M_MGE.json"
       },
       {
+        "id": "MOSIM",
+        "name": "Modellbildung und Simulation",
+        "url": "allModules/40139_M_MOSIM.json"
+      },
+      {
         "id": "NIoSec",
         "name": "Network and IoT Security",
         "url": "allModules/42231_M_NIoSec.json"
@@ -742,11 +1164,6 @@
         "url": "allModules/40311_M_SecSoW.json"
       },
       {
-        "id": "ServDev",
-        "name": "Service Development (ITIL)",
-        "url": "allModules/37171_M_ServDev.json"
-      },
-      {
         "id": "ML",
         "name": "Statistical Machine Learning",
         "url": "allModules/31838_M_ML.json"
@@ -785,6 +1202,36 @@
         "id": "WsoT",
         "name": "Wireless and IoT",
         "url": "allModules/40038_M_WsoT.json"
+      },
+      {
+        "id": "FunProg",
+        "name": "Funktionale Programmierung",
+        "url": "allModules/38928_M_FunProg.json"
+      },
+      {
+        "id": "SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
+      },
+      {
+        "id": "ServDev",
+        "name": "Service Development (ITIL)",
+        "url": "allModules/37171_M_ServDev.json"
+      },
+      {
+        "id": "SE1",
+        "name": "Software-Engineering 1",
+        "url": "allModules/37893_M_SE1.json"
+      },
+      {
+        "id": "SE2",
+        "name": "Software-Engineering 2",
+        "url": "allModules/37191_M_SE2.json"
+      },
+      {
+        "id": "WIoT",
+        "name": "Wireless and IoT",
+        "url": "allModules/37157_M_WIoT.json"
       }
     ]
   }
