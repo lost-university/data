@@ -43,6 +43,11 @@
         "id": "SecSoW",
         "name": "Secure Software",
         "url": "allModules/40311_M_SecSoW.json"
+      },
+      {
+        "id": "SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
       }
     ]
   },
@@ -70,6 +75,11 @@
         "id": "ComGra",
         "name": "Computer Grafik",
         "url": "allModules/43801_M_ComGra.json"
+      },
+      {
+        "id": "GenAI",
+        "name": "Generative AI",
+        "url": "allModules/43809_M_GenAI.json"
       },
       {
         "id": "MGE",
@@ -134,6 +144,11 @@
         "url": "allModules/40311_M_SecSoW.json"
       },
       {
+        "id": "SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
+      },
+      {
         "id": "WE2",
         "name": "Web Engineering 2",
         "url": "allModules/38945_M_WE2.json"
@@ -184,6 +199,11 @@
         "id": "WE2",
         "name": "Web Engineering 2",
         "url": "allModules/38945_M_WE2.json"
+      },
+      {
+        "id": "WIoT",
+        "name": "Wireless and IoT",
+        "url": "allModules/37157_M_WIoT.json"
       }
     ]
   },
@@ -221,6 +241,11 @@
         "id": "DL",
         "name": "Deep Learning",
         "url": "allModules/31834_M_DL.json"
+      },
+      {
+        "id": "GenAI",
+        "name": "Generative AI",
+        "url": "allModules/43809_M_GenAI.json"
       },
       {
         "id": "MathFML",
