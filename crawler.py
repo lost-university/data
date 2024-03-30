@@ -55,6 +55,8 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
                 zuordnung['kategorien']]
             module['ects'] = zuordnung['kategorien'][0]['kreditpunkte']
 
+        # These are the new IKTS modules. They are split into two separate modules, one of them being a "Projektarbeit".
+        # This ensures that they can be differentiated in the UI.
         if module['id'].endswith('_p'):
             module['name'] += ' (Projektarbeit)'
 
@@ -68,6 +70,8 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
         if 'kreditpunkte' in moduleContent and module['ects'] == 0:
             module['ects'] = moduleContent['kreditpunkte'];
 
+        # For some reason each category is also present as a module.
+        # This filters them out.
         if module['id'].startswith('Kat'):
             module['isDeactivated'] = True
             continue
