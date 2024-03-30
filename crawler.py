@@ -131,7 +131,7 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
 BASE_URL = 'https://studien.rj.ost.ch/'
 
 fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10246_I.json', 'data23')
-fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10191_I.json', 'data21', ['RheKI'])
+fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10191_I.json', 'data21', ['RheKI','SecSW'])
 
 for module in modules.values():
     module['categories_for_coloring'] = [category['id'] for category in module['categories']]
