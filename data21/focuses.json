@@ -7,42 +7,50 @@
       {
         "id": "MsTe",
         "name": ".Net Technologien",
-        "url": "allModules/37247_M_MsTe.json"
+        "url": "allModules/37247_M_MsTe.json",
+        "predecessor": null
       },
       {
         "id": "AppArch",
         "name": "Application Architecture",
-        "url": "allModules/28236_M_AppArch.json"
+        "url": "allModules/28236_M_AppArch.json",
+        "predecessor": null
       },
       {
         "id": "Bsys2",
         "name": "Betriebssysteme 2",
-        "url": "allModules/37903_M_Bsys2.json"
+        "url": "allModules/37903_M_Bsys2.json",
+        "predecessor": null
       },
       {
         "id": "CPl",
         "name": "C++",
-        "url": "allModules/24357_M_CPl.json"
+        "url": "allModules/24357_M_CPl.json",
+        "predecessor": null
       },
       {
         "id": "DSy",
         "name": "Distributed Systems",
-        "url": "allModules/39054_M_DSy.json"
+        "url": "allModules/39054_M_DSy.json",
+        "predecessor": "DS1"
       },
       {
         "id": "ParProg",
         "name": "Parallele Programmierung",
-        "url": "allModules/41462_M_ParProg.json"
+        "url": "allModules/41462_M_ParProg.json",
+        "predecessor": null
       },
       {
         "id": "PF",
         "name": "Patterns und Frameworks",
-        "url": "allModules/39045_M_PF.json"
+        "url": "allModules/39045_M_PF.json",
+        "predecessor": "APF"
       },
       {
         "id": "SecSoW",
         "name": "Secure Software",
-        "url": "allModules/40311_M_SecSoW.json"
+        "url": "allModules/40311_M_SecSoW.json",
+        "predecessor": null
       }
     ]
   },
@@ -54,47 +62,56 @@
       {
         "id": "AIAp",
         "name": "AI Applications",
-        "url": "allModules/40870_M_AIAp.json"
+        "url": "allModules/40870_M_AIAp.json",
+        "predecessor": null
       },
       {
         "id": "AppArch",
         "name": "Application Architecture",
-        "url": "allModules/28236_M_AppArch.json"
+        "url": "allModules/28236_M_AppArch.json",
+        "predecessor": null
       },
       {
         "id": "CldSol",
         "name": "Cloud Solutions",
-        "url": "allModules/37167_M_CldSol.json"
+        "url": "allModules/37167_M_CldSol.json",
+        "predecessor": "Clou"
       },
       {
         "id": "ComGra",
         "name": "Computer Grafik",
-        "url": "allModules/43801_M_ComGra.json"
+        "url": "allModules/43801_M_ComGra.json",
+        "predecessor": null
       },
       {
         "id": "GenAI",
         "name": "Generative AI",
-        "url": "allModules/43809_M_GenAI.json"
+        "url": "allModules/43809_M_GenAI.json",
+        "predecessor": null
       },
       {
         "id": "MGE",
         "name": "Mobile and GUI Engineering",
-        "url": "allModules/28254_M_MGE.json"
+        "url": "allModules/28254_M_MGE.json",
+        "predecessor": null
       },
       {
         "id": "UX",
         "name": "User Experience",
-        "url": "allModules/41106_M_UX.json"
+        "url": "allModules/41106_M_UX.json",
+        "predecessor": "HCD"
       },
       {
         "id": "WE2",
         "name": "Web Engineering 2",
-        "url": "allModules/38945_M_WE2.json"
+        "url": "allModules/38945_M_WE2.json",
+        "predecessor": "WED2"
       },
       {
         "id": "WE3",
         "name": "Web Engineering 3",
-        "url": "allModules/38901_M_WE3.json"
+        "url": "allModules/38901_M_WE3.json",
+        "predecessor": null
       }
     ]
   },
@@ -106,42 +123,50 @@
       {
         "id": "CN2",
         "name": "Computernetze 2",
-        "url": "allModules/23311_M_CN2.json"
+        "url": "allModules/23311_M_CN2.json",
+        "predecessor": null
       },
       {
         "id": "CyDef",
         "name": "Cyber Defense",
-        "url": "allModules/38551_M_CyDef.json"
+        "url": "allModules/38551_M_CyDef.json",
+        "predecessor": null
       },
       {
         "id": "HackL",
         "name": "Hacking Lab",
-        "url": "allModules/36457_M_HackL.json"
+        "url": "allModules/36457_M_HackL.json",
+        "predecessor": null
       },
       {
         "id": "IncResp",
         "name": "Incident Response",
-        "url": "allModules/36473_M_IncResp.json"
+        "url": "allModules/36473_M_IncResp.json",
+        "predecessor": null
       },
       {
         "id": "NIoSec",
         "name": "Network and IoT Security",
-        "url": "allModules/42231_M_NIoSec.json"
+        "url": "allModules/42231_M_NIoSec.json",
+        "predecessor": "NISec"
       },
       {
         "id": "PlFSec",
         "name": "Platform Security",
-        "url": "allModules/42227_M_PlFSec.json"
+        "url": "allModules/42227_M_PlFSec.json",
+        "predecessor": "PFSec"
       },
       {
         "id": "SecSoW",
         "name": "Secure Software",
-        "url": "allModules/40311_M_SecSoW.json"
+        "url": "allModules/40311_M_SecSoW.json",
+        "predecessor": null
       },
       {
         "id": "WE2",
         "name": "Web Engineering 2",
-        "url": "allModules/38945_M_WE2.json"
+        "url": "allModules/38945_M_WE2.json",
+        "predecessor": "WED2"
       }
     ]
   },
@@ -153,47 +178,56 @@
       {
         "id": "CldInf",
         "name": "Cloud Infrastructure",
-        "url": "allModules/29855_M_CldInf.json"
+        "url": "allModules/29855_M_CldInf.json",
+        "predecessor": null
       },
       {
         "id": "CldOp",
         "name": "Cloud Operations",
-        "url": "allModules/43285_M_CldOp.json"
+        "url": "allModules/43285_M_CldOp.json",
+        "predecessor": null
       },
       {
         "id": "CN2",
         "name": "Computernetze 2",
-        "url": "allModules/23311_M_CN2.json"
+        "url": "allModules/23311_M_CN2.json",
+        "predecessor": null
       },
       {
         "id": "DSy",
         "name": "Distributed Systems",
-        "url": "allModules/39054_M_DSy.json"
+        "url": "allModules/39054_M_DSy.json",
+        "predecessor": "DS1"
       },
       {
         "id": "IBN",
         "name": "Intent-Based Networking",
-        "url": "allModules/43556_M_IBN.json"
+        "url": "allModules/43556_M_IBN.json",
+        "predecessor": null
       },
       {
         "id": "NIoSec",
         "name": "Network and IoT Security",
-        "url": "allModules/42231_M_NIoSec.json"
+        "url": "allModules/42231_M_NIoSec.json",
+        "predecessor": "NISec"
       },
       {
         "id": "NetAut",
         "name": "Network Automation",
-        "url": "allModules/39128_M_NetAut.json"
+        "url": "allModules/39128_M_NetAut.json",
+        "predecessor": null
       },
       {
         "id": "WE2",
         "name": "Web Engineering 2",
-        "url": "allModules/38945_M_WE2.json"
+        "url": "allModules/38945_M_WE2.json",
+        "predecessor": "WED2"
       },
       {
         "id": "WIoT",
         "name": "Wireless and IoT",
-        "url": "allModules/37157_M_WIoT.json"
+        "url": "allModules/37157_M_WIoT.json",
+        "predecessor": null
       }
     ]
   },
@@ -205,47 +239,56 @@
       {
         "id": "AIAp",
         "name": "AI Applications",
-        "url": "allModules/40870_M_AIAp.json"
+        "url": "allModules/40870_M_AIAp.json",
+        "predecessor": null
       },
       {
         "id": "BlCh",
         "name": "Blockchain",
-        "url": "allModules/39041_M_BlCh.json"
+        "url": "allModules/39041_M_BlCh.json",
+        "predecessor": "ADSB"
       },
       {
         "id": "CldSol",
         "name": "Cloud Solutions",
-        "url": "allModules/37167_M_CldSol.json"
+        "url": "allModules/37167_M_CldSol.json",
+        "predecessor": "Clou"
       },
       {
         "id": "DatAna",
         "name": "Data Analytics",
-        "url": "allModules/36034_M_DatAna.json"
+        "url": "allModules/36034_M_DatAna.json",
+        "predecessor": "InfSys"
       },
       {
         "id": "DatEng",
         "name": "Data Engineering",
-        "url": "allModules/36038_M_DatEng.json"
+        "url": "allModules/36038_M_DatEng.json",
+        "predecessor": "Dbs2"
       },
       {
         "id": "DL",
         "name": "Deep Learning",
-        "url": "allModules/31834_M_DL.json"
+        "url": "allModules/31834_M_DL.json",
+        "predecessor": null
       },
       {
         "id": "GenAI",
         "name": "Generative AI",
-        "url": "allModules/43809_M_GenAI.json"
+        "url": "allModules/43809_M_GenAI.json",
+        "predecessor": null
       },
       {
         "id": "MathFML",
         "name": "Mathematical Foundations for Machine Learning",
-        "url": "allModules/31614_M_MathFML.json"
+        "url": "allModules/31614_M_MathFML.json",
+        "predecessor": null
       },
       {
         "id": "ML",
         "name": "Statistical Machine Learning",
-        "url": "allModules/31838_M_ML.json"
+        "url": "allModules/31838_M_ML.json",
+        "predecessor": null
       }
     ]
   }

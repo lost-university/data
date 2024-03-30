@@ -73,6 +73,12 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
         if 'kreditpunkte' in moduleContent and module['ects'] == 0:
             module['ects'] = moduleContent['kreditpunkte']
 
+        module['predecessor'] = None
+        if 'vorgaenger' in moduleContent:
+            predecessor_id = getIdForModule(moduleContent['vorgaenger']['kuerzel'])
+            if predecessor_id != module['id']:
+                module['predecessor'] = predecessor_id
+
         # For some reason each category is also present as a module.
         # This filters them out.
         if module['id'].startswith('Kat'):
@@ -107,7 +113,7 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
         for zuordnung in focusContent['zuordnungen']:
             moduleId = getIdForModule(zuordnung['kuerzel'])
             if moduleId in modules:
-                focus['modules'].append({'id': moduleId, 'name': zuordnung['bezeichnung'], 'url': zuordnung['url']})
+                focus['modules'].append({'id': moduleId, 'name': zuordnung['bezeichnung'], 'url': zuordnung['url'], 'predecessor': modules[moduleId]['predecessor']})
                 modules[moduleId]['focuses'].append({'id': focus['id'], 'name': focus['name'], 'url': focus['url']})
         focuses.append(focus)
 
@@ -138,6 +144,7 @@ for module in modules.values():
     del module['focuses']
     del module['categories']
     del module['isDeactivated']
+    del module['predecessor']
 
 output_directory = 'data'
 
