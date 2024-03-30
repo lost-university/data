@@ -5,7 +5,6 @@ import sys
 
 modules = {}
 
-
 def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[]):
     global modules
 
@@ -19,12 +18,16 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
         return kuerzel.removeprefix('M_')
 
     def getIdForCategory(kuerzel):
-        return kuerzel.removeprefix('I-').removeprefix('I_').removeprefix('Kat_')
+        return kuerzel.removeprefix('I-').removeprefix('I_').removeprefix('Kat_').replace('IKTS-help', 'GWRIKTS')
 
     # 'kredits' contains categories
     kredits = jsonContent['kredits']
     for kredit in kredits:
         category = kredit['kategorien'][0]
+
+        if category['kuerzel'] == 'IKTS-help':
+            continue
+
         catId = getIdForCategory(category['kuerzel'])
         categories[catId] = {
             'id': catId,
@@ -68,7 +71,7 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
 
         # needed for modules, whose credits do not count towards "Studiengang Informatik"
         if 'kreditpunkte' in moduleContent and module['ects'] == 0:
-            module['ects'] = moduleContent['kreditpunkte'];
+            module['ects'] = moduleContent['kreditpunkte']
 
         # For some reason each category is also present as a module.
         # This filters them out.
@@ -78,9 +81,6 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
 
         if module['id'] in excluded_module_ids:
             module['isDeactivated'] = True
-            continue
-
-        if module['categories'] == ['IKTS-help']:
             continue
 
         if 'categories' in module:
@@ -115,9 +115,6 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
     idsSet = set([m['id'] for m in modules.values()])
     if len(idsSet) != len(modules):
         sys.exit(1)
-
-    if 'IKTS-help' in categories.keys():
-        del categories['IKTS-help']
 
     categories = list(categories.values())
 
