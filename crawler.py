@@ -15,7 +15,7 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
     focuses = []
 
     def getIdForModule(kuerzel):
-        return kuerzel.removeprefix('M_')
+        return kuerzel.removeprefix('M_').replace('_p', 'p')
 
     def getIdForCategory(kuerzel):
         return kuerzel.removeprefix('I-').removeprefix('I_').removeprefix('Kat_').replace('IKTS-help', 'GWRIKTS')
@@ -60,7 +60,7 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
 
         # These are the new IKTS modules. They are split into two separate modules, one of them being a "Projektarbeit".
         # This ensures that they can be differentiated in the UI.
-        if module['id'].endswith('_p'):
+        if zuordnung['kuerzel'].endswith('_p'):
             module['name'] += ' (Projektarbeit)'
 
         modules[module['id']] = module
