@@ -72,11 +72,6 @@
         "url": "allModules/43801_M_ComGra.json"
       },
       {
-        "id": "GenAI",
-        "name": "Generative AI",
-        "url": "allModules/43809_M_GenAI.json"
-      },
-      {
         "id": "MGE",
         "name": "Mobile and GUI Engineering",
         "url": "allModules/28254_M_MGE.json"
