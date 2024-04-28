@@ -118,6 +118,9 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
 
     categories = list(categories.values())
 
+    categories.sort(key = lambda x: x['id'])
+    focuses.sort(key = lambda x: x['id'])
+
     if not os.path.exists(output_directory):
         os.mkdir(output_directory)
 
@@ -145,5 +148,6 @@ if not os.path.exists(output_directory):
     os.mkdir(output_directory)
 
 modules = list(modules.values())
+modules.sort(key = lambda x: x['id'])
 with open(f'{output_directory}/modules.json', 'w') as output:
     json.dump(modules, output, indent=2)
