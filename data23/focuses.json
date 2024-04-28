@@ -67,6 +67,11 @@
         "url": "allModules/37167_M_CldSol.json"
       },
       {
+        "id": "DL",
+        "name": "Deep Learning",
+        "url": "allModules/31834_M_DL.json"
+      },
+      {
         "id": "DatAna",
         "name": "Data Analytics",
         "url": "allModules/36034_M_DatAna.json"
@@ -77,24 +82,19 @@
         "url": "allModules/36038_M_DatEng.json"
       },
       {
-        "id": "DL",
-        "name": "Deep Learning",
-        "url": "allModules/31834_M_DL.json"
-      },
-      {
         "id": "GenAI",
         "name": "Generative AI",
         "url": "allModules/43809_M_GenAI.json"
       },
       {
-        "id": "MathFML",
-        "name": "Mathematical Foundations for Machine Learning",
-        "url": "allModules/31614_M_MathFML.json"
-      },
-      {
         "id": "ML",
         "name": "Statistical Machine Learning",
         "url": "allModules/31838_M_ML.json"
+      },
+      {
+        "id": "MathFML",
+        "name": "Mathematical Foundations for Machine Learning",
+        "url": "allModules/31614_M_MathFML.json"
       }
     ]
   },
@@ -104,6 +104,11 @@
     "name": "Network and Cloud Infrastructure",
     "modules": [
       {
+        "id": "CN2",
+        "name": "Computernetze 2",
+        "url": "allModules/23311_M_CN2.json"
+      },
+      {
         "id": "CldInf",
         "name": "Cloud Infrastructure",
         "url": "allModules/29855_M_CldInf.json"
@@ -112,11 +117,6 @@
         "id": "CldOp",
         "name": "Cloud Operations",
         "url": "allModules/43285_M_CldOp.json"
-      },
-      {
-        "id": "CN2",
-        "name": "Computernetze 2",
-        "url": "allModules/23311_M_CN2.json"
       },
       {
         "id": "DSy",
@@ -151,11 +151,6 @@
     "name": "Software Engineering",
     "modules": [
       {
-        "id": "MsTe",
-        "name": ".Net Technologien",
-        "url": "allModules/37247_M_MsTe.json"
-      },
-      {
         "id": "AppArch",
         "name": "Application Architecture",
         "url": "allModules/28236_M_AppArch.json"
@@ -176,14 +171,19 @@
         "url": "allModules/39054_M_DSy.json"
       },
       {
-        "id": "ParProg",
-        "name": "Parallele Programmierung",
-        "url": "allModules/41462_M_ParProg.json"
+        "id": "MsTe",
+        "name": ".Net Technologien",
+        "url": "allModules/37247_M_MsTe.json"
       },
       {
         "id": "PF",
         "name": "Patterns und Frameworks",
         "url": "allModules/39045_M_PF.json"
+      },
+      {
+        "id": "ParProg",
+        "name": "Parallele Programmierung",
+        "url": "allModules/41462_M_ParProg.json"
       },
       {
         "id": "SecSoW",
