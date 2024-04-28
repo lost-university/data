@@ -126,9 +126,11 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
 
     with open(f'{output_directory}/categories.json', 'w') as output:
         json.dump(categories, output, indent=2, ensure_ascii=False)
+        output.write('\n')
 
     with open(f'{output_directory}/focuses.json', 'w') as output:
         json.dump(focuses, output, indent=2, ensure_ascii=False)
+        output.write('\n')
 
 
 BASE_URL = 'https://studien.rj.ost.ch/'
@@ -151,3 +153,4 @@ modules = list(modules.values())
 modules.sort(key = lambda x: x['id'])
 with open(f'{output_directory}/modules.json', 'w') as output:
     json.dump(modules, output, indent=2, ensure_ascii=False)
+    output.write('\n')
