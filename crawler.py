@@ -5,6 +5,11 @@ import sys
 
 modules = {}
 
+def write_json(data, filename):
+    with open(filename, 'w') as output:
+        json.dump(data, output, indent=2, ensure_ascii=False)
+        output.write('\n')
+
 def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[]):
     global modules
 
@@ -124,13 +129,8 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
     if not os.path.exists(output_directory):
         os.mkdir(output_directory)
 
-    with open(f'{output_directory}/categories.json', 'w') as output:
-        json.dump(categories, output, indent=2, ensure_ascii=False)
-        output.write('\n')
-
-    with open(f'{output_directory}/focuses.json', 'w') as output:
-        json.dump(focuses, output, indent=2, ensure_ascii=False)
-        output.write('\n')
+    write_json(categories, f'{output_directory}/categories.json')
+    write_json(focuses, f'{output_directory}/focuses.json')
 
 
 BASE_URL = 'https://studien.rj.ost.ch/'
@@ -151,6 +151,4 @@ if not os.path.exists(output_directory):
 
 modules = list(modules.values())
 modules.sort(key = lambda x: x['id'])
-with open(f'{output_directory}/modules.json', 'w') as output:
-    json.dump(modules, output, indent=2, ensure_ascii=False)
-    output.write('\n')
+write_json(modules, f'{output_directory}/modules.json')
