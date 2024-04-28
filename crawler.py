@@ -125,10 +125,10 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
         os.mkdir(output_directory)
 
     with open(f'{output_directory}/categories.json', 'w') as output:
-        json.dump(categories, output, indent=2)
+        json.dump(categories, output, indent=2, ensure_ascii=False)
 
     with open(f'{output_directory}/focuses.json', 'w') as output:
-        json.dump(focuses, output, indent=2)
+        json.dump(focuses, output, indent=2, ensure_ascii=False)
 
 
 BASE_URL = 'https://studien.rj.ost.ch/'
@@ -150,4 +150,4 @@ if not os.path.exists(output_directory):
 modules = list(modules.values())
 modules.sort(key = lambda x: x['id'])
 with open(f'{output_directory}/modules.json', 'w') as output:
-    json.dump(modules, output, indent=2)
+    json.dump(modules, output, indent=2, ensure_ascii=False)
