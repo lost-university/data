@@ -5,6 +5,11 @@ import sys
 
 modules = {}
 
+def write_json(data, filename):
+    with open(filename, 'w') as output:
+        json.dump(data, output, indent=2, ensure_ascii=False)
+        output.write('\n')
+
 def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[]):
     global modules
 
@@ -109,6 +114,7 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
             if moduleId in modules:
                 focus['modules'].append({'id': moduleId, 'name': zuordnung['bezeichnung'], 'url': zuordnung['url']})
                 modules[moduleId]['focuses'].append({'id': focus['id'], 'name': focus['name'], 'url': focus['url']})
+        focus['modules'].sort(key = lambda x: x['id'])
         focuses.append(focus)
 
     # id should be unique for each module
@@ -118,14 +124,17 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
 
     categories = list(categories.values())
 
+    for category in categories:
+        category['modules'].sort(key = lambda x: x['id'])
+
+    categories.sort(key = lambda x: x['id'])
+    focuses.sort(key = lambda x: x['id'])
+
     if not os.path.exists(output_directory):
         os.mkdir(output_directory)
 
-    with open(f'{output_directory}/categories.json', 'w') as output:
-        json.dump(categories, output, indent=2)
-
-    with open(f'{output_directory}/focuses.json', 'w') as output:
-        json.dump(focuses, output, indent=2)
+    write_json(categories, f'{output_directory}/categories.json')
+    write_json(focuses, f'{output_directory}/focuses.json')
 
 
 BASE_URL = 'https://studien.rj.ost.ch/'
@@ -134,7 +143,7 @@ fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10246_I.json', 'data23')
 fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10191_I.json', 'data21', ['RheKI','SecSW'])
 
 for module in modules.values():
-    module['categories_for_coloring'] = [category['id'] for category in module['categories']]
+    module['categories_for_coloring'] = sorted([category['id'] for category in module['categories']])
     del module['focuses']
     del module['categories']
     del module['isDeactivated']
@@ -145,5 +154,5 @@ if not os.path.exists(output_directory):
     os.mkdir(output_directory)
 
 modules = list(modules.values())
-with open(f'{output_directory}/modules.json', 'w') as output:
-    json.dump(modules, output, indent=2)
+modules.sort(key = lambda x: x['id'])
+write_json(modules, f'{output_directory}/modules.json')

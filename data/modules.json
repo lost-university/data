@@ -1,18 +1,5 @@
 [
   {
-    "id": "MsTe",
-    "name": ".Net Technologien",
-    "url": "allModules/37247_M_MsTe.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 5,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
     "id": "AIAp",
     "name": "AI Applications",
     "url": "allModules/40870_M_AIAp.json",
@@ -21,8 +8,8 @@
     "recommendedSemester": 4,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -34,8 +21,8 @@
     "recommendedSemester": 3,
     "ects": 4,
     "categories_for_coloring": [
-      "RA",
-      "Inf"
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -47,25 +34,13 @@
     "recommendedSemester": 3,
     "ects": 4,
     "categories_for_coloring": [
-      "RA",
-      "Inf"
-    ]
-  },
-  {
-    "id": "IKAG",
-    "name": "Alternde Gesellschaften ",
-    "url": "allModules/44020_M_IKAG.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
+      "Inf",
+      "RA"
     ]
   },
   {
     "id": "An1I",
-    "name": "Analysis 1 f\u00fcr Informatik",
+    "name": "Analysis 1 für Informatik",
     "url": "allModules/28151_M_An1I.json",
     "isThesis": false,
     "isRequired": false,
@@ -77,7 +52,7 @@
   },
   {
     "id": "An2I",
-    "name": "Analysis 2 f\u00fcr Informatik",
+    "name": "Analysis 2 für Informatik",
     "url": "allModules/28156_M_An2I.json",
     "isThesis": false,
     "isRequired": false,
@@ -96,44 +71,7 @@
     "recommendedSemester": 7,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "IKAAp",
-    "name": "Applied AI (Projektarbeit)",
-    "url": "allModules/44196_M_IKAA_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKAA",
-    "name": "Applied AI",
-    "url": "allModules/44202_M_IKAA.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "AutoSpr",
-    "name": "Automaten und Sprachen",
-    "url": "allModules/24404_M_AutoSpr.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 2,
-    "ects": 4,
-    "categories_for_coloring": [
-      "RA",
+      "Auf",
       "Inf"
     ]
   },
@@ -146,8 +84,21 @@
     "recommendedSemester": 1,
     "ects": 2,
     "categories_for_coloring": [
-      "RA",
-      "Inf"
+      "Inf",
+      "RA"
+    ]
+  },
+  {
+    "id": "AutoSpr",
+    "name": "Automaten und Sprachen",
+    "url": "allModules/24404_M_AutoSpr.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 2,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -164,15 +115,16 @@
     ]
   },
   {
-    "id": "IKBH",
-    "name": "Behavioral Design  ",
-    "url": "allModules/44037_M_IKBH.json",
+    "id": "BlCh",
+    "name": "Blockchain",
+    "url": "allModules/39041_M_BlCh.json",
     "isThesis": false,
     "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
+    "recommendedSemester": 7,
+    "ects": 4,
     "categories_for_coloring": [
-      "GWRIKTS"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -184,8 +136,8 @@
     "recommendedSemester": 3,
     "ects": 4,
     "categories_for_coloring": [
-      "RA",
-      "Inf"
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -197,39 +149,14 @@
     "recommendedSemester": 4,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
-    "id": "IKBW",
-    "name": "Blickwechsel",
-    "url": "allModules/44040_M_IKBW.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "BlCh",
-    "name": "Blockchain",
-    "url": "allModules/39041_M_BlCh.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 7,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "WI2",
-    "name": "Business Processes f\u00fcr Informatik",
-    "url": "allModules/40981_M_WI2.json",
+    "id": "BuPro",
+    "name": "Business Processes für Informatik",
+    "url": "allModules/40825_M_BuPro.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 8,
@@ -263,6 +190,32 @@
     ]
   },
   {
+    "id": "CN1",
+    "name": "Computernetze 1",
+    "url": "allModules/39084_M_CN1.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 1,
+    "ects": 6,
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
+    ]
+  },
+  {
+    "id": "CN2",
+    "name": "Computernetze 2",
+    "url": "allModules/23311_M_CN2.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 4,
+    "ects": 6,
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
+    ]
+  },
+  {
     "id": "CPl",
     "name": "C++",
     "url": "allModules/24357_M_CPl.json",
@@ -271,8 +224,8 @@
     "recommendedSemester": 5,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -284,8 +237,8 @@
     "recommendedSemester": 6,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -317,8 +270,8 @@
     "recommendedSemester": 5,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -330,8 +283,8 @@
     "recommendedSemester": 6,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -343,8 +296,8 @@
     "recommendedSemester": 8,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -356,8 +309,8 @@
     "recommendedSemester": 5,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -389,34 +342,8 @@
     "recommendedSemester": 7,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "CN1",
-    "name": "Computernetze 1",
-    "url": "allModules/39084_M_CN1.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 1,
-    "ects": 6,
-    "categories_for_coloring": [
-      "RA",
+      "Auf",
       "Inf"
-    ]
-  },
-  {
-    "id": "CN2",
-    "name": "Computernetze 2",
-    "url": "allModules/23311_M_CN2.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 4,
-    "ects": 6,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
     ]
   },
   {
@@ -428,8 +355,8 @@
     "recommendedSemester": 7,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -441,7 +368,46 @@
     "recommendedSemester": 2,
     "ects": 4,
     "categories_for_coloring": [
-      "RA",
+      "Inf",
+      "RA"
+    ]
+  },
+  {
+    "id": "DL",
+    "name": "Deep Learning",
+    "url": "allModules/31834_M_DL.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 6,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
+    ]
+  },
+  {
+    "id": "DMI",
+    "name": "Diskrete Mathematik für Informatik ",
+    "url": "allModules/24442_M_DMI.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 1,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
+    ]
+  },
+  {
+    "id": "DSy",
+    "name": "Distributed Systems",
+    "url": "allModules/39054_M_DSy.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 6,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Auf",
       "Inf"
     ]
   },
@@ -454,8 +420,8 @@
     "recommendedSemester": 6,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -467,8 +433,8 @@
     "recommendedSemester": 4,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -480,21 +446,312 @@
     "recommendedSemester": 3,
     "ects": 4,
     "categories_for_coloring": [
-      "RA",
-      "Inf"
+      "Inf",
+      "RA"
     ]
   },
   {
-    "id": "DL",
-    "name": "Deep Learning",
-    "url": "allModules/31834_M_DL.json",
+    "id": "DigBusI",
+    "name": "Digital Business für Informatik",
+    "url": "allModules/40316_M_DigBusI.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 6,
     "ects": 4,
     "categories_for_coloring": [
+      "gwr"
+    ]
+  },
+  {
+    "id": "DigCod",
+    "name": "Digitale Codierungen",
+    "url": "allModules/38920_M_DigCod.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 2,
+    "ects": 4,
+    "categories_for_coloring": [
       "Inf",
-      "Auf"
+      "RA"
+    ]
+  },
+  {
+    "id": "EmbSys1",
+    "name": "Embedded Systems 1",
+    "url": "allModules/22062_M_EmbSys1.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 5,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
+    ]
+  },
+  {
+    "id": "EmbSys2",
+    "name": "Embedded Systems 2",
+    "url": "allModules/22068_M_EmbSys2.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 6,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
+    ]
+  },
+  {
+    "id": "EnglHTw",
+    "name": "English: How Things work",
+    "url": "allModules/22130_M_EnglHTw.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 4,
+    "categories_for_coloring": [
+      "KomEng"
+    ]
+  },
+  {
+    "id": "EnglScience",
+    "name": "English: The World of Science",
+    "url": "allModules/36091_M_EnglScience.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 1,
+    "ects": 4,
+    "categories_for_coloring": [
+      "KomEng"
+    ]
+  },
+  {
+    "id": "ExEv",
+    "name": "Experimentieren und Evaluieren für Informatik",
+    "url": "allModules/24381_M_ExEv.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 5,
+    "ects": 4,
+    "categories_for_coloring": [
+      "MaPh"
+    ]
+  },
+  {
+    "id": "FKIA",
+    "name": "Führungskommunikation im internationalen Arbeitsmarkt",
+    "url": "allModules/24427_M_FKIA.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 4,
+    "categories_for_coloring": [
+      "KomEng"
+    ]
+  },
+  {
+    "id": "FP",
+    "name": "Functional Programming ",
+    "url": "allModules/39143_M_FP.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 2,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
+    ]
+  },
+  {
+    "id": "FranzKomm",
+    "name": "Französisch Kommunikation ",
+    "url": "allModules/36421_M_FranzKomm.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 4,
+    "categories_for_coloring": []
+  },
+  {
+    "id": "FranzKomm2",
+    "name": "Französisch Kommunikation 2",
+    "url": "allModules/38868_M_FranzKomm2.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 4,
+    "categories_for_coloring": []
+  },
+  {
+    "id": "FuVar",
+    "name": "Funktionen mehrerer Variablen",
+    "url": "allModules/10942_M_FuVar.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 4,
+    "ects": 4,
+    "categories_for_coloring": [
+      "MaPh"
+    ]
+  },
+  {
+    "id": "FunProg",
+    "name": "Funktionale Programmierung",
+    "url": "allModules/38928_M_FunProg.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 2,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
+    ]
+  },
+  {
+    "id": "GenAI",
+    "name": "Generative AI",
+    "url": "allModules/43809_M_GenAI.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 4,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
+    ]
+  },
+  {
+    "id": "HackL",
+    "name": "Hacking Lab",
+    "url": "allModules/36457_M_HackL.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 6,
+    "ects": 2,
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
+    ]
+  },
+  {
+    "id": "IBN",
+    "name": "Intent-Based Networking",
+    "url": "allModules/43556_M_IBN.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 4,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
+    ]
+  },
+  {
+    "id": "IKAA",
+    "name": "Applied AI",
+    "url": "allModules/44202_M_IKAA.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKAAp",
+    "name": "Applied AI (Projektarbeit)",
+    "url": "allModules/44196_M_IKAA_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKAG",
+    "name": "Alternde Gesellschaften ",
+    "url": "allModules/44020_M_IKAG.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKAK",
+    "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz ",
+    "url": "allModules/44064_M_IKAK.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKAKp",
+    "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz (Projektarbeit)",
+    "url": "allModules/44067_M_IKAK_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKBH",
+    "name": "Behavioral Design  ",
+    "url": "allModules/44037_M_IKBH.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKBW",
+    "name": "Blickwechsel",
+    "url": "allModules/44040_M_IKBW.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKDH",
+    "name": "Lernlabor «Digitalisieren Hands-on»",
+    "url": "allModules/44235_M_IKDH.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKDHp",
+    "name": "Lernlabor «Digitalisieren Hands-on» (Projektarbeit)",
+    "url": "allModules/44232_M_IKDH_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 4,
+    "categories_for_coloring": [
+      "GWRIKTS"
     ]
   },
   {
@@ -522,31 +779,6 @@
     ]
   },
   {
-    "id": "DigBusI",
-    "name": "Digital Business f\u00fcr Informatik",
-    "url": "allModules/40316_M_DigBusI.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 6,
-    "ects": 4,
-    "categories_for_coloring": [
-      "gwr"
-    ]
-  },
-  {
-    "id": "DigCod",
-    "name": "Digitale Codierungen",
-    "url": "allModules/38920_M_DigCod.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 2,
-    "ects": 4,
-    "categories_for_coloring": [
-      "RA",
-      "Inf"
-    ]
-  },
-  {
     "id": "IKDL",
     "name": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
     "url": "allModules/44250_M_IKDL.json",
@@ -571,34 +803,8 @@
     ]
   },
   {
-    "id": "DMI",
-    "name": "Diskrete Mathematik f\u00fcr Informatik ",
-    "url": "allModules/24442_M_DMI.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 1,
-    "ects": 4,
-    "categories_for_coloring": [
-      "RA",
-      "Inf"
-    ]
-  },
-  {
-    "id": "DSy",
-    "name": "Distributed Systems",
-    "url": "allModules/39054_M_DSy.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 6,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
     "id": "IKDM_A",
-    "name": "Dream Team - Mentoringprogramm f\u00fcr die n\u00e4chste Generation Teil A",
+    "name": "Dream Team - Mentoringprogramm für die nächste Generation Teil A",
     "url": "allModules/44241_M_IKDM_A.json",
     "isThesis": false,
     "isRequired": false,
@@ -610,7 +816,7 @@
   },
   {
     "id": "IKDM_B",
-    "name": "Dream Team - Mentoringprogramm f\u00fcr die n\u00e4chste Generation Teil B",
+    "name": "Dream Team - Mentoringprogramm für die nächste Generation Teil B",
     "url": "allModules/44244_M_IKDM_B.json",
     "isThesis": false,
     "isRequired": false,
@@ -618,80 +824,6 @@
     "ects": 3,
     "categories_for_coloring": [
       "GWRIKTS"
-    ]
-  },
-  {
-    "id": "EmbSys1",
-    "name": "Embedded Systems 1",
-    "url": "allModules/22062_M_EmbSys1.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 5,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "EmbSys2",
-    "name": "Embedded Systems 2",
-    "url": "allModules/22068_M_EmbSys2.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 6,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "EnglHTw",
-    "name": "English: How Things work",
-    "url": "allModules/22130_M_EnglHTw.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 4,
-    "categories_for_coloring": [
-      "KomEng"
-    ]
-  },
-  {
-    "id": "SelTec",
-    "name": "English: Selling Technology",
-    "url": "allModules/26328_M_SelTec.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 4,
-    "categories_for_coloring": [
-      "KomEng"
-    ]
-  },
-  {
-    "id": "EnglScience",
-    "name": "English: The World of Science",
-    "url": "allModules/36091_M_EnglScience.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 1,
-    "ects": 4,
-    "categories_for_coloring": [
-      "KomEng"
-    ]
-  },
-  {
-    "id": "TecBEC",
-    "name": "English: Where Tech Meets BEC",
-    "url": "allModules/28076_M_TecBEC.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 4,
-    "ects": 4,
-    "categories_for_coloring": [
-      "KomEng"
     ]
   },
   {
@@ -719,109 +851,15 @@
     ]
   },
   {
-    "id": "ExEv",
-    "name": "Experimentieren und Evaluieren f\u00fcr Informatik",
-    "url": "allModules/24381_M_ExEv.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 5,
-    "ects": 4,
-    "categories_for_coloring": [
-      "MaPh"
-    ]
-  },
-  {
-    "id": "FranzKomm",
-    "name": "Franz\u00f6sisch Kommunikation ",
-    "url": "allModules/36421_M_FranzKomm.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 4,
-    "categories_for_coloring": []
-  },
-  {
-    "id": "FranzKomm2",
-    "name": "Franz\u00f6sisch Kommunikation 2",
-    "url": "allModules/38868_M_FranzKomm2.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 4,
-    "categories_for_coloring": []
-  },
-  {
-    "id": "FKIA",
-    "name": "F\u00fchrungskommunikation im internationalen Arbeitsmarkt",
-    "url": "allModules/24427_M_FKIA.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 4,
-    "categories_for_coloring": [
-      "KomEng"
-    ]
-  },
-  {
-    "id": "FP",
-    "name": "Functional Programming ",
-    "url": "allModules/39143_M_FP.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 2,
-    "ects": 4,
-    "categories_for_coloring": [
-      "RA",
-      "Inf"
-    ]
-  },
-  {
-    "id": "FuVar",
-    "name": "Funktionen mehrerer Variablen",
-    "url": "allModules/10942_M_FuVar.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 4,
-    "ects": 4,
-    "categories_for_coloring": [
-      "MaPh"
-    ]
-  },
-  {
-    "id": "IKMO",
-    "name": "Gemeinden & St\u00e4dte von morgen",
-    "url": "allModules/44055_M_IKMO.json",
+    "id": "IKGA",
+    "name": "Generative AI in der Planung",
+    "url": "allModules/44211_M_IKGA.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
     "categories_for_coloring": [
       "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKMOp",
-    "name": "Gemeinden & St\u00e4dte von morgen (Projektarbeit)",
-    "url": "allModules/44058_M_IKMO_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "GenAI",
-    "name": "Generative AI",
-    "url": "allModules/43809_M_GenAI.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 4,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
     ]
   },
   {
@@ -837,13 +875,25 @@
     ]
   },
   {
-    "id": "IKGA",
-    "name": "Generative AI in der Planung",
-    "url": "allModules/44211_M_IKGA.json",
+    "id": "IKGE",
+    "name": "Klimagerechte Stadt- und Gemeindeentwicklung ",
+    "url": "allModules/44088_M_IKGE.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKGEp",
+    "name": "Klimagerechte Stadt- und Gemeindeentwicklung  (Projektarbeit)",
+    "url": "allModules/44091_M_IKGE_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -861,9 +911,9 @@
     ]
   },
   {
-    "id": "IKAK",
-    "name": "Gesundes Altern mit Hilfe von k\u00fcnstlicher Intelligenz ",
-    "url": "allModules/44064_M_IKAK.json",
+    "id": "IKGS",
+    "name": "Wissens- und Technologietransfer für nachhaltige Entwicklung im Globalen Süden",
+    "url": "allModules/44190_M_IKGS.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 0,
@@ -873,40 +923,27 @@
     ]
   },
   {
-    "id": "IKAKp",
-    "name": "Gesundes Altern mit Hilfe von k\u00fcnstlicher Intelligenz (Projektarbeit)",
-    "url": "allModules/44067_M_IKAK_p.json",
+    "id": "IKGSp",
+    "name": "Wissens- und Technologietransfer für nachhaltige Entwicklung im Globalen Süden (Projektarbeit)",
+    "url": "allModules/44193_M_IKGS_p.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 0,
-    "ects": 3,
+    "ects": 4,
     "categories_for_coloring": [
       "GWRIKTS"
     ]
   },
   {
-    "id": "IKNN",
-    "name": "Hackathon zu \"Netto-null in Geb\u00e4uden und Verkehr\"  ",
-    "url": "allModules/44070_M_IKNN.json",
+    "id": "IKIE",
+    "name": "Interdisziplinär entwickeln - gerüstet für die technikbasierte Arbeitswelt",
+    "url": "allModules/44079_M_IKIE.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
     "categories_for_coloring": [
       "GWRIKTS"
-    ]
-  },
-  {
-    "id": "HackL",
-    "name": "Hacking Lab",
-    "url": "allModules/36457_M_HackL.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 6,
-    "ects": 2,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
     ]
   },
   {
@@ -925,6 +962,486 @@
     "id": "IKIIp",
     "name": "Ideen Inkubator Klimawende (Projektarbeit)",
     "url": "allModules/44076_M_IKII_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKKA",
+    "name": "Nachhaltigkeit und Klimaschutz angewandt",
+    "url": "allModules/44223_M_IKKA.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKKK",
+    "name": "Kommunale Klimawende",
+    "url": "allModules/44184_M_IKKK.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKKKp",
+    "name": "Kommunale Klimawende (Projektarbeit)",
+    "url": "allModules/44187_M_IKKK_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKKL",
+    "name": "Kreislaufwirtschaft ",
+    "url": "allModules/44094_M_IKKL.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKKLp",
+    "name": "Kreislaufwirtschaft (Projektarbeit)",
+    "url": "allModules/44097_M_IKKL_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKKP",
+    "name": "Klimakrise: Kann die Politik die Welt noch retten?",
+    "url": "allModules/44226_M_IKKP.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKKPp",
+    "name": "Klimakrise: Kann die Politik die Welt noch retten? (Projektarbeit)",
+    "url": "allModules/44229_M_IKKP_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKLE",
+    "name": "IZM-Projekt",
+    "url": "allModules/44082_M_IKLE.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKLEp",
+    "name": "IZM-Projekt (Projektarbeit)",
+    "url": "allModules/44085_M_IKLE_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKLF",
+    "name": "Lernfähigkeit und Gedächtnis",
+    "url": "allModules/44100_M_IKLF.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKLK",
+    "name": "Lösungsorientierte Kommunikation für dynamische Arbeitswelten ",
+    "url": "allModules/44103_M_IKLK.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKME",
+    "name": "Messbar gesund",
+    "url": "allModules/44115_M_IKME.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKMI",
+    "name": "Medien- und Informationskompetenzen in Zeiten von KI ",
+    "url": "allModules/44109_M_IKMI.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKMIp",
+    "name": "Medien- und Informationskompetenzen in Zeiten von KI (Projektarbeit)",
+    "url": "allModules/44112_M_IKMI_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKMO",
+    "name": "Gemeinden & Städte von morgen",
+    "url": "allModules/44055_M_IKMO.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKMOp",
+    "name": "Gemeinden & Städte von morgen (Projektarbeit)",
+    "url": "allModules/44058_M_IKMO_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKNB",
+    "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels",
+    "url": "allModules/44199_M_IKNB.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKNBp",
+    "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels (Projektarbeit)",
+    "url": "allModules/44421_M_IKNB_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 4,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKNG",
+    "name": "Neue Narrative für eine nachhaltige Gesellschaft ",
+    "url": "allModules/44121_M_IKNG.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKNGp",
+    "name": "Neue Narrative für eine nachhaltige Gesellschaft (Projektarbeit)",
+    "url": "allModules/44124_M_IKNG_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKNK",
+    "name": "New Work & KI",
+    "url": "allModules/44127_M_IKNK.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKNKp",
+    "name": "New Work & KI (Projektarbeit)",
+    "url": "allModules/44130_M_IKNK_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKNN",
+    "name": "Hackathon zu \"Netto-null in Gebäuden und Verkehr\"  ",
+    "url": "allModules/44070_M_IKNN.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKPE",
+    "name": "Psychologisches Empowerment",
+    "url": "allModules/44139_M_IKPE.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKPS",
+    "name": "Prototyping for Startup-Ideas",
+    "url": "allModules/44491_M_IKPS.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKPSp",
+    "name": "Prototyping for Startup-Ideas (Projektarbeit)",
+    "url": "allModules/44136_M_IKPS_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKRE",
+    "name": "Resilienz: Schlüsselkompetenz für innere Stärke ",
+    "url": "allModules/44142_M_IKRE.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKSH",
+    "name": "Social and Human Robotic ",
+    "url": "allModules/44145_M_IKSH.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKSM",
+    "name": "Strategisches Management von Naturgefahren",
+    "url": "allModules/44205_M_IKSM.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKSMp",
+    "name": "Strategisches Management von Naturgefahren (Projektarbeit)",
+    "url": "allModules/44208_M_IKSM_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKSS",
+    "name": "Ski-Nation Schweiz",
+    "url": "allModules/44220_M_IKSS.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKSSp",
+    "name": "Ski-Nation Schweiz (Projektarbeit)",
+    "url": "allModules/44217_M_IKSS_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 4,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKST",
+    "name": "Starkes Ich – Starkes Team",
+    "url": "allModules/44154_M_IKST.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKSTp",
+    "name": "Starkes Ich – Starkes Team (Projektarbeit)",
+    "url": "allModules/44157_M_IKST_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKSU",
+    "name": "Startup - Weg zur Gründung",
+    "url": "allModules/44253_M_IKSU.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKSUp",
+    "name": "Startup - Weg zur Gründung (Projektarbeit)",
+    "url": "allModules/44256_M_IKSU_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 4,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKSW",
+    "name": "Stadt der kurzen Wege ",
+    "url": "allModules/44148_M_IKSW.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKSWp",
+    "name": "Stadt der kurzen Wege (Projektarbeit)",
+    "url": "allModules/44151_M_IKSW_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKTE",
+    "name": "The Internet of Everything",
+    "url": "allModules/44340_M_IKTE.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKTEp",
+    "name": "The Internet of Everything (Projektarbeit)",
+    "url": "allModules/44343_M_IKTE_p.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 0,
@@ -970,6 +1487,102 @@
     ]
   },
   {
+    "id": "IKUG",
+    "name": "Umwelt und Gesundheit ",
+    "url": "allModules/44160_M_IKUG.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKUGp",
+    "name": "Umwelt und Gesundheit (Projektarbeit)",
+    "url": "allModules/44163_M_IKUG_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKVA",
+    "name": "Virtual Reality für gesundes Leben und Altern",
+    "url": "allModules/44172_M_IKVA.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKVAp",
+    "name": "Virtual Reality für gesundes Leben und Altern (Projektarbeit)",
+    "url": "allModules/44175_M_IKVA_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKVK",
+    "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter ",
+    "url": "allModules/44166_M_IKVK.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKVKp",
+    "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter (Projektarbeit)",
+    "url": "allModules/44169_M_IKVK_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKVR",
+    "name": "Virtual Reality für Klima und Energie ",
+    "url": "allModules/44178_M_IKVR.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKVRp",
+    "name": "Virtual Reality für Klima und Energie (Projektarbeit)",
+    "url": "allModules/44181_M_IKVR_p.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 3,
+    "categories_for_coloring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IPCV1",
     "name": "Image Processing and Computer Vision 1",
     "url": "allModules/36264_M_IPCV1.json",
@@ -978,8 +1591,8 @@
     "recommendedSemester": 0,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -991,8 +1604,8 @@
     "recommendedSemester": 0,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -1004,9 +1617,19 @@
     "recommendedSemester": 8,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
+  },
+  {
+    "id": "Inno2",
+    "name": "Innovation 2",
+    "url": "allModules/20110_M_Inno2.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 2,
+    "categories_for_coloring": []
   },
   {
     "id": "Inno_2",
@@ -1031,31 +1654,6 @@
     ]
   },
   {
-    "id": "IBN",
-    "name": "Intent-Based Networking",
-    "url": "allModules/43556_M_IBN.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 4,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "IKIE",
-    "name": "Interdisziplin\u00e4r entwickeln - ger\u00fcstet f\u00fcr die technikbasierte Arbeitswelt",
-    "url": "allModules/44079_M_IKIE.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
     "id": "Ital1",
     "name": "Italienisch 1",
     "url": "allModules/36015_M_Ital1.json",
@@ -1074,30 +1672,6 @@
     "recommendedSemester": 0,
     "ects": 4,
     "categories_for_coloring": []
-  },
-  {
-    "id": "IKLEp",
-    "name": "IZM-Projekt (Projektarbeit)",
-    "url": "allModules/44085_M_IKLE_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKLE",
-    "name": "IZM-Projekt",
-    "url": "allModules/44082_M_IKLE.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
   },
   {
     "id": "Jap1",
@@ -1120,90 +1694,6 @@
     "categories_for_coloring": []
   },
   {
-    "id": "IKGEp",
-    "name": "Klimagerechte Stadt- und Gemeindeentwicklung  (Projektarbeit)",
-    "url": "allModules/44091_M_IKGE_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKGE",
-    "name": "Klimagerechte Stadt- und Gemeindeentwicklung ",
-    "url": "allModules/44088_M_IKGE.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKKP",
-    "name": "Klimakrise: Kann die Politik die Welt noch retten?",
-    "url": "allModules/44226_M_IKKP.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKKPp",
-    "name": "Klimakrise: Kann die Politik die Welt noch retten? (Projektarbeit)",
-    "url": "allModules/44229_M_IKKP_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKKKp",
-    "name": "Kommunale Klimawende (Projektarbeit)",
-    "url": "allModules/44187_M_IKKK_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKKK",
-    "name": "Kommunale Klimawende",
-    "url": "allModules/44184_M_IKKK.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "KommIng2",
-    "name": "Kommunikation 2 f\u00fcr IngenieurInnen  (Teamkommunikation)",
-    "url": "allModules/37397_M_KommIng2.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 4,
-    "categories_for_coloring": [
-      "KomEng"
-    ]
-  },
-  {
     "id": "KomFou1",
     "name": "Komplexe Zahlen und Fourierreihen",
     "url": "allModules/15546_M_KomFou1.json",
@@ -1216,39 +1706,15 @@
     ]
   },
   {
-    "id": "IKKLp",
-    "name": "Kreislaufwirtschaft (Projektarbeit)",
-    "url": "allModules/44097_M_IKKL_p.json",
+    "id": "KommIng2",
+    "name": "Kommunikation 2 für IngenieurInnen  (Teamkommunikation)",
+    "url": "allModules/37397_M_KommIng2.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 0,
-    "ects": 3,
+    "ects": 4,
     "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKKL",
-    "name": "Kreislaufwirtschaft ",
-    "url": "allModules/44094_M_IKKL.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKLF",
-    "name": "Lernf\u00e4higkeit und Ged\u00e4chtnis",
-    "url": "allModules/44100_M_IKLF.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
+      "KomEng"
     ]
   },
   {
@@ -1264,39 +1730,42 @@
     ]
   },
   {
-    "id": "IKDHp",
-    "name": "Lernlabor \u00abDigitalisieren Hands-on\u00bb (Projektarbeit)",
-    "url": "allModules/44232_M_IKDH_p.json",
+    "id": "MGE",
+    "name": "Mobile and GUI Engineering",
+    "url": "allModules/28254_M_MGE.json",
     "isThesis": false,
     "isRequired": false,
-    "recommendedSemester": 0,
+    "recommendedSemester": 5,
     "ects": 4,
     "categories_for_coloring": [
-      "GWRIKTS"
+      "Auf",
+      "Inf"
     ]
   },
   {
-    "id": "IKDH",
-    "name": "Lernlabor \u00abDigitalisieren Hands-on\u00bb",
-    "url": "allModules/44235_M_IKDH.json",
+    "id": "ML",
+    "name": "Statistical Machine Learning",
+    "url": "allModules/31838_M_ML.json",
     "isThesis": false,
     "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
+    "recommendedSemester": 5,
+    "ects": 4,
     "categories_for_coloring": [
-      "GWRIKTS"
+      "Auf",
+      "Inf"
     ]
   },
   {
-    "id": "IKLK",
-    "name": "L\u00f6sungsorientierte Kommunikation f\u00fcr dynamische Arbeitswelten ",
-    "url": "allModules/44103_M_IKLK.json",
+    "id": "MOSIM",
+    "name": "Modellbildung und Simulation",
+    "url": "allModules/40139_M_MOSIM.json",
     "isThesis": false,
     "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
+    "recommendedSemester": 4,
+    "ects": 4,
     "categories_for_coloring": [
-      "GWRIKTS"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -1332,101 +1801,42 @@
     "categories_for_coloring": []
   },
   {
-    "id": "IKMIp",
-    "name": "Medien- und Informationskompetenzen in Zeiten von KI (Projektarbeit)",
-    "url": "allModules/44112_M_IKMI_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKMI",
-    "name": "Medien- und Informationskompetenzen in Zeiten von KI ",
-    "url": "allModules/44109_M_IKMI.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKME",
-    "name": "Messbar gesund",
-    "url": "allModules/44115_M_IKME.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "MGE",
-    "name": "Mobile and GUI Engineering",
-    "url": "allModules/28254_M_MGE.json",
+    "id": "MsTe",
+    "name": ".Net Technologien",
+    "url": "allModules/37247_M_MsTe.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 5,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
-    "id": "MOSIM",
-    "name": "Modellbildung und Simulation",
-    "url": "allModules/40139_M_MOSIM.json",
+    "id": "NIoSec",
+    "name": "Network and IoT Security",
+    "url": "allModules/42231_M_NIoSec.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 5,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
+    ]
+  },
+  {
+    "id": "NetAut",
+    "name": "Network Automation",
+    "url": "allModules/39128_M_NetAut.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 4,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "IKNB",
-    "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels",
-    "url": "allModules/44199_M_IKNB.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
     "ects": 2,
     "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKNBp",
-    "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels (Projektarbeit)",
-    "url": "allModules/44421_M_IKNB_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 4,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKKA",
-    "name": "Nachhaltigkeit und Klimaschutz angewandt",
-    "url": "allModules/44223_M_IKKA.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -1442,80 +1852,6 @@
     ]
   },
   {
-    "id": "NIoSec",
-    "name": "Network and IoT Security",
-    "url": "allModules/42231_M_NIoSec.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 5,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "NetAut",
-    "name": "Network Automation",
-    "url": "allModules/39128_M_NetAut.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 4,
-    "ects": 2,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "IKNG",
-    "name": "Neue Narrative f\u00fcr eine nachhaltige Gesellschaft ",
-    "url": "allModules/44121_M_IKNG.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKNGp",
-    "name": "Neue Narrative f\u00fcr eine nachhaltige Gesellschaft (Projektarbeit)",
-    "url": "allModules/44124_M_IKNG_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKNK",
-    "name": "New Work & KI",
-    "url": "allModules/44127_M_IKNK.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKNKp",
-    "name": "New Work & KI (Projektarbeit)",
-    "url": "allModules/44130_M_IKNK_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
     "id": "OOP1",
     "name": "Objektorientierte Programmierung 1",
     "url": "allModules/43813_M_OOP1.json",
@@ -1524,8 +1860,8 @@
     "recommendedSemester": 1,
     "ects": 4,
     "categories_for_coloring": [
-      "RA",
-      "Inf"
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -1537,7 +1873,20 @@
     "recommendedSemester": 2,
     "ects": 4,
     "categories_for_coloring": [
-      "RA",
+      "Inf",
+      "RA"
+    ]
+  },
+  {
+    "id": "PF",
+    "name": "Patterns und Frameworks",
+    "url": "allModules/39045_M_PF.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 7,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Auf",
       "Inf"
     ]
   },
@@ -1550,21 +1899,8 @@
     "recommendedSemester": 4,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "PF",
-    "name": "Patterns und Frameworks",
-    "url": "allModules/39045_M_PF.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 7,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -1605,7 +1941,7 @@
   },
   {
     "id": "PhAI",
-    "name": "Physik Anwendungen f\u00fcr Informatik",
+    "name": "Physik Anwendungen für Informatik",
     "url": "allModules/43544_M_PhAI.json",
     "isThesis": false,
     "isRequired": false,
@@ -1624,13 +1960,13 @@
     "recommendedSemester": 5,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
     "id": "PmQm",
-    "name": "Projekt- und Qualit\u00e4tsmanagement",
+    "name": "Projekt- und Qualitätsmanagement",
     "url": "allModules/28231_M_PmQm.json",
     "isThesis": false,
     "isRequired": false,
@@ -1638,42 +1974,6 @@
     "ects": 4,
     "categories_for_coloring": [
       "gwr"
-    ]
-  },
-  {
-    "id": "IKPSp",
-    "name": "Prototyping for Startup-Ideas (Projektarbeit)",
-    "url": "allModules/44136_M_IKPS_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKPS",
-    "name": "Prototyping for Startup-Ideas",
-    "url": "allModules/44491_M_IKPS.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKPE",
-    "name": "Psychologisches Empowerment",
-    "url": "allModules/44139_M_IKPE.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
     ]
   },
   {
@@ -1687,20 +1987,20 @@
     "categories_for_coloring": []
   },
   {
-    "id": "IKRE",
-    "name": "Resilienz: Schl\u00fcsselkompetenz f\u00fcr innere St\u00e4rke ",
-    "url": "allModules/44142_M_IKRE.json",
+    "id": "RKI",
+    "name": "Rhetorische Kommunikation für IngenieurInnen",
+    "url": "allModules/25661_M_RKI.json",
     "isThesis": false,
     "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
+    "recommendedSemester": 3,
+    "ects": 4,
     "categories_for_coloring": [
-      "GWRIKTS"
+      "KomEng"
     ]
   },
   {
     "id": "RheKoI",
-    "name": "Rhetorische Kommunikation f\u00fcr IngenieurInnen",
+    "name": "Rhetorische Kommunikation für IngenieurInnen",
     "url": "allModules/43277_M_RheKoI.json",
     "isThesis": false,
     "isRequired": false,
@@ -1708,6 +2008,45 @@
     "ects": 4,
     "categories_for_coloring": [
       "KomEng"
+    ]
+  },
+  {
+    "id": "SAI21",
+    "name": "Studienarbeit Informatik",
+    "url": "allModules/40906_M_SAI21.json",
+    "isThesis": false,
+    "isRequired": true,
+    "recommendedSemester": 5,
+    "ects": 8,
+    "categories_for_coloring": [
+      "Inf",
+      "SaBa"
+    ]
+  },
+  {
+    "id": "SE1",
+    "name": "Software-Engineering 1",
+    "url": "allModules/37893_M_SE1.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 3,
+    "ects": 4,
+    "categories_for_coloring": [
+      "EP",
+      "Inf"
+    ]
+  },
+  {
+    "id": "SE2",
+    "name": "Software-Engineering 2",
+    "url": "allModules/37191_M_SE2.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 4,
+    "ects": 4,
+    "categories_for_coloring": [
+      "EP",
+      "Inf"
     ]
   },
   {
@@ -1750,52 +2089,16 @@
     ]
   },
   {
-    "id": "SecSoW",
-    "name": "Secure Software",
-    "url": "allModules/40311_M_SecSoW.json",
+    "id": "SModSim",
+    "name": "System Modeling and Simulation",
+    "url": "allModules/38938_M_SModSim.json",
     "isThesis": false,
     "isRequired": false,
-    "recommendedSemester": 4,
+    "recommendedSemester": 6,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "IKSS",
-    "name": "Ski-Nation Schweiz",
-    "url": "allModules/44220_M_IKSS.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSSp",
-    "name": "Ski-Nation Schweiz (Projektarbeit)",
-    "url": "allModules/44217_M_IKSS_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 4,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSH",
-    "name": "Social and Human Robotic ",
-    "url": "allModules/44145_M_IKSH.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -1807,6 +2110,44 @@
     "recommendedSemester": 0,
     "ects": 4,
     "categories_for_coloring": []
+  },
+  {
+    "id": "SecSoW",
+    "name": "Secure Software",
+    "url": "allModules/40311_M_SecSoW.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 4,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
+    ]
+  },
+  {
+    "id": "SelTec",
+    "name": "English: Selling Technology",
+    "url": "allModules/26328_M_SelTec.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 0,
+    "ects": 4,
+    "categories_for_coloring": [
+      "KomEng"
+    ]
+  },
+  {
+    "id": "ServDev",
+    "name": "Service Development (ITIL)",
+    "url": "allModules/37171_M_ServDev.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 5,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
+    ]
   },
   {
     "id": "Span1",
@@ -1829,186 +2170,15 @@
     "categories_for_coloring": []
   },
   {
-    "id": "IKSW",
-    "name": "Stadt der kurzen Wege ",
-    "url": "allModules/44148_M_IKSW.json",
+    "id": "TecBEC",
+    "name": "English: Where Tech Meets BEC",
+    "url": "allModules/28076_M_TecBEC.json",
     "isThesis": false,
     "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSWp",
-    "name": "Stadt der kurzen Wege (Projektarbeit)",
-    "url": "allModules/44151_M_IKSW_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKST",
-    "name": "Starkes Ich \u2013 Starkes Team",
-    "url": "allModules/44154_M_IKST.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSTp",
-    "name": "Starkes Ich \u2013 Starkes Team (Projektarbeit)",
-    "url": "allModules/44157_M_IKST_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSU",
-    "name": "Startup - Weg zur Gr\u00fcndung",
-    "url": "allModules/44253_M_IKSU.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSUp",
-    "name": "Startup - Weg zur Gr\u00fcndung (Projektarbeit)",
-    "url": "allModules/44256_M_IKSU_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
+    "recommendedSemester": 4,
     "ects": 4,
     "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "ML",
-    "name": "Statistical Machine Learning",
-    "url": "allModules/31838_M_ML.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 5,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "IKSMp",
-    "name": "Strategisches Management von Naturgefahren (Projektarbeit)",
-    "url": "allModules/44208_M_IKSM_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSM",
-    "name": "Strategisches Management von Naturgefahren",
-    "url": "allModules/44205_M_IKSM.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "SAI21",
-    "name": "Studienarbeit Informatik",
-    "url": "allModules/40906_M_SAI21.json",
-    "isThesis": false,
-    "isRequired": true,
-    "recommendedSemester": 5,
-    "ects": 8,
-    "categories_for_coloring": [
-      "Inf",
-      "SaBa"
-    ]
-  },
-  {
-    "id": "SModSim",
-    "name": "System Modeling and Simulation",
-    "url": "allModules/38938_M_SModSim.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 6,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "IKTEp",
-    "name": "The Internet of Everything (Projektarbeit)",
-    "url": "allModules/44343_M_IKTE_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKTE",
-    "name": "The Internet of Everything",
-    "url": "allModules/44340_M_IKTE.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKUG",
-    "name": "Umwelt und Gesundheit ",
-    "url": "allModules/44160_M_IKUG.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKUGp",
-    "name": "Umwelt und Gesundheit (Projektarbeit)",
-    "url": "allModules/44163_M_IKUG_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
+      "KomEng"
     ]
   },
   {
@@ -2020,80 +2190,8 @@
     "recommendedSemester": 6,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "IKVK",
-    "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter ",
-    "url": "allModules/44166_M_IKVK.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKVKp",
-    "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter (Projektarbeit)",
-    "url": "allModules/44169_M_IKVK_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKVA",
-    "name": "Virtual Reality f\u00fcr gesundes Leben und Altern",
-    "url": "allModules/44172_M_IKVA.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKVAp",
-    "name": "Virtual Reality f\u00fcr gesundes Leben und Altern (Projektarbeit)",
-    "url": "allModules/44175_M_IKVA_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKVR",
-    "name": "Virtual Reality f\u00fcr Klima und Energie ",
-    "url": "allModules/44178_M_IKVR.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKVRp",
-    "name": "Virtual Reality f\u00fcr Klima und Energie (Projektarbeit)",
-    "url": "allModules/44181_M_IKVR_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -2109,18 +2207,6 @@
     ]
   },
   {
-    "id": "WrStat",
-    "name": "Wahrscheinlichkeitsrechnung und Statistik",
-    "url": "allModules/24489_M_WrStat.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 3,
-    "ects": 4,
-    "categories_for_coloring": [
-      "MaPh"
-    ]
-  },
-  {
     "id": "WE1",
     "name": "Web Engineering 1",
     "url": "allModules/38891_M_WE1.json",
@@ -2129,8 +2215,8 @@
     "recommendedSemester": 3,
     "ects": 4,
     "categories_for_coloring": [
-      "RA",
-      "Inf"
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -2142,8 +2228,8 @@
     "recommendedSemester": 4,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -2155,45 +2241,33 @@
     "recommendedSemester": 5,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   },
   {
-    "id": "WsoT",
+    "id": "WI2",
+    "name": "Business Processes für Informatik",
+    "url": "allModules/40981_M_WI2.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 8,
+    "ects": 4,
+    "categories_for_coloring": [
+      "gwr"
+    ]
+  },
+  {
+    "id": "WIoT",
     "name": "Wireless and IoT",
-    "url": "allModules/40038_M_WsoT.json",
+    "url": "allModules/37157_M_WIoT.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "IKGS",
-    "name": "Wissens- und Technologietransfer f\u00fcr nachhaltige Entwicklung im Globalen S\u00fcden",
-    "url": "allModules/44190_M_IKGS.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKGSp",
-    "name": "Wissens- und Technologietransfer f\u00fcr nachhaltige Entwicklung im Globalen S\u00fcden (Projektarbeit)",
-    "url": "allModules/44193_M_IKGS_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 4,
-    "categories_for_coloring": [
-      "GWRIKTS"
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -2207,102 +2281,28 @@
     "categories_for_coloring": []
   },
   {
-    "id": "BuPro",
-    "name": "Business Processes f\u00fcr Informatik",
-    "url": "allModules/40825_M_BuPro.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 8,
-    "ects": 4,
-    "categories_for_coloring": [
-      "gwr"
-    ]
-  },
-  {
-    "id": "FunProg",
-    "name": "Funktionale Programmierung",
-    "url": "allModules/38928_M_FunProg.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 2,
-    "ects": 4,
-    "categories_for_coloring": [
-      "RA",
-      "Inf"
-    ]
-  },
-  {
-    "id": "Inno2",
-    "name": "Innovation 2",
-    "url": "allModules/20110_M_Inno2.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": []
-  },
-  {
-    "id": "RKI",
-    "name": "Rhetorische Kommunikation f\u00fcr IngenieurInnen",
-    "url": "allModules/25661_M_RKI.json",
+    "id": "WrStat",
+    "name": "Wahrscheinlichkeitsrechnung und Statistik",
+    "url": "allModules/24489_M_WrStat.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 3,
     "ects": 4,
     "categories_for_coloring": [
-      "KomEng"
+      "MaPh"
     ]
   },
   {
-    "id": "ServDev",
-    "name": "Service Development (ITIL)",
-    "url": "allModules/37171_M_ServDev.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 5,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Inf",
-      "Auf"
-    ]
-  },
-  {
-    "id": "SE1",
-    "name": "Software-Engineering 1",
-    "url": "allModules/37893_M_SE1.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 3,
-    "ects": 4,
-    "categories_for_coloring": [
-      "EP",
-      "Inf"
-    ]
-  },
-  {
-    "id": "SE2",
-    "name": "Software-Engineering 2",
-    "url": "allModules/37191_M_SE2.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 4,
-    "ects": 4,
-    "categories_for_coloring": [
-      "EP",
-      "Inf"
-    ]
-  },
-  {
-    "id": "WIoT",
+    "id": "WsoT",
     "name": "Wireless and IoT",
-    "url": "allModules/37157_M_WIoT.json",
+    "url": "allModules/40038_M_WsoT.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
     "categories_for_coloring": [
-      "Inf",
-      "Auf"
+      "Auf",
+      "Inf"
     ]
   }
 ]

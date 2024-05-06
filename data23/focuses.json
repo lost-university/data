@@ -1,52 +1,5 @@
 [
   {
-    "id": "SE",
-    "url": "allStudies/10247_SE.json",
-    "name": "Software Engineering",
-    "modules": [
-      {
-        "id": "MsTe",
-        "name": ".Net Technologien",
-        "url": "allModules/37247_M_MsTe.json"
-      },
-      {
-        "id": "AppArch",
-        "name": "Application Architecture",
-        "url": "allModules/28236_M_AppArch.json"
-      },
-      {
-        "id": "Bsys2",
-        "name": "Betriebssysteme 2",
-        "url": "allModules/37903_M_Bsys2.json"
-      },
-      {
-        "id": "CPl",
-        "name": "C++",
-        "url": "allModules/24357_M_CPl.json"
-      },
-      {
-        "id": "DSy",
-        "name": "Distributed Systems",
-        "url": "allModules/39054_M_DSy.json"
-      },
-      {
-        "id": "ParProg",
-        "name": "Parallele Programmierung",
-        "url": "allModules/41462_M_ParProg.json"
-      },
-      {
-        "id": "PF",
-        "name": "Patterns und Frameworks",
-        "url": "allModules/39045_M_PF.json"
-      },
-      {
-        "id": "SecSoW",
-        "name": "Secure Software",
-        "url": "allModules/40311_M_SecSoW.json"
-      }
-    ]
-  },
-  {
     "id": "CySe",
     "url": "allStudies/10249_CySe.json",
     "name": "Cyber Security",
@@ -94,10 +47,67 @@
     ]
   },
   {
+    "id": "DaEn",
+    "url": "allStudies/10251_DaEn.json",
+    "name": "Data Science",
+    "modules": [
+      {
+        "id": "AIAp",
+        "name": "AI Applications",
+        "url": "allModules/40870_M_AIAp.json"
+      },
+      {
+        "id": "BlCh",
+        "name": "Blockchain",
+        "url": "allModules/39041_M_BlCh.json"
+      },
+      {
+        "id": "CldSol",
+        "name": "Cloud Solutions",
+        "url": "allModules/37167_M_CldSol.json"
+      },
+      {
+        "id": "DL",
+        "name": "Deep Learning",
+        "url": "allModules/31834_M_DL.json"
+      },
+      {
+        "id": "DatAna",
+        "name": "Data Analytics",
+        "url": "allModules/36034_M_DatAna.json"
+      },
+      {
+        "id": "DatEng",
+        "name": "Data Engineering",
+        "url": "allModules/36038_M_DatEng.json"
+      },
+      {
+        "id": "GenAI",
+        "name": "Generative AI",
+        "url": "allModules/43809_M_GenAI.json"
+      },
+      {
+        "id": "ML",
+        "name": "Statistical Machine Learning",
+        "url": "allModules/31838_M_ML.json"
+      },
+      {
+        "id": "MathFML",
+        "name": "Mathematical Foundations for Machine Learning",
+        "url": "allModules/31614_M_MathFML.json"
+      }
+    ]
+  },
+  {
     "id": "NetC",
     "url": "allStudies/10250_NetC.json",
     "name": "Network and Cloud Infrastructure",
     "modules": [
+      {
+        "id": "CN2",
+        "name": "Computernetze 2",
+        "url": "allModules/23311_M_CN2.json"
+      },
       {
         "id": "CldInf",
         "name": "Cloud Infrastructure",
@@ -107,11 +117,6 @@
         "id": "CldOp",
         "name": "Cloud Operations",
         "url": "allModules/43285_M_CldOp.json"
-      },
-      {
-        "id": "CN2",
-        "name": "Computernetze 2",
-        "url": "allModules/23311_M_CN2.json"
       },
       {
         "id": "DSy",
@@ -141,54 +146,49 @@
     ]
   },
   {
-    "id": "DaEn",
-    "url": "allStudies/10251_DaEn.json",
-    "name": "Data Science",
+    "id": "SE",
+    "url": "allStudies/10247_SE.json",
+    "name": "Software Engineering",
     "modules": [
       {
-        "id": "AIAp",
-        "name": "AI Applications",
-        "url": "allModules/40870_M_AIAp.json"
+        "id": "AppArch",
+        "name": "Application Architecture",
+        "url": "allModules/28236_M_AppArch.json"
       },
       {
-        "id": "BlCh",
-        "name": "Blockchain",
-        "url": "allModules/39041_M_BlCh.json"
+        "id": "Bsys2",
+        "name": "Betriebssysteme 2",
+        "url": "allModules/37903_M_Bsys2.json"
       },
       {
-        "id": "CldSol",
-        "name": "Cloud Solutions",
-        "url": "allModules/37167_M_CldSol.json"
+        "id": "CPl",
+        "name": "C++",
+        "url": "allModules/24357_M_CPl.json"
       },
       {
-        "id": "DatAna",
-        "name": "Data Analytics",
-        "url": "allModules/36034_M_DatAna.json"
+        "id": "DSy",
+        "name": "Distributed Systems",
+        "url": "allModules/39054_M_DSy.json"
       },
       {
-        "id": "DatEng",
-        "name": "Data Engineering",
-        "url": "allModules/36038_M_DatEng.json"
+        "id": "MsTe",
+        "name": ".Net Technologien",
+        "url": "allModules/37247_M_MsTe.json"
       },
       {
-        "id": "DL",
-        "name": "Deep Learning",
-        "url": "allModules/31834_M_DL.json"
+        "id": "PF",
+        "name": "Patterns und Frameworks",
+        "url": "allModules/39045_M_PF.json"
       },
       {
-        "id": "GenAI",
-        "name": "Generative AI",
-        "url": "allModules/43809_M_GenAI.json"
+        "id": "ParProg",
+        "name": "Parallele Programmierung",
+        "url": "allModules/41462_M_ParProg.json"
       },
       {
-        "id": "MathFML",
-        "name": "Mathematical Foundations for Machine Learning",
-        "url": "allModules/31614_M_MathFML.json"
-      },
-      {
-        "id": "ML",
-        "name": "Statistical Machine Learning",
-        "url": "allModules/31838_M_ML.json"
+        "id": "SecSoW",
+        "name": "Secure Software",
+        "url": "allModules/40311_M_SecSoW.json"
       }
     ]
   }
