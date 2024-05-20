@@ -189,6 +189,11 @@
         "id": "SecSoW",
         "name": "Secure Software",
         "url": "allModules/40311_M_SecSoW.json"
+      },
+      {
+        "id": "UIP",
+        "name": "UI Patterns and Frameworks",
+        "url": "allModules/44688_M_UIP.json"
       }
     ]
   }

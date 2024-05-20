@@ -180,7 +180,7 @@
   {
     "id": "BuRe2a",
     "name": "Business und Recht 2 (a)",
-    "url": "allModules/20794_M_BuRe2a.json",
+    "url": "allModules/45604_M_BuRe2a.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 4,
@@ -504,7 +504,7 @@
   {
     "id": "EnglHTw",
     "name": "English: How Things work",
-    "url": "allModules/22130_M_EnglHTw.json",
+    "url": "allModules/45657_M_EnglHTw.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 0,
@@ -516,7 +516,7 @@
   {
     "id": "EnglScience",
     "name": "English: The World of Science",
-    "url": "allModules/36091_M_EnglScience.json",
+    "url": "allModules/45665_M_EnglScience.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 1,
@@ -1261,7 +1261,7 @@
   {
     "id": "IKPS",
     "name": "Prototyping for Startup-Ideas",
-    "url": "allModules/44491_M_IKPS.json",
+    "url": "allModules/44133_M_IKPS.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 0,
@@ -1783,7 +1783,7 @@
   {
     "id": "MathSem1",
     "name": "Mathematisches Seminar 1",
-    "url": "allModules/31274_M_MathSem1.json",
+    "url": "allModules/45131_M_MathSem1.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 0,
@@ -1842,7 +1842,7 @@
   {
     "id": "NwP",
     "name": "Naturwissenschaftliches Praktikum",
-    "url": "allModules/41772_M_NwP.json",
+    "url": "allModules/45138_M_NwP.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 4,
@@ -1905,8 +1905,8 @@
   },
   {
     "id": "Ph1Mech",
-    "name": "Physik 1",
-    "url": "allModules/11043_M_Ph1Mech.json",
+    "name": "Physik 1 - Mechanik",
+    "url": "allModules/45143_M_Ph1Mech.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 3,
@@ -1917,7 +1917,7 @@
   },
   {
     "id": "Ph2HAT",
-    "name": "Physik 2",
+    "name": "Physik 2 - Hydro-, Elektro und Thermodynamik",
     "url": "allModules/22021_M_Ph2HAT.json",
     "isThesis": false,
     "isRequired": false,
@@ -1929,8 +1929,8 @@
   },
   {
     "id": "Ph3SWO",
-    "name": "Physik 3",
-    "url": "allModules/20825_M_Ph3SWO.json",
+    "name": "Physik 3 - Schwingungen und Wellen, Optik",
+    "url": "allModules/45153_M_Ph3SWO.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 0,
@@ -2127,7 +2127,7 @@
   {
     "id": "SelTec",
     "name": "English: Selling Technology",
-    "url": "allModules/26328_M_SelTec.json",
+    "url": "allModules/45661_M_SelTec.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 0,
@@ -2179,6 +2179,19 @@
     "ects": 4,
     "categories_for_coloring": [
       "KomEng"
+    ]
+  },
+  {
+    "id": "UIP",
+    "name": "UI Patterns and Frameworks",
+    "url": "allModules/44688_M_UIP.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 5,
+    "ects": 4,
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
