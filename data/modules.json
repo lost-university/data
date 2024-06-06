@@ -2271,19 +2271,6 @@
     ]
   },
   {
-    "id": "WIoT",
-    "name": "Wireless and IoT",
-    "url": "allModules/37157_M_WIoT.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 4,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Auf",
-      "Inf"
-    ]
-  },
-  {
     "id": "WSLS",
     "name": "Workshop \"Lern-Support an der OST\"",
     "url": "allModules/32766_M_WSLS.json",

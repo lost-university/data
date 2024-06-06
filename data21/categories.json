@@ -210,11 +210,6 @@
         "url": "allModules/38901_M_WE3.json"
       },
       {
-        "id": "WIoT",
-        "name": "Wireless and IoT",
-        "url": "allModules/37157_M_WIoT.json"
-      },
-      {
         "id": "WsoT",
         "name": "Wireless and IoT",
         "url": "allModules/40038_M_WsoT.json"
@@ -572,11 +567,6 @@
         "id": "WE3",
         "name": "Web Engineering 3",
         "url": "allModules/38901_M_WE3.json"
-      },
-      {
-        "id": "WIoT",
-        "name": "Wireless and IoT",
-        "url": "allModules/37157_M_WIoT.json"
       },
       {
         "id": "WsoT",

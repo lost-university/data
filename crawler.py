@@ -111,9 +111,18 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
         focusContent = json.loads(requests.get(f'{BASE_URL}{spez["url"]}').content)
         for zuordnung in focusContent['zuordnungen']:
             moduleId = getIdForModule(zuordnung['kuerzel'])
+
+            if moduleId == 'WIoT':
+                moduleId = 'WsoT'
+
             if moduleId in modules:
-                focus['modules'].append({'id': moduleId, 'name': zuordnung['bezeichnung'], 'url': zuordnung['url']})
+                focus['modules'].append({
+                    'id': moduleId,
+                    'name': modules[moduleId]['name'],
+                    'url': modules[moduleId]['url']})
+
                 modules[moduleId]['focuses'].append({'id': focus['id'], 'name': focus['name'], 'url': focus['url']})
+
         focus['modules'].sort(key = lambda x: x['id'])
         focuses.append(focus)
 
@@ -137,10 +146,10 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
     write_json(focuses, f'{output_directory}/focuses.json')
 
 
-BASE_URL = 'https://studien.rj.ost.ch/'
+BASE_URL = 'https://studien.ost.ch/'
 
 fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10246_I.json', 'data23')
-fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10191_I.json', 'data21', ['RheKI','SecSW'])
+fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10191_I.json', 'data21', ['RheKI','SecSW', 'WIoT'])
 
 for module in modules.values():
     module['categories_for_coloring'] = sorted([category['id'] for category in module['categories']])
