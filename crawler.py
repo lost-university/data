@@ -46,7 +46,7 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
     for zuordnung in zuordnungen:
         module = {
             'id': getIdForModule(zuordnung['kuerzel']),
-            'name': zuordnung['bezeichnung'],
+            'name': zuordnung['bezeichnung'].strip(),
             'url': zuordnung['url'],
             'isThesis': zuordnung['istAbschlussArbeit'],
             'isRequired': zuordnung['istPflichtmodul'],
