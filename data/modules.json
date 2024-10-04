@@ -387,7 +387,7 @@
   },
   {
     "id": "DMI",
-    "name": "Diskrete Mathematik für Informatik ",
+    "name": "Diskrete Mathematik für Informatik",
     "url": "allModules/24442_M_DMI.json",
     "isThesis": false,
     "isRequired": false,
@@ -551,7 +551,7 @@
   },
   {
     "id": "FP",
-    "name": "Functional Programming ",
+    "name": "Functional Programming",
     "url": "allModules/39143_M_FP.json",
     "isThesis": false,
     "isRequired": false,
@@ -564,7 +564,7 @@
   },
   {
     "id": "FranzKomm",
-    "name": "Französisch Kommunikation ",
+    "name": "Französisch Kommunikation",
     "url": "allModules/36421_M_FranzKomm.json",
     "isThesis": false,
     "isRequired": false,
@@ -672,7 +672,7 @@
   },
   {
     "id": "IKAG",
-    "name": "Alternde Gesellschaften ",
+    "name": "Alternde Gesellschaften",
     "url": "allModules/44020_M_IKAG.json",
     "isThesis": false,
     "isRequired": false,
@@ -684,7 +684,7 @@
   },
   {
     "id": "IKAK",
-    "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz ",
+    "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz",
     "url": "allModules/44064_M_IKAK.json",
     "isThesis": false,
     "isRequired": false,
@@ -708,7 +708,7 @@
   },
   {
     "id": "IKBH",
-    "name": "Behavioral Design  ",
+    "name": "Behavioral Design",
     "url": "allModules/44037_M_IKBH.json",
     "isThesis": false,
     "isRequired": false,
@@ -876,7 +876,7 @@
   },
   {
     "id": "IKGE",
-    "name": "Klimagerechte Stadt- und Gemeindeentwicklung ",
+    "name": "Klimagerechte Stadt- und Gemeindeentwicklung",
     "url": "allModules/44088_M_IKGE.json",
     "isThesis": false,
     "isRequired": false,
@@ -888,7 +888,7 @@
   },
   {
     "id": "IKGEp",
-    "name": "Klimagerechte Stadt- und Gemeindeentwicklung  (Projektarbeit)",
+    "name": "Klimagerechte Stadt- und Gemeindeentwicklung (Projektarbeit)",
     "url": "allModules/44091_M_IKGE_p.json",
     "isThesis": false,
     "isRequired": false,
@@ -900,7 +900,7 @@
   },
   {
     "id": "IKGL",
-    "name": "Gesund leben und Langlebigkeit ",
+    "name": "Gesund leben und Langlebigkeit",
     "url": "allModules/44061_M_IKGL.json",
     "isThesis": false,
     "isRequired": false,
@@ -948,7 +948,7 @@
   },
   {
     "id": "IKII",
-    "name": "Ideen Inkubator Klimawende ",
+    "name": "Ideen Inkubator Klimawende",
     "url": "allModules/44073_M_IKII.json",
     "isThesis": false,
     "isRequired": false,
@@ -1008,7 +1008,7 @@
   },
   {
     "id": "IKKL",
-    "name": "Kreislaufwirtschaft ",
+    "name": "Kreislaufwirtschaft",
     "url": "allModules/44094_M_IKKL.json",
     "isThesis": false,
     "isRequired": false,
@@ -1092,7 +1092,7 @@
   },
   {
     "id": "IKLK",
-    "name": "Lösungsorientierte Kommunikation für dynamische Arbeitswelten ",
+    "name": "Lösungsorientierte Kommunikation für dynamische Arbeitswelten",
     "url": "allModules/44103_M_IKLK.json",
     "isThesis": false,
     "isRequired": false,
@@ -1116,7 +1116,7 @@
   },
   {
     "id": "IKMI",
-    "name": "Medien- und Informationskompetenzen in Zeiten von KI ",
+    "name": "Medien- und Informationskompetenzen in Zeiten von KI",
     "url": "allModules/44109_M_IKMI.json",
     "isThesis": false,
     "isRequired": false,
@@ -1188,7 +1188,7 @@
   },
   {
     "id": "IKNG",
-    "name": "Neue Narrative für eine nachhaltige Gesellschaft ",
+    "name": "Neue Narrative für eine nachhaltige Gesellschaft",
     "url": "allModules/44121_M_IKNG.json",
     "isThesis": false,
     "isRequired": false,
@@ -1236,7 +1236,7 @@
   },
   {
     "id": "IKNN",
-    "name": "Hackathon zu \"Netto-null in Gebäuden und Verkehr\"  ",
+    "name": "Hackathon zu \"Netto-null in Gebäuden und Verkehr\"",
     "url": "allModules/44070_M_IKNN.json",
     "isThesis": false,
     "isRequired": false,
@@ -1284,7 +1284,7 @@
   },
   {
     "id": "IKRE",
-    "name": "Resilienz: Schlüsselkompetenz für innere Stärke ",
+    "name": "Resilienz: Schlüsselkompetenz für innere Stärke",
     "url": "allModules/44142_M_IKRE.json",
     "isThesis": false,
     "isRequired": false,
@@ -1296,7 +1296,7 @@
   },
   {
     "id": "IKSH",
-    "name": "Social and Human Robotic ",
+    "name": "Social and Human Robotic",
     "url": "allModules/44145_M_IKSH.json",
     "isThesis": false,
     "isRequired": false,
@@ -1404,7 +1404,7 @@
   },
   {
     "id": "IKSW",
-    "name": "Stadt der kurzen Wege ",
+    "name": "Stadt der kurzen Wege",
     "url": "allModules/44148_M_IKSW.json",
     "isThesis": false,
     "isRequired": false,
@@ -1488,7 +1488,7 @@
   },
   {
     "id": "IKUG",
-    "name": "Umwelt und Gesundheit ",
+    "name": "Umwelt und Gesundheit",
     "url": "allModules/44160_M_IKUG.json",
     "isThesis": false,
     "isRequired": false,
@@ -1536,7 +1536,7 @@
   },
   {
     "id": "IKVK",
-    "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter ",
+    "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter",
     "url": "allModules/44166_M_IKVK.json",
     "isThesis": false,
     "isRequired": false,
@@ -1560,7 +1560,7 @@
   },
   {
     "id": "IKVR",
-    "name": "Virtual Reality für Klima und Energie ",
+    "name": "Virtual Reality für Klima und Energie",
     "url": "allModules/44178_M_IKVR.json",
     "isThesis": false,
     "isRequired": false,
