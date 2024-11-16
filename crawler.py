@@ -184,6 +184,25 @@ fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10191_I.json', 'data21', ['
 # keep MGE -> maybe ask Mirko, if it can be added again just deactivated?
 # some IKTS are missing?
 
+# {
+#     "id": "MGE",
+#     "name": "Mobile and GUI Engineering",
+#     "url": "allModules/28254_M_MGE.json",
+#     "isThesis": false,
+#     "isRequired": false,
+#     "recommendedSemester": 5,
+#     "ects": 4,
+#     "term": "HS",
+#     "recommendedModuleIds": [],
+#     "dependentModuleIds": [],
+#     "predecessorModuleId": "",
+#     "successorModuleId": "",
+#     "categories_for_coloring": [
+#       "Auf",
+#       "Inf"
+#     ]
+#   },
+
 for module in modules.values():
     module['categories_for_coloring'] = sorted([category['id'] for category in module['categories']])
     del module['focuses']
