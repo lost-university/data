@@ -7,6 +7,14 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "AIFo",
+      "WE1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "AIAp",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -20,6 +28,20 @@
     "isRequired": false,
     "recommendedSemester": 3,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "AutoSpr",
+      "An1I",
+      "An2I",
+      "OOP1",
+      "OOP2"
+    ],
+    "dependentModuleIds": [
+      "AIAp",
+      "GenAI"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "AIFo",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -33,6 +55,18 @@
     "isRequired": false,
     "recommendedSemester": 3,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "OOP1",
+      "OOP2"
+    ],
+    "dependentModuleIds": [
+      "MsTe",
+      "CPlA",
+      "ComGra"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "AD2",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -46,6 +80,18 @@
     "isRequired": false,
     "recommendedSemester": 1,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "AIFo",
+      "An2I",
+      "ComGra",
+      "IntTra",
+      "KomFou1",
+      "PhAI"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "An1I",
     "categories_for_coloring": [
       "MaPh"
     ]
@@ -58,6 +104,18 @@
     "isRequired": false,
     "recommendedSemester": 2,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "An1I"
+    ],
+    "dependentModuleIds": [
+      "AIFo",
+      "IntTra",
+      "PhAI",
+      "WrStat"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "An2I",
     "categories_for_coloring": [
       "MaPh"
     ]
@@ -70,6 +128,16 @@
     "isRequired": false,
     "recommendedSemester": 7,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "SE1",
+      "DS1"
+    ],
+    "dependentModuleIds": [
+      "CldSol"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "AppArch",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -83,6 +151,14 @@
     "isRequired": false,
     "recommendedSemester": 1,
     "ects": 2,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "GenAI",
+      "SEProj"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -96,6 +172,14 @@
     "isRequired": false,
     "recommendedSemester": 2,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "AIFo",
+      "FP"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "Math2I",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -109,6 +193,11 @@
     "isRequired": true,
     "recommendedSemester": 6,
     "ects": 12,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "BAI14",
     "categories_for_coloring": [
       "Inf",
       "SaBa"
@@ -122,6 +211,13 @@
     "isRequired": false,
     "recommendedSemester": 7,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "DSy"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "ADSB",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -135,6 +231,21 @@
     "isRequired": false,
     "recommendedSemester": 3,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "Bsys2",
+      "CPl",
+      "CPlA",
+      "CoBau",
+      "DSy",
+      "ParProg",
+      "PlFSec",
+      "SecSW",
+      "SecSoW"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "Bsys1",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -148,6 +259,15 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "Bsys1"
+    ],
+    "dependentModuleIds": [
+      "CoBau"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "Bsys2",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -161,6 +281,11 @@
     "isRequired": false,
     "recommendedSemester": 8,
     "ects": 4,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "gwr"
     ]
@@ -173,6 +298,13 @@
     "isRequired": false,
     "recommendedSemester": 3,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "BuRe2a"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "BuRe1",
     "categories_for_coloring": [
       "gwr"
     ]
@@ -185,6 +317,13 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "BuRe1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "BuRe2a",
     "categories_for_coloring": [
       "gwr"
     ]
@@ -197,6 +336,19 @@
     "isRequired": false,
     "recommendedSemester": 1,
     "ects": 6,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "CldInf",
+      "CN2",
+      "CySec",
+      "NIoSec",
+      "PlFSec",
+      "SecSW",
+      "SecSoW"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "CN1",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -210,6 +362,17 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 6,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "CN1"
+    ],
+    "dependentModuleIds": [
+      "CldInf",
+      "NIoSec",
+      "PlFSec"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "CN2",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -223,6 +386,18 @@
     "isRequired": false,
     "recommendedSemester": 5,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "AD1",
+      "Bsys1",
+      "OOP1",
+      "OOP2"
+    ],
+    "dependentModuleIds": [
+      "CPlA"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -236,6 +411,17 @@
     "isRequired": false,
     "recommendedSemester": 6,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "CPl",
+      "Bsys1",
+      "OOP1",
+      "AlgDat",
+      "OOP2"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "CPlA",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -249,6 +435,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "Chin1",
     "categories_for_coloring": []
   },
   {
@@ -259,6 +450,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": []
   },
   {
@@ -269,6 +465,16 @@
     "isRequired": false,
     "recommendedSemester": 5,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "CN2",
+      "CN1"
+    ],
+    "dependentModuleIds": [
+      "CldOp"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "CldInf",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -277,11 +483,18 @@
   {
     "id": "CldOp",
     "name": "Cloud Operations",
-    "url": "allModules/43285_M_CldOp.json",
+    "url": "allModules/55074_M_CldOp.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 6,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "CldInf"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "CldOp",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -295,6 +508,14 @@
     "isRequired": false,
     "recommendedSemester": 8,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "AppArch",
+      "DS1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "Clou",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -308,6 +529,17 @@
     "isRequired": false,
     "recommendedSemester": 5,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "Bsys2",
+      "Bsys1",
+      "SE2",
+      "OOP1",
+      "OOP2"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "CoBau",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -321,6 +553,16 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 3,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "DigT",
+      "ProgC"
+    ],
+    "dependentModuleIds": [
+      "ComEng2"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": []
   },
   {
@@ -331,6 +573,15 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 3,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "ComEng1"
+    ],
+    "dependentModuleIds": [
+      "EmbSys1"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "CompT2",
     "categories_for_coloring": []
   },
   {
@@ -341,6 +592,16 @@
     "isRequired": false,
     "recommendedSemester": 7,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "An1I",
+      "OOP1",
+      "AlgDat",
+      "OOP2"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "ComGra",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -354,6 +615,19 @@
     "isRequired": false,
     "recommendedSemester": 7,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "HackL",
+      "PFSec",
+      "CySec",
+      "NISec",
+      "SecSW"
+    ],
+    "dependentModuleIds": [
+      "IncResp"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "CyDef",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -367,6 +641,20 @@
     "isRequired": false,
     "recommendedSemester": 2,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "CN1"
+    ],
+    "dependentModuleIds": [
+      "CyDef",
+      "IncResp",
+      "NIoSec",
+      "PlFSec",
+      "SecSW",
+      "SecSoW"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "InfSi1",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -380,6 +668,13 @@
     "isRequired": false,
     "recommendedSemester": 6,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "ML"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "DL",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -393,6 +688,15 @@
     "isRequired": false,
     "recommendedSemester": 1,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "FP",
+      "FunProg",
+      "KomFou1"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "Math1I",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -406,6 +710,18 @@
     "isRequired": false,
     "recommendedSemester": 6,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "SE1",
+      "Bsys1"
+    ],
+    "dependentModuleIds": [
+      "AppArch",
+      "BlCh",
+      "CldSol"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "DS1",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -419,6 +735,13 @@
     "isRequired": false,
     "recommendedSemester": 6,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "Dbs1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "InfSys",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -432,6 +755,13 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "Dbs1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "Dbs2",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -445,6 +775,15 @@
     "isRequired": false,
     "recommendedSemester": 3,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "MsTe",
+      "DatAna",
+      "DatEng"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "Dbs1",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -458,6 +797,13 @@
     "isRequired": false,
     "recommendedSemester": 6,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "WI2"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "WI1",
     "categories_for_coloring": [
       "gwr"
     ]
@@ -470,6 +816,11 @@
     "isRequired": false,
     "recommendedSemester": 2,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "ICTh",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -483,6 +834,15 @@
     "isRequired": false,
     "recommendedSemester": 5,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "ComEng2"
+    ],
+    "dependentModuleIds": [
+      "EmbSys2"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "EmbSys1",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -496,6 +856,13 @@
     "isRequired": false,
     "recommendedSemester": 6,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "EmbSys1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "EmbSys2",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -509,6 +876,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "EnglHTw",
     "categories_for_coloring": [
       "KomEng"
     ]
@@ -521,6 +893,11 @@
     "isRequired": false,
     "recommendedSemester": 1,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "EnglScience",
     "categories_for_coloring": [
       "KomEng"
     ]
@@ -533,6 +910,11 @@
     "isRequired": false,
     "recommendedSemester": 5,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "MaPh"
     ]
@@ -545,6 +927,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "FKIA",
     "categories_for_coloring": [
       "KomEng"
     ]
@@ -557,6 +944,15 @@
     "isRequired": false,
     "recommendedSemester": 2,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "AutoSpr",
+      "DMI",
+      "OOP1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "PLFM",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -570,6 +966,13 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "FranzKomm2"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "Franz1",
     "categories_for_coloring": []
   },
   {
@@ -580,6 +983,13 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "FranzKomm"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "FranzKomm2",
     "categories_for_coloring": []
   },
   {
@@ -590,6 +1000,17 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "LinAlg",
+      "An1aE",
+      "An1bE",
+      "An2aE",
+      "An2bE"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "MaPh"
     ]
@@ -602,6 +1023,13 @@
     "isRequired": false,
     "recommendedSemester": 2,
     "ects": 4,
+    "term": "",
+    "recommendedModuleIds": [
+      "DMI"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -615,6 +1043,14 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "AutPy",
+      "AIFo"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -628,6 +1064,14 @@
     "isRequired": false,
     "recommendedSemester": 6,
     "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "CyDef",
+      "IncResp"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -641,6 +1085,11 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "IBN",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -654,30 +1103,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKAAp",
-    "name": "Applied AI (Projektarbeit)",
-    "url": "allModules/44196_M_IKAA_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKAG",
-    "name": "Alternde Gesellschaften",
-    "url": "allModules/44020_M_IKAG.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -690,6 +1120,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -702,18 +1137,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKBH",
-    "name": "Behavioral Design",
-    "url": "allModules/44037_M_IKBH.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -726,6 +1154,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -738,6 +1171,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -750,6 +1188,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -762,138 +1205,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKDKp",
-    "name": "Demokratie im Zeitalter von KI (Projektarbeit)",
-    "url": "allModules/44046_M_IKDK_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKDL",
-    "name": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
-    "url": "allModules/44250_M_IKDL.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKDLp",
-    "name": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen (Projektarbeit)",
-    "url": "allModules/44247_M_IKDL_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKDM_A",
-    "name": "Dream Team - Mentoringprogramm für die nächste Generation Teil A",
-    "url": "allModules/44241_M_IKDM_A.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKDM_B",
-    "name": "Dream Team - Mentoringprogramm für die nächste Generation Teil B",
-    "url": "allModules/44244_M_IKDM_B.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKEK",
-    "name": "Ethik & KI",
-    "url": "allModules/44049_M_IKEK.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKEKp",
-    "name": "Ethik & KI (Projektarbeit)",
-    "url": "allModules/44052_M_IKEK_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKGA",
-    "name": "Generative AI in der Planung",
-    "url": "allModules/44211_M_IKGA.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKGAp",
-    "name": "Generative AI in der Planung (Projektarbeit)",
-    "url": "allModules/44214_M_IKGA_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKGE",
-    "name": "Klimagerechte Stadt- und Gemeindeentwicklung",
-    "url": "allModules/44088_M_IKGE.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKGEp",
-    "name": "Klimagerechte Stadt- und Gemeindeentwicklung (Projektarbeit)",
-    "url": "allModules/44091_M_IKGE_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -906,210 +1222,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKGS",
-    "name": "Wissens- und Technologietransfer für nachhaltige Entwicklung im Globalen Süden",
-    "url": "allModules/44190_M_IKGS.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKGSp",
-    "name": "Wissens- und Technologietransfer für nachhaltige Entwicklung im Globalen Süden (Projektarbeit)",
-    "url": "allModules/44193_M_IKGS_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 4,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKIE",
-    "name": "Interdisziplinär entwickeln - gerüstet für die technikbasierte Arbeitswelt",
-    "url": "allModules/44079_M_IKIE.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKII",
-    "name": "Ideen Inkubator Klimawende",
-    "url": "allModules/44073_M_IKII.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKIIp",
-    "name": "Ideen Inkubator Klimawende (Projektarbeit)",
-    "url": "allModules/44076_M_IKII_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKKA",
-    "name": "Nachhaltigkeit und Klimaschutz angewandt",
-    "url": "allModules/44223_M_IKKA.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKKK",
-    "name": "Kommunale Klimawende",
-    "url": "allModules/44184_M_IKKK.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKKKp",
-    "name": "Kommunale Klimawende (Projektarbeit)",
-    "url": "allModules/44187_M_IKKK_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKKL",
-    "name": "Kreislaufwirtschaft",
-    "url": "allModules/44094_M_IKKL.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKKLp",
-    "name": "Kreislaufwirtschaft (Projektarbeit)",
-    "url": "allModules/44097_M_IKKL_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKKP",
-    "name": "Klimakrise: Kann die Politik die Welt noch retten?",
-    "url": "allModules/44226_M_IKKP.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKKPp",
-    "name": "Klimakrise: Kann die Politik die Welt noch retten? (Projektarbeit)",
-    "url": "allModules/44229_M_IKKP_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKLE",
-    "name": "IZM-Projekt",
-    "url": "allModules/44082_M_IKLE.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKLEp",
-    "name": "IZM-Projekt (Projektarbeit)",
-    "url": "allModules/44085_M_IKLE_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKLF",
-    "name": "Lernfähigkeit und Gedächtnis",
-    "url": "allModules/44100_M_IKLF.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKLK",
-    "name": "Lösungsorientierte Kommunikation für dynamische Arbeitswelten",
-    "url": "allModules/44103_M_IKLK.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKME",
-    "name": "Messbar gesund",
-    "url": "allModules/44115_M_IKME.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -1122,138 +1239,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKMIp",
-    "name": "Medien- und Informationskompetenzen in Zeiten von KI (Projektarbeit)",
-    "url": "allModules/44112_M_IKMI_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKMO",
-    "name": "Gemeinden & Städte von morgen",
-    "url": "allModules/44055_M_IKMO.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKMOp",
-    "name": "Gemeinden & Städte von morgen (Projektarbeit)",
-    "url": "allModules/44058_M_IKMO_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKNB",
-    "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels",
-    "url": "allModules/44199_M_IKNB.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKNBp",
-    "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels (Projektarbeit)",
-    "url": "allModules/44421_M_IKNB_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 4,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKNG",
-    "name": "Neue Narrative für eine nachhaltige Gesellschaft",
-    "url": "allModules/44121_M_IKNG.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKNGp",
-    "name": "Neue Narrative für eine nachhaltige Gesellschaft (Projektarbeit)",
-    "url": "allModules/44124_M_IKNG_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKNK",
-    "name": "New Work & KI",
-    "url": "allModules/44127_M_IKNK.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKNKp",
-    "name": "New Work & KI (Projektarbeit)",
-    "url": "allModules/44130_M_IKNK_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKNN",
-    "name": "Hackathon zu \"Netto-null in Gebäuden und Verkehr\"",
-    "url": "allModules/44070_M_IKNN.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKPE",
-    "name": "Psychologisches Empowerment",
-    "url": "allModules/44139_M_IKPE.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -1266,78 +1256,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKPSp",
-    "name": "Prototyping for Startup-Ideas (Projektarbeit)",
-    "url": "allModules/44136_M_IKPS_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKRE",
-    "name": "Resilienz: Schlüsselkompetenz für innere Stärke",
-    "url": "allModules/44142_M_IKRE.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSH",
-    "name": "Social and Human Robotic",
-    "url": "allModules/44145_M_IKSH.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSM",
-    "name": "Strategisches Management von Naturgefahren",
-    "url": "allModules/44205_M_IKSM.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSMp",
-    "name": "Strategisches Management von Naturgefahren (Projektarbeit)",
-    "url": "allModules/44208_M_IKSM_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSS",
-    "name": "Ski-Nation Schweiz",
-    "url": "allModules/44220_M_IKSS.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -1350,18 +1273,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKST",
-    "name": "Starkes Ich – Starkes Team",
-    "url": "allModules/44154_M_IKST.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -1374,138 +1290,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSU",
-    "name": "Startup - Weg zur Gründung",
-    "url": "allModules/44253_M_IKSU.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSUp",
-    "name": "Startup - Weg zur Gründung (Projektarbeit)",
-    "url": "allModules/44256_M_IKSU_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 4,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSW",
-    "name": "Stadt der kurzen Wege",
-    "url": "allModules/44148_M_IKSW.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSWp",
-    "name": "Stadt der kurzen Wege (Projektarbeit)",
-    "url": "allModules/44151_M_IKSW_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKTE",
-    "name": "The Internet of Everything",
-    "url": "allModules/44340_M_IKTE.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKTEp",
-    "name": "The Internet of Everything (Projektarbeit)",
-    "url": "allModules/44343_M_IKTE_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKTSV2",
-    "name": "IKTS_Vorlage 2ECTS",
-    "url": "allModules/43909_M_IKTSV2.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKTSV3",
-    "name": "IKTS_Vorlage 3ECTS",
-    "url": "allModules/43910_M_IKTSV3.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKTSV4",
-    "name": "IKTS_Vorlage 4ECTS",
-    "url": "allModules/43911_M_IKTSV4.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 4,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKUG",
-    "name": "Umwelt und Gesundheit",
-    "url": "allModules/44160_M_IKUG.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKUGp",
-    "name": "Umwelt und Gesundheit (Projektarbeit)",
-    "url": "allModules/44163_M_IKUG_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -1518,6 +1307,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -1530,6 +1324,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 3,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -1542,18 +1341,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
-    "categories_for_coloring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKVKp",
-    "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter (Projektarbeit)",
-    "url": "allModules/44169_M_IKVK_p.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 0,
-    "ects": 3,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -1566,6 +1358,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -1578,6 +1375,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 3,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "GWRIKTS"
     ]
@@ -1590,6 +1392,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "DigPro1Engl",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -1603,6 +1410,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "DigPro2Engl",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -1616,6 +1428,18 @@
     "isRequired": false,
     "recommendedSemester": 8,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "HackL",
+      "PFSec",
+      "CySec",
+      "NISec",
+      "CyDef",
+      "SecSoW"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -1629,6 +1453,13 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "Inno1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "Inno2",
+    "predecessorModuleId": "StraProPla_e",
     "categories_for_coloring": []
   },
   {
@@ -1639,6 +1470,13 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "Inno1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": []
   },
   {
@@ -1649,6 +1487,19 @@
     "isRequired": false,
     "recommendedSemester": 3,
     "ects": 2,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "KomFou1",
+      "An1aE",
+      "An1bE",
+      "An2aE",
+      "An2bE",
+      "An1I",
+      "An2I"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "IntTra",
     "categories_for_coloring": [
       "MaPh"
     ]
@@ -1661,6 +1512,13 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "Ital2"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "Ital1",
     "categories_for_coloring": []
   },
   {
@@ -1671,6 +1529,13 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "Ital1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "Ital2",
     "categories_for_coloring": []
   },
   {
@@ -1681,6 +1546,13 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "Jap2"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "Jap1",
     "categories_for_coloring": []
   },
   {
@@ -1691,6 +1563,13 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "Jap1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "Jap2",
     "categories_for_coloring": []
   },
   {
@@ -1701,6 +1580,19 @@
     "isRequired": false,
     "recommendedSemester": 2,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "LinAlg",
+      "DMI",
+      "An1aE",
+      "An1bE",
+      "An1I"
+    ],
+    "dependentModuleIds": [
+      "IntTra"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "MaPh"
     ]
@@ -1713,6 +1605,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "KommIng2",
     "categories_for_coloring": [
       "KomEng"
     ]
@@ -1725,21 +1622,13 @@
     "isRequired": false,
     "recommendedSemester": 7,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "gwr"
-    ]
-  },
-  {
-    "id": "MGE",
-    "name": "Mobile and GUI Engineering",
-    "url": "allModules/28254_M_MGE.json",
-    "isThesis": false,
-    "isRequired": false,
-    "recommendedSemester": 5,
-    "ects": 4,
-    "categories_for_coloring": [
-      "Auf",
-      "Inf"
     ]
   },
   {
@@ -1750,6 +1639,13 @@
     "isRequired": false,
     "recommendedSemester": 5,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "DL"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "ML",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -1763,6 +1659,11 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "SIMUL",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -1776,6 +1677,11 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "MaPh"
     ]
@@ -1788,6 +1694,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "MathSem1",
     "categories_for_coloring": []
   },
   {
@@ -1798,7 +1709,30 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": []
+  },
+  {
+    "id": "MGE",
+    "name": "Mobile and GUI Engineering",
+    "url": "allModules/28254_M_MGE.json",
+    "isThesis": false,
+    "isRequired": false,
+    "recommendedSemester": 5,
+    "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "predecessorModuleId": "",
+    "successorModuleId": "",
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
+    ]
   },
   {
     "id": "MsTe",
@@ -1808,6 +1742,16 @@
     "isRequired": false,
     "recommendedSemester": 5,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "Dbs1",
+      "OOP1",
+      "AlgDat",
+      "OOP2"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "MsTe",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -1821,6 +1765,18 @@
     "isRequired": false,
     "recommendedSemester": 5,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "CN2",
+      "CN1",
+      "CySec"
+    ],
+    "dependentModuleIds": [
+      "CyDef",
+      "IncResp"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "NISec",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -1834,6 +1790,11 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "NetAut",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -1847,6 +1808,14 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 2,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "Ph1Mech",
+      "Chem1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "NwP",
     "categories_for_coloring": [
       "MaPh"
     ]
@@ -1859,6 +1828,26 @@
     "isRequired": false,
     "recommendedSemester": 1,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "MsTe",
+      "AIFo",
+      "AlgDat",
+      "CPl",
+      "CPlA",
+      "CoBau",
+      "ComGra",
+      "FP",
+      "OOP2",
+      "ParProg",
+      "SEP1",
+      "SEProj",
+      "SE1",
+      "WE1"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "OOP1",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -1872,6 +1861,29 @@
     "isRequired": false,
     "recommendedSemester": 2,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "OOP1"
+    ],
+    "dependentModuleIds": [
+      "MsTe",
+      "AIFo",
+      "AlgDat",
+      "CPl",
+      "CPl",
+      "CPlA",
+      "CoBau",
+      "ComGra",
+      "ParProg",
+      "SEP1",
+      "SEP1",
+      "SEProj",
+      "SE1",
+      "SE1",
+      "WE1"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "AD1",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -1885,6 +1897,13 @@
     "isRequired": false,
     "recommendedSemester": 7,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "SE1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "APF",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -1898,6 +1917,15 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "OOP1",
+      "OOP2",
+      "Bsys1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "ParProg",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -1911,18 +1939,36 @@
     "isRequired": false,
     "recommendedSemester": 3,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "An1EU"
+    ],
+    "dependentModuleIds": [
+      "NwP",
+      "Ph2HAT",
+      "Ph3SWO"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "Ph1Mech",
     "categories_for_coloring": [
       "MaPh"
     ]
   },
   {
     "id": "Ph2HAT",
-    "name": "Physik 2 - Hydro-, Elektro und Thermodynamik",
+    "name": "Physik 2 - Hydro-, Aero- und Thermodynamik",
     "url": "allModules/22021_M_Ph2HAT.json",
     "isThesis": false,
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "Ph1Mech"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "Ph2HAT",
     "categories_for_coloring": [
       "MaPh"
     ]
@@ -1935,6 +1981,13 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "Ph1Mech"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "Ph3SWO",
     "categories_for_coloring": [
       "MaPh"
     ]
@@ -1947,6 +2000,14 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "An1I",
+      "An2I"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "PhAI",
     "categories_for_coloring": [
       "MaPh"
     ]
@@ -1959,6 +2020,20 @@
     "isRequired": false,
     "recommendedSemester": 5,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "CN2",
+      "CySec",
+      "SecSW",
+      "Bsys1",
+      "CN1"
+    ],
+    "dependentModuleIds": [
+      "CyDef",
+      "IncResp"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "PFSec",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -1972,6 +2047,11 @@
     "isRequired": false,
     "recommendedSemester": 7,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "PmQm",
     "categories_for_coloring": [
       "gwr"
     ]
@@ -1984,6 +2064,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 3,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "Python",
     "categories_for_coloring": []
   },
   {
@@ -1994,6 +2079,11 @@
     "isRequired": false,
     "recommendedSemester": 3,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "RKI",
     "categories_for_coloring": [
       "KomEng"
     ]
@@ -2006,6 +2096,11 @@
     "isRequired": false,
     "recommendedSemester": 3,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "KomEng"
     ]
@@ -2018,6 +2113,11 @@
     "isRequired": true,
     "recommendedSemester": 5,
     "ects": 8,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "SAI21",
     "categories_for_coloring": [
       "Inf",
       "SaBa"
@@ -2031,6 +2131,21 @@
     "isRequired": false,
     "recommendedSemester": 3,
     "ects": 4,
+    "term": "",
+    "recommendedModuleIds": [
+      "AD1",
+      "OOP1",
+      "OOP2"
+    ],
+    "dependentModuleIds": [
+      "AppArch",
+      "DSy",
+      "PF",
+      "SE2",
+      "UX"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "SE1",
     "categories_for_coloring": [
       "EP",
       "Inf"
@@ -2044,6 +2159,16 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "SE1",
+      "EPJ"
+    ],
+    "dependentModuleIds": [
+      "CoBau"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "SE2",
     "categories_for_coloring": [
       "EP",
       "Inf"
@@ -2057,6 +2182,17 @@
     "isRequired": false,
     "recommendedSemester": 5,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "AD1",
+      "OOP1",
+      "OOP2"
+    ],
+    "dependentModuleIds": [
+      "SEP2"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "SEP1",
     "categories_for_coloring": [
       "EP",
       "Inf"
@@ -2070,6 +2206,13 @@
     "isRequired": false,
     "recommendedSemester": 6,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "SEP1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "SEP2",
     "categories_for_coloring": [
       "EP",
       "Inf"
@@ -2083,6 +2226,15 @@
     "isRequired": false,
     "recommendedSemester": 6,
     "ects": 4,
+    "term": "",
+    "recommendedModuleIds": [
+      "OOP1",
+      "AutPy",
+      "OOP2"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "SEProj",
     "categories_for_coloring": [
       "EP",
       "Inf"
@@ -2096,6 +2248,11 @@
     "isRequired": false,
     "recommendedSemester": 6,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -2109,6 +2266,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": []
   },
   {
@@ -2119,6 +2281,17 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "CySec",
+      "Bsys1",
+      "CN1"
+    ],
+    "dependentModuleIds": [
+      "IncResp"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -2132,6 +2305,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "SelTec",
     "categories_for_coloring": [
       "KomEng"
     ]
@@ -2144,6 +2322,11 @@
     "isRequired": false,
     "recommendedSemester": 5,
     "ects": 4,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -2157,6 +2340,13 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "Span2"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "Span1",
     "categories_for_coloring": []
   },
   {
@@ -2167,6 +2357,13 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "Span1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "Span2",
     "categories_for_coloring": []
   },
   {
@@ -2177,6 +2374,11 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "TecBEC",
     "categories_for_coloring": [
       "KomEng"
     ]
@@ -2189,6 +2391,13 @@
     "isRequired": false,
     "recommendedSemester": 5,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [
+      "UX"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "MGE",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -2202,6 +2411,15 @@
     "isRequired": false,
     "recommendedSemester": 6,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "MGE",
+      "SE1",
+      "EPJ"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "HCD",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -2215,6 +2433,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "VwlTg",
     "categories_for_coloring": [
       "gwr"
     ]
@@ -2227,6 +2450,17 @@
     "isRequired": false,
     "recommendedSemester": 3,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "OOP1",
+      "OOP2"
+    ],
+    "dependentModuleIds": [
+      "AIAp",
+      "WE2"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "WED1",
     "categories_for_coloring": [
       "Inf",
       "RA"
@@ -2240,6 +2474,15 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "WE1"
+    ],
+    "dependentModuleIds": [
+      "WE3"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "WED2",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -2253,6 +2496,13 @@
     "isRequired": false,
     "recommendedSemester": 5,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "WE2"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "WE3",
     "categories_for_coloring": [
       "Auf",
       "Inf"
@@ -2266,6 +2516,13 @@
     "isRequired": false,
     "recommendedSemester": 8,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "WI1"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "WI2",
     "categories_for_coloring": [
       "gwr"
     ]
@@ -2278,6 +2535,11 @@
     "isRequired": false,
     "recommendedSemester": 0,
     "ects": 0,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": []
   },
   {
@@ -2288,6 +2550,16 @@
     "isRequired": false,
     "recommendedSemester": 3,
     "ects": 4,
+    "term": "HS",
+    "recommendedModuleIds": [
+      "An2B",
+      "An2aE",
+      "An2bE",
+      "An2I"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "WrStat",
     "categories_for_coloring": [
       "MaPh"
     ]
@@ -2300,6 +2572,11 @@
     "isRequired": false,
     "recommendedSemester": 4,
     "ects": 4,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "",
+    "predecessorModuleId": "",
     "categories_for_coloring": [
       "Auf",
       "Inf"

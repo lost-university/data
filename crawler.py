@@ -54,7 +54,12 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
             'focuses': [],
             'categories': [],
             'ects': 0,
-            'isDeactivated': False
+            'isDeactivated': False,
+            'term': '',
+            'recommendedModuleIds': [],
+            'dependentModuleIds': [],
+            'successorModuleId': '',
+            'predecessorModuleId': ''
         }
 
         if 'kategorien' in zuordnung:
@@ -78,6 +83,20 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
         if 'kreditpunkte' in moduleContent and module['ects'] == 0:
             module['ects'] = moduleContent['kreditpunkte']
 
+        if 'durchfuehrungen' in moduleContent:
+            if 'endSemester' in moduleContent['durchfuehrungen']:
+                # todo: WS = HS, SS = FS
+                module['term'] = moduleContent['durchfuehrungen']['endSemester']
+
+        if 'nachfolger' in moduleContent:
+            module['successorModuleId'] = getIdForModule(moduleContent['nachfolger']['kuerzel'])
+        if 'vorgaenger' in moduleContent:
+            module['predecessorModuleId'] = getIdForModule(moduleContent['vorgaenger']['kuerzel'])
+    
+        if 'empfehlungen' in moduleContent: 
+            for empfehlung in moduleContent['empfehlungen']:
+                module['recommendedModuleIds'].append(getIdForModule(empfehlung['kuerzel']))
+
         # For some reason each category is also present as a module.
         # This filters them out.
         if module['id'].startswith('Kat'):
@@ -96,6 +115,18 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
                 elif cat['id'] == 'GWRIKTS':
                     categories['gwr']['modules'].append(
                         {'id': module['id'], 'name': module['name'], 'url': module['url']})
+
+    for module in modules.values():
+        for recommendedModuleId in module['recommendedModuleIds']:
+            if recommendedModuleId in modules:
+                modules[recommendedModuleId]['dependentModuleIds'].append(module['id'])
+            else:
+                successorIdOfRecommended = next((m['id'] for m in modules.values() if m['predecessorModuleId'] == recommendedModuleId), None)
+                if not successorIdOfRecommended == None and successorIdOfRecommended in modules:
+                    modules[successorIdOfRecommended]['dependentModuleIds'].append(module['id'])
+                    print(f'module {module["id"]} has recommended {recommendedModuleId}, which has successor {successorIdOfRecommended}')
+                else:
+                    print(f'module {module["id"]} has recommended {recommendedModuleId}, which has no successor {successorIdOfRecommended}')
 
     modules = {key: value for (key, value) in modules.items() if value['isDeactivated'] == False}
 
@@ -148,8 +179,10 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
 
 BASE_URL = 'https://studien.ost.ch/'
 
-fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10246_I.json', 'data23')
+# fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10246_I.json', 'data23')
 fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10191_I.json', 'data21', ['RheKI','SecSW', 'WIoT'])
+# keep MGE -> maybe ask Mirko, if it can be added again just deactivated?
+# some IKTS are missing?
 
 for module in modules.values():
     module['categories_for_coloring'] = sorted([category['id'] for category in module['categories']])

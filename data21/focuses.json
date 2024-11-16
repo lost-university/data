@@ -49,7 +49,7 @@
   {
     "id": "DaEnMaIn",
     "url": "allStudies/10196_DaEnMaIn.json",
-    "name": "Data Engineering and Machine Intelligence",
+    "name": "Data Science",
     "modules": [
       {
         "id": "AIAp",
@@ -124,9 +124,9 @@
         "url": "allModules/43801_M_ComGra.json"
       },
       {
-        "id": "MGE",
-        "name": "Mobile and GUI Engineering",
-        "url": "allModules/28254_M_MGE.json"
+        "id": "GenAI",
+        "name": "Generative AI",
+        "url": "allModules/43809_M_GenAI.json"
       },
       {
         "id": "UIP",
@@ -168,7 +168,7 @@
       {
         "id": "CldOp",
         "name": "Cloud Operations",
-        "url": "allModules/43285_M_CldOp.json"
+        "url": "allModules/55074_M_CldOp.json"
       },
       {
         "id": "DSy",
