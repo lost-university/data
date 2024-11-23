@@ -10,7 +10,72 @@ def write_json(data, filename):
         json.dump(data, output, indent=2, ensure_ascii=False)
         output.write('\n')
 
-def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[]):
+def getIdForModule(kuerzel):
+    return kuerzel.removeprefix('M_').replace('_p', 'p')
+
+def getIdForCategory(kuerzel):
+    return kuerzel.removeprefix('I-').removeprefix('I_').removeprefix('Kat_').replace('IKTS-help', 'GWRIKTS')
+
+def create_module(content):
+    return {
+        'id': getIdForModule(content['kuerzel']),
+        'name': content['bezeichnung'].strip(),
+        'url': content['url'],
+        'focuses': [],
+        'categories': [],
+        'ects': 0,
+        'isDeactivated': False,
+        'term': '',
+        'recommendedModuleIds': [],
+        'dependentModuleIds': [],
+        'successorModuleId': '',
+        'predecessorModuleId': ''
+    }
+
+def set_term_for_module(module, moduleContent):
+    if 'durchfuehrungen' in moduleContent:
+        if 'endSemester' in moduleContent['durchfuehrungen']:
+            beginSemester = moduleContent['durchfuehrungen']['beginSemester']
+            endSemester = moduleContent['durchfuehrungen']['endSemester']
+            if endSemester != 'FS' and endSemester != 'HS':
+                print(f'Module {module["id"]} has no valid term')
+            elif (beginSemester == 'FS' or beginSemester == 'HS') and beginSemester != endSemester:
+                module['term'] = "both"
+            else:
+                module['term'] = endSemester
+    else:
+        # todo: WTF, SEProj has no term!
+        print(f'{module["id"]} has no term')
+
+def set_successor_and_predecessor_for_module(module, moduleContent, modules):
+    if 'nachfolger' in moduleContent and moduleContent['nachfolger']['kuerzel'] != moduleContent['kuerzel']:
+        successorModuleId = getIdForModule(moduleContent['nachfolger']['kuerzel'])
+        module['successorModuleId'] = successorModuleId
+        if successorModuleId in modules and modules[successorModuleId]['predecessorModuleId'] == "":
+            modules[successorModuleId]['predecessorModuleId'] = module['id']
+    if 'vorgaenger' in moduleContent and moduleContent['vorgaenger']['kuerzel'] != moduleContent['kuerzel']:
+        predecessorModuleId = getIdForModule(moduleContent['vorgaenger']['kuerzel'])
+        module['predecessorModuleId'] = predecessorModuleId
+        if predecessorModuleId in modules and modules[predecessorModuleId]['successorModuleId'] == "":
+            modules[predecessorModuleId]['successorModuleId'] = module['id']
+
+def set_recommended_modules_for_module(module, moduleContent):
+    if 'empfehlungen' in moduleContent: 
+        for empfehlung in moduleContent['empfehlungen']:
+            recommendedModuleId = getIdForModule(empfehlung['kuerzel'])
+            if recommendedModuleId in modules:
+                # modules not for "Studiengang Informatik" can be recommended, such as AN1aE, which we do not care about
+                module['recommendedModuleIds'].append(getIdForModule(empfehlung['kuerzel']))
+
+def set_deactivated_for_module(module, moduleContent): 
+    # assumption: module is deactivated, if 'zustand' is 'deaktiviert' and 'endJahr' of 'durchfuehrungen' was last year or earlier
+    if 'zustand' in moduleContent and moduleContent['zustand'] == 'deaktiviert':
+        if 'durchfuehrungen' in moduleContent and 'endJahr' in moduleContent['durchfuehrungen']:
+            currentYear = 2024
+            if moduleContent['durchfuehrungen']['endJahr'] < currentYear:
+                module['isDeactivated'] = True
+
+def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[], additional_module_urls=[]):
     global modules
 
     content = requests.get(url).content
@@ -19,11 +84,27 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
     categories = {}
     focuses = []
 
-    def getIdForModule(kuerzel):
-        return kuerzel.removeprefix('M_').replace('_p', 'p')
+    def enrich_module_from_json(module, moduleContent):
+        # needed for modules, whose credits do not count towards "Studiengang Informatik"
+        if 'kreditpunkte' in moduleContent and module['ects'] == 0:
+            module['ects'] = moduleContent['kreditpunkte']
 
-    def getIdForCategory(kuerzel):
-        return kuerzel.removeprefix('I-').removeprefix('I_').removeprefix('Kat_').replace('IKTS-help', 'GWRIKTS')
+        set_term_for_module(module, moduleContent)
+
+        set_successor_and_predecessor_for_module(module, moduleContent, modules)
+
+        set_recommended_modules_for_module(module,moduleContent)
+
+        set_deactivated_for_module(module, moduleContent)
+
+        if 'categories' in module:
+            for cat in module['categories']:
+                if cat['id'] in categories:
+                    categories[cat['id']]['modules'].append(
+                        {'id': module['id'], 'name': module['name'], 'url': module['url']})
+                elif cat['id'] == 'GWRIKTS':
+                    categories['gwr']['modules'].append(
+                        {'id': module['id'], 'name': module['name'], 'url': module['url']})
 
     # 'kredits' contains categories
     kredits = jsonContent['kredits']
@@ -44,23 +125,14 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
     # 'zuordnungen' contains modules
     zuordnungen = jsonContent['zuordnungen']
     for zuordnung in zuordnungen:
-        module = {
-            'id': getIdForModule(zuordnung['kuerzel']),
-            'name': zuordnung['bezeichnung'].strip(),
-            'url': zuordnung['url'],
-            'isThesis': zuordnung['istAbschlussArbeit'],
-            'isRequired': zuordnung['istPflichtmodul'],
-            'recommendedSemester': zuordnung['semEmpfehlung'],
-            'focuses': [],
-            'categories': [],
-            'ects': 0,
-            'isDeactivated': False,
-            'term': '',
-            'recommendedModuleIds': [],
-            'dependentModuleIds': [],
-            'successorModuleId': '',
-            'predecessorModuleId': ''
-        }
+        module = create_module(zuordnung)
+
+        # For some reason each category is also present as a module.
+        if module['id'].startswith('Kat'):
+            continue
+
+        if module['id'] in excluded_module_ids:
+            continue
 
         if 'kategorien' in zuordnung:
             module['categories'] = [
@@ -68,76 +140,36 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
                 zuordnung['kategorien']]
             module['ects'] = zuordnung['kategorien'][0]['kreditpunkte']
 
-        # These are the new IKTS modules. They are split into two separate modules, one of them being a "Projektarbeit".
+        # IKTS modules are often split into two separate modules, one of them being a "Projektarbeit".
         # This ensures that they can be differentiated in the UI.
         if zuordnung['kuerzel'].endswith('_p'):
             module['name'] += ' (Projektarbeit)'
 
         modules[module['id']] = module
 
-    # load more infos about modules
+    for additional_module_url in additional_module_urls:
+        moduleContent = json.loads(requests.get(f'{BASE_URL}{additional_module_url}').content)
+        moduleContent['url'] = additional_module_url
+        module = create_module(moduleContent)
+        modules[module['id']] = module
+        enrich_module_from_json(module, moduleContent)
+
     for module in modules.values():
         moduleContent = json.loads(requests.get(f'{BASE_URL}{module["url"]}').content)
+        enrich_module_from_json(module, moduleContent)
 
-        # needed for modules, whose credits do not count towards "Studiengang Informatik"
-        if 'kreditpunkte' in moduleContent and module['ects'] == 0:
-            module['ects'] = moduleContent['kreditpunkte']
-
-        if 'durchfuehrungen' in moduleContent:
-            if 'endSemester' in moduleContent['durchfuehrungen']:
-                beginSemester = moduleContent['durchfuehrungen']['beginSemester']
-                endSemester = moduleContent['durchfuehrungen']['endSemester']
-                if endSemester != 'FS' and endSemester != 'HS':
-                    print(f'Module {module["id"]} has no valid term')
-                elif (beginSemester == 'FS' or beginSemester == 'HS') and beginSemester != endSemester:
-                    module['term'] = "both"
-                else:
-                    module['term'] = endSemester
-        else:
-            # todo: WTF
-            print(f'{module["id"]} has no term')
-
-        if 'nachfolger' in moduleContent and moduleContent['nachfolger']['kuerzel'] != moduleContent['kuerzel']:
-            module['successorModuleId'] = getIdForModule(moduleContent['nachfolger']['kuerzel'])
-        if 'vorgaenger' in moduleContent and moduleContent['vorgaenger']['kuerzel'] != moduleContent['kuerzel']:
-            module['predecessorModuleId'] = getIdForModule(moduleContent['vorgaenger']['kuerzel'])
-    
-        if 'empfehlungen' in moduleContent: 
-            for empfehlung in moduleContent['empfehlungen']:
-                module['recommendedModuleIds'].append(getIdForModule(empfehlung['kuerzel']))
-
-        # For some reason each category is also present as a module.
-        # This filters them out.
-        if module['id'].startswith('Kat'):
-            module['isDeactivated'] = True
-            continue
-
-        if module['id'] in excluded_module_ids:
-            module['isDeactivated'] = True
-            continue
-
-        if 'categories' in module:
-            for cat in module['categories']:
-                if cat['id'] in categories:
-                    categories[cat['id']]['modules'].append(
-                        {'id': module['id'], 'name': module['name'], 'url': module['url']})
-                elif cat['id'] == 'GWRIKTS':
-                    categories['gwr']['modules'].append(
-                        {'id': module['id'], 'name': module['name'], 'url': module['url']})
 
     for module in modules.values():
         for recommendedModuleId in module['recommendedModuleIds']:
             if recommendedModuleId in modules:
                 modules[recommendedModuleId]['dependentModuleIds'].append(module['id'])
-            else:
-                successorIdOfRecommended = next((m['id'] for m in modules.values() if m['predecessorModuleId'] == recommendedModuleId), None)
-                if not successorIdOfRecommended == None and successorIdOfRecommended in modules:
-                    modules[successorIdOfRecommended]['dependentModuleIds'].append(module['id'])
-                    # print(f'module {module["id"]} has recommended {recommendedModuleId}, which has successor {successorIdOfRecommended}')
-                # else:
-                    # print(f'module {module["id"]} has recommended {recommendedModuleId}, which has no successor {successorIdOfRecommended}')
-
-    modules = {key: value for (key, value) in modules.items() if value['isDeactivated'] == False}
+                if modules[recommendedModuleId]['isDeactivated'] == False:
+                    continue;
+            
+            # if recommendedModuleId is not in modules or inactive, then try to find its successor and attach module as depdendent
+            successorIdOfRecommended = next((m['id'] for m in modules.values() if m['predecessorModuleId'] == recommendedModuleId), None)
+            if not successorIdOfRecommended == None and successorIdOfRecommended in modules:
+                modules[successorIdOfRecommended]['dependentModuleIds'].append(module['id'])
 
     # 'spezialisierungen' contains focuses
     spezialisierungen = jsonContent['spezialisierungen']
@@ -189,34 +221,13 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
 BASE_URL = 'https://studien.ost.ch/'
 
 # fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10246_I.json', 'data23')
-fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10191_I.json', 'data21', ['RheKI','SecSW', 'WIoT'])
-# keep MGE -> maybe ask Mirko, if it can be added again just deactivated?
-# some IKTS are missing?
-
-# {
-#     "id": "MGE",
-#     "name": "Mobile and GUI Engineering",
-#     "url": "allModules/28254_M_MGE.json",
-#     "isThesis": false,
-#     "isRequired": false,
-#     "recommendedSemester": 5,
-#     "ects": 4,
-#     "term": "HS",
-#     "recommendedModuleIds": [],
-#     "dependentModuleIds": [],
-#     "predecessorModuleId": "",
-#     "successorModuleId": "",
-#     "categories_for_coloring": [
-#       "Auf",
-#       "Inf"
-#     ]
-#   },
+fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10191_I.json', 'data21', ['RheKI','SecSW', 'WIoT'], ['allModules/28254_M_MGE.json'])
+# todo: some IKTS are missing?
 
 for module in modules.values():
     module['categories_for_coloring'] = sorted([category['id'] for category in module['categories']])
     del module['focuses']
     del module['categories']
-    del module['isDeactivated']
 
 output_directory = 'data'
 
