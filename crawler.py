@@ -85,14 +85,21 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
 
         if 'durchfuehrungen' in moduleContent:
             if 'endSemester' in moduleContent['durchfuehrungen']:
-                if moduleContent['durchfuehrungen']['endSemester'] == moduleContent['durchfuehrungen']['beginSemester']:
-                    module['term'] = moduleContent['durchfuehrungen']['endSemester']
+                beginSemester = moduleContent['durchfuehrungen']['beginSemester']
+                endSemester = moduleContent['durchfuehrungen']['endSemester']
+                if endSemester != 'FS' and endSemester != 'HS':
+                    print(f'Module {module["id"]} has no valid term')
+                elif (beginSemester == 'FS' or beginSemester == 'HS') and beginSemester != endSemester:
+                    module['term'] = "both"
                 else:
-                    module['term'] = 'both'
+                    module['term'] = endSemester
+        else:
+            # todo: WTF
+            print(f'{module["id"]} has no term')
 
-        if 'nachfolger' in moduleContent:
+        if 'nachfolger' in moduleContent and moduleContent['nachfolger']['kuerzel'] != moduleContent['kuerzel']:
             module['successorModuleId'] = getIdForModule(moduleContent['nachfolger']['kuerzel'])
-        if 'vorgaenger' in moduleContent:
+        if 'vorgaenger' in moduleContent and moduleContent['vorgaenger']['kuerzel'] != moduleContent['kuerzel']:
             module['predecessorModuleId'] = getIdForModule(moduleContent['vorgaenger']['kuerzel'])
     
         if 'empfehlungen' in moduleContent: 
@@ -126,9 +133,9 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
                 successorIdOfRecommended = next((m['id'] for m in modules.values() if m['predecessorModuleId'] == recommendedModuleId), None)
                 if not successorIdOfRecommended == None and successorIdOfRecommended in modules:
                     modules[successorIdOfRecommended]['dependentModuleIds'].append(module['id'])
-                    print(f'module {module["id"]} has recommended {recommendedModuleId}, which has successor {successorIdOfRecommended}')
-                else:
-                    print(f'module {module["id"]} has recommended {recommendedModuleId}, which has no successor {successorIdOfRecommended}')
+                    # print(f'module {module["id"]} has recommended {recommendedModuleId}, which has successor {successorIdOfRecommended}')
+                # else:
+                    # print(f'module {module["id"]} has recommended {recommendedModuleId}, which has no successor {successorIdOfRecommended}')
 
     modules = {key: value for (key, value) in modules.items() if value['isDeactivated'] == False}
 
