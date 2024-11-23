@@ -85,8 +85,10 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
 
         if 'durchfuehrungen' in moduleContent:
             if 'endSemester' in moduleContent['durchfuehrungen']:
-                # todo: WS = HS, SS = FS
-                module['term'] = moduleContent['durchfuehrungen']['endSemester']
+                if moduleContent['durchfuehrungen']['endSemester'] == moduleContent['durchfuehrungen']['beginSemester']:
+                    module['term'] = moduleContent['durchfuehrungen']['endSemester']
+                else:
+                    module['term'] = 'both'
 
         if 'nachfolger' in moduleContent:
             module['successorModuleId'] = getIdForModule(moduleContent['nachfolger']['kuerzel'])
