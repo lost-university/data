@@ -130,6 +130,11 @@
         "url": "allModules/36473_M_IncResp.json"
       },
       {
+        "id": "MGE",
+        "name": "Mobile and GUI Engineering",
+        "url": "allModules/28254_M_MGE.json"
+      },
+      {
         "id": "ML",
         "name": "Statistical Machine Learning",
         "url": "allModules/31838_M_ML.json"
@@ -437,6 +442,11 @@
         "id": "IncResp",
         "name": "Incident Response",
         "url": "allModules/36473_M_IncResp.json"
+      },
+      {
+        "id": "MGE",
+        "name": "Mobile and GUI Engineering",
+        "url": "allModules/28254_M_MGE.json"
       },
       {
         "id": "ML",

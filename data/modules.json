@@ -1445,7 +1445,10 @@
     ],
     "successorModuleId": "UIP",
     "predecessorModuleId": "",
-    "categories_for_coloring": []
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
+    ]
   },
   {
     "id": "ML",

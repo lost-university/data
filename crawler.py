@@ -78,7 +78,7 @@ def set_deactivated_for_module(module, moduleContent):
 def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[], additional_module_urls=[]):
     global modules
 
-    content = requests.get(url).content
+    content = requests.get(f'{BASE_URL}{url}').content
     jsonContent = json.loads(content)
 
     categories = {}
@@ -135,9 +135,7 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[],
             continue
 
         if 'kategorien' in zuordnung:
-            module['categories'] = [
-                {'id': getIdForCategory(z['kuerzel']), 'name': z['bezeichnung'], 'ects': z['kreditpunkte']} for z in
-                zuordnung['kategorien']]
+            module['categories'] = [{'id': getIdForCategory(z['kuerzel']), 'name': z['bezeichnung'], 'ects': z['kreditpunkte']} for z in zuordnung['kategorien']]
             module['ects'] = zuordnung['kategorien'][0]['kreditpunkte']
 
         # IKTS modules are often split into two separate modules, one of them being a "Projektarbeit".
@@ -151,8 +149,10 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[],
         moduleContent = json.loads(requests.get(f'{BASE_URL}{additional_module_url}').content)
         moduleContent['url'] = additional_module_url
         module = create_module(moduleContent)
+        categoriesForStudienordnung = [z['kategorien'] for z in moduleContent['zuordnungen'] if z['url'] == url][0]
+        module['categories'] = [{'id': getIdForCategory(c['kuerzel']), 'name': c['bezeichnung'], 'ects': c['kreditpunkte']} for c in categoriesForStudienordnung]
+        module['ects'] = moduleContent['kreditpunkte']
         modules[module['id']] = module
-        enrich_module_from_json(module, moduleContent)
 
     for module in modules.values():
         moduleContent = json.loads(requests.get(f'{BASE_URL}{module["url"]}').content)
@@ -220,8 +220,8 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[],
 
 BASE_URL = 'https://studien.ost.ch/'
 
-# fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10246_I.json', 'data23')
-fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10191_I.json', 'data21', ['RheKI','SecSW', 'WIoT'], ['allModules/28254_M_MGE.json'])
+# fetch_data_for_studienordnung('allStudies/10246_I.json', 'data23')
+fetch_data_for_studienordnung('allStudies/10191_I.json', 'data21', ['RheKI','SecSW', 'WIoT'], ['allModules/28254_M_MGE.json'])
 # todo: some IKTS are missing?
 
 for module in modules.values():
