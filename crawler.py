@@ -5,6 +5,20 @@ import sys
 
 modules = {}
 
+overwrite_module_data = {
+    'ExEv': [['term', 'HS']],
+    'ComEng1': [['term', 'FS']],
+    'ComEng2': [['term', 'HS']],
+    'NetAut': [['term', 'FS']],
+    'SEProj': [['term', 'FS']],
+    'SE1': [['successorModuleId', 'SEP2']],
+    'SE2': [['successorModuleId', 'SEP2']],
+    'SEP1': [['predecessorModuleId', 'SE1']],
+    'SEP2': [['predecessorModuleId', 'SE2']],
+    # Inno2 and Inno_2 maybe
+    # RKI, RheKoI, RheKI maybe
+}
+
 def write_json(data, filename):
     with open(filename, 'w') as output:
         json.dump(data, output, indent=2, ensure_ascii=False)
@@ -72,12 +86,22 @@ def set_recommended_modules_for_module(module, moduleContent):
                 module['recommendedModuleIds'].append(getIdForModule(empfehlung['kuerzel']))
 
 def set_deactivated_for_module(module, moduleContent): 
-    # assumption: module is deactivated, if 'zustand' is 'deaktiviert' and 'endJahr' of 'durchfuehrungen' was last year or earlier
+    # assumption: module is deactivated, if 'zustand' is 'deaktiviert' and either (1) 'endJahr' of 'durchfuehrungen' was last year or earlier or (2) no 'durchfuehrungen' is defined
     if 'zustand' in moduleContent and moduleContent['zustand'] == 'deaktiviert':
+        if 'durchfuehrungen' not in moduleContent:
+            module['isDeactivated'] = True
         if 'durchfuehrungen' in moduleContent and 'endJahr' in moduleContent['durchfuehrungen']:
             currentYear = 2024
             if moduleContent['durchfuehrungen']['endJahr'] < currentYear:
                 module['isDeactivated'] = True
+
+def overwrite_module_with_data(module):
+    if module['id'] not in overwrite_module_data:
+        return
+    overwrite_data = overwrite_module_data[module['id']]
+    for data in overwrite_data:
+        module[data[0]] = data[1]
+
 
 def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[], additional_module_urls=[]):
     global modules
@@ -100,6 +124,8 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[],
         set_recommended_modules_for_module(module,moduleContent)
 
         set_deactivated_for_module(module, moduleContent)
+
+        overwrite_module_with_data(module)
 
         if 'categories' in module:
             for cat in module['categories']:

@@ -252,7 +252,7 @@
     "name": "Business Processes für Informatik",
     "url": "allModules/40825_M_BuPro.json",
     "ects": 4,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -496,7 +496,7 @@
     "url": "allModules/25232_M_ComEng1.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "both",
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [
       "ComEng2"
@@ -511,7 +511,7 @@
     "url": "allModules/23345_M_ComEng2.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "both",
+    "term": "HS",
     "recommendedModuleIds": [
       "ComEng1"
     ],
@@ -808,7 +808,7 @@
     "url": "allModules/24381_M_ExEv.json",
     "ects": 4,
     "isDeactivated": false,
-    "term": "both",
+    "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": "",
@@ -902,7 +902,7 @@
     "name": "Funktionale Programmierung",
     "url": "allModules/38928_M_FunProg.json",
     "ects": 4,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "",
     "recommendedModuleIds": [
       "DMI"
@@ -1572,7 +1572,7 @@
     "url": "allModules/39128_M_NetAut.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "both",
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": "",
@@ -1870,7 +1870,7 @@
     "name": "Software-Engineering 1",
     "url": "allModules/37893_M_SE1.json",
     "ects": 4,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "",
     "recommendedModuleIds": [
       "OOP1",
@@ -1883,7 +1883,7 @@
       "SE2",
       "UX"
     ],
-    "successorModuleId": "",
+    "successorModuleId": "SEP2",
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "EP",
@@ -1903,7 +1903,7 @@
     "dependentModuleIds": [
       "CoBau"
     ],
-    "successorModuleId": "",
+    "successorModuleId": "SEP2",
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "EP",
@@ -1922,10 +1922,15 @@
       "OOP2"
     ],
     "dependentModuleIds": [
-      "SEP2"
+      "AppArch",
+      "DSy",
+      "PF",
+      "SEP2",
+      "SE2",
+      "UX"
     ],
     "successorModuleId": "",
-    "predecessorModuleId": "",
+    "predecessorModuleId": "SE1",
     "categoriesForColoring": [
       "EP",
       "Inf"
@@ -1941,9 +1946,11 @@
     "recommendedModuleIds": [
       "SEP1"
     ],
-    "dependentModuleIds": [],
+    "dependentModuleIds": [
+      "CoBau"
+    ],
     "successorModuleId": "",
-    "predecessorModuleId": "",
+    "predecessorModuleId": "SE2",
     "categoriesForColoring": [
       "EP",
       "Inf"
@@ -1955,7 +1962,7 @@
     "url": "allModules/43712_M_SEProj.json",
     "ects": 4,
     "isDeactivated": false,
-    "term": "",
+    "term": "FS",
     "recommendedModuleIds": [
       "OOP1",
       "AutPy",
@@ -2040,7 +2047,7 @@
     "name": "Service Development (ITIL)",
     "url": "allModules/37171_M_ServDev.json",
     "ects": 4,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
