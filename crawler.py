@@ -229,7 +229,7 @@ fetch_data_for_studienordnung('allStudies/10191_I.json', 'data21', ['RheKI','Sec
 # todo: some IKTS are missing?
 
 for module in modules.values():
-    module['categories_for_coloring'] = sorted([category['id'] for category in module['categories']])
+    module['categoriesForColoring'] = sorted([category['id'] for category in module['categories']])
     del module['focuses']
     del module['categories']
 
