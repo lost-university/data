@@ -16,6 +16,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -41,6 +45,10 @@
     "categoriesForColoring": [
       "Inf",
       "RA"
+    ],
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -62,6 +70,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "AD2",
     "categoriesForColoring": [
+      "Inf",
+      "RA"
+    ],
+    "categories_for_coloring": [
       "Inf",
       "RA"
     ]
@@ -86,6 +98,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "MaPh"
+    ],
+    "categories_for_coloring": [
+      "MaPh"
     ]
   },
   {
@@ -108,6 +123,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "MaPh"
+    ],
+    "categories_for_coloring": [
+      "MaPh"
     ]
   },
   {
@@ -126,6 +144,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -147,6 +169,10 @@
     "categoriesForColoring": [
       "Inf",
       "RA"
+    ],
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -166,6 +192,10 @@
     "categoriesForColoring": [
       "Inf",
       "RA"
+    ],
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -180,6 +210,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "BAI14",
     "categoriesForColoring": [
+      "Inf",
+      "SaBa"
+    ],
+    "categories_for_coloring": [
       "Inf",
       "SaBa"
     ]
@@ -198,6 +232,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "ADSB",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -226,6 +264,10 @@
     "categoriesForColoring": [
       "Inf",
       "RA"
+    ],
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -246,6 +288,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -260,6 +306,9 @@
     "successorModuleId": "WI2",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "gwr"
+    ],
+    "categories_for_coloring": [
       "gwr"
     ]
   },
@@ -278,6 +327,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "gwr"
+    ],
+    "categories_for_coloring": [
+      "gwr"
     ]
   },
   {
@@ -294,6 +346,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "gwr"
+    ],
+    "categories_for_coloring": [
       "gwr"
     ]
   },
@@ -319,6 +374,10 @@
     "categoriesForColoring": [
       "Inf",
       "RA"
+    ],
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -339,6 +398,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -363,6 +426,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -385,6 +452,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -398,7 +469,8 @@
     "dependentModuleIds": [],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "Chinese2",
@@ -411,7 +483,8 @@
     "dependentModuleIds": [],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "CldInf",
@@ -432,6 +505,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -450,6 +527,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -466,6 +547,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "Clou",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -490,6 +575,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -505,7 +594,8 @@
     ],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "ComEng2",
@@ -522,7 +612,8 @@
     ],
     "successorModuleId": "",
     "predecessorModuleId": "CompT2",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "ComGra",
@@ -541,6 +632,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -563,6 +658,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -590,6 +689,10 @@
     "categoriesForColoring": [
       "Inf",
       "RA"
+    ],
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -606,6 +709,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -626,6 +733,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "Math1I",
     "categoriesForColoring": [
+      "Inf",
+      "RA"
+    ],
+    "categories_for_coloring": [
       "Inf",
       "RA"
     ]
@@ -649,6 +760,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -667,6 +782,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -683,6 +802,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "Dbs2",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -705,6 +828,10 @@
     "categoriesForColoring": [
       "Inf",
       "RA"
+    ],
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -720,6 +847,9 @@
     "predecessorModuleId": "WI1",
     "categoriesForColoring": [
       "gwr"
+    ],
+    "categories_for_coloring": [
+      "gwr"
     ]
   },
   {
@@ -734,6 +864,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "ICTh",
     "categoriesForColoring": [
+      "Inf",
+      "RA"
+    ],
+    "categories_for_coloring": [
       "Inf",
       "RA"
     ]
@@ -756,6 +890,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -774,6 +912,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -788,6 +930,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "KomEng"
+    ],
+    "categories_for_coloring": [
       "KomEng"
     ]
   },
@@ -804,6 +949,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "KomEng"
+    ],
+    "categories_for_coloring": [
+      "KomEng"
     ]
   },
   {
@@ -819,6 +967,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "MaPh"
+    ],
+    "categories_for_coloring": [
+      "MaPh"
     ]
   },
   {
@@ -833,6 +984,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "KomEng"
+    ],
+    "categories_for_coloring": [
       "KomEng"
     ]
   },
@@ -854,6 +1008,10 @@
     "categoriesForColoring": [
       "Inf",
       "RA"
+    ],
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -869,7 +1027,8 @@
     ],
     "successorModuleId": "",
     "predecessorModuleId": "Franz1",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "FranzKomm2",
@@ -884,7 +1043,8 @@
     "dependentModuleIds": [],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "FuVar",
@@ -898,6 +1058,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "MaPh"
+    ],
+    "categories_for_coloring": [
       "MaPh"
     ]
   },
@@ -915,6 +1078,10 @@
     "successorModuleId": "FP",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "Inf",
+      "RA"
+    ],
+    "categories_for_coloring": [
       "Inf",
       "RA"
     ]
@@ -936,6 +1103,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -955,6 +1126,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -969,6 +1144,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "SDW",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -986,6 +1165,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "GWRIKTS"
+    ],
+    "categories_for_coloring": [
+      "GWRIKTS"
     ]
   },
   {
@@ -1000,6 +1182,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "GWRIKTS"
+    ],
+    "categories_for_coloring": [
       "GWRIKTS"
     ]
   },
@@ -1016,6 +1201,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "GWRIKTS"
+    ],
+    "categories_for_coloring": [
+      "GWRIKTS"
     ]
   },
   {
@@ -1030,6 +1218,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "GWRIKTS"
+    ],
+    "categories_for_coloring": [
       "GWRIKTS"
     ]
   },
@@ -1046,6 +1237,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "GWRIKTS"
+    ],
+    "categories_for_coloring": [
+      "GWRIKTS"
     ]
   },
   {
@@ -1060,6 +1254,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "GWRIKTS"
+    ],
+    "categories_for_coloring": [
       "GWRIKTS"
     ]
   },
@@ -1076,6 +1273,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "GWRIKTS"
+    ],
+    "categories_for_coloring": [
+      "GWRIKTS"
     ]
   },
   {
@@ -1090,6 +1290,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "GWRIKTS"
+    ],
+    "categories_for_coloring": [
       "GWRIKTS"
     ]
   },
@@ -1106,6 +1309,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "GWRIKTS"
+    ],
+    "categories_for_coloring": [
+      "GWRIKTS"
     ]
   },
   {
@@ -1120,6 +1326,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "GWRIKTS"
+    ],
+    "categories_for_coloring": [
       "GWRIKTS"
     ]
   },
@@ -1136,6 +1345,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "GWRIKTS"
+    ],
+    "categories_for_coloring": [
+      "GWRIKTS"
     ]
   },
   {
@@ -1150,6 +1362,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "GWRIKTS"
+    ],
+    "categories_for_coloring": [
       "GWRIKTS"
     ]
   },
@@ -1166,6 +1381,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "GWRIKTS"
+    ],
+    "categories_for_coloring": [
+      "GWRIKTS"
     ]
   },
   {
@@ -1180,6 +1398,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "GWRIKTS"
+    ],
+    "categories_for_coloring": [
       "GWRIKTS"
     ]
   },
@@ -1196,6 +1417,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "GWRIKTS"
+    ],
+    "categories_for_coloring": [
+      "GWRIKTS"
     ]
   },
   {
@@ -1211,6 +1435,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "GWRIKTS"
+    ],
+    "categories_for_coloring": [
+      "GWRIKTS"
     ]
   },
   {
@@ -1225,6 +1452,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "GWRIKTS"
+    ],
+    "categories_for_coloring": [
       "GWRIKTS"
     ]
   },
@@ -1242,6 +1472,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -1256,6 +1490,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "DigPro2Engl",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -1279,6 +1517,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -1292,7 +1534,8 @@
     "dependentModuleIds": [],
     "successorModuleId": "",
     "predecessorModuleId": "StraProPla_e",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "Inno_2",
@@ -1305,7 +1548,8 @@
     "dependentModuleIds": [],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "IntTra",
@@ -1324,6 +1568,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "MaPh"
+    ],
+    "categories_for_coloring": [
+      "MaPh"
     ]
   },
   {
@@ -1339,7 +1586,8 @@
     ],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "Ital2",
@@ -1354,7 +1602,8 @@
     "dependentModuleIds": [],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "Jap1",
@@ -1369,7 +1618,8 @@
     ],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "Jap2",
@@ -1384,7 +1634,8 @@
     "dependentModuleIds": [],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "KomFou1",
@@ -1404,6 +1655,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "MaPh"
+    ],
+    "categories_for_coloring": [
+      "MaPh"
     ]
   },
   {
@@ -1419,6 +1673,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "KomEng"
+    ],
+    "categories_for_coloring": [
+      "KomEng"
     ]
   },
   {
@@ -1433,6 +1690,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "gwr"
+    ],
+    "categories_for_coloring": [
       "gwr"
     ]
   },
@@ -1450,6 +1710,10 @@
     "successorModuleId": "UIP",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -1470,6 +1734,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -1484,6 +1752,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "SIMUL",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -1501,6 +1773,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "MaPh"
+    ],
+    "categories_for_coloring": [
+      "MaPh"
     ]
   },
   {
@@ -1514,7 +1789,8 @@
     "dependentModuleIds": [],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "MathSem2",
@@ -1527,7 +1803,8 @@
     "dependentModuleIds": [],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "MsTe",
@@ -1546,6 +1823,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -1568,6 +1849,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -1582,6 +1867,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -1600,6 +1889,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "MaPh"
+    ],
+    "categories_for_coloring": [
       "MaPh"
     ]
   },
@@ -1630,6 +1922,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "Inf",
+      "RA"
+    ],
+    "categories_for_coloring": [
       "Inf",
       "RA"
     ]
@@ -1663,6 +1959,10 @@
     "categoriesForColoring": [
       "Inf",
       "RA"
+    ],
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -1679,6 +1979,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "APF",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -1701,6 +2005,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -1720,6 +2028,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "MaPh"
+    ],
+    "categories_for_coloring": [
+      "MaPh"
     ]
   },
   {
@@ -1736,6 +2047,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "MaPh"
+    ],
+    "categories_for_coloring": [
       "MaPh"
     ]
   },
@@ -1754,6 +2068,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "MaPh"
+    ],
+    "categories_for_coloring": [
+      "MaPh"
     ]
   },
   {
@@ -1771,6 +2088,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "MaPh"
+    ],
+    "categories_for_coloring": [
       "MaPh"
     ]
   },
@@ -1794,6 +2114,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -1809,6 +2133,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "gwr"
+    ],
+    "categories_for_coloring": [
+      "gwr"
     ]
   },
   {
@@ -1822,7 +2149,8 @@
     "dependentModuleIds": [],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "RKI",
@@ -1836,6 +2164,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "KomEng"
+    ],
+    "categories_for_coloring": [
       "KomEng"
     ]
   },
@@ -1852,6 +2183,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "KomEng"
+    ],
+    "categories_for_coloring": [
+      "KomEng"
     ]
   },
   {
@@ -1867,6 +2201,9 @@
     "predecessorModuleId": "RheKI",
     "categoriesForColoring": [
       "KomEng"
+    ],
+    "categories_for_coloring": [
+      "KomEng"
     ]
   },
   {
@@ -1881,6 +2218,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "Inf",
+      "SaBa"
+    ],
+    "categories_for_coloring": [
       "Inf",
       "SaBa"
     ]
@@ -1908,6 +2249,10 @@
     "categoriesForColoring": [
       "EP",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "EP",
+      "Inf"
     ]
   },
   {
@@ -1926,6 +2271,10 @@
     "successorModuleId": "SEP2",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "EP",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "EP",
       "Inf"
     ]
@@ -1954,6 +2303,10 @@
     "categoriesForColoring": [
       "EP",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "EP",
+      "Inf"
     ]
   },
   {
@@ -1972,6 +2325,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "SE2",
     "categoriesForColoring": [
+      "EP",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "EP",
       "Inf"
     ]
@@ -1994,6 +2351,10 @@
     "categoriesForColoring": [
       "EP",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "EP",
+      "Inf"
     ]
   },
   {
@@ -2010,6 +2371,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -2023,7 +2388,8 @@
     "dependentModuleIds": [],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "SecSW",
@@ -2044,6 +2410,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "InfSi3",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -2068,6 +2438,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -2082,6 +2456,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "KomEng"
+    ],
+    "categories_for_coloring": [
       "KomEng"
     ]
   },
@@ -2099,6 +2476,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -2114,7 +2495,8 @@
     ],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "Span2",
@@ -2129,7 +2511,8 @@
     "dependentModuleIds": [],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "TecBEC",
@@ -2143,6 +2526,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "KomEng"
+    ],
+    "categories_for_coloring": [
       "KomEng"
     ]
   },
@@ -2160,6 +2546,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "MGE",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
@@ -2181,6 +2571,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -2195,6 +2589,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": [
+      "gwr"
+    ],
+    "categories_for_coloring": [
       "gwr"
     ]
   },
@@ -2218,6 +2615,10 @@
     "categoriesForColoring": [
       "Inf",
       "RA"
+    ],
+    "categories_for_coloring": [
+      "Inf",
+      "RA"
     ]
   },
   {
@@ -2238,6 +2639,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -2256,6 +2661,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -2270,6 +2679,9 @@
     "successorModuleId": "",
     "predecessorModuleId": "BuPro",
     "categoriesForColoring": [
+      "gwr"
+    ],
+    "categories_for_coloring": [
       "gwr"
     ]
   },
@@ -2287,6 +2699,10 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ],
+    "categories_for_coloring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -2300,7 +2716,8 @@
     "dependentModuleIds": [],
     "successorModuleId": "",
     "predecessorModuleId": "",
-    "categoriesForColoring": []
+    "categoriesForColoring": [],
+    "categories_for_coloring": []
   },
   {
     "id": "WrStat",
@@ -2317,6 +2734,9 @@
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "MaPh"
+    ],
+    "categories_for_coloring": [
+      "MaPh"
     ]
   },
   {
@@ -2331,6 +2751,10 @@
     "successorModuleId": "",
     "predecessorModuleId": "WIoT",
     "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ],
+    "categories_for_coloring": [
       "Auf",
       "Inf"
     ]
