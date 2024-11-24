@@ -180,6 +180,11 @@
         "url": "allModules/38938_M_SModSim.json"
       },
       {
+        "id": "SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
+      },
+      {
         "id": "SecSoW",
         "name": "Secure Software",
         "url": "allModules/40311_M_SecSoW.json"
@@ -208,6 +213,11 @@
         "id": "WE3",
         "name": "Web Engineering 3",
         "url": "allModules/38901_M_WE3.json"
+      },
+      {
+        "id": "WIoT",
+        "name": "Wireless and IoT",
+        "url": "allModules/37157_M_WIoT.json"
       },
       {
         "id": "WsoT",
@@ -534,6 +544,11 @@
         "url": "allModules/38938_M_SModSim.json"
       },
       {
+        "id": "SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
+      },
+      {
         "id": "SecSoW",
         "name": "Secure Software",
         "url": "allModules/40311_M_SecSoW.json"
@@ -567,6 +582,11 @@
         "id": "WE3",
         "name": "Web Engineering 3",
         "url": "allModules/38901_M_WE3.json"
+      },
+      {
+        "id": "WIoT",
+        "name": "Wireless and IoT",
+        "url": "allModules/37157_M_WIoT.json"
       },
       {
         "id": "WsoT",
@@ -604,6 +624,11 @@
         "id": "RKI",
         "name": "Rhetorische Kommunikation für IngenieurInnen",
         "url": "allModules/25661_M_RKI.json"
+      },
+      {
+        "id": "RheKI",
+        "name": "Rhetorische Kommunikation für IngenieurInnen",
+        "url": "allModules/31909_M_RheKI.json"
       },
       {
         "id": "RheKoI",

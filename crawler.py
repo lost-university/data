@@ -16,6 +16,17 @@ overwrite_module_data = {
     'SE2': [['successorModuleId', 'SEP2']],
     'SEP1': [['predecessorModuleId', 'SE1']],
     'SEP2': [['predecessorModuleId', 'SE2']],
+    'BuPro': [['successorModuleId', 'WI2']],
+    'WI2': [['predecessorModuleId', 'BuPro']],
+    'RheKI': [['successorModuleId', 'RheKoI']],
+    'RheKoI': [['predecessorModuleId', 'RheKI']],
+    'SDW': [['successorModuleId', 'IBN']],
+    'IBN': [['predecessorModuleId', 'SDW']],
+    'FunProg': [['successorModuleId', 'FP']],
+    'FP': [['predecessorModuleId', 'FunProg']],
+    'IBN': [['predecessorModuleId', 'SDW']],
+    'WIoT': [['successorModuleId', 'WsoT']],
+    'WsoT': [['predecessorModuleId', 'WIoT']],
     # Inno2 and Inno_2 maybe
     # RKI, RheKoI, RheKI maybe
 }
@@ -252,7 +263,8 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[],
 BASE_URL = 'https://studien.ost.ch/'
 
 # fetch_data_for_studienordnung('allStudies/10246_I.json', 'data23')
-fetch_data_for_studienordnung('allStudies/10191_I.json', 'data21', ['RheKI','SecSW', 'WIoT'], ['allModules/28254_M_MGE.json'])
+# keeping MGE, since UIP replaces both PF and MGE, but only MGE got removed from STD
+fetch_data_for_studienordnung('allStudies/10191_I.json', 'data21', [], ['allModules/28254_M_MGE.json'])
 # todo: some IKTS are missing?
 
 for module in modules.values():

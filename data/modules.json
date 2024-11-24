@@ -218,6 +218,7 @@
       "DSy",
       "ParProg",
       "PlFSec",
+      "SecSW",
       "SecSoW"
     ],
     "successorModuleId": "",
@@ -256,7 +257,7 @@
     "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
-    "successorModuleId": "",
+    "successorModuleId": "WI2",
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "gwr"
@@ -310,6 +311,7 @@
       "CySec",
       "NIoSec",
       "PlFSec",
+      "SecSW",
       "SecSoW"
     ],
     "successorModuleId": "",
@@ -552,7 +554,8 @@
     "term": "HS",
     "recommendedModuleIds": [
       "HackL",
-      "CySec"
+      "CySec",
+      "SecSW"
     ],
     "dependentModuleIds": [
       "IncResp"
@@ -579,6 +582,7 @@
       "IncResp",
       "NIoSec",
       "PlFSec",
+      "SecSW",
       "SecSoW"
     ],
     "successorModuleId": "",
@@ -846,7 +850,7 @@
     ],
     "dependentModuleIds": [],
     "successorModuleId": "",
-    "predecessorModuleId": "PLFM",
+    "predecessorModuleId": "FunProg",
     "categoriesForColoring": [
       "Inf",
       "RA"
@@ -908,7 +912,7 @@
       "DMI"
     ],
     "dependentModuleIds": [],
-    "successorModuleId": "",
+    "successorModuleId": "FP",
     "predecessorModuleId": "",
     "categoriesForColoring": [
       "Inf",
@@ -963,7 +967,7 @@
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": "",
-    "predecessorModuleId": "",
+    "predecessorModuleId": "SDW",
     "categoriesForColoring": [
       "Auf",
       "Inf"
@@ -1780,6 +1784,7 @@
     "recommendedModuleIds": [
       "CN2",
       "CySec",
+      "SecSW",
       "Bsys1",
       "CN1"
     ],
@@ -1835,6 +1840,21 @@
     ]
   },
   {
+    "id": "RheKI",
+    "name": "Rhetorische Kommunikation für IngenieurInnen",
+    "url": "allModules/31909_M_RheKI.json",
+    "ects": 4,
+    "isDeactivated": true,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "RheKoI",
+    "predecessorModuleId": "",
+    "categoriesForColoring": [
+      "KomEng"
+    ]
+  },
+  {
     "id": "RheKoI",
     "name": "Rhetorische Kommunikation für IngenieurInnen",
     "url": "allModules/43277_M_RheKoI.json",
@@ -1844,7 +1864,7 @@
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": "",
-    "predecessorModuleId": "",
+    "predecessorModuleId": "RheKI",
     "categoriesForColoring": [
       "KomEng"
     ]
@@ -2004,6 +2024,29 @@
     "successorModuleId": "",
     "predecessorModuleId": "",
     "categoriesForColoring": []
+  },
+  {
+    "id": "SecSW",
+    "name": "Secure Software",
+    "url": "allModules/36488_M_SecSW.json",
+    "ects": 4,
+    "isDeactivated": true,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "CySec",
+      "Bsys1",
+      "CN1"
+    ],
+    "dependentModuleIds": [
+      "CyDef",
+      "PlFSec"
+    ],
+    "successorModuleId": "",
+    "predecessorModuleId": "InfSi3",
+    "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ]
   },
   {
     "id": "SecSoW",
@@ -2225,9 +2268,25 @@
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": "",
-    "predecessorModuleId": "",
+    "predecessorModuleId": "BuPro",
     "categoriesForColoring": [
       "gwr"
+    ]
+  },
+  {
+    "id": "WIoT",
+    "name": "Wireless and IoT",
+    "url": "allModules/37157_M_WIoT.json",
+    "ects": 4,
+    "isDeactivated": true,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "WsoT",
+    "predecessorModuleId": "",
+    "categoriesForColoring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -2270,7 +2329,7 @@
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": "",
-    "predecessorModuleId": "",
+    "predecessorModuleId": "WIoT",
     "categoriesForColoring": [
       "Auf",
       "Inf"

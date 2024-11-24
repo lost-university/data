@@ -35,6 +35,11 @@
         "url": "allModules/42227_M_PlFSec.json"
       },
       {
+        "id": "SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
+      },
+      {
         "id": "SecSoW",
         "name": "Secure Software",
         "url": "allModules/40311_M_SecSoW.json"
@@ -241,6 +246,11 @@
         "id": "ParProg",
         "name": "Parallele Programmierung",
         "url": "allModules/41462_M_ParProg.json"
+      },
+      {
+        "id": "SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
       },
       {
         "id": "SecSoW",
