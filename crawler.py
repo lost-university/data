@@ -37,10 +37,14 @@ def set_term_for_module(module, moduleContent):
         if 'endSemester' in moduleContent['durchfuehrungen']:
             beginSemester = moduleContent['durchfuehrungen']['beginSemester']
             endSemester = moduleContent['durchfuehrungen']['endSemester']
-            if endSemester != 'FS' and endSemester != 'HS':
+
+            if endSemester != 'HS' and endSemester != 'FS':
                 print(f'Module {module["id"]} has no valid term')
-            elif (beginSemester == 'FS' or beginSemester == 'HS') and beginSemester != endSemester:
-                module['term'] = "both"
+            elif beginSemester != 'HS' and beginSemester != 'FS':
+                module['term'] = endSemester
+            elif beginSemester != endSemester:
+                module['term'] = 'both'
+                print(f'{module["id"]} has both')
             else:
                 module['term'] = endSemester
     else:
