@@ -1666,7 +1666,7 @@
     "name": "Patterns und Frameworks",
     "url": "allModules/39045_M_PF.json",
     "ects": 4,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "HS",
     "recommendedModuleIds": [
       "SE1"
