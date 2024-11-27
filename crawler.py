@@ -115,7 +115,7 @@ def overwrite_module_with_data(module):
         module[data[0]] = data[1]
 
 
-def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[], additional_module_urls=[]):
+def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=[]):
     global modules
 
     content = requests.get(f'{BASE_URL}{url}').content
@@ -171,9 +171,6 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[],
 
         # For some reason each category is also present as a module.
         if module['id'].startswith('Kat'):
-            continue
-
-        if module['id'] in excluded_module_ids:
             continue
 
         if 'kategorien' in zuordnung:
@@ -264,7 +261,7 @@ BASE_URL = 'https://studien.ost.ch/'
 
 # fetch_data_for_studienordnung('allStudies/10246_I.json', 'data23')
 # keeping MGE, since UIP replaces both PF and MGE, but only MGE got removed from STD
-fetch_data_for_studienordnung('allStudies/10191_I.json', 'data21', [], ['allModules/28254_M_MGE.json'])
+fetch_data_for_studienordnung('allStudies/10191_I.json', 'data21', ['allModules/28254_M_MGE.json'])
 # todo: some IKTS are missing?
 
 for module in modules.values():
