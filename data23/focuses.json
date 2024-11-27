@@ -43,6 +43,11 @@
         "id": "WE2",
         "name": "Web Engineering 2",
         "url": "allModules/38945_M_WE2.json"
+      },
+      {
+        "id": "WsoT",
+        "name": "Wireless and IoT",
+        "url": "allModules/40038_M_WsoT.json"
       }
     ]
   },
@@ -116,7 +121,7 @@
       {
         "id": "CldOp",
         "name": "Cloud Operations",
-        "url": "allModules/43285_M_CldOp.json"
+        "url": "allModules/55074_M_CldOp.json"
       },
       {
         "id": "DSy",
@@ -142,6 +147,11 @@
         "id": "WE2",
         "name": "Web Engineering 2",
         "url": "allModules/38945_M_WE2.json"
+      },
+      {
+        "id": "WsoT",
+        "name": "Wireless and IoT",
+        "url": "allModules/40038_M_WsoT.json"
       }
     ]
   },

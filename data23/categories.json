@@ -47,7 +47,7 @@
       {
         "id": "CldOp",
         "name": "Cloud Operations",
-        "url": "allModules/43285_M_CldOp.json"
+        "url": "allModules/55074_M_CldOp.json"
       },
       {
         "id": "CldSol",
@@ -128,11 +128,6 @@
         "id": "IncResp",
         "name": "Incident Response",
         "url": "allModules/36473_M_IncResp.json"
-      },
-      {
-        "id": "MGE",
-        "name": "Mobile and GUI Engineering",
-        "url": "allModules/28254_M_MGE.json"
       },
       {
         "id": "ML",
@@ -262,11 +257,6 @@
         "id": "IKAKp",
         "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz (Projektarbeit)",
         "url": "allModules/44067_M_IKAK_p.json"
-      },
-      {
-        "id": "IKBH",
-        "name": "Behavioral Design",
-        "url": "allModules/44037_M_IKBH.json"
       },
       {
         "id": "IKBW",
@@ -713,7 +703,7 @@
       {
         "id": "CldOp",
         "name": "Cloud Operations",
-        "url": "allModules/43285_M_CldOp.json"
+        "url": "allModules/55074_M_CldOp.json"
       },
       {
         "id": "CldSol",
@@ -819,11 +809,6 @@
         "id": "IncResp",
         "name": "Incident Response",
         "url": "allModules/36473_M_IncResp.json"
-      },
-      {
-        "id": "MGE",
-        "name": "Mobile and GUI Engineering",
-        "url": "allModules/28254_M_MGE.json"
       },
       {
         "id": "ML",
@@ -1036,7 +1021,7 @@
       },
       {
         "id": "Ph2HAT",
-        "name": "Physik 2 - Hydro-, Elektro und Thermodynamik",
+        "name": "Physik 2 - Hydro-, Aero- und Thermodynamik",
         "url": "allModules/22021_M_Ph2HAT.json"
       },
       {

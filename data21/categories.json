@@ -849,6 +849,16 @@
         "url": "allModules/44202_M_IKAA.json"
       },
       {
+        "id": "IKAAp",
+        "name": "Applied AI (Projektarbeit)",
+        "url": "allModules/44196_M_IKAA_p.json"
+      },
+      {
+        "id": "IKAG",
+        "name": "Alternde Gesellschaften",
+        "url": "allModules/44020_M_IKAG.json"
+      },
+      {
         "id": "IKAK",
         "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz",
         "url": "allModules/44064_M_IKAK.json"
@@ -879,9 +889,149 @@
         "url": "allModules/44043_M_IKDK.json"
       },
       {
+        "id": "IKDKp",
+        "name": "Demokratie im Zeitalter von KI (Projektarbeit)",
+        "url": "allModules/44046_M_IKDK_p.json"
+      },
+      {
+        "id": "IKDL",
+        "name": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
+        "url": "allModules/44250_M_IKDL.json"
+      },
+      {
+        "id": "IKDLp",
+        "name": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen (Projektarbeit)",
+        "url": "allModules/44247_M_IKDL_p.json"
+      },
+      {
+        "id": "IKDM_A",
+        "name": "Dream Team - Mentoringprogramm für die nächste Generation Teil A",
+        "url": "allModules/44241_M_IKDM_A.json"
+      },
+      {
+        "id": "IKDM_B",
+        "name": "Dream Team - Mentoringprogramm für die nächste Generation Teil B",
+        "url": "allModules/44244_M_IKDM_B.json"
+      },
+      {
+        "id": "IKEK",
+        "name": "Ethik & KI",
+        "url": "allModules/44049_M_IKEK.json"
+      },
+      {
+        "id": "IKEKp",
+        "name": "Ethik & KI (Projektarbeit)",
+        "url": "allModules/44052_M_IKEK_p.json"
+      },
+      {
+        "id": "IKGA",
+        "name": "Generative AI in der Planung",
+        "url": "allModules/44211_M_IKGA.json"
+      },
+      {
+        "id": "IKGAp",
+        "name": "Generative AI in der Planung (Projektarbeit)",
+        "url": "allModules/44214_M_IKGA_p.json"
+      },
+      {
+        "id": "IKGE",
+        "name": "Klimagerechte Stadt- und Gemeindeentwicklung",
+        "url": "allModules/44088_M_IKGE.json"
+      },
+      {
+        "id": "IKGEp",
+        "name": "Klimagerechte Stadt- und Gemeindeentwicklung (Projektarbeit)",
+        "url": "allModules/44091_M_IKGE_p.json"
+      },
+      {
         "id": "IKGL",
         "name": "Gesund leben und Langlebigkeit",
         "url": "allModules/44061_M_IKGL.json"
+      },
+      {
+        "id": "IKGS",
+        "name": "Wissens- und Technologietransfer für nachhaltige Entwicklung im Globalen Süden",
+        "url": "allModules/44190_M_IKGS.json"
+      },
+      {
+        "id": "IKGSp",
+        "name": "Wissens- und Technologietransfer für nachhaltige Entwicklung im Globalen Süden (Projektarbeit)",
+        "url": "allModules/44193_M_IKGS_p.json"
+      },
+      {
+        "id": "IKIE",
+        "name": "Interdisziplinär entwickeln - gerüstet für die technikbasierte Arbeitswelt",
+        "url": "allModules/44079_M_IKIE.json"
+      },
+      {
+        "id": "IKII",
+        "name": "Ideen Inkubator Klimawende",
+        "url": "allModules/44073_M_IKII.json"
+      },
+      {
+        "id": "IKIIp",
+        "name": "Ideen Inkubator Klimawende (Projektarbeit)",
+        "url": "allModules/44076_M_IKII_p.json"
+      },
+      {
+        "id": "IKKA",
+        "name": "Nachhaltigkeit und Klimaschutz angewandt",
+        "url": "allModules/44223_M_IKKA.json"
+      },
+      {
+        "id": "IKKK",
+        "name": "Kommunale Klimawende",
+        "url": "allModules/44184_M_IKKK.json"
+      },
+      {
+        "id": "IKKKp",
+        "name": "Kommunale Klimawende (Projektarbeit)",
+        "url": "allModules/44187_M_IKKK_p.json"
+      },
+      {
+        "id": "IKKL",
+        "name": "Kreislaufwirtschaft",
+        "url": "allModules/44094_M_IKKL.json"
+      },
+      {
+        "id": "IKKLp",
+        "name": "Kreislaufwirtschaft (Projektarbeit)",
+        "url": "allModules/44097_M_IKKL_p.json"
+      },
+      {
+        "id": "IKKP",
+        "name": "Klimakrise: Kann die Politik die Welt noch retten?",
+        "url": "allModules/44226_M_IKKP.json"
+      },
+      {
+        "id": "IKKPp",
+        "name": "Klimakrise: Kann die Politik die Welt noch retten? (Projektarbeit)",
+        "url": "allModules/44229_M_IKKP_p.json"
+      },
+      {
+        "id": "IKLE",
+        "name": "IZM-Projekt",
+        "url": "allModules/44082_M_IKLE.json"
+      },
+      {
+        "id": "IKLEp",
+        "name": "IZM-Projekt (Projektarbeit)",
+        "url": "allModules/44085_M_IKLE_p.json"
+      },
+      {
+        "id": "IKLF",
+        "name": "Lernfähigkeit und Gedächtnis",
+        "url": "allModules/44100_M_IKLF.json"
+      },
+      {
+        "id": "IKLK",
+        "name": "Lösungsorientierte Kommunikation für dynamische Arbeitswelten",
+        "url": "allModules/44103_M_IKLK.json"
+      },
+      {
+        "id": "IKME",
+        "name": "Messbar gesund",
+        "url": "allModules/44115_M_IKME.json"
       },
       {
         "id": "IKMI",
@@ -889,9 +1039,94 @@
         "url": "allModules/44109_M_IKMI.json"
       },
       {
+        "id": "IKMIp",
+        "name": "Medien- und Informationskompetenzen in Zeiten von KI (Projektarbeit)",
+        "url": "allModules/44112_M_IKMI_p.json"
+      },
+      {
+        "id": "IKMO",
+        "name": "Gemeinden & Städte von morgen",
+        "url": "allModules/44055_M_IKMO.json"
+      },
+      {
+        "id": "IKMOp",
+        "name": "Gemeinden & Städte von morgen (Projektarbeit)",
+        "url": "allModules/44058_M_IKMO_p.json"
+      },
+      {
+        "id": "IKNB",
+        "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels",
+        "url": "allModules/44199_M_IKNB.json"
+      },
+      {
+        "id": "IKNBp",
+        "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels (Projektarbeit)",
+        "url": "allModules/44421_M_IKNB_p.json"
+      },
+      {
+        "id": "IKNG",
+        "name": "Neue Narrative für eine nachhaltige Gesellschaft",
+        "url": "allModules/44121_M_IKNG.json"
+      },
+      {
+        "id": "IKNGp",
+        "name": "Neue Narrative für eine nachhaltige Gesellschaft (Projektarbeit)",
+        "url": "allModules/44124_M_IKNG_p.json"
+      },
+      {
+        "id": "IKNK",
+        "name": "New Work & KI",
+        "url": "allModules/44127_M_IKNK.json"
+      },
+      {
+        "id": "IKNKp",
+        "name": "New Work & KI (Projektarbeit)",
+        "url": "allModules/44130_M_IKNK_p.json"
+      },
+      {
+        "id": "IKNN",
+        "name": "Hackathon zu \"Netto-null in Gebäuden und Verkehr\"",
+        "url": "allModules/44070_M_IKNN.json"
+      },
+      {
+        "id": "IKPE",
+        "name": "Psychologisches Empowerment",
+        "url": "allModules/44139_M_IKPE.json"
+      },
+      {
         "id": "IKPS",
         "name": "Prototyping for Startup-Ideas",
         "url": "allModules/44133_M_IKPS.json"
+      },
+      {
+        "id": "IKPSp",
+        "name": "Prototyping for Startup-Ideas (Projektarbeit)",
+        "url": "allModules/44136_M_IKPS_p.json"
+      },
+      {
+        "id": "IKRE",
+        "name": "Resilienz: Schlüsselkompetenz für innere Stärke",
+        "url": "allModules/44142_M_IKRE.json"
+      },
+      {
+        "id": "IKSH",
+        "name": "Social and Human Robotic",
+        "url": "allModules/44145_M_IKSH.json"
+      },
+      {
+        "id": "IKSM",
+        "name": "Strategisches Management von Naturgefahren",
+        "url": "allModules/44205_M_IKSM.json"
+      },
+      {
+        "id": "IKSMp",
+        "name": "Strategisches Management von Naturgefahren (Projektarbeit)",
+        "url": "allModules/44208_M_IKSM_p.json"
+      },
+      {
+        "id": "IKSS",
+        "name": "Ski-Nation Schweiz",
+        "url": "allModules/44220_M_IKSS.json"
       },
       {
         "id": "IKSSp",
@@ -899,9 +1134,69 @@
         "url": "allModules/44217_M_IKSS_p.json"
       },
       {
+        "id": "IKST",
+        "name": "Starkes Ich – Starkes Team",
+        "url": "allModules/44154_M_IKST.json"
+      },
+      {
         "id": "IKSTp",
         "name": "Starkes Ich – Starkes Team (Projektarbeit)",
         "url": "allModules/44157_M_IKST_p.json"
+      },
+      {
+        "id": "IKSU",
+        "name": "Startup - Weg zur Gründung",
+        "url": "allModules/44253_M_IKSU.json"
+      },
+      {
+        "id": "IKSUp",
+        "name": "Startup - Weg zur Gründung (Projektarbeit)",
+        "url": "allModules/44256_M_IKSU_p.json"
+      },
+      {
+        "id": "IKSW",
+        "name": "Stadt der kurzen Wege",
+        "url": "allModules/44148_M_IKSW.json"
+      },
+      {
+        "id": "IKSWp",
+        "name": "Stadt der kurzen Wege (Projektarbeit)",
+        "url": "allModules/44151_M_IKSW_p.json"
+      },
+      {
+        "id": "IKTE",
+        "name": "The Internet of Everything",
+        "url": "allModules/44340_M_IKTE.json"
+      },
+      {
+        "id": "IKTEp",
+        "name": "The Internet of Everything (Projektarbeit)",
+        "url": "allModules/44343_M_IKTE_p.json"
+      },
+      {
+        "id": "IKTSV2",
+        "name": "IKTS_Vorlage 2ECTS",
+        "url": "allModules/43909_M_IKTSV2.json"
+      },
+      {
+        "id": "IKTSV3",
+        "name": "IKTS_Vorlage 3ECTS",
+        "url": "allModules/43910_M_IKTSV3.json"
+      },
+      {
+        "id": "IKTSV4",
+        "name": "IKTS_Vorlage 4ECTS",
+        "url": "allModules/43911_M_IKTSV4.json"
+      },
+      {
+        "id": "IKUG",
+        "name": "Umwelt und Gesundheit",
+        "url": "allModules/44160_M_IKUG.json"
+      },
+      {
+        "id": "IKUGp",
+        "name": "Umwelt und Gesundheit (Projektarbeit)",
+        "url": "allModules/44163_M_IKUG_p.json"
       },
       {
         "id": "IKVA",
@@ -917,6 +1212,11 @@
         "id": "IKVK",
         "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter",
         "url": "allModules/44166_M_IKVK.json"
+      },
+      {
+        "id": "IKVKp",
+        "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter (Projektarbeit)",
+        "url": "allModules/44169_M_IKVK_p.json"
       },
       {
         "id": "IKVR",

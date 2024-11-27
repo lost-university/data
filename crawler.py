@@ -192,7 +192,11 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
         modules[module['id']] = module
 
     for module in modules.values():
-        moduleContent = json.loads(requests.get(f'{BASE_URL}{module["url"]}').content)
+        try:
+            moduleContent = json.loads(requests.get(f'{BASE_URL}{module["url"]}').content)
+        except:
+            print(f'Could not get data for {module["id"]} with {BASE_URL}{module["url"]}')
+            continue
         enrich_module_from_json(module, moduleContent)
 
 
@@ -257,14 +261,13 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
 
 BASE_URL = 'https://studien.ost.ch/'
 
-# fetch_data_for_studienordnung('allStudies/10246_I.json', 'data23')
+fetch_data_for_studienordnung('allStudies/10246_I.json', 'data23')
 # keeping MGE, since UIP replaces both PF and MGE, but only MGE got removed from STD
 fetch_data_for_studienordnung('allStudies/10191_I.json', 'data21', ['allModules/28254_M_MGE.json'])
-# todo: some IKTS are missing?
 
 for module in modules.values():
     module['categoriesForColoring'] = sorted([category['id'] for category in module['categories']])
-    # todo: temp
+    # todo: temp, until package 2 is released
     module['categories_for_coloring'] = module['categoriesForColoring']
     del module['focuses']
     del module['categories']
