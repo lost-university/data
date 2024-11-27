@@ -70,11 +70,9 @@ def set_term_for_module(module, moduleContent):
                 module['term'] = endSemester
             elif beginSemester != endSemester:
                 module['term'] = 'both'
-                print(f'{module["id"]} has both')
             else:
                 module['term'] = endSemester
     else:
-        # todo: WTF, SEProj has no term!
         print(f'{module["id"]} has no term')
 
 def set_successor_and_predecessor_for_module(module, moduleContent, modules):
