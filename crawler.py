@@ -267,8 +267,6 @@ fetch_data_for_studienordnung('allStudies/10191_I.json', 'data21', ['allModules/
 
 for module in modules.values():
     module['categoriesForColoring'] = sorted([category['id'] for category in module['categories']])
-    # todo: temp, until package 2 is released
-    module['categories_for_coloring'] = module['categoriesForColoring']
     del module['focuses']
     del module['categories']
 
