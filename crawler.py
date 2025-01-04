@@ -27,6 +27,10 @@ overwrite_module_data = {
     'IBN': [['predecessorModuleId', 'SDW']],
     'WIoT': [['successorModuleId', 'WsoT']],
     'WsoT': [['predecessorModuleId', 'WIoT']],
+    'SecSW': [['successorModuleId', 'SecSoW']],
+    'SecSoW': [['successorModuleId', 'SecSW']],
+    'BAI21': [['term', 'both']],
+    'SAI21': [['term', 'both']],
     # Inno2 and Inno_2 maybe
     # RKI, RheKoI, RheKI maybe
 }

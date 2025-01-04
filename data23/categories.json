@@ -259,6 +259,11 @@
         "url": "allModules/44067_M_IKAK_p.json"
       },
       {
+        "id": "IKBD",
+        "name": "Behavioral Design",
+        "url": "allModules/55066_M_IKBD.json"
+      },
+      {
         "id": "IKBW",
         "name": "Blickwechsel",
         "url": "allModules/44040_M_IKBW.json"
@@ -964,8 +969,8 @@
       },
       {
         "id": "TecBEC",
-        "name": "English: Where Tech Meets BEC",
-        "url": "allModules/28076_M_TecBEC.json"
+        "name": "English Beyond Borders: Navigating Academic & Professional Success with IELTS",
+        "url": "allModules/55597_M_TecBEC.json"
       }
     ]
   },
