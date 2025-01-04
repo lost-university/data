@@ -174,7 +174,7 @@
     "url": "allModules/41626_M_BAI21.json",
     "ects": 12,
     "isDeactivated": false,
-    "term": "HS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": "",
@@ -2803,7 +2803,7 @@
     "url": "allModules/40906_M_SAI21.json",
     "ects": 8,
     "isDeactivated": false,
-    "term": "HS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": "",
@@ -2989,10 +2989,12 @@
       "CN1"
     ],
     "dependentModuleIds": [
-      "IncResp"
+      "CyDef",
+      "IncResp",
+      "PlFSec"
     ],
-    "successorModuleId": "SecSW",
-    "predecessorModuleId": "",
+    "successorModuleId": "",
+    "predecessorModuleId": "SecSW",
     "categoriesForColoring": [
       "Auf",
       "Inf"
