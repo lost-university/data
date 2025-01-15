@@ -1040,12 +1040,12 @@
       },
       {
         "id": "IKMI",
-        "name": "Medien- und Informationskompetenzen in Zeiten von KI",
+        "name": "Medien- und Informationskompetenz in Zeiten von KI",
         "url": "allModules/44109_M_IKMI.json"
       },
       {
         "id": "IKMIp",
-        "name": "Medien- und Informationskompetenzen in Zeiten von KI (Projektarbeit)",
+        "name": "Medien- und Informationskompetenz in Zeiten von KI (Projektarbeit)",
         "url": "allModules/44112_M_IKMI_p.json"
       },
       {
@@ -1226,7 +1226,7 @@
       {
         "id": "IKVR",
         "name": "Virtual Reality für Klima und Energie",
-        "url": "allModules/44178_M_IKVR.json"
+        "url": "allModules/56195_M_IKVR.json"
       },
       {
         "id": "IKVRp",

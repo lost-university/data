@@ -58,8 +58,8 @@ def create_module(content):
         'term': '',
         'recommendedModuleIds': [],
         'dependentModuleIds': [],
-        'successorModuleId': '',
-        'predecessorModuleId': ''
+        'successorModuleId': None,
+        'predecessorModuleId': None
     }
 
 def set_term_for_module(module, moduleContent):
