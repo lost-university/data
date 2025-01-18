@@ -265,8 +265,7 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
 
 BASE_URL = 'https://studien.ost.ch/'
 
-fetch_data_for_studienordnung('allStudies/10246_I.json', 'data23')
-# keeping MGE, since UIP replaces both PF and MGE, but only MGE got removed from STD
+fetch_data_for_studienordnung('allStudies/10246_I.json', 'data23', ['allModules/28254_M_MGE.json'])
 fetch_data_for_studienordnung('allStudies/10191_I.json', 'data21', ['allModules/28254_M_MGE.json'])
 
 for module in modules.values():
