@@ -20,6 +20,8 @@ overwrite_module_data = {
     'WI2': [['predecessorModuleId', 'BuPro']],
     'RheKI': [['successorModuleId', 'RheKoI']],
     'RheKoI': [['predecessorModuleId', 'RheKI']],
+    'RKI': [['successorModuleId', 'RheKI']],
+    'RheKI': [['predecessorModuleId', 'RKI']],
     'SDW': [['successorModuleId', 'IBN']],
     'IBN': [['predecessorModuleId', 'SDW']],
     'FunProg': [['successorModuleId', 'FP']],
@@ -29,10 +31,10 @@ overwrite_module_data = {
     'WsoT': [['predecessorModuleId', 'WIoT']],
     'SecSW': [['successorModuleId', 'SecSoW']],
     'SecSoW': [['predecessorModuleId', 'SecSW']],
+    'Inno2': [['successorModuleId', 'Inno_2']],
+    'Inno_2': [['predecessorModuleId', 'Inno2']],
     'BAI21': [['term', 'both']],
     'SAI21': [['term', 'both']],
-    # Inno2 and Inno_2 maybe
-    # RKI, RheKoI, RheKI maybe
 }
 
 def write_json(data, filename):

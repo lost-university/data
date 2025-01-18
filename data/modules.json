@@ -2218,7 +2218,7 @@
     "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
-    "successorModuleId": null,
+    "successorModuleId": "Inno_2",
     "predecessorModuleId": "StraProPla_e",
     "categoriesForColoring": []
   },
@@ -2232,7 +2232,7 @@
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
-    "predecessorModuleId": null,
+    "predecessorModuleId": "Inno2",
     "categoriesForColoring": []
   },
   {
@@ -2761,7 +2761,7 @@
     "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
-    "successorModuleId": null,
+    "successorModuleId": "RheKI",
     "predecessorModuleId": null,
     "categoriesForColoring": [
       "KomEng"
@@ -2776,8 +2776,8 @@
     "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
-    "successorModuleId": "RheKoI",
-    "predecessorModuleId": null,
+    "successorModuleId": null,
+    "predecessorModuleId": "RKI",
     "categoriesForColoring": [
       "KomEng"
     ]
