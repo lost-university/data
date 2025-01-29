@@ -47,7 +47,7 @@
       {
         "id": "CldOp",
         "name": "Cloud Operations",
-        "url": "allModules/43285_M_CldOp.json"
+        "url": "allModules/55074_M_CldOp.json"
       },
       {
         "id": "CldSol",
@@ -264,6 +264,11 @@
         "url": "allModules/44067_M_IKAK_p.json"
       },
       {
+        "id": "IKBD",
+        "name": "Behavioral Design",
+        "url": "allModules/55066_M_IKBD.json"
+      },
+      {
         "id": "IKBH",
         "name": "Behavioral Design",
         "url": "allModules/44037_M_IKBH.json"
@@ -435,12 +440,12 @@
       },
       {
         "id": "IKMI",
-        "name": "Medien- und Informationskompetenzen in Zeiten von KI",
+        "name": "Medien- und Informationskompetenz in Zeiten von KI",
         "url": "allModules/44109_M_IKMI.json"
       },
       {
         "id": "IKMIp",
-        "name": "Medien- und Informationskompetenzen in Zeiten von KI (Projektarbeit)",
+        "name": "Medien- und Informationskompetenz in Zeiten von KI (Projektarbeit)",
         "url": "allModules/44112_M_IKMI_p.json"
       },
       {
@@ -621,7 +626,7 @@
       {
         "id": "IKVR",
         "name": "Virtual Reality für Klima und Energie",
-        "url": "allModules/44178_M_IKVR.json"
+        "url": "allModules/56195_M_IKVR.json"
       },
       {
         "id": "IKVRp",
@@ -713,7 +718,7 @@
       {
         "id": "CldOp",
         "name": "Cloud Operations",
-        "url": "allModules/43285_M_CldOp.json"
+        "url": "allModules/55074_M_CldOp.json"
       },
       {
         "id": "CldSol",
@@ -979,8 +984,8 @@
       },
       {
         "id": "TecBEC",
-        "name": "English: Where Tech Meets BEC",
-        "url": "allModules/28076_M_TecBEC.json"
+        "name": "English Beyond Borders: Navigating Academic & Professional Success with IELTS",
+        "url": "allModules/55597_M_TecBEC.json"
       }
     ]
   },
@@ -1036,7 +1041,7 @@
       },
       {
         "id": "Ph2HAT",
-        "name": "Physik 2 - Hydro-, Elektro und Thermodynamik",
+        "name": "Physik 2 - Hydro-, Aero- und Thermodynamik",
         "url": "allModules/22021_M_Ph2HAT.json"
       },
       {

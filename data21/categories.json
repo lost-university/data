@@ -47,7 +47,7 @@
       {
         "id": "CldOp",
         "name": "Cloud Operations",
-        "url": "allModules/43285_M_CldOp.json"
+        "url": "allModules/55074_M_CldOp.json"
       },
       {
         "id": "CldSol",
@@ -157,7 +157,7 @@
       {
         "id": "NetAut",
         "name": "Network Automation",
-        "url": "allModules/39128_M_NetAut.json"
+        "url": "allModules/56252_M_NetAut.json"
       },
       {
         "id": "PF",
@@ -178,6 +178,11 @@
         "id": "SModSim",
         "name": "System Modeling and Simulation",
         "url": "allModules/38938_M_SModSim.json"
+      },
+      {
+        "id": "SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
       },
       {
         "id": "SecSoW",
@@ -208,6 +213,11 @@
         "id": "WE3",
         "name": "Web Engineering 3",
         "url": "allModules/38901_M_WE3.json"
+      },
+      {
+        "id": "WIoT",
+        "name": "Wireless and IoT",
+        "url": "allModules/37157_M_WIoT.json"
       },
       {
         "id": "WsoT",
@@ -331,7 +341,7 @@
       {
         "id": "CldOp",
         "name": "Cloud Operations",
-        "url": "allModules/43285_M_CldOp.json"
+        "url": "allModules/55074_M_CldOp.json"
       },
       {
         "id": "CldSol",
@@ -471,7 +481,7 @@
       {
         "id": "NetAut",
         "name": "Network Automation",
-        "url": "allModules/39128_M_NetAut.json"
+        "url": "allModules/56252_M_NetAut.json"
       },
       {
         "id": "OOP1",
@@ -534,6 +544,11 @@
         "url": "allModules/38938_M_SModSim.json"
       },
       {
+        "id": "SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
+      },
+      {
         "id": "SecSoW",
         "name": "Secure Software",
         "url": "allModules/40311_M_SecSoW.json"
@@ -567,6 +582,11 @@
         "id": "WE3",
         "name": "Web Engineering 3",
         "url": "allModules/38901_M_WE3.json"
+      },
+      {
+        "id": "WIoT",
+        "name": "Wireless and IoT",
+        "url": "allModules/37157_M_WIoT.json"
       },
       {
         "id": "WsoT",
@@ -606,6 +626,11 @@
         "url": "allModules/25661_M_RKI.json"
       },
       {
+        "id": "RheKI",
+        "name": "Rhetorische Kommunikation für IngenieurInnen",
+        "url": "allModules/31909_M_RheKI.json"
+      },
+      {
         "id": "RheKoI",
         "name": "Rhetorische Kommunikation für IngenieurInnen",
         "url": "allModules/43277_M_RheKoI.json"
@@ -617,8 +642,8 @@
       },
       {
         "id": "TecBEC",
-        "name": "English: Where Tech Meets BEC",
-        "url": "allModules/28076_M_TecBEC.json"
+        "name": "English Beyond Borders: Navigating Academic & Professional Success with IELTS",
+        "url": "allModules/55597_M_TecBEC.json"
       }
     ]
   },
@@ -674,7 +699,7 @@
       },
       {
         "id": "Ph2HAT",
-        "name": "Physik 2 - Hydro-, Elektro und Thermodynamik",
+        "name": "Physik 2 - Hydro-, Aero- und Thermodynamik",
         "url": "allModules/22021_M_Ph2HAT.json"
       },
       {
@@ -842,6 +867,11 @@
         "id": "IKAKp",
         "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz (Projektarbeit)",
         "url": "allModules/44067_M_IKAK_p.json"
+      },
+      {
+        "id": "IKBD",
+        "name": "Behavioral Design",
+        "url": "allModules/55066_M_IKBD.json"
       },
       {
         "id": "IKBH",
@@ -1015,12 +1045,12 @@
       },
       {
         "id": "IKMI",
-        "name": "Medien- und Informationskompetenzen in Zeiten von KI",
+        "name": "Medien- und Informationskompetenz in Zeiten von KI",
         "url": "allModules/44109_M_IKMI.json"
       },
       {
         "id": "IKMIp",
-        "name": "Medien- und Informationskompetenzen in Zeiten von KI (Projektarbeit)",
+        "name": "Medien- und Informationskompetenz in Zeiten von KI (Projektarbeit)",
         "url": "allModules/44112_M_IKMI_p.json"
       },
       {
@@ -1201,7 +1231,7 @@
       {
         "id": "IKVR",
         "name": "Virtual Reality für Klima und Energie",
-        "url": "allModules/44178_M_IKVR.json"
+        "url": "allModules/56195_M_IKVR.json"
       },
       {
         "id": "IKVRp",

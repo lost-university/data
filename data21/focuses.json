@@ -35,6 +35,11 @@
         "url": "allModules/42227_M_PlFSec.json"
       },
       {
+        "id": "SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
+      },
+      {
         "id": "SecSoW",
         "name": "Secure Software",
         "url": "allModules/40311_M_SecSoW.json"
@@ -49,7 +54,7 @@
   {
     "id": "DaEnMaIn",
     "url": "allStudies/10196_DaEnMaIn.json",
-    "name": "Data Engineering and Machine Intelligence",
+    "name": "Data Science",
     "modules": [
       {
         "id": "AIAp",
@@ -124,9 +129,9 @@
         "url": "allModules/43801_M_ComGra.json"
       },
       {
-        "id": "MGE",
-        "name": "Mobile and GUI Engineering",
-        "url": "allModules/28254_M_MGE.json"
+        "id": "GenAI",
+        "name": "Generative AI",
+        "url": "allModules/43809_M_GenAI.json"
       },
       {
         "id": "UIP",
@@ -168,7 +173,7 @@
       {
         "id": "CldOp",
         "name": "Cloud Operations",
-        "url": "allModules/43285_M_CldOp.json"
+        "url": "allModules/55074_M_CldOp.json"
       },
       {
         "id": "DSy",
@@ -188,7 +193,7 @@
       {
         "id": "NetAut",
         "name": "Network Automation",
-        "url": "allModules/39128_M_NetAut.json"
+        "url": "allModules/56252_M_NetAut.json"
       },
       {
         "id": "WE2",
@@ -241,6 +246,11 @@
         "id": "ParProg",
         "name": "Parallele Programmierung",
         "url": "allModules/41462_M_ParProg.json"
+      },
+      {
+        "id": "SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
       },
       {
         "id": "SecSoW",

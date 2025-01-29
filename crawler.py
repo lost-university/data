@@ -2,28 +2,161 @@ import requests
 import json
 import os
 import sys
+import datetime
 
 modules = {}
+
+overwrite_module_data = {
+    'ExEv': [['term', 'HS']],
+    'ComEng1': [['term', 'FS']],
+    'ComEng2': [['term', 'HS']],
+    'NetAut': [['term', 'FS']],
+    'SEProj': [['term', 'FS']],
+    'PF': [['isDeactivated', True]],
+    'SE1': [['successorModuleId', 'SEP2']],
+    'SE2': [['successorModuleId', 'SEP2']],
+    'SEP1': [['predecessorModuleId', 'SE1']],
+    'SEP2': [['predecessorModuleId', 'SE2']],
+    'BuPro': [['successorModuleId', 'WI2']],
+    'WI2': [['predecessorModuleId', 'BuPro']],
+    'RheKI': [['successorModuleId', 'RheKoI']],
+    'RheKoI': [['predecessorModuleId', 'RheKI']],
+    'RKI': [['successorModuleId', 'RheKI']],
+    'RheKI': [['predecessorModuleId', 'RKI']],
+    'SDW': [['successorModuleId', 'IBN']],
+    'IBN': [['predecessorModuleId', 'SDW']],
+    'FunProg': [['successorModuleId', 'FP']],
+    'FP': [['predecessorModuleId', 'FunProg']],
+    'IBN': [['predecessorModuleId', 'SDW']],
+    'WIoT': [['successorModuleId', 'WsoT']],
+    'WsoT': [['predecessorModuleId', 'WIoT']],
+    'SecSW': [['successorModuleId', 'SecSoW']],
+    'SecSoW': [['predecessorModuleId', 'SecSW']],
+    'Inno2': [['successorModuleId', 'Inno_2']],
+    'Inno_2': [['predecessorModuleId', 'Inno2']],
+    'BAI21': [['term', 'both']],
+    'SAI21': [['term', 'both']],
+    'IKBH': [['successorModuleId', 'IKBD']],
+    'IKBD': [['predecessorModuleId', 'IKBH']]
+}
 
 def write_json(data, filename):
     with open(filename, 'w') as output:
         json.dump(data, output, indent=2, ensure_ascii=False)
         output.write('\n')
 
-def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[]):
+def getIdForModule(kuerzel):
+    return kuerzel.removeprefix('M_').replace('_p', 'p')
+
+def getIdForCategory(kuerzel):
+    return kuerzel.removeprefix('I-').removeprefix('I_').removeprefix('Kat_').replace('IKTS-help', 'GWRIKTS')
+
+def create_module(content):
+    return {
+        'id': getIdForModule(content['kuerzel']),
+        'name': content['bezeichnung'].strip(),
+        'url': content['url'],
+        'focuses': [],
+        'categories': [],
+        'ects': 0,
+        'isDeactivated': False,
+        'term': '',
+        'recommendedModuleIds': [],
+        'dependentModuleIds': [],
+        'successorModuleId': None,
+        'predecessorModuleId': None
+    }
+
+def set_term_for_module(module, moduleContent):
+    if 'durchfuehrungen' in moduleContent:
+        if 'endSemester' in moduleContent['durchfuehrungen']:
+            beginSemester = moduleContent['durchfuehrungen']['beginSemester']
+            endSemester = moduleContent['durchfuehrungen']['endSemester']
+
+            if endSemester != 'HS' and endSemester != 'FS':
+                print(f'Module {module["id"]} has no valid term')
+            elif beginSemester != 'HS' and beginSemester != 'FS':
+                module['term'] = endSemester
+            elif beginSemester != endSemester:
+                module['term'] = 'both'
+            else:
+                module['term'] = endSemester
+    else:
+        print(f'{module["id"]} has no term')
+
+def set_successor_and_predecessor_for_module(module, moduleContent, modules):
+    if 'nachfolger' in moduleContent and moduleContent['nachfolger']['kuerzel'] != moduleContent['kuerzel']:
+        successorModuleId = getIdForModule(moduleContent['nachfolger']['kuerzel'])
+        module['successorModuleId'] = successorModuleId
+        if successorModuleId in modules and modules[successorModuleId]['predecessorModuleId'] == "":
+            modules[successorModuleId]['predecessorModuleId'] = module['id']
+    if 'vorgaenger' in moduleContent and moduleContent['vorgaenger']['kuerzel'] != moduleContent['kuerzel']:
+        predecessorModuleId = getIdForModule(moduleContent['vorgaenger']['kuerzel'])
+        module['predecessorModuleId'] = predecessorModuleId
+        if predecessorModuleId in modules and modules[predecessorModuleId]['successorModuleId'] == "":
+            modules[predecessorModuleId]['successorModuleId'] = module['id']
+
+def set_recommended_modules_for_module(module, moduleContent):
+    if 'empfehlungen' in moduleContent: 
+        for empfehlung in moduleContent['empfehlungen']:
+            recommendedModuleId = getIdForModule(empfehlung['kuerzel'])
+            if recommendedModuleId in modules:
+                # modules not for "Studiengang Informatik" can be recommended, such as AN1aE, which we do not care about
+                module['recommendedModuleIds'].append(recommendedModuleId)
+    if 'voraussetzungen' in moduleContent:
+        for voraussetzung in moduleContent['voraussetzungen']:
+            module['recommendedModuleIds'].append(getIdForModule(voraussetzung['kuerzel']))
+
+def set_deactivated_for_module(module, moduleContent): 
+    # assumption: module is deactivated, if 'zustand' is 'deaktiviert' and either (1) 'endJahr' of 'durchfuehrungen' was last year or earlier or (2) no 'durchfuehrungen' is defined
+    if 'zustand' in moduleContent and moduleContent['zustand'] == 'deaktiviert':
+        if 'durchfuehrungen' not in moduleContent:
+            module['isDeactivated'] = True
+        if 'durchfuehrungen' in moduleContent and 'endJahr' in moduleContent['durchfuehrungen']:
+            currentYear = datetime.datetime.today().year
+            if moduleContent['durchfuehrungen']['endJahr'] < currentYear:
+                module['isDeactivated'] = True
+
+def overwrite_module_with_data(module):
+    if module['id'] not in overwrite_module_data:
+        return
+    overwrite_data = overwrite_module_data[module['id']]
+    for data in overwrite_data:
+        module[data[0]] = data[1]
+
+
+def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=[]):
     global modules
 
-    content = requests.get(url).content
+    content = requests.get(f'{BASE_URL}{url}').content
     jsonContent = json.loads(content)
 
     categories = {}
     focuses = []
 
-    def getIdForModule(kuerzel):
-        return kuerzel.removeprefix('M_').replace('_p', 'p')
+    def enrich_module_from_json(module, moduleContent):
+        # needed for modules, whose credits do not count towards "Studiengang Informatik"
+        if 'kreditpunkte' in moduleContent and module['ects'] == 0:
+            module['ects'] = moduleContent['kreditpunkte']
 
-    def getIdForCategory(kuerzel):
-        return kuerzel.removeprefix('I-').removeprefix('I_').removeprefix('Kat_').replace('IKTS-help', 'GWRIKTS')
+        set_term_for_module(module, moduleContent)
+
+        set_successor_and_predecessor_for_module(module, moduleContent, modules)
+
+        set_recommended_modules_for_module(module,moduleContent)
+
+        set_deactivated_for_module(module, moduleContent)
+
+        overwrite_module_with_data(module)
+
+        if 'categories' in module:
+            for cat in module['categories']:
+                if cat['id'] in categories:
+                    categories[cat['id']]['modules'].append(
+                        {'id': module['id'], 'name': module['name'], 'url': module['url']})
+                elif cat['id'] == 'GWRIKTS':
+                    categories['gwr']['modules'].append(
+                        {'id': module['id'], 'name': module['name'], 'url': module['url']})
 
     # 'kredits' contains categories
     kredits = jsonContent['kredits']
@@ -44,60 +177,52 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
     # 'zuordnungen' contains modules
     zuordnungen = jsonContent['zuordnungen']
     for zuordnung in zuordnungen:
-        module = {
-            'id': getIdForModule(zuordnung['kuerzel']),
-            'name': zuordnung['bezeichnung'].strip(),
-            'url': zuordnung['url'],
-            'isThesis': zuordnung['istAbschlussArbeit'],
-            'isRequired': zuordnung['istPflichtmodul'],
-            'recommendedSemester': zuordnung['semEmpfehlung'],
-            'focuses': [],
-            'categories': [],
-            'ects': 0,
-            'isDeactivated': False
-        }
+        module = create_module(zuordnung)
+
+        # For some reason each category is also present as a module.
+        if module['id'].startswith('Kat'):
+            continue
 
         if 'kategorien' in zuordnung:
-            module['categories'] = [
-                {'id': getIdForCategory(z['kuerzel']), 'name': z['bezeichnung'], 'ects': z['kreditpunkte']} for z in
-                zuordnung['kategorien']]
+            module['categories'] = [{'id': getIdForCategory(z['kuerzel']), 'name': z['bezeichnung'], 'ects': z['kreditpunkte']} for z in zuordnung['kategorien']]
             module['ects'] = zuordnung['kategorien'][0]['kreditpunkte']
 
-        # These are the new IKTS modules. They are split into two separate modules, one of them being a "Projektarbeit".
+        # IKTS modules are often split into two separate modules, one of them being a "Projektarbeit".
         # This ensures that they can be differentiated in the UI.
         if zuordnung['kuerzel'].endswith('_p'):
             module['name'] += ' (Projektarbeit)'
 
         modules[module['id']] = module
 
-    # load more infos about modules
+    for additional_module_url in additional_module_urls:
+        moduleContent = json.loads(requests.get(f'{BASE_URL}{additional_module_url}').content)
+        moduleContent['url'] = additional_module_url
+        module = create_module(moduleContent)
+        categoriesForStudienordnung = [z['kategorien'] for z in moduleContent['zuordnungen'] if z['url'] == url][0]
+        module['categories'] = [{'id': getIdForCategory(c['kuerzel']), 'name': c['bezeichnung'], 'ects': c['kreditpunkte']} for c in categoriesForStudienordnung]
+        module['ects'] = moduleContent['kreditpunkte']
+        modules[module['id']] = module
+
     for module in modules.values():
-        moduleContent = json.loads(requests.get(f'{BASE_URL}{module["url"]}').content)
-
-        # needed for modules, whose credits do not count towards "Studiengang Informatik"
-        if 'kreditpunkte' in moduleContent and module['ects'] == 0:
-            module['ects'] = moduleContent['kreditpunkte']
-
-        # For some reason each category is also present as a module.
-        # This filters them out.
-        if module['id'].startswith('Kat'):
-            module['isDeactivated'] = True
+        try:
+            moduleContent = json.loads(requests.get(f'{BASE_URL}{module["url"]}').content)
+        except:
+            print(f'Could not get data for {module["id"]} with {BASE_URL}{module["url"]}')
             continue
+        enrich_module_from_json(module, moduleContent)
 
-        if module['id'] in excluded_module_ids:
-            module['isDeactivated'] = True
-            continue
 
-        if 'categories' in module:
-            for cat in module['categories']:
-                if cat['id'] in categories:
-                    categories[cat['id']]['modules'].append(
-                        {'id': module['id'], 'name': module['name'], 'url': module['url']})
-                elif cat['id'] == 'GWRIKTS':
-                    categories['gwr']['modules'].append(
-                        {'id': module['id'], 'name': module['name'], 'url': module['url']})
-
-    modules = {key: value for (key, value) in modules.items() if value['isDeactivated'] == False}
+    for module in modules.values():
+        for recommendedModuleId in module['recommendedModuleIds']:
+            if recommendedModuleId in modules:
+                modules[recommendedModuleId]['dependentModuleIds'].append(module['id'])
+                if modules[recommendedModuleId]['isDeactivated'] == False:
+                    continue;
+            
+            # if recommendedModuleId is not in modules or inactive, then try to find its successor and attach module as depdendent
+            successorIdOfRecommended = next((m['id'] for m in modules.values() if m['predecessorModuleId'] == recommendedModuleId), None)
+            if not successorIdOfRecommended == None and successorIdOfRecommended in modules:
+                modules[successorIdOfRecommended]['dependentModuleIds'].append(module['id'])
 
     # 'spezialisierungen' contains focuses
     spezialisierungen = jsonContent['spezialisierungen']
@@ -124,6 +249,7 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
                 modules[moduleId]['focuses'].append({'id': focus['id'], 'name': focus['name'], 'url': focus['url']})
 
         focus['modules'].sort(key = lambda x: x['id'])
+        focus['modules'] = list({m['id']: m for m in focus['modules']}.values())
         focuses.append(focus)
 
     # id should be unique for each module
@@ -148,14 +274,13 @@ def fetch_data_for_studienordnung(url, output_directory, excluded_module_ids=[])
 
 BASE_URL = 'https://studien.ost.ch/'
 
-fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10246_I.json', 'data23')
-fetch_data_for_studienordnung(f'{BASE_URL}allStudies/10191_I.json', 'data21', ['RheKI','SecSW', 'WIoT'])
+fetch_data_for_studienordnung('allStudies/10246_I.json', 'data23', ['allModules/28254_M_MGE.json', 'allModules/44037_M_IKBH.json'])
+fetch_data_for_studienordnung('allStudies/10191_I.json', 'data21', ['allModules/28254_M_MGE.json'])
 
 for module in modules.values():
-    module['categories_for_coloring'] = sorted([category['id'] for category in module['categories']])
+    module['categoriesForColoring'] = sorted([category['id'] for category in module['categories']])
     del module['focuses']
     del module['categories']
-    del module['isDeactivated']
 
 output_directory = 'data'
 
