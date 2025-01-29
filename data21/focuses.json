@@ -193,7 +193,12 @@
       {
         "id": "NetAut",
         "name": "Network Automation",
-        "url": "allModules/39128_M_NetAut.json"
+        "url": "allModules/56252_M_NetAut.json"
+      },
+      {
+        "id": "NetAut",
+        "name": "Network Automation",
+        "url": "allModules/56252_M_NetAut.json"
       },
       {
         "id": "WE2",

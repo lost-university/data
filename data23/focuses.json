@@ -144,6 +144,11 @@
         "url": "allModules/39128_M_NetAut.json"
       },
       {
+        "id": "NetAut",
+        "name": "Network Automation",
+        "url": "allModules/39128_M_NetAut.json"
+      },
+      {
         "id": "WE2",
         "name": "Web Engineering 2",
         "url": "allModules/38945_M_WE2.json"

@@ -269,6 +269,11 @@
         "url": "allModules/55066_M_IKBD.json"
       },
       {
+        "id": "IKBH",
+        "name": "Behavioral Design",
+        "url": "allModules/44037_M_IKBH.json"
+      },
+      {
         "id": "IKBW",
         "name": "Blickwechsel",
         "url": "allModules/44040_M_IKBW.json"

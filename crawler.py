@@ -2,6 +2,7 @@ import requests
 import json
 import os
 import sys
+import datetime
 
 modules = {}
 
@@ -35,6 +36,8 @@ overwrite_module_data = {
     'Inno_2': [['predecessorModuleId', 'Inno2']],
     'BAI21': [['term', 'both']],
     'SAI21': [['term', 'both']],
+    'IKBH': [['successorModuleId', 'IKBD']],
+    'IKBD': [['predecessorModuleId', 'IKBH']]
 }
 
 def write_json(data, filename):
@@ -99,7 +102,10 @@ def set_recommended_modules_for_module(module, moduleContent):
             recommendedModuleId = getIdForModule(empfehlung['kuerzel'])
             if recommendedModuleId in modules:
                 # modules not for "Studiengang Informatik" can be recommended, such as AN1aE, which we do not care about
-                module['recommendedModuleIds'].append(getIdForModule(empfehlung['kuerzel']))
+                module['recommendedModuleIds'].append(recommendedModuleId)
+    if 'voraussetzungen' in moduleContent:
+        for voraussetzung in moduleContent['voraussetzungen']:
+            module['recommendedModuleIds'].append(getIdForModule(voraussetzung['kuerzel']))
 
 def set_deactivated_for_module(module, moduleContent): 
     # assumption: module is deactivated, if 'zustand' is 'deaktiviert' and either (1) 'endJahr' of 'durchfuehrungen' was last year or earlier or (2) no 'durchfuehrungen' is defined
@@ -107,7 +113,7 @@ def set_deactivated_for_module(module, moduleContent):
         if 'durchfuehrungen' not in moduleContent:
             module['isDeactivated'] = True
         if 'durchfuehrungen' in moduleContent and 'endJahr' in moduleContent['durchfuehrungen']:
-            currentYear = 2024
+            currentYear = datetime.datetime.today().year
             if moduleContent['durchfuehrungen']['endJahr'] < currentYear:
                 module['isDeactivated'] = True
 
@@ -267,7 +273,7 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
 
 BASE_URL = 'https://studien.ost.ch/'
 
-fetch_data_for_studienordnung('allStudies/10246_I.json', 'data23', ['allModules/28254_M_MGE.json'])
+fetch_data_for_studienordnung('allStudies/10246_I.json', 'data23', ['allModules/28254_M_MGE.json', 'allModules/44037_M_IKBH.json'])
 fetch_data_for_studienordnung('allStudies/10191_I.json', 'data21', ['allModules/28254_M_MGE.json'])
 
 for module in modules.values():

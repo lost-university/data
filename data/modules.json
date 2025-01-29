@@ -175,7 +175,9 @@
     "ects": 12,
     "isDeactivated": false,
     "term": "both",
-    "recommendedModuleIds": [],
+    "recommendedModuleIds": [
+      "SAI21"
+    ],
     "dependentModuleIds": [],
     "successorModuleId": null,
     "predecessorModuleId": "BAI14",
@@ -309,6 +311,7 @@
       "CldInf",
       "CN2",
       "CySec",
+      "IBN",
       "NIoSec",
       "PlFSec",
       "SecSoW",
@@ -333,6 +336,7 @@
     ],
     "dependentModuleIds": [
       "CldInf",
+      "IBN",
       "NIoSec",
       "PlFSec"
     ],
@@ -977,7 +981,10 @@
     "ects": 4,
     "isDeactivated": false,
     "term": "FS",
-    "recommendedModuleIds": [],
+    "recommendedModuleIds": [
+      "CN2",
+      "CN1"
+    ],
     "dependentModuleIds": [],
     "successorModuleId": null,
     "predecessorModuleId": "SDW",
@@ -1072,6 +1079,21 @@
     "dependentModuleIds": [],
     "successorModuleId": null,
     "predecessorModuleId": "IKBH",
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKBH",
+    "name": "Behavioral Design",
+    "url": "allModules/44037_M_IKBH.json",
+    "ects": 2,
+    "isDeactivated": true,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": "IKBD",
+    "predecessorModuleId": null,
     "categoriesForColoring": [
       "GWRIKTS"
     ]
@@ -1189,7 +1211,11 @@
     "isDeactivated": false,
     "term": "",
     "recommendedModuleIds": [],
-    "dependentModuleIds": [],
+    "dependentModuleIds": [
+      "IKDM_B",
+      "IKDM_B",
+      "IKDM_B"
+    ],
     "successorModuleId": null,
     "predecessorModuleId": null,
     "categoriesForColoring": [
@@ -1203,7 +1229,10 @@
     "ects": 3,
     "isDeactivated": false,
     "term": "",
-    "recommendedModuleIds": [],
+    "recommendedModuleIds": [
+      "IKDM_A",
+      "IKDM_A"
+    ],
     "dependentModuleIds": [],
     "successorModuleId": null,
     "predecessorModuleId": null,
@@ -1502,7 +1531,7 @@
     "url": "allModules/44082_M_IKLE.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "",
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1697,7 +1726,7 @@
     "url": "allModules/44127_M_IKNK.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "",
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2132,7 +2161,7 @@
     "url": "allModules/56195_M_IKVR.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2439,7 +2468,9 @@
     "isDeactivated": false,
     "term": "FS",
     "recommendedModuleIds": [],
-    "dependentModuleIds": [],
+    "dependentModuleIds": [
+      "MathSem2"
+    ],
     "successorModuleId": null,
     "predecessorModuleId": null,
     "categoriesForColoring": []
@@ -2451,7 +2482,9 @@
     "ects": 2,
     "isDeactivated": false,
     "term": "FS",
-    "recommendedModuleIds": [],
+    "recommendedModuleIds": [
+      "MathSem1"
+    ],
     "dependentModuleIds": [],
     "successorModuleId": null,
     "predecessorModuleId": null,
@@ -2501,8 +2534,8 @@
   {
     "id": "NetAut",
     "name": "Network Automation",
-    "url": "allModules/39128_M_NetAut.json",
-    "ects": 2,
+    "url": "allModules/56252_M_NetAut.json",
+    "ects": 4,
     "isDeactivated": false,
     "term": "FS",
     "recommendedModuleIds": [],
@@ -2804,8 +2837,12 @@
     "ects": 8,
     "isDeactivated": false,
     "term": "both",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
+    "recommendedModuleIds": [
+      "SEProj"
+    ],
+    "dependentModuleIds": [
+      "BAI21"
+    ],
     "successorModuleId": null,
     "predecessorModuleId": null,
     "categoriesForColoring": [
@@ -2874,6 +2911,7 @@
       "DSy",
       "PF",
       "SEP2",
+      "SEProj",
       "UX",
       "SE2"
     ],
@@ -2914,9 +2952,12 @@
     "recommendedModuleIds": [
       "OOP1",
       "AutPy",
-      "OOP2"
+      "OOP2",
+      "SEP1"
     ],
-    "dependentModuleIds": [],
+    "dependentModuleIds": [
+      "SAI21"
+    ],
     "successorModuleId": null,
     "predecessorModuleId": null,
     "categoriesForColoring": [

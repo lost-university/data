@@ -157,7 +157,7 @@
       {
         "id": "NetAut",
         "name": "Network Automation",
-        "url": "allModules/39128_M_NetAut.json"
+        "url": "allModules/56252_M_NetAut.json"
       },
       {
         "id": "PF",
@@ -481,7 +481,7 @@
       {
         "id": "NetAut",
         "name": "Network Automation",
-        "url": "allModules/39128_M_NetAut.json"
+        "url": "allModules/56252_M_NetAut.json"
       },
       {
         "id": "OOP1",
@@ -872,6 +872,11 @@
         "id": "IKBD",
         "name": "Behavioral Design",
         "url": "allModules/55066_M_IKBD.json"
+      },
+      {
+        "id": "IKBH",
+        "name": "Behavioral Design",
+        "url": "allModules/44037_M_IKBH.json"
       },
       {
         "id": "IKBW",
