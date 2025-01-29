@@ -249,6 +249,7 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
                 modules[moduleId]['focuses'].append({'id': focus['id'], 'name': focus['name'], 'url': focus['url']})
 
         focus['modules'].sort(key = lambda x: x['id'])
+        focus['modules'] = list({m['id']: m for m in focus['modules']}.values())
         focuses.append(focus)
 
     # id should be unique for each module
