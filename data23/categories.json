@@ -157,12 +157,17 @@
       {
         "id": "NetAut",
         "name": "Network Automation",
-        "url": "allModules/39128_M_NetAut.json"
+        "url": "allModules/56252_M_NetAut.json"
       },
       {
         "id": "PF",
         "name": "Patterns und Frameworks",
         "url": "allModules/39045_M_PF.json"
+      },
+      {
+        "id": "PWWD",
+        "name": "Praxiswoche Webdesign",
+        "url": "allModules/56493_M_PWWD.json"
       },
       {
         "id": "ParProg",
@@ -269,6 +274,11 @@
         "url": "allModules/55066_M_IKBD.json"
       },
       {
+        "id": "IKBF",
+        "name": "Selbststeuerung im Beruf und female Career",
+        "url": "allModules/56707_M_IKBF.json"
+      },
+      {
         "id": "IKBH",
         "name": "Behavioral Design",
         "url": "allModules/44037_M_IKBH.json"
@@ -277,6 +287,21 @@
         "id": "IKBW",
         "name": "Blickwechsel",
         "url": "allModules/44040_M_IKBW.json"
+      },
+      {
+        "id": "IKCC",
+        "name": "Co-Creation und Inclusive Design Methoden",
+        "url": "allModules/56710_M_IKCC.json"
+      },
+      {
+        "id": "IKCCp",
+        "name": "Co-Creation und Inclusive Design Methoden (Projektarbeit)",
+        "url": "allModules/56713_M_IKCC_p.json"
+      },
+      {
+        "id": "IKCG",
+        "name": "Corporate Governance and Sustainability",
+        "url": "allModules/56716_M_IKCG.json"
       },
       {
         "id": "IKDH",
@@ -319,6 +344,16 @@
         "url": "allModules/44244_M_IKDM_B.json"
       },
       {
+        "id": "IKEI",
+        "name": "Einsamkeit erforschen - wirtschaftliche, gesellschaftliche und private Dimensionen",
+        "url": "allModules/56720_M_IKEI.json"
+      },
+      {
+        "id": "IKEIp",
+        "name": "Einsamkeit erforschen - wirtschaftliche, gesellschaftliche und private Dimensionen (Projektarbeit)",
+        "url": "allModules/56731_M_IKEI_p.json"
+      },
+      {
         "id": "IKEK",
         "name": "Ethik & KI",
         "url": "allModules/44049_M_IKEK.json"
@@ -327,6 +362,26 @@
         "id": "IKEKp",
         "name": "Ethik & KI (Projektarbeit)",
         "url": "allModules/44052_M_IKEK_p.json"
+      },
+      {
+        "id": "IKFD",
+        "name": "Applied Frugal Design: Einfach gestalten, gesund leben",
+        "url": "allModules/56734_M_IKFD.json"
+      },
+      {
+        "id": "IKFDp",
+        "name": "Applied Frugal Design: Einfach gestalten, gesund leben (Projektarbeit)",
+        "url": "allModules/56737_M_IKFD_p.json"
+      },
+      {
+        "id": "IKFL",
+        "name": "Future Life Design",
+        "url": "allModules/56740_M_IKFL.json"
+      },
+      {
+        "id": "IKFLp",
+        "name": "Future Life Design (Projektarbeit)",
+        "url": "allModules/56743_M_IKFL_p.json"
       },
       {
         "id": "IKGA",
@@ -377,6 +432,16 @@
         "id": "IKIIp",
         "name": "Ideen Inkubator Klimawende (Projektarbeit)",
         "url": "allModules/44076_M_IKII_p.json"
+      },
+      {
+        "id": "IKIS",
+        "name": "International Summer School for sustainability",
+        "url": "allModules/56789_M_IKIS.json"
+      },
+      {
+        "id": "IKISp",
+        "name": "International Summer School for sustainability (Projektarbeit)",
+        "url": "allModules/56866_M_IKIS_p.json"
       },
       {
         "id": "IKKA",
@@ -439,6 +504,11 @@
         "url": "allModules/44115_M_IKME.json"
       },
       {
+        "id": "IKMEp",
+        "name": "Messbar gesund (Projektarbeit)",
+        "url": "allModules/56875_M_IKME_p.json"
+      },
+      {
         "id": "IKMI",
         "name": "Medien- und Informationskompetenz in Zeiten von KI",
         "url": "allModules/44109_M_IKMI.json"
@@ -469,6 +539,16 @@
         "url": "allModules/44421_M_IKNB_p.json"
       },
       {
+        "id": "IKNE",
+        "name": "Nachhaltige Ernährung für Körper, Geist und Klima",
+        "url": "allModules/56792_IKNE.json"
+      },
+      {
+        "id": "IKNEp",
+        "name": "Nachhaltige Ernährung für Körper, Geist und Klima (Projektarbeit)",
+        "url": "allModules/56795_IKNE_p.json"
+      },
+      {
         "id": "IKNG",
         "name": "Neue Narrative für eine nachhaltige Gesellschaft",
         "url": "allModules/44121_M_IKNG.json"
@@ -494,9 +574,34 @@
         "url": "allModules/44070_M_IKNN.json"
       },
       {
+        "id": "IKNW",
+        "name": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops",
+        "url": "allModules/56802_M_IKNW.json"
+      },
+      {
+        "id": "IKNWp",
+        "name": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops (Projektarbeit)",
+        "url": "allModules/56804_M_IKNW_p.json"
+      },
+      {
+        "id": "IKOW",
+        "name": "Offgrid Wasser und Sonne: Hands on",
+        "url": "allModules/56805_M_IKOW.json"
+      },
+      {
+        "id": "IKOWp",
+        "name": "Offgrid Wasser und Sonne: Hands on (Projektarbeit)",
+        "url": "allModules/56806_M_IKOW_p.json"
+      },
+      {
         "id": "IKPE",
         "name": "Psychologisches Empowerment",
         "url": "allModules/44139_M_IKPE.json"
+      },
+      {
+        "id": "IKPH",
+        "name": "Prototyping Hackathon",
+        "url": "allModules/56807_M_IKPH.json"
       },
       {
         "id": "IKPS",
@@ -853,7 +958,7 @@
       {
         "id": "NetAut",
         "name": "Network Automation",
-        "url": "allModules/39128_M_NetAut.json"
+        "url": "allModules/56252_M_NetAut.json"
       },
       {
         "id": "OOP1",
@@ -869,6 +974,11 @@
         "id": "PF",
         "name": "Patterns und Frameworks",
         "url": "allModules/39045_M_PF.json"
+      },
+      {
+        "id": "PWWD",
+        "name": "Praxiswoche Webdesign",
+        "url": "allModules/56493_M_PWWD.json"
       },
       {
         "id": "ParProg",
@@ -950,12 +1060,12 @@
       {
         "id": "EnglHTw",
         "name": "English: How Things work",
-        "url": "allModules/45657_M_EnglHTw.json"
+        "url": "allModules/56496_M_EnglHTw.json"
       },
       {
         "id": "EnglScience",
         "name": "English: The World of Science",
-        "url": "allModules/45665_M_EnglScience.json"
+        "url": "allModules/56504_M_EnglScience.json"
       },
       {
         "id": "FKIA",

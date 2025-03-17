@@ -41,8 +41,14 @@ overwrite_module_data = {
 }
 
 def write_json(data, filename):
+    # Taken from https://stackoverflow.com/a/22281062
+    def set_default(obj):
+        if isinstance(obj, set):
+            return sorted(list(obj))
+        raise TypeError
+
     with open(filename, 'w') as output:
-        json.dump(data, output, indent=2, ensure_ascii=False)
+        json.dump(data, output, indent=2, ensure_ascii=False, default=set_default)
         output.write('\n')
 
 def getIdForModule(kuerzel):
@@ -57,12 +63,12 @@ def create_module(content):
         'name': content['bezeichnung'].strip(),
         'url': content['url'],
         'focuses': [],
-        'categories': [],
+        'categories': set(),
         'ects': 0,
         'isDeactivated': False,
         'term': '',
-        'recommendedModuleIds': [],
-        'dependentModuleIds': [],
+        'recommendedModuleIds': set(),
+        'dependentModuleIds': set(),
         'successorModuleId': None,
         'predecessorModuleId': None
     }
@@ -102,10 +108,10 @@ def set_recommended_modules_for_module(module, moduleContent):
             recommendedModuleId = getIdForModule(empfehlung['kuerzel'])
             if recommendedModuleId in modules:
                 # modules not for "Studiengang Informatik" can be recommended, such as AN1aE, which we do not care about
-                module['recommendedModuleIds'].append(recommendedModuleId)
+                module['recommendedModuleIds'].add(recommendedModuleId)
     if 'voraussetzungen' in moduleContent:
         for voraussetzung in moduleContent['voraussetzungen']:
-            module['recommendedModuleIds'].append(getIdForModule(voraussetzung['kuerzel']))
+            module['recommendedModuleIds'].add(getIdForModule(voraussetzung['kuerzel']))
 
 def set_deactivated_for_module(module, moduleContent): 
     # assumption: module is deactivated, if 'zustand' is 'deaktiviert' and either (1) 'endJahr' of 'durchfuehrungen' was last year or earlier or (2) no 'durchfuehrungen' is defined
@@ -215,14 +221,14 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
     for module in modules.values():
         for recommendedModuleId in module['recommendedModuleIds']:
             if recommendedModuleId in modules:
-                modules[recommendedModuleId]['dependentModuleIds'].append(module['id'])
+                modules[recommendedModuleId]['dependentModuleIds'].add(module['id'])
                 if modules[recommendedModuleId]['isDeactivated'] == False:
                     continue;
             
             # if recommendedModuleId is not in modules or inactive, then try to find its successor and attach module as depdendent
             successorIdOfRecommended = next((m['id'] for m in modules.values() if m['predecessorModuleId'] == recommendedModuleId), None)
             if not successorIdOfRecommended == None and successorIdOfRecommended in modules:
-                modules[successorIdOfRecommended]['dependentModuleIds'].append(module['id'])
+                modules[successorIdOfRecommended]['dependentModuleIds'].add(module['id'])
 
     # 'spezialisierungen' contains focuses
     spezialisierungen = jsonContent['spezialisierungen']
