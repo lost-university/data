@@ -141,7 +141,7 @@
       {
         "id": "NetAut",
         "name": "Network Automation",
-        "url": "allModules/56252_M_NetAut.json"
+        "url": "allModules/39128_M_NetAut.json"
       },
       {
         "id": "WE2",
@@ -203,7 +203,7 @@
       {
         "id": "UIP",
         "name": "UI Patterns and Frameworks",
-        "url": "allModules/44688_M_UIP.json"
+        "url": "allModules/56946_M_UIP.json"
       }
     ]
   }
