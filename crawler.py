@@ -280,7 +280,7 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
 
 BASE_URL = 'https://studien.ost.ch/'
 
-fetch_data_for_studienordnung('allStudies/10246_I.json', 'data23', ['allModules/28254_M_MGE.json', 'allModules/44037_M_IKBH.json'])
+fetch_data_for_studienordnung('allStudies/10246_I.json', 'data23', ['allModules/28254_M_MGE.json', 'allModules/44037_M_IKBH.json', 'allModules/55066_M_IKBD.json'])
 fetch_data_for_studienordnung('allStudies/10191_I.json', 'data21', ['allModules/28254_M_MGE.json'])
 
 for module in modules.values():
