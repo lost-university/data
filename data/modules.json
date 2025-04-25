@@ -1,5 +1,21 @@
 [
   {
+    "id": "AADL",
+    "name": "Applied AI with Deep Learning",
+    "url": "allModules/57207_M_AADL.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "Inf",
+      "RA"
+    ]
+  },
+  {
     "id": "AIAp",
     "name": "AI Applications",
     "url": "allModules/40870_M_AIAp.json",
@@ -41,6 +57,22 @@
     "categoriesForColoring": [
       "Inf",
       "RA"
+    ]
+  },
+  {
+    "id": "AJwn",
+    "name": "Auf Jobsuche, was nun?",
+    "url": "allModules/57128_M_AJwn.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "Auf",
+      "Inf"
     ]
   },
   {
@@ -977,10 +1009,10 @@
   {
     "id": "IBN",
     "name": "Intent-Based Networking",
-    "url": "allModules/43556_M_IBN.json",
+    "url": "allModules/57056_M_IBN.json",
     "ects": 4,
     "isDeactivated": false,
-    "term": "FS",
+    "term": "HS",
     "recommendedModuleIds": [
       "CN1",
       "CN2"
@@ -1085,7 +1117,7 @@
   },
   {
     "id": "IKBF",
-    "name": "Selbststeuerung im Beruf und female Career",
+    "name": "Selbststeuerung im Beruf",
     "url": "allModules/56707_M_IKBF.json",
     "ects": 2,
     "isDeactivated": false,
@@ -1101,14 +1133,14 @@
   {
     "id": "IKBH",
     "name": "Behavioral Design",
-    "url": "allModules/44037_M_IKBH.json",
+    "url": "allModules/56919_M_IKBH.json",
     "ects": 2,
-    "isDeactivated": true,
-    "term": "",
+    "isDeactivated": false,
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": "IKBD",
-    "predecessorModuleId": null,
+    "predecessorModuleId": "IKBD",
     "categoriesForColoring": [
       "GWRIKTS"
     ]
@@ -1569,7 +1601,7 @@
   },
   {
     "id": "IKIS",
-    "name": "International Summer School for sustainability",
+    "name": "International Summer School for Sustainability",
     "url": "allModules/56789_M_IKIS.json",
     "ects": 2,
     "isDeactivated": false,
@@ -1584,7 +1616,7 @@
   },
   {
     "id": "IKISp",
-    "name": "International Summer School for sustainability (Projektarbeit)",
+    "name": "International Summer School for Sustainability (Projektarbeit)",
     "url": "allModules/56866_M_IKIS_p.json",
     "ects": 3,
     "isDeactivated": false,
@@ -1644,7 +1676,7 @@
   },
   {
     "id": "IKKL",
-    "name": "Kreislaufwirtschaft",
+    "name": "Circular Economy",
     "url": "allModules/44094_M_IKKL.json",
     "ects": 2,
     "isDeactivated": false,
@@ -1659,7 +1691,7 @@
   },
   {
     "id": "IKKLp",
-    "name": "Kreislaufwirtschaft (Projektarbeit)",
+    "name": "Circular Economy (Projektarbeit)",
     "url": "allModules/44097_M_IKKL_p.json",
     "ects": 3,
     "isDeactivated": false,
@@ -1854,7 +1886,7 @@
   },
   {
     "id": "IKMO",
-    "name": "Gemeinden & Städte von morgen",
+    "name": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung",
     "url": "allModules/44055_M_IKMO.json",
     "ects": 2,
     "isDeactivated": false,
@@ -1869,7 +1901,7 @@
   },
   {
     "id": "IKMOp",
-    "name": "Gemeinden & Städte von morgen (Projektarbeit)",
+    "name": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung (Projektarbeit)",
     "url": "allModules/44058_M_IKMO_p.json",
     "ects": 3,
     "isDeactivated": false,
@@ -1884,7 +1916,7 @@
   },
   {
     "id": "IKNB",
-    "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels",
+    "name": "Wasser und Klima: Nachhaltige Wasserbewirtschaftung auf Gemeindeebene",
     "url": "allModules/44199_M_IKNB.json",
     "ects": 2,
     "isDeactivated": false,
@@ -1899,8 +1931,8 @@
   },
   {
     "id": "IKNBp",
-    "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels (Projektarbeit)",
-    "url": "allModules/44421_M_IKNB_p.json",
+    "name": "Wasser und Klima: Nachhaltige Wasserbewirtschaftung auf Gemeindeebene (Projektarbeit)",
+    "url": "allModules/57170_M_IKNB_p.json",
     "ects": 4,
     "isDeactivated": false,
     "term": "FS",
@@ -2079,7 +2111,7 @@
   },
   {
     "id": "IKPE",
-    "name": "Psychologisches Empowerment",
+    "name": "Psychologisches Empowerment in Veränderungs- und Wandlungsprozessen",
     "url": "allModules/44139_M_IKPE.json",
     "ects": 2,
     "isDeactivated": false,
@@ -2094,7 +2126,7 @@
   },
   {
     "id": "IKPH",
-    "name": "Prototyping Hackathon",
+    "name": "Prototyping für Startup-Ideen beim Hackathon",
     "url": "allModules/56807_M_IKPH.json",
     "ects": 2,
     "isDeactivated": false,
@@ -2454,7 +2486,7 @@
   },
   {
     "id": "IKVK",
-    "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter",
+    "name": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter",
     "url": "allModules/44166_M_IKVK.json",
     "ects": 2,
     "isDeactivated": false,
@@ -2469,7 +2501,7 @@
   },
   {
     "id": "IKVKp",
-    "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter (Projektarbeit)",
+    "name": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter (Projektarbeit)",
     "url": "allModules/44169_M_IKVK_p.json",
     "ects": 3,
     "isDeactivated": false,
@@ -2710,7 +2742,7 @@
     "name": "Lernlabor \"Digitalisieren Hands-on\"",
     "url": "allModules/41732_M_LLDIG.json",
     "ects": 4,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -2974,10 +3006,10 @@
   {
     "id": "PWWD",
     "name": "Praxiswoche Webdesign",
-    "url": "allModules/56493_M_PWWD.json",
+    "url": "allModules/57180_M_PWWD.json",
     "ects": 2,
-    "isDeactivated": true,
-    "term": "",
+    "isDeactivated": false,
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -3268,7 +3300,7 @@
   {
     "id": "SEP2",
     "name": "SE Practices 2",
-    "url": "allModules/40859_M_SEP2.json",
+    "url": "allModules/57233_M_SEP2.json",
     "ects": 4,
     "isDeactivated": false,
     "term": "FS",
@@ -3573,7 +3605,7 @@
   {
     "id": "WI2",
     "name": "Business Processes für Informatik",
-    "url": "allModules/40981_M_WI2.json",
+    "url": "allModules/57174_M_WI2.json",
     "ects": 4,
     "isDeactivated": false,
     "term": "HS",
