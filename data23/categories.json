@@ -10,6 +10,11 @@
         "url": "allModules/40870_M_AIAp.json"
       },
       {
+        "id": "AJwn",
+        "name": "Auf Jobsuche, was nun?",
+        "url": "allModules/57128_M_AJwn.json"
+      },
+      {
         "id": "AppArch",
         "name": "Application Architecture",
         "url": "allModules/28236_M_AppArch.json"
@@ -112,7 +117,7 @@
       {
         "id": "IBN",
         "name": "Intent-Based Networking",
-        "url": "allModules/43556_M_IBN.json"
+        "url": "allModules/57056_M_IBN.json"
       },
       {
         "id": "IPCV1",
@@ -157,12 +162,17 @@
       {
         "id": "NetAut",
         "name": "Network Automation",
-        "url": "allModules/39128_M_NetAut.json"
+        "url": "allModules/56252_M_NetAut.json"
       },
       {
         "id": "PF",
         "name": "Patterns und Frameworks",
         "url": "allModules/39045_M_PF.json"
+      },
+      {
+        "id": "PWWD",
+        "name": "Praxiswoche Webdesign",
+        "url": "allModules/57180_M_PWWD.json"
       },
       {
         "id": "ParProg",
@@ -187,7 +197,7 @@
       {
         "id": "UIP",
         "name": "UI Patterns and Frameworks",
-        "url": "allModules/44688_M_UIP.json"
+        "url": "allModules/56946_M_UIP.json"
       },
       {
         "id": "UX",
@@ -224,7 +234,7 @@
       {
         "id": "SEP2",
         "name": "SE Practices 2",
-        "url": "allModules/40859_M_SEP2.json"
+        "url": "allModules/57233_M_SEP2.json"
       },
       {
         "id": "SEProj",
@@ -269,6 +279,11 @@
         "url": "allModules/55066_M_IKBD.json"
       },
       {
+        "id": "IKBF",
+        "name": "Selbststeuerung im Beruf",
+        "url": "allModules/56707_M_IKBF.json"
+      },
+      {
         "id": "IKBH",
         "name": "Behavioral Design",
         "url": "allModules/44037_M_IKBH.json"
@@ -277,6 +292,21 @@
         "id": "IKBW",
         "name": "Blickwechsel",
         "url": "allModules/44040_M_IKBW.json"
+      },
+      {
+        "id": "IKCC",
+        "name": "Co-Creation und Inclusive Design Methoden",
+        "url": "allModules/56710_M_IKCC.json"
+      },
+      {
+        "id": "IKCCp",
+        "name": "Co-Creation und Inclusive Design Methoden (Projektarbeit)",
+        "url": "allModules/56713_M_IKCC_p.json"
+      },
+      {
+        "id": "IKCG",
+        "name": "Corporate Governance and Sustainability",
+        "url": "allModules/56716_M_IKCG.json"
       },
       {
         "id": "IKDH",
@@ -319,6 +349,16 @@
         "url": "allModules/44244_M_IKDM_B.json"
       },
       {
+        "id": "IKEI",
+        "name": "Einsamkeit erforschen - wirtschaftliche, gesellschaftliche und private Dimensionen",
+        "url": "allModules/56720_M_IKEI.json"
+      },
+      {
+        "id": "IKEIp",
+        "name": "Einsamkeit erforschen - wirtschaftliche, gesellschaftliche und private Dimensionen (Projektarbeit)",
+        "url": "allModules/56731_M_IKEI_p.json"
+      },
+      {
         "id": "IKEK",
         "name": "Ethik & KI",
         "url": "allModules/44049_M_IKEK.json"
@@ -327,6 +367,26 @@
         "id": "IKEKp",
         "name": "Ethik & KI (Projektarbeit)",
         "url": "allModules/44052_M_IKEK_p.json"
+      },
+      {
+        "id": "IKFD",
+        "name": "Applied Frugal Design: Einfach gestalten, gesund leben",
+        "url": "allModules/56734_M_IKFD.json"
+      },
+      {
+        "id": "IKFDp",
+        "name": "Applied Frugal Design: Einfach gestalten, gesund leben (Projektarbeit)",
+        "url": "allModules/56737_M_IKFD_p.json"
+      },
+      {
+        "id": "IKFL",
+        "name": "Future Life Design: Successfully shaping your own life path",
+        "url": "allModules/56740_M_IKFL.json"
+      },
+      {
+        "id": "IKFLp",
+        "name": "Future Life Design: Successfully shaping your own life path (Projektarbeit)",
+        "url": "allModules/56743_M_IKFL_p.json"
       },
       {
         "id": "IKGA",
@@ -355,13 +415,13 @@
       },
       {
         "id": "IKGS",
-        "name": "Wissens- und Technologietransfer für nachhaltige Entwicklung im Globalen Süden",
+        "name": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden",
         "url": "allModules/44190_M_IKGS.json"
       },
       {
         "id": "IKGSp",
-        "name": "Wissens- und Technologietransfer für nachhaltige Entwicklung im Globalen Süden (Projektarbeit)",
-        "url": "allModules/44193_M_IKGS_p.json"
+        "name": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden (Projektarbeit)",
+        "url": "allModules/56922_M_IKGS_p.json"
       },
       {
         "id": "IKIE",
@@ -377,6 +437,16 @@
         "id": "IKIIp",
         "name": "Ideen Inkubator Klimawende (Projektarbeit)",
         "url": "allModules/44076_M_IKII_p.json"
+      },
+      {
+        "id": "IKIS",
+        "name": "International Summer School for Sustainability",
+        "url": "allModules/56789_M_IKIS.json"
+      },
+      {
+        "id": "IKISp",
+        "name": "International Summer School for Sustainability (Projektarbeit)",
+        "url": "allModules/56866_M_IKIS_p.json"
       },
       {
         "id": "IKKA",
@@ -395,12 +465,12 @@
       },
       {
         "id": "IKKL",
-        "name": "Kreislaufwirtschaft",
+        "name": "Circular Economy",
         "url": "allModules/44094_M_IKKL.json"
       },
       {
         "id": "IKKLp",
-        "name": "Kreislaufwirtschaft (Projektarbeit)",
+        "name": "Circular Economy (Projektarbeit)",
         "url": "allModules/44097_M_IKKL_p.json"
       },
       {
@@ -412,6 +482,16 @@
         "id": "IKKPp",
         "name": "Klimakrise: Kann die Politik die Welt noch retten? (Projektarbeit)",
         "url": "allModules/44229_M_IKKP_p.json"
+      },
+      {
+        "id": "IKLD",
+        "name": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten",
+        "url": "allModules/56925_M_IKLD.json"
+      },
+      {
+        "id": "IKLDp",
+        "name": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten (Projektarbeit)",
+        "url": "allModules/56928_M_IKLD_p.json"
       },
       {
         "id": "IKLE",
@@ -439,6 +519,11 @@
         "url": "allModules/44115_M_IKME.json"
       },
       {
+        "id": "IKMEp",
+        "name": "Messbar gesund (Projektarbeit)",
+        "url": "allModules/56875_M_IKME_p.json"
+      },
+      {
         "id": "IKMI",
         "name": "Medien- und Informationskompetenz in Zeiten von KI",
         "url": "allModules/44109_M_IKMI.json"
@@ -450,23 +535,33 @@
       },
       {
         "id": "IKMO",
-        "name": "Gemeinden & Städte von morgen",
+        "name": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung",
         "url": "allModules/44055_M_IKMO.json"
       },
       {
         "id": "IKMOp",
-        "name": "Gemeinden & Städte von morgen (Projektarbeit)",
+        "name": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung (Projektarbeit)",
         "url": "allModules/44058_M_IKMO_p.json"
       },
       {
         "id": "IKNB",
-        "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels",
+        "name": "Wasser und Klima: Nachhaltige Wasserbewirtschaftung auf Gemeindeebene",
         "url": "allModules/44199_M_IKNB.json"
       },
       {
         "id": "IKNBp",
-        "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels (Projektarbeit)",
-        "url": "allModules/44421_M_IKNB_p.json"
+        "name": "Wasser und Klima: Nachhaltige Wasserbewirtschaftung auf Gemeindeebene (Projektarbeit)",
+        "url": "allModules/57170_M_IKNB_p.json"
+      },
+      {
+        "id": "IKNE",
+        "name": "Nachhaltige Ernährung für Körper, Geist und Klima",
+        "url": "allModules/56792_M_IKNE.json"
+      },
+      {
+        "id": "IKNEp",
+        "name": "Nachhaltige Ernährung für Körper, Geist und Klima (Projektarbeit)",
+        "url": "allModules/56795_M_IKNE_p.json"
       },
       {
         "id": "IKNG",
@@ -494,18 +589,43 @@
         "url": "allModules/44070_M_IKNN.json"
       },
       {
+        "id": "IKNW",
+        "name": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops",
+        "url": "allModules/56802_M_IKNW.json"
+      },
+      {
+        "id": "IKNWp",
+        "name": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops (Projektarbeit)",
+        "url": "allModules/56804_M_IKNW_p.json"
+      },
+      {
+        "id": "IKOW",
+        "name": "Offgrid Wasser und Sonne: Hands on",
+        "url": "allModules/56805_M_IKOW.json"
+      },
+      {
+        "id": "IKOWp",
+        "name": "Offgrid Wasser und Sonne: Hands on (Projektarbeit)",
+        "url": "allModules/56806_M_IKOW_p.json"
+      },
+      {
         "id": "IKPE",
-        "name": "Psychologisches Empowerment",
+        "name": "Psychologisches Empowerment in Veränderungs- und Wandlungsprozessen",
         "url": "allModules/44139_M_IKPE.json"
       },
       {
+        "id": "IKPH",
+        "name": "Prototyping für Startup-Ideen beim Hackathon",
+        "url": "allModules/56807_M_IKPH.json"
+      },
+      {
         "id": "IKPS",
-        "name": "Prototyping for Startup-Ideas",
+        "name": "Prototyping für Startup-Ideen",
         "url": "allModules/44133_M_IKPS.json"
       },
       {
         "id": "IKPSp",
-        "name": "Prototyping for Startup-Ideas (Projektarbeit)",
+        "name": "Prototyping für Startup-Ideen (Projektarbeit)",
         "url": "allModules/44136_M_IKPS_p.json"
       },
       {
@@ -615,12 +735,12 @@
       },
       {
         "id": "IKVK",
-        "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter",
+        "name": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter",
         "url": "allModules/44166_M_IKVK.json"
       },
       {
         "id": "IKVKp",
-        "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter (Projektarbeit)",
+        "name": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter (Projektarbeit)",
         "url": "allModules/44169_M_IKVK_p.json"
       },
       {
@@ -641,6 +761,11 @@
     "name": "Informatik",
     "modules": [
       {
+        "id": "AADL",
+        "name": "Applied AI with Deep Learning",
+        "url": "allModules/57207_M_AADL.json"
+      },
+      {
         "id": "AIAp",
         "name": "AI Applications",
         "url": "allModules/40870_M_AIAp.json"
@@ -649,6 +774,11 @@
         "id": "AIFo",
         "name": "AI Foundations",
         "url": "allModules/40866_M_AIFo.json"
+      },
+      {
+        "id": "AJwn",
+        "name": "Auf Jobsuche, was nun?",
+        "url": "allModules/57128_M_AJwn.json"
       },
       {
         "id": "AlgDat",
@@ -808,7 +938,7 @@
       {
         "id": "IBN",
         "name": "Intent-Based Networking",
-        "url": "allModules/43556_M_IBN.json"
+        "url": "allModules/57056_M_IBN.json"
       },
       {
         "id": "IPCV1",
@@ -853,7 +983,7 @@
       {
         "id": "NetAut",
         "name": "Network Automation",
-        "url": "allModules/39128_M_NetAut.json"
+        "url": "allModules/56252_M_NetAut.json"
       },
       {
         "id": "OOP1",
@@ -869,6 +999,11 @@
         "id": "PF",
         "name": "Patterns und Frameworks",
         "url": "allModules/39045_M_PF.json"
+      },
+      {
+        "id": "PWWD",
+        "name": "Praxiswoche Webdesign",
+        "url": "allModules/57180_M_PWWD.json"
       },
       {
         "id": "ParProg",
@@ -893,7 +1028,7 @@
       {
         "id": "SEP2",
         "name": "SE Practices 2",
-        "url": "allModules/40859_M_SEP2.json"
+        "url": "allModules/57233_M_SEP2.json"
       },
       {
         "id": "SEProj",
@@ -913,7 +1048,7 @@
       {
         "id": "UIP",
         "name": "UI Patterns and Frameworks",
-        "url": "allModules/44688_M_UIP.json"
+        "url": "allModules/56946_M_UIP.json"
       },
       {
         "id": "UX",
@@ -950,12 +1085,12 @@
       {
         "id": "EnglHTw",
         "name": "English: How Things work",
-        "url": "allModules/45657_M_EnglHTw.json"
+        "url": "allModules/56496_M_EnglHTw.json"
       },
       {
         "id": "EnglScience",
         "name": "English: The World of Science",
-        "url": "allModules/45665_M_EnglScience.json"
+        "url": "allModules/56504_M_EnglScience.json"
       },
       {
         "id": "FKIA",
@@ -1066,6 +1201,11 @@
     "required_ects": 46,
     "name": "Rahmenausbildung",
     "modules": [
+      {
+        "id": "AADL",
+        "name": "Applied AI with Deep Learning",
+        "url": "allModules/57207_M_AADL.json"
+      },
       {
         "id": "AIFo",
         "name": "AI Foundations",
@@ -1193,7 +1333,7 @@
       {
         "id": "WI2",
         "name": "Business Processes für Informatik",
-        "url": "allModules/40981_M_WI2.json"
+        "url": "allModules/57174_M_WI2.json"
       }
     ]
   }

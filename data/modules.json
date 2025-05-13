@@ -1,5 +1,21 @@
 [
   {
+    "id": "AADL",
+    "name": "Applied AI with Deep Learning",
+    "url": "allModules/57207_M_AADL.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "Inf",
+      "RA"
+    ]
+  },
+  {
     "id": "AIAp",
     "name": "AI Applications",
     "url": "allModules/40870_M_AIAp.json",
@@ -26,9 +42,9 @@
     "isDeactivated": false,
     "term": "HS",
     "recommendedModuleIds": [
-      "AutoSpr",
       "An1I",
       "An2I",
+      "AutoSpr",
       "OOP1",
       "OOP2"
     ],
@@ -44,6 +60,22 @@
     ]
   },
   {
+    "id": "AJwn",
+    "name": "Auf Jobsuche, was nun?",
+    "url": "allModules/57128_M_AJwn.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ]
+  },
+  {
     "id": "AlgDat",
     "name": "Algorithmen und Datenstrukturen",
     "url": "allModules/38881_M_AlgDat.json",
@@ -55,9 +87,9 @@
       "OOP2"
     ],
     "dependentModuleIds": [
-      "MsTe",
       "CPlA",
-      "ComGra"
+      "ComGra",
+      "MsTe"
     ],
     "successorModuleId": null,
     "predecessorModuleId": "AD2",
@@ -220,8 +252,8 @@
       "DSy",
       "ParProg",
       "PlFSec",
-      "SecSoW",
-      "SecSW"
+      "SecSW",
+      "SecSoW"
     ],
     "successorModuleId": null,
     "predecessorModuleId": null,
@@ -308,14 +340,14 @@
     "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [
-      "CldInf",
       "CN2",
+      "CldInf",
       "CySec",
       "IBN",
       "NIoSec",
       "PlFSec",
-      "SecSoW",
-      "SecSW"
+      "SecSW",
+      "SecSoW"
     ],
     "successorModuleId": null,
     "predecessorModuleId": null,
@@ -377,10 +409,10 @@
     "isDeactivated": false,
     "term": "FS",
     "recommendedModuleIds": [
-      "CPl",
-      "Bsys1",
-      "OOP1",
       "AlgDat",
+      "Bsys1",
+      "CPl",
+      "OOP1",
       "OOP2"
     ],
     "dependentModuleIds": [],
@@ -425,8 +457,8 @@
     "isDeactivated": false,
     "term": "HS",
     "recommendedModuleIds": [
-      "CN2",
-      "CN1"
+      "CN1",
+      "CN2"
     ],
     "dependentModuleIds": [
       "CldOp"
@@ -482,11 +514,11 @@
     "isDeactivated": false,
     "term": "HS",
     "recommendedModuleIds": [
-      "Bsys2",
       "Bsys1",
-      "SE2",
+      "Bsys2",
       "OOP1",
-      "OOP2"
+      "OOP2",
+      "SE2"
     ],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -536,9 +568,9 @@
     "isDeactivated": false,
     "term": "HS",
     "recommendedModuleIds": [
+      "AlgDat",
       "An1I",
       "OOP1",
-      "AlgDat",
       "OOP2"
     ],
     "dependentModuleIds": [],
@@ -557,8 +589,8 @@
     "isDeactivated": false,
     "term": "HS",
     "recommendedModuleIds": [
-      "HackL",
       "CySec",
+      "HackL",
       "SecSW"
     ],
     "dependentModuleIds": [
@@ -586,8 +618,8 @@
       "IncResp",
       "NIoSec",
       "PlFSec",
-      "SecSoW",
-      "SecSW"
+      "SecSW",
+      "SecSoW"
     ],
     "successorModuleId": null,
     "predecessorModuleId": "InfSi1",
@@ -624,8 +656,8 @@
     "recommendedModuleIds": [],
     "dependentModuleIds": [
       "FP",
-      "KomFou1",
-      "FunProg"
+      "FunProg",
+      "KomFou1"
     ],
     "successorModuleId": null,
     "predecessorModuleId": "Math1I",
@@ -642,8 +674,8 @@
     "isDeactivated": false,
     "term": "FS",
     "recommendedModuleIds": [
-      "SE1",
-      "Bsys1"
+      "Bsys1",
+      "SE1"
     ],
     "dependentModuleIds": [
       "BlCh"
@@ -700,9 +732,9 @@
     "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [
-      "MsTe",
       "DatAna",
-      "DatEng"
+      "DatEng",
+      "MsTe"
     ],
     "successorModuleId": null,
     "predecessorModuleId": null,
@@ -796,7 +828,7 @@
   {
     "id": "EnglHTw",
     "name": "English: How Things work",
-    "url": "allModules/45657_M_EnglHTw.json",
+    "url": "allModules/56496_M_EnglHTw.json",
     "ects": 4,
     "isDeactivated": false,
     "term": "HS",
@@ -811,7 +843,7 @@
   {
     "id": "EnglScience",
     "name": "English: The World of Science",
-    "url": "allModules/45665_M_EnglScience.json",
+    "url": "allModules/56504_M_EnglScience.json",
     "ects": 4,
     "isDeactivated": false,
     "term": "HS",
@@ -944,8 +976,8 @@
     "isDeactivated": false,
     "term": "HS",
     "recommendedModuleIds": [
-      "AutPy",
-      "AIFo"
+      "AIFo",
+      "AutPy"
     ],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -977,13 +1009,13 @@
   {
     "id": "IBN",
     "name": "Intent-Based Networking",
-    "url": "allModules/43556_M_IBN.json",
+    "url": "allModules/57056_M_IBN.json",
     "ects": 4,
     "isDeactivated": false,
-    "term": "FS",
+    "term": "HS",
     "recommendedModuleIds": [
-      "CN2",
-      "CN1"
+      "CN1",
+      "CN2"
     ],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1044,7 +1076,7 @@
     "url": "allModules/44064_M_IKAK.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "HS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1073,7 +1105,7 @@
     "name": "Behavioral Design",
     "url": "allModules/55066_M_IKBD.json",
     "ects": 2,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -1084,16 +1116,31 @@
     ]
   },
   {
+    "id": "IKBF",
+    "name": "Selbststeuerung im Beruf",
+    "url": "allModules/56707_M_IKBF.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IKBH",
     "name": "Behavioral Design",
-    "url": "allModules/44037_M_IKBH.json",
+    "url": "allModules/56919_M_IKBH.json",
     "ects": 2,
-    "isDeactivated": true,
-    "term": "",
+    "isDeactivated": false,
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": "IKBD",
-    "predecessorModuleId": null,
+    "predecessorModuleId": "IKBD",
     "categoriesForColoring": [
       "GWRIKTS"
     ]
@@ -1114,12 +1161,57 @@
     ]
   },
   {
+    "id": "IKCC",
+    "name": "Co-Creation und Inclusive Design Methoden",
+    "url": "allModules/56710_M_IKCC.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "both",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKCCp",
+    "name": "Co-Creation und Inclusive Design Methoden (Projektarbeit)",
+    "url": "allModules/56713_M_IKCC_p.json",
+    "ects": 3,
+    "isDeactivated": false,
+    "term": "both",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKCG",
+    "name": "Corporate Governance and Sustainability",
+    "url": "allModules/56716_M_IKCG.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "both",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IKDH",
     "name": "Lernlabor «Digitalisieren Hands-on»",
     "url": "allModules/44235_M_IKDH.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "HS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1207,13 +1299,11 @@
     "id": "IKDM_A",
     "name": "Dream Team - Mentoringprogramm für die nächste Generation Teil A",
     "url": "allModules/44241_M_IKDM_A.json",
-    "ects": 3,
+    "ects": 2,
     "isDeactivated": false,
-    "term": "",
+    "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [
-      "IKDM_B",
-      "IKDM_B",
       "IKDM_B"
     ],
     "successorModuleId": null,
@@ -1226,13 +1316,42 @@
     "id": "IKDM_B",
     "name": "Dream Team - Mentoringprogramm für die nächste Generation Teil B",
     "url": "allModules/44244_M_IKDM_B.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [
+      "IKDM_A"
+    ],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKEI",
+    "name": "Einsamkeit erforschen - wirtschaftliche, gesellschaftliche und private Dimensionen",
+    "url": "allModules/56720_M_IKEI.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKEIp",
+    "name": "Einsamkeit erforschen - wirtschaftliche, gesellschaftliche und private Dimensionen (Projektarbeit)",
+    "url": "allModules/56731_M_IKEI_p.json",
     "ects": 3,
     "isDeactivated": false,
     "term": "",
-    "recommendedModuleIds": [
-      "IKDM_A",
-      "IKDM_A"
-    ],
+    "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
     "predecessorModuleId": null,
@@ -1261,7 +1380,67 @@
     "url": "allModules/44052_M_IKEK_p.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "",
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKFD",
+    "name": "Applied Frugal Design: Einfach gestalten, gesund leben",
+    "url": "allModules/56734_M_IKFD.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKFDp",
+    "name": "Applied Frugal Design: Einfach gestalten, gesund leben (Projektarbeit)",
+    "url": "allModules/56737_M_IKFD_p.json",
+    "ects": 4,
+    "isDeactivated": false,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKFL",
+    "name": "Future Life Design: Successfully shaping your own life path",
+    "url": "allModules/56740_M_IKFL.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKFLp",
+    "name": "Future Life Design: Successfully shaping your own life path (Projektarbeit)",
+    "url": "allModules/56743_M_IKFL_p.json",
+    "ects": 3,
+    "isDeactivated": false,
+    "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1306,7 +1485,7 @@
     "url": "allModules/44088_M_IKGE.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "HS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1321,7 +1500,7 @@
     "url": "allModules/44091_M_IKGE_p.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "HS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1347,7 +1526,7 @@
   },
   {
     "id": "IKGS",
-    "name": "Wissens- und Technologietransfer für nachhaltige Entwicklung im Globalen Süden",
+    "name": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden",
     "url": "allModules/44190_M_IKGS.json",
     "ects": 2,
     "isDeactivated": false,
@@ -1362,9 +1541,9 @@
   },
   {
     "id": "IKGSp",
-    "name": "Wissens- und Technologietransfer für nachhaltige Entwicklung im Globalen Süden (Projektarbeit)",
-    "url": "allModules/44193_M_IKGS_p.json",
-    "ects": 4,
+    "name": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden (Projektarbeit)",
+    "url": "allModules/56922_M_IKGS_p.json",
+    "ects": 3,
     "isDeactivated": false,
     "term": "HS",
     "recommendedModuleIds": [],
@@ -1421,6 +1600,36 @@
     ]
   },
   {
+    "id": "IKIS",
+    "name": "International Summer School for Sustainability",
+    "url": "allModules/56789_M_IKIS.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKISp",
+    "name": "International Summer School for Sustainability (Projektarbeit)",
+    "url": "allModules/56866_M_IKIS_p.json",
+    "ects": 3,
+    "isDeactivated": false,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IKKA",
     "name": "Nachhaltigkeit und Klimaschutz angewandt",
     "url": "allModules/44223_M_IKKA.json",
@@ -1467,7 +1676,7 @@
   },
   {
     "id": "IKKL",
-    "name": "Kreislaufwirtschaft",
+    "name": "Circular Economy",
     "url": "allModules/44094_M_IKKL.json",
     "ects": 2,
     "isDeactivated": false,
@@ -1482,7 +1691,7 @@
   },
   {
     "id": "IKKLp",
-    "name": "Kreislaufwirtschaft (Projektarbeit)",
+    "name": "Circular Economy (Projektarbeit)",
     "url": "allModules/44097_M_IKKL_p.json",
     "ects": 3,
     "isDeactivated": false,
@@ -1526,6 +1735,36 @@
     ]
   },
   {
+    "id": "IKLD",
+    "name": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten",
+    "url": "allModules/56925_M_IKLD.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKLDp",
+    "name": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten (Projektarbeit)",
+    "url": "allModules/56928_M_IKLD_p.json",
+    "ects": 3,
+    "isDeactivated": false,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IKLE",
     "name": "IZM-Projekt",
     "url": "allModules/44082_M_IKLE.json",
@@ -1544,9 +1783,9 @@
     "id": "IKLEp",
     "name": "IZM-Projekt (Projektarbeit)",
     "url": "allModules/44085_M_IKLE_p.json",
-    "ects": 3,
+    "ects": 4,
     "isDeactivated": false,
-    "term": "FS",
+    "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1601,6 +1840,21 @@
     ]
   },
   {
+    "id": "IKMEp",
+    "name": "Messbar gesund (Projektarbeit)",
+    "url": "allModules/56875_M_IKME_p.json",
+    "ects": 3,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IKMI",
     "name": "Medien- und Informationskompetenz in Zeiten von KI",
     "url": "allModules/44109_M_IKMI.json",
@@ -1632,11 +1886,11 @@
   },
   {
     "id": "IKMO",
-    "name": "Gemeinden & Städte von morgen",
+    "name": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung",
     "url": "allModules/44055_M_IKMO.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1647,7 +1901,7 @@
   },
   {
     "id": "IKMOp",
-    "name": "Gemeinden & Städte von morgen (Projektarbeit)",
+    "name": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung (Projektarbeit)",
     "url": "allModules/44058_M_IKMO_p.json",
     "ects": 3,
     "isDeactivated": false,
@@ -1662,7 +1916,7 @@
   },
   {
     "id": "IKNB",
-    "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels",
+    "name": "Wasser und Klima: Nachhaltige Wasserbewirtschaftung auf Gemeindeebene",
     "url": "allModules/44199_M_IKNB.json",
     "ects": 2,
     "isDeactivated": false,
@@ -1677,11 +1931,41 @@
   },
   {
     "id": "IKNBp",
-    "name": "Nachhaltige Bewirtschaftung des urbanen Wasserkreislaufes in Zeiten des Klimawandels (Projektarbeit)",
-    "url": "allModules/44421_M_IKNB_p.json",
+    "name": "Wasser und Klima: Nachhaltige Wasserbewirtschaftung auf Gemeindeebene (Projektarbeit)",
+    "url": "allModules/57170_M_IKNB_p.json",
     "ects": 4,
     "isDeactivated": false,
     "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKNE",
+    "name": "Nachhaltige Ernährung für Körper, Geist und Klima",
+    "url": "allModules/56792_M_IKNE.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKNEp",
+    "name": "Nachhaltige Ernährung für Körper, Geist und Klima (Projektarbeit)",
+    "url": "allModules/56795_M_IKNE_p.json",
+    "ects": 3,
+    "isDeactivated": false,
+    "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1696,7 +1980,7 @@
     "url": "allModules/44121_M_IKNG.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "",
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1711,7 +1995,7 @@
     "url": "allModules/44124_M_IKNG_p.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "",
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1741,7 +2025,7 @@
     "url": "allModules/44130_M_IKNK_p.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1766,8 +2050,68 @@
     ]
   },
   {
+    "id": "IKNW",
+    "name": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops",
+    "url": "allModules/56802_M_IKNW.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKNWp",
+    "name": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops (Projektarbeit)",
+    "url": "allModules/56804_M_IKNW_p.json",
+    "ects": 3,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKOW",
+    "name": "Offgrid Wasser und Sonne: Hands on",
+    "url": "allModules/56805_M_IKOW.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKOWp",
+    "name": "Offgrid Wasser und Sonne: Hands on (Projektarbeit)",
+    "url": "allModules/56806_M_IKOW_p.json",
+    "ects": 3,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IKPE",
-    "name": "Psychologisches Empowerment",
+    "name": "Psychologisches Empowerment in Veränderungs- und Wandlungsprozessen",
     "url": "allModules/44139_M_IKPE.json",
     "ects": 2,
     "isDeactivated": false,
@@ -1781,8 +2125,23 @@
     ]
   },
   {
+    "id": "IKPH",
+    "name": "Prototyping für Startup-Ideen beim Hackathon",
+    "url": "allModules/56807_M_IKPH.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IKPS",
-    "name": "Prototyping for Startup-Ideas",
+    "name": "Prototyping für Startup-Ideen",
     "url": "allModules/44133_M_IKPS.json",
     "ects": 2,
     "isDeactivated": false,
@@ -1797,7 +2156,7 @@
   },
   {
     "id": "IKPSp",
-    "name": "Prototyping for Startup-Ideas (Projektarbeit)",
+    "name": "Prototyping für Startup-Ideen (Projektarbeit)",
     "url": "allModules/44136_M_IKPS_p.json",
     "ects": 4,
     "isDeactivated": false,
@@ -1816,7 +2175,7 @@
     "url": "allModules/44142_M_IKRE.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "FS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1936,7 +2295,7 @@
     "url": "allModules/44253_M_IKSU.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "HS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1951,7 +2310,7 @@
     "url": "allModules/44256_M_IKSU_p.json",
     "ects": 4,
     "isDeactivated": false,
-    "term": "HS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2127,11 +2486,11 @@
   },
   {
     "id": "IKVK",
-    "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter",
+    "name": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter",
     "url": "allModules/44166_M_IKVK.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "HS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2142,11 +2501,11 @@
   },
   {
     "id": "IKVKp",
-    "name": "Vielfalt, Chancengleichheit und Inklusion im KI Zeitalter (Projektarbeit)",
+    "name": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter (Projektarbeit)",
     "url": "allModules/44169_M_IKVK_p.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "HS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2225,9 +2584,9 @@
     "isDeactivated": false,
     "term": "FS",
     "recommendedModuleIds": [
-      "HackL",
-      "CySec",
       "CyDef",
+      "CySec",
+      "HackL",
       "SecSoW"
     ],
     "dependentModuleIds": [],
@@ -2272,9 +2631,9 @@
     "isDeactivated": false,
     "term": "HS",
     "recommendedModuleIds": [
-      "KomFou1",
       "An1I",
-      "An2I"
+      "An2I",
+      "KomFou1"
     ],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2351,8 +2710,8 @@
     "isDeactivated": false,
     "term": "FS",
     "recommendedModuleIds": [
-      "DMI",
-      "An1I"
+      "An1I",
+      "DMI"
     ],
     "dependentModuleIds": [
       "IntTra"
@@ -2383,7 +2742,7 @@
     "name": "Lernlabor \"Digitalisieren Hands-on\"",
     "url": "allModules/41732_M_LLDIG.json",
     "ects": 4,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -2498,9 +2857,9 @@
     "isDeactivated": false,
     "term": "HS",
     "recommendedModuleIds": [
+      "AlgDat",
       "Dbs1",
       "OOP1",
-      "AlgDat",
       "OOP2"
     ],
     "dependentModuleIds": [],
@@ -2519,8 +2878,8 @@
     "isDeactivated": false,
     "term": "HS",
     "recommendedModuleIds": [
-      "CN2",
       "CN1",
+      "CN2",
       "CySec"
     ],
     "dependentModuleIds": [],
@@ -2573,7 +2932,6 @@
     "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [
-      "MsTe",
       "AIFo",
       "AlgDat",
       "CPl",
@@ -2581,12 +2939,13 @@
       "CoBau",
       "ComGra",
       "FP",
+      "MsTe",
       "OOP2",
       "ParProg",
+      "SE1",
       "SEP1",
       "SEProj",
-      "WE1",
-      "SE1"
+      "WE1"
     ],
     "successorModuleId": null,
     "predecessorModuleId": null,
@@ -2606,18 +2965,18 @@
       "OOP1"
     ],
     "dependentModuleIds": [
-      "MsTe",
       "AIFo",
       "AlgDat",
       "CPl",
       "CPlA",
       "CoBau",
       "ComGra",
+      "MsTe",
       "ParProg",
+      "SE1",
       "SEP1",
       "SEProj",
-      "WE1",
-      "SE1"
+      "WE1"
     ],
     "successorModuleId": null,
     "predecessorModuleId": "AD1",
@@ -2645,6 +3004,22 @@
     ]
   },
   {
+    "id": "PWWD",
+    "name": "Praxiswoche Webdesign",
+    "url": "allModules/57180_M_PWWD.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ]
+  },
+  {
     "id": "ParProg",
     "name": "Parallele Programmierung",
     "url": "allModules/41462_M_ParProg.json",
@@ -2652,9 +3027,9 @@
     "isDeactivated": false,
     "term": "FS",
     "recommendedModuleIds": [
+      "Bsys1",
       "OOP1",
-      "OOP2",
-      "Bsys1"
+      "OOP2"
     ],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2743,11 +3118,11 @@
     "isDeactivated": false,
     "term": "HS",
     "recommendedModuleIds": [
+      "Bsys1",
+      "CN1",
       "CN2",
       "CySec",
-      "SecSW",
-      "Bsys1",
-      "CN1"
+      "SecSW"
     ],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2865,8 +3240,8 @@
       "AppArch",
       "DSy",
       "PF",
-      "UX",
-      "SE2"
+      "SE2",
+      "UX"
     ],
     "successorModuleId": "SEP2",
     "predecessorModuleId": null,
@@ -2910,10 +3285,10 @@
       "AppArch",
       "DSy",
       "PF",
+      "SE2",
       "SEP2",
       "SEProj",
-      "UX",
-      "SE2"
+      "UX"
     ],
     "successorModuleId": null,
     "predecessorModuleId": "SE1",
@@ -2925,7 +3300,7 @@
   {
     "id": "SEP2",
     "name": "SE Practices 2",
-    "url": "allModules/40859_M_SEP2.json",
+    "url": "allModules/57233_M_SEP2.json",
     "ects": 4,
     "isDeactivated": false,
     "term": "FS",
@@ -2950,8 +3325,8 @@
     "isDeactivated": false,
     "term": "FS",
     "recommendedModuleIds": [
-      "OOP1",
       "AutPy",
+      "OOP1",
       "OOP2",
       "SEP1"
     ],
@@ -3002,9 +3377,9 @@
     "isDeactivated": true,
     "term": "FS",
     "recommendedModuleIds": [
-      "CySec",
       "Bsys1",
-      "CN1"
+      "CN1",
+      "CySec"
     ],
     "dependentModuleIds": [
       "CyDef",
@@ -3025,9 +3400,9 @@
     "isDeactivated": false,
     "term": "FS",
     "recommendedModuleIds": [
-      "CySec",
       "Bsys1",
-      "CN1"
+      "CN1",
+      "CySec"
     ],
     "dependentModuleIds": [
       "CyDef",
@@ -3120,16 +3495,14 @@
   {
     "id": "UIP",
     "name": "UI Patterns and Frameworks",
-    "url": "allModules/44688_M_UIP.json",
+    "url": "allModules/56946_M_UIP.json",
     "ects": 4,
     "isDeactivated": false,
     "term": "HS",
     "recommendedModuleIds": [],
-    "dependentModuleIds": [
-      "UX"
-    ],
+    "dependentModuleIds": [],
     "successorModuleId": null,
-    "predecessorModuleId": "MGE",
+    "predecessorModuleId": null,
     "categoriesForColoring": [
       "Auf",
       "Inf"
@@ -3232,7 +3605,7 @@
   {
     "id": "WI2",
     "name": "Business Processes für Informatik",
-    "url": "allModules/40981_M_WI2.json",
+    "url": "allModules/57174_M_WI2.json",
     "ects": 4,
     "isDeactivated": false,
     "term": "HS",
