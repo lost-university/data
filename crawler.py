@@ -11,12 +11,12 @@ overwrite_module_data = {
     'ComEng1': [['term', 'FS']],
     'ComEng2': [['term', 'HS']],
     'NetAut': [['term', 'FS']],
-    'SEProj': [['term', 'FS']],
+    'SEProj': [['term', 'FS'],['isMandatory', True]],
     'PF': [['isDeactivated', True]],
     'SE1': [['successorModuleId', 'SEP2']],
     'SE2': [['successorModuleId', 'SEP2']],
-    'SEP1': [['predecessorModuleId', 'SE1']],
-    'SEP2': [['predecessorModuleId', 'SE2']],
+    'SEP1': [['predecessorModuleId', 'SE1'],['isMandatory', True]],
+    'SEP2': [['predecessorModuleId', 'SE2'],['isMandatory', True]],
     'BuPro': [['successorModuleId', 'WI2']],
     'WI2': [['predecessorModuleId', 'BuPro']],
     'RheKI': [['successorModuleId', 'RheKoI']],
@@ -34,8 +34,8 @@ overwrite_module_data = {
     'SecSoW': [['predecessorModuleId', 'SecSW']],
     'Inno2': [['successorModuleId', 'Inno_2']],
     'Inno_2': [['predecessorModuleId', 'Inno2']],
-    'BAI21': [['term', 'both']],
-    'SAI21': [['term', 'both']],
+    'BAI21': [['term', 'both'],['isMandatory', True]],
+    'SAI21': [['term', 'both'],['isMandatory', True]],
     'IKBH': [['successorModuleId', 'IKBD']],
     'IKBD': [['predecessorModuleId', 'IKBH']]
 }
@@ -124,6 +124,9 @@ def set_deactivated_for_module(module, moduleContent):
                 module['isDeactivated'] = True
 
 def overwrite_module_with_data(module):
+    # assumption: module is not Mandatory, unless defined otherwise in overwrite_module_data
+    module['isMandatory'] = False
+
     if module['id'] not in overwrite_module_data:
         return
     overwrite_data = overwrite_module_data[module['id']]
@@ -223,12 +226,12 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
             if recommendedModuleId in modules:
                 modules[recommendedModuleId]['dependentModuleIds'].add(module['id'])
                 if modules[recommendedModuleId]['isDeactivated'] == False:
-                    continue;
+                    continue
             
             # if recommendedModuleId is not in modules or inactive, then try to find its successor and attach module as depdendent
-            successorIdOfRecommended = next((m['id'] for m in modules.values() if m['predecessorModuleId'] == recommendedModuleId), None)
-            if not successorIdOfRecommended == None and successorIdOfRecommended in modules:
-                modules[successorIdOfRecommended]['dependentModuleIds'].add(module['id'])
+            #successorIdOfRecommended = next((m['id'] for m in modules.values() if m['predecessorModuleId'] == recommendedModuleId), None)
+            #if not successorIdOfRecommended == None and successorIdOfRecommended in modules:
+            #    modules[successorIdOfRecommended]['dependentModuleIds'].add(module['id'])
 
     # 'spezialisierungen' contains focuses
     spezialisierungen = jsonContent['spezialisierungen']
