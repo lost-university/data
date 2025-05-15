@@ -227,11 +227,6 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
                 modules[recommendedModuleId]['dependentModuleIds'].add(module['id'])
                 if modules[recommendedModuleId]['isDeactivated'] == False:
                     continue
-            
-            # if recommendedModuleId is not in modules or inactive, then try to find its successor and attach module as depdendent
-            #successorIdOfRecommended = next((m['id'] for m in modules.values() if m['predecessorModuleId'] == recommendedModuleId), None)
-            #if not successorIdOfRecommended == None and successorIdOfRecommended in modules:
-            #    modules[successorIdOfRecommended]['dependentModuleIds'].add(module['id'])
 
     # 'spezialisierungen' contains focuses
     spezialisierungen = jsonContent['spezialisierungen']
