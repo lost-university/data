@@ -204,6 +204,68 @@
         "id": "UIP",
         "name": "UI Patterns and Frameworks",
         "url": "allModules/56946_M_UIP.json"
+      },
+      {
+        "id": "WE2",
+        "name": "Web Engineering 2",
+        "url": "allModules/38945_M_WE2.json"
+      }
+    ]
+  },
+  {
+    "id": "VTAI",
+    "url": "allStudies/10451_VTAI.json",
+    "name": "Artificial Intelligence",
+    "modules": [
+      {
+        "id": "AIAp",
+        "name": "AI Applications",
+        "url": "allModules/40870_M_AIAp.json"
+      },
+      {
+        "id": "AIFo",
+        "name": "AI Foundations",
+        "url": "allModules/40866_M_AIFo.json"
+      },
+      {
+        "id": "CldSol",
+        "name": "Cloud Solutions",
+        "url": "allModules/37167_M_CldSol.json"
+      },
+      {
+        "id": "DL",
+        "name": "Deep Learning",
+        "url": "allModules/31834_M_DL.json"
+      },
+      {
+        "id": "DatAna",
+        "name": "Data Analytics",
+        "url": "allModules/36034_M_DatAna.json"
+      },
+      {
+        "id": "DatEng",
+        "name": "Data Engineering",
+        "url": "allModules/36038_M_DatEng.json"
+      },
+      {
+        "id": "GenAI",
+        "name": "Generative AI",
+        "url": "allModules/43809_M_GenAI.json"
+      },
+      {
+        "id": "IPCV1",
+        "name": "Image Processing and Computer Vision 1",
+        "url": "allModules/36264_M_IPCV1.json"
+      },
+      {
+        "id": "IPCV2",
+        "name": "Image Processing and Computer Vision 2",
+        "url": "allModules/36269_M_IPCV2.json"
+      },
+      {
+        "id": "ML",
+        "name": "Statistical Machine Learning",
+        "url": "allModules/31838_M_ML.json"
       }
     ]
   }
