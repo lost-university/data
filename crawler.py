@@ -58,8 +58,8 @@ def getIdForCategory(kuerzel):
 
 def create_module(content):
     return {
-        'id': content['id'],
-        'shortKey': getShortNameForModule(content['kuerzel']),
+        'module_id': content['id'],
+        'id': getShortNameForModule(content['kuerzel']),
         'name': content['bezeichnung'].strip(),
         'url': content['url'],
         'focuses': [],
@@ -92,23 +92,23 @@ def set_term_for_module(module, moduleContent):
             else:
                 module['term'] = endSemester
     else:
-        print(f'Module {module["shortKey"]} {module["id"]} has no term')
+        print(f'Module {module["id"]} {module["module_id"]} has no term')
 
 def set_successor_and_predecessor_for_module(module, moduleContent, modules):
     if 'nachfolger' in moduleContent and moduleContent['nachfolger']['kuerzel'] != moduleContent['kuerzel']:
         successormoduleShortKey = getShortNameForModule(moduleContent['nachfolger']['kuerzel'])
         module['successormoduleShortKey'] = successormoduleShortKey
         if successormoduleShortKey in modules and modules[successormoduleShortKey]['predecessormoduleShortKey'] == "":
-            modules[successormoduleShortKey]['predecessormoduleShortKey'] = module['shortKey']
+            modules[successormoduleShortKey]['predecessormoduleShortKey'] = module['id']
     if 'vorgaenger' in moduleContent and moduleContent['vorgaenger']['kuerzel'] != moduleContent['kuerzel']:
         predecessormoduleShortKey = getShortNameForModule(moduleContent['vorgaenger']['kuerzel'])
         module['predecessormoduleShortKey'] = predecessormoduleShortKey
         if predecessormoduleShortKey in modules and modules[predecessormoduleShortKey]['successormoduleShortKey'] == "":
-            modules[predecessormoduleShortKey]['successormoduleShortKey'] = module['shortKey']
+            modules[predecessormoduleShortKey]['successormoduleShortKey'] = module['id']
 
 def set_recommended_modules_for_module(module, moduleContent):
     if 'empfehlungen' in moduleContent:
-        # print(f"Empfehlungen für {module['id']} - {module['shortKey']}")
+        # print(f"Empfehlungen für {module['id']} - {module['id']}")
         for empfehlung in moduleContent['empfehlungen']:
             # print(empfehlung['id'],empfehlung['kuerzel'])
             recommendedmoduleShortKey = getShortNameForModule(empfehlung['kuerzel'])
@@ -126,13 +126,13 @@ def set_recommended_modules_for_module(module, moduleContent):
             recommendedmoduleShortKey = getShortNameForModule(voraussetzung['kuerzel'])
             module['recommendedmoduleIds'].add(voraussetzung['id'])
             module['recommendedmoduleShortKeys'].add(getShortNameForModule(voraussetzung['kuerzel']))
-            
+
             recommendedModule = {voraussetzung['id']:recommendedmoduleShortKey}
 
             if recommendedModule not in module['recommendedmodules']:
                 module['recommendedmodules'].append(recommendedModule)
 
-def set_deactivated_for_module(module, moduleContent): 
+def set_deactivated_for_module(module, moduleContent):
     # assumption: module is deactivated, if 'zustand' is 'deaktiviert' and either (1) 'endJahr' of 'durchfuehrungen' was last year or earlier or (2) no 'durchfuehrungen' is defined
     if 'zustand' in moduleContent and moduleContent['zustand'] == 'deaktiviert':
         if 'durchfuehrungen' not in moduleContent:
@@ -146,9 +146,9 @@ def overwrite_module_with_data(module):
     # assumption: module is not Mandatory, unless defined otherwise in overwrite_module_data
     module['isMandatory'] = False
 
-    if module['shortKey'] not in overwrite_module_data:
+    if module['id'] not in overwrite_module_data:
         return
-    overwrite_data = overwrite_module_data[module['shortKey']]
+    overwrite_data = overwrite_module_data[module['id']]
     for data in overwrite_data:
         module[data[0]] = data[1]
 
@@ -179,12 +179,12 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
 
         if 'categories' in module:
             for cat in module['categories']:
-                if cat['shortKey'] in categories:
-                    categories[cat['shortKey']]['modules'].append(
-                        {'id': module['id'], 'shortKey': module['shortKey'], 'name': module['name'], 'url': module['url']})
-                elif cat['shortKey'] == 'GWRIKTS':
+                if cat['id'] in categories:
+                    categories[cat['id']]['modules'].append(
+                        {'module_id': module['module_id'], 'id': module['id'], 'name': module['name'], 'url': module['url']})
+                elif cat['id'] == 'GWRIKTS':
                     categories['gwr']['modules'].append(
-                        {'id': module['id'], 'shortKey': module['shortKey'], 'name': module['name'], 'url': module['url']})
+                        {'module_id': module['module_id'], 'id': module['id'], 'name': module['name'], 'url': module['url']})
 
     # 'kredits' contains categories
     kredits = jsonContent['kredits']
@@ -196,8 +196,8 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
 
         catShortName = getIdForCategory(category['kuerzel'])
         categories[catShortName] = {
-            'id': category['id'],
-            'shortKey': catShortName,
+            'module_id': category['id'],
+            'id': catShortName,
             'required_ects': kredit['minKredits'],
             'name': category['bezeichnung'],
             'modules': [],
@@ -209,11 +209,11 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
         module = create_module(zuordnung)
 
         # For some reason each category is also present as a module.
-        if module['shortKey'].startswith('Kat'):
+        if module['id'].startswith('Kat'):
             continue
 
         if 'kategorien' in zuordnung:
-            module['categories'] = [{'shortKey': getIdForCategory(z['kuerzel']), 'name': z['bezeichnung'], 'ects': z['kreditpunkte']} for z in zuordnung['kategorien']]
+            module['categories'] = [{'id': getIdForCategory(z['kuerzel']), 'name': z['bezeichnung'], 'ects': z['kreditpunkte']} for z in zuordnung['kategorien']]
             module['ects'] = zuordnung['kategorien'][0]['kreditpunkte']
 
         # IKTS modules are often split into two separate modules, one of them being a "Projektarbeit".
@@ -221,16 +221,16 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
         if zuordnung['kuerzel'].endswith('_p'):
             module['name'] += ' (Projektarbeit)'
 
-        modules[module['id']] = module
+        modules[module['module_id']] = module
 
     for additional_module_url in additional_module_urls:
         moduleContent = json.loads(requests.get(f'{BASE_URL}{additional_module_url}').content)
         moduleContent['url'] = additional_module_url
         module = create_module(moduleContent)
         categoriesForStudienordnung = [z['kategorien'] for z in moduleContent['zuordnungen'] if z['url'] == url][0]
-        module['categories'] = [{'shortKey': getIdForCategory(c['kuerzel']), 'name': c['bezeichnung'], 'ects': c['kreditpunkte']} for c in categoriesForStudienordnung]
+        module['categories'] = [{'id': getIdForCategory(c['kuerzel']), 'name': c['bezeichnung'], 'ects': c['kreditpunkte']} for c in categoriesForStudienordnung]
         module['ects'] = moduleContent['kreditpunkte']
-        modules[module['id']] = module
+        modules[module['module_id']] = module
 
     for module in modules.values():
         try:
@@ -244,14 +244,14 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
     for module in modules.values():
         for recommendedmoduleId in module['recommendedmoduleIds']:
             if recommendedmoduleId in modules:
-                
-                dependentModule = {module['id']:module['shortKey']}
+
+                dependentModule = {module['module_id']:module['id']}
 
                 if dependentModule not in modules[recommendedmoduleId]['dependentmodules']:
                     modules[recommendedmoduleId]['dependentmodules'].append(dependentModule)
-                    
-                modules[recommendedmoduleId]['dependentmoduleShortKeys'].add(module['shortKey'])
-                modules[recommendedmoduleId]['dependentmoduleIds'].add(module['id'])
+
+                modules[recommendedmoduleId]['dependentmoduleShortKeys'].add(module['id'])
+                modules[recommendedmoduleId]['dependentmoduleIds'].add(module['module_id'])
                 if modules[recommendedmoduleId]['isDeactivated'] == False:
                     continue
 
@@ -259,8 +259,8 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
     spezialisierungen = jsonContent['spezialisierungen']
     for spez in spezialisierungen:
         focus = {
-            'id': spez['id'],
-            'shortKey': spez['kuerzel'],
+            'module_id': spez['id'],
+            'id': spez['kuerzel'],
             'url': spez['url'],
             'name': spez['bezeichnung'],
             'modules': []
@@ -275,26 +275,26 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
 
             if moduleId in modules:
                 focus['modules'].append({
-                    'id': moduleId,
-                    'shortKey': moduleShortKey,
+                    'module_id': moduleId,
+                    'id': moduleShortKey,
                     'name': modules[moduleId]['name'],
                     'url': modules[moduleId]['url']})
 
-                modules[moduleId]['focuses'].append({'shortKey': focus['shortKey'], 'name': focus['name'], 'url': focus['url']})
+                modules[moduleId]['focuses'].append({'module_id': focus['module_id'], 'id': focus['id'], 'name': focus['name'], 'url': focus['url']})
 
-        focus['modules'].sort(key = lambda x: x['id'])
-        focus['modules'] = list({m['id']: m for m in focus['modules']}.values())
+        focus['modules'].sort(key = lambda x: x['module_id'])
+        focus['modules'] = list({m['module_id']: m for m in focus['modules']}.values())
         focuses.append(focus)
 
     # id should be unique for each module
-    idsSet = set([m['id'] for m in modules.values()])
+    idsSet = set([m['module_id'] for m in modules.values()])
     if len(idsSet) != len(modules):
         sys.exit(1)
 
     categories = list(categories.values())
 
     for category in categories:
-        category['modules'].sort(key = lambda x: x['id'])
+        category['modules'].sort(key = lambda x: x['module_id'])
 
     categories.sort(key = lambda x: x['id'])
     focuses.sort(key = lambda x: x['id'])
@@ -312,7 +312,7 @@ fetch_data_for_studienordnung('allStudies/10246_I.json', 'data23', ['allModules/
 fetch_data_for_studienordnung('allStudies/10191_I.json', 'data21', ['allModules/28254_M_MGE.json'])
 
 for module in modules.values():
-    module['categoriesForColoring'] = sorted([category['shortKey'] for category in module['categories']])
+    module['categoriesForColoring'] = sorted([category['id'] for category in module['categories']])
     del module['focuses']
     del module['categories']
 
@@ -322,5 +322,5 @@ if not os.path.exists(output_directory):
     os.mkdir(output_directory)
 
 modules = list(modules.values())
-modules.sort(key = lambda x: x['id'])
+modules.sort(key = lambda x: x['module_id'])
 write_json(modules, f'{output_directory}/modules.json')

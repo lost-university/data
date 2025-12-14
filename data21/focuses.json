@@ -1,317 +1,317 @@
 [
   {
-    "id": 10192,
-    "shortKey": "SE",
-    "url": "allStudies/10192_SE.json",
-    "name": "Software Engineering",
-    "modules": [
-      {
-        "id": 24357,
-        "shortKey": "CPl",
-        "name": "C++",
-        "url": "allModules/24357_M_CPl.json"
-      },
-      {
-        "id": 28236,
-        "shortKey": "AppArch",
-        "name": "Application Architecture",
-        "url": "allModules/28236_M_AppArch.json"
-      },
-      {
-        "id": 36488,
-        "shortKey": "SecSW",
-        "name": "Secure Software",
-        "url": "allModules/36488_M_SecSW.json"
-      },
-      {
-        "id": 37247,
-        "shortKey": "MsTe",
-        "name": ".Net Technologien",
-        "url": "allModules/37247_M_MsTe.json"
-      },
-      {
-        "id": 37903,
-        "shortKey": "Bsys2",
-        "name": "Betriebssysteme 2",
-        "url": "allModules/37903_M_Bsys2.json"
-      },
-      {
-        "id": 39045,
-        "shortKey": "PF",
-        "name": "Patterns und Frameworks",
-        "url": "allModules/39045_M_PF.json"
-      },
-      {
-        "id": 39054,
-        "shortKey": "DSy",
-        "name": "Distributed Systems",
-        "url": "allModules/39054_M_DSy.json"
-      },
-      {
-        "id": 40311,
-        "shortKey": "SecSoW",
-        "name": "Secure Software",
-        "url": "allModules/40311_M_SecSoW.json"
-      },
-      {
-        "id": 41462,
-        "shortKey": "ParProg",
-        "name": "Parallele Programmierung",
-        "url": "allModules/41462_M_ParProg.json"
-      },
-      {
-        "id": 56946,
-        "shortKey": "UIP",
-        "name": "UI Patterns and Frameworks",
-        "url": "allModules/56946_M_UIP.json"
-      }
-    ]
-  },
-  {
-    "id": 10193,
-    "shortKey": "FrEng",
-    "url": "allStudies/10193_FrEng.json",
-    "name": "Frontend Engineering",
-    "modules": [
-      {
-        "id": 28236,
-        "shortKey": "AppArch",
-        "name": "Application Architecture",
-        "url": "allModules/28236_M_AppArch.json"
-      },
-      {
-        "id": 37167,
-        "shortKey": "CldSol",
-        "name": "Cloud Solutions",
-        "url": "allModules/37167_M_CldSol.json"
-      },
-      {
-        "id": 38901,
-        "shortKey": "WE3",
-        "name": "Web Engineering 3",
-        "url": "allModules/38901_M_WE3.json"
-      },
-      {
-        "id": 38945,
-        "shortKey": "WE2",
-        "name": "Web Engineering 2",
-        "url": "allModules/38945_M_WE2.json"
-      },
-      {
-        "id": 40870,
-        "shortKey": "AIAp",
-        "name": "AI Applications",
-        "url": "allModules/40870_M_AIAp.json"
-      },
-      {
-        "id": 41106,
-        "shortKey": "UX",
-        "name": "User Experience",
-        "url": "allModules/41106_M_UX.json"
-      },
-      {
-        "id": 43801,
-        "shortKey": "ComGra",
-        "name": "Computer Grafik",
-        "url": "allModules/43801_M_ComGra.json"
-      },
-      {
-        "id": 43809,
-        "shortKey": "GenAI",
-        "name": "Generative AI",
-        "url": "allModules/43809_M_GenAI.json"
-      },
-      {
-        "id": 56946,
-        "shortKey": "UIP",
-        "name": "UI Patterns and Frameworks",
-        "url": "allModules/56946_M_UIP.json"
-      }
-    ]
-  },
-  {
-    "id": 10194,
-    "shortKey": "CySec",
+    "module_id": 10194,
+    "id": "CySec",
     "url": "allStudies/10194_CySec.json",
     "name": "Cybersecurity",
     "modules": [
       {
-        "id": 23311,
-        "shortKey": "CN2",
+        "module_id": 23311,
+        "id": "CN2",
         "name": "Computernetze 2",
         "url": "allModules/23311_M_CN2.json"
       },
       {
-        "id": 36457,
-        "shortKey": "HackL",
+        "module_id": 36457,
+        "id": "HackL",
         "name": "Hacking Lab",
         "url": "allModules/36457_M_HackL.json"
       },
       {
-        "id": 36473,
-        "shortKey": "IncResp",
+        "module_id": 36473,
+        "id": "IncResp",
         "name": "Incident Response",
         "url": "allModules/36473_M_IncResp.json"
       },
       {
-        "id": 36488,
-        "shortKey": "SecSW",
+        "module_id": 36488,
+        "id": "SecSW",
         "name": "Secure Software",
         "url": "allModules/36488_M_SecSW.json"
       },
       {
-        "id": 38551,
-        "shortKey": "CyDef",
+        "module_id": 38551,
+        "id": "CyDef",
         "name": "Cyber Defense",
         "url": "allModules/38551_M_CyDef.json"
       },
       {
-        "id": 38945,
-        "shortKey": "WE2",
+        "module_id": 38945,
+        "id": "WE2",
         "name": "Web Engineering 2",
         "url": "allModules/38945_M_WE2.json"
       },
       {
-        "id": 40311,
-        "shortKey": "SecSoW",
+        "module_id": 40311,
+        "id": "SecSoW",
         "name": "Secure Software",
         "url": "allModules/40311_M_SecSoW.json"
       },
       {
-        "id": 42231,
-        "shortKey": "NIoSec",
+        "module_id": 42231,
+        "id": "NIoSec",
         "name": "Network and IoT Security",
         "url": "allModules/42231_M_NIoSec.json"
       },
       {
-        "id": 61026,
-        "shortKey": "PlFSec",
+        "module_id": 61026,
+        "id": "PlFSec",
         "name": "Platform Security",
         "url": "allModules/61026_M_PlFSec.json"
       }
     ]
   },
   {
-    "id": 10195,
-    "shortKey": "NetCloud",
-    "url": "allStudies/10195_NetCloud.json",
-    "name": "Network and Cloud Infrastructure",
+    "module_id": 10196,
+    "id": "DaEnMaIn",
+    "url": "allStudies/10196_DaEnMaIn.json",
+    "name": "Data Science",
     "modules": [
       {
-        "id": 23311,
-        "shortKey": "CN2",
-        "name": "Computernetze 2",
-        "url": "allModules/23311_M_CN2.json"
+        "module_id": 31614,
+        "id": "MathFML",
+        "name": "Mathematical Foundations for Machine Learning",
+        "url": "allModules/31614_M_MathFML.json"
       },
       {
-        "id": 29855,
-        "shortKey": "CldInf",
-        "name": "Cloud Infrastructure",
-        "url": "allModules/29855_M_CldInf.json"
+        "module_id": 31834,
+        "id": "DL",
+        "name": "Deep Learning",
+        "url": "allModules/31834_M_DL.json"
       },
       {
-        "id": 37157,
-        "shortKey": "WsoT",
-        "name": "Wireless and IoT",
-        "url": "allModules/37157_M_WIoT.json"
+        "module_id": 31838,
+        "id": "ML",
+        "name": "Statistical Machine Learning",
+        "url": "allModules/31838_M_ML.json"
       },
       {
-        "id": 38945,
-        "shortKey": "WE2",
+        "module_id": 36034,
+        "id": "DatAna",
+        "name": "Data Analytics",
+        "url": "allModules/36034_M_DatAna.json"
+      },
+      {
+        "module_id": 36038,
+        "id": "DatEng",
+        "name": "Data Engineering",
+        "url": "allModules/36038_M_DatEng.json"
+      },
+      {
+        "module_id": 37167,
+        "id": "CldSol",
+        "name": "Cloud Solutions",
+        "url": "allModules/37167_M_CldSol.json"
+      },
+      {
+        "module_id": 39041,
+        "id": "BlCh",
+        "name": "Blockchain",
+        "url": "allModules/39041_M_BlCh.json"
+      },
+      {
+        "module_id": 40870,
+        "id": "AIAp",
+        "name": "AI Applications",
+        "url": "allModules/40870_M_AIAp.json"
+      },
+      {
+        "module_id": 43809,
+        "id": "GenAI",
+        "name": "Generative AI",
+        "url": "allModules/43809_M_GenAI.json"
+      }
+    ]
+  },
+  {
+    "module_id": 10193,
+    "id": "FrEng",
+    "url": "allStudies/10193_FrEng.json",
+    "name": "Frontend Engineering",
+    "modules": [
+      {
+        "module_id": 28236,
+        "id": "AppArch",
+        "name": "Application Architecture",
+        "url": "allModules/28236_M_AppArch.json"
+      },
+      {
+        "module_id": 37167,
+        "id": "CldSol",
+        "name": "Cloud Solutions",
+        "url": "allModules/37167_M_CldSol.json"
+      },
+      {
+        "module_id": 38901,
+        "id": "WE3",
+        "name": "Web Engineering 3",
+        "url": "allModules/38901_M_WE3.json"
+      },
+      {
+        "module_id": 38945,
+        "id": "WE2",
         "name": "Web Engineering 2",
         "url": "allModules/38945_M_WE2.json"
       },
       {
-        "id": 39054,
-        "shortKey": "DSy",
+        "module_id": 40870,
+        "id": "AIAp",
+        "name": "AI Applications",
+        "url": "allModules/40870_M_AIAp.json"
+      },
+      {
+        "module_id": 41106,
+        "id": "UX",
+        "name": "User Experience",
+        "url": "allModules/41106_M_UX.json"
+      },
+      {
+        "module_id": 43801,
+        "id": "ComGra",
+        "name": "Computer Grafik",
+        "url": "allModules/43801_M_ComGra.json"
+      },
+      {
+        "module_id": 43809,
+        "id": "GenAI",
+        "name": "Generative AI",
+        "url": "allModules/43809_M_GenAI.json"
+      },
+      {
+        "module_id": 56946,
+        "id": "UIP",
+        "name": "UI Patterns and Frameworks",
+        "url": "allModules/56946_M_UIP.json"
+      }
+    ]
+  },
+  {
+    "module_id": 10195,
+    "id": "NetCloud",
+    "url": "allStudies/10195_NetCloud.json",
+    "name": "Network and Cloud Infrastructure",
+    "modules": [
+      {
+        "module_id": 23311,
+        "id": "CN2",
+        "name": "Computernetze 2",
+        "url": "allModules/23311_M_CN2.json"
+      },
+      {
+        "module_id": 29855,
+        "id": "CldInf",
+        "name": "Cloud Infrastructure",
+        "url": "allModules/29855_M_CldInf.json"
+      },
+      {
+        "module_id": 37157,
+        "id": "WsoT",
+        "name": "Wireless and IoT",
+        "url": "allModules/37157_M_WIoT.json"
+      },
+      {
+        "module_id": 38945,
+        "id": "WE2",
+        "name": "Web Engineering 2",
+        "url": "allModules/38945_M_WE2.json"
+      },
+      {
+        "module_id": 39054,
+        "id": "DSy",
         "name": "Distributed Systems",
         "url": "allModules/39054_M_DSy.json"
       },
       {
-        "id": 42231,
-        "shortKey": "NIoSec",
+        "module_id": 42231,
+        "id": "NIoSec",
         "name": "Network and IoT Security",
         "url": "allModules/42231_M_NIoSec.json"
       },
       {
-        "id": 55074,
-        "shortKey": "CldOp",
+        "module_id": 55074,
+        "id": "CldOp",
         "name": "Cloud Operations",
         "url": "allModules/55074_M_CldOp.json"
       },
       {
-        "id": 56252,
-        "shortKey": "NetAut",
+        "module_id": 56252,
+        "id": "NetAut",
         "name": "Network Automation",
         "url": "allModules/56252_M_NetAut.json"
       },
       {
-        "id": 57056,
-        "shortKey": "IBN",
+        "module_id": 57056,
+        "id": "IBN",
         "name": "Intent-Based Networking",
         "url": "allModules/57056_M_IBN.json"
       }
     ]
   },
   {
-    "id": 10196,
-    "shortKey": "DaEnMaIn",
-    "url": "allStudies/10196_DaEnMaIn.json",
-    "name": "Data Science",
+    "module_id": 10192,
+    "id": "SE",
+    "url": "allStudies/10192_SE.json",
+    "name": "Software Engineering",
     "modules": [
       {
-        "id": 31614,
-        "shortKey": "MathFML",
-        "name": "Mathematical Foundations for Machine Learning",
-        "url": "allModules/31614_M_MathFML.json"
+        "module_id": 24357,
+        "id": "CPl",
+        "name": "C++",
+        "url": "allModules/24357_M_CPl.json"
       },
       {
-        "id": 31834,
-        "shortKey": "DL",
-        "name": "Deep Learning",
-        "url": "allModules/31834_M_DL.json"
+        "module_id": 28236,
+        "id": "AppArch",
+        "name": "Application Architecture",
+        "url": "allModules/28236_M_AppArch.json"
       },
       {
-        "id": 31838,
-        "shortKey": "ML",
-        "name": "Statistical Machine Learning",
-        "url": "allModules/31838_M_ML.json"
+        "module_id": 36488,
+        "id": "SecSW",
+        "name": "Secure Software",
+        "url": "allModules/36488_M_SecSW.json"
       },
       {
-        "id": 36034,
-        "shortKey": "DatAna",
-        "name": "Data Analytics",
-        "url": "allModules/36034_M_DatAna.json"
+        "module_id": 37247,
+        "id": "MsTe",
+        "name": ".Net Technologien",
+        "url": "allModules/37247_M_MsTe.json"
       },
       {
-        "id": 36038,
-        "shortKey": "DatEng",
-        "name": "Data Engineering",
-        "url": "allModules/36038_M_DatEng.json"
+        "module_id": 37903,
+        "id": "Bsys2",
+        "name": "Betriebssysteme 2",
+        "url": "allModules/37903_M_Bsys2.json"
       },
       {
-        "id": 37167,
-        "shortKey": "CldSol",
-        "name": "Cloud Solutions",
-        "url": "allModules/37167_M_CldSol.json"
+        "module_id": 39045,
+        "id": "PF",
+        "name": "Patterns und Frameworks",
+        "url": "allModules/39045_M_PF.json"
       },
       {
-        "id": 39041,
-        "shortKey": "BlCh",
-        "name": "Blockchain",
-        "url": "allModules/39041_M_BlCh.json"
+        "module_id": 39054,
+        "id": "DSy",
+        "name": "Distributed Systems",
+        "url": "allModules/39054_M_DSy.json"
       },
       {
-        "id": 40870,
-        "shortKey": "AIAp",
-        "name": "AI Applications",
-        "url": "allModules/40870_M_AIAp.json"
+        "module_id": 40311,
+        "id": "SecSoW",
+        "name": "Secure Software",
+        "url": "allModules/40311_M_SecSoW.json"
       },
       {
-        "id": 43809,
-        "shortKey": "GenAI",
-        "name": "Generative AI",
-        "url": "allModules/43809_M_GenAI.json"
+        "module_id": 41462,
+        "id": "ParProg",
+        "name": "Parallele Programmierung",
+        "url": "allModules/41462_M_ParProg.json"
+      },
+      {
+        "module_id": 56946,
+        "id": "UIP",
+        "name": "UI Patterns and Frameworks",
+        "url": "allModules/56946_M_UIP.json"
       }
     ]
   }
