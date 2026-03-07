@@ -255,13 +255,13 @@
     "modules": [
       {
         "id": "IKAA",
-        "name": "Applied AI",
-        "url": "allModules/44202_M_IKAA.json"
+        "name": "Applied AI SG",
+        "url": "allModules/57381_M_IKAA.json"
       },
       {
         "id": "IKAAp",
-        "name": "Applied AI (Projektarbeit)",
-        "url": "allModules/44196_M_IKAA_p.json"
+        "name": "Applied AI SG (Projektarbeit)",
+        "url": "allModules/57378_M_IKAA_p.json"
       },
       {
         "id": "IKAG",
@@ -270,13 +270,13 @@
       },
       {
         "id": "IKAK",
-        "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz",
-        "url": "allModules/44064_M_IKAK.json"
+        "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz  SG",
+        "url": "allModules/57384_M_IKAK.json"
       },
       {
         "id": "IKAKp",
-        "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz (Projektarbeit)",
-        "url": "allModules/44067_M_IKAK_p.json"
+        "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz SG (Projektarbeit)",
+        "url": "allModules/57387_M_IKAK_p.json"
       },
       {
         "id": "IKBD",
@@ -486,12 +486,12 @@
       {
         "id": "IKKP",
         "name": "Klimakrise: Kann die Politik die Welt noch retten?",
-        "url": "allModules/44226_M_IKKP.json"
+        "url": "allModules/61396_M_IKKP.json"
       },
       {
         "id": "IKKPp",
         "name": "Klimakrise: Kann die Politik die Welt noch retten? (Projektarbeit)",
-        "url": "allModules/44229_M_IKKP_p.json"
+        "url": "allModules/61404_M_IKKP_p.json"
       },
       {
         "id": "IKLD",
@@ -606,7 +606,7 @@
       {
         "id": "IKNWp",
         "name": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops (Projektarbeit)",
-        "url": "allModules/56804_M_IKNW_p.json"
+        "url": "allModules/57681_M_IKNW_p.json"
       },
       {
         "id": "IKOW",
@@ -616,7 +616,7 @@
       {
         "id": "IKOWp",
         "name": "Offgrid Wasser und Sonne: Hands on (Projektarbeit)",
-        "url": "allModules/56806_M_IKOW_p.json"
+        "url": "allModules/57683_M_IKOW_p.json"
       },
       {
         "id": "IKPE",
@@ -627,6 +627,16 @@
         "id": "IKPH",
         "name": "Prototyping für Startup-Ideen beim Hackathon",
         "url": "allModules/56807_M_IKPH.json"
+      },
+      {
+        "id": "IKPI",
+        "name": "Projekte intedisziplinär weiterführen",
+        "url": "allModules/64856_M_IKPI.json"
+      },
+      {
+        "id": "IKPIp",
+        "name": "Projekte intedisziplinär weiterführen (Projektarbeit)",
+        "url": "allModules/64860_M_IKPI_p.json"
       },
       {
         "id": "IKPS",
