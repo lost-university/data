@@ -59,7 +59,7 @@ def getIdForCategory(kuerzel):
 def create_module(content):
     return {
         'id': getIdForModule(content['kuerzel']),
-        'name': content['bezeichnung'].strip(),
+        'name': ' '.join(content['bezeichnung'].split()),
         'url': content['url'],
         'focuses': [],
         'categories': set(),
@@ -178,7 +178,7 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
         categories[catId] = {
             'id': catId,
             'required_ects': kredit['minKredits'],
-            'name': category['bezeichnung'],
+            'name': ' '.join(category['bezeichnung'].split()),
             'modules': [],
         }
 
@@ -192,7 +192,7 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
             continue
 
         if 'kategorien' in zuordnung:
-            module['categories'] = [{'id': getIdForCategory(z['kuerzel']), 'name': z['bezeichnung'], 'ects': z['kreditpunkte']} for z in zuordnung['kategorien']]
+            module['categories'] = [{'id': getIdForCategory(z['kuerzel']), 'name': ' '.join(z['bezeichnung'].split()), 'ects': z['kreditpunkte']} for z in zuordnung['kategorien']]
             module['ects'] = zuordnung['kategorien'][0]['kreditpunkte']
 
         # IKTS modules are often split into two separate modules, one of them being a "Projektarbeit".
@@ -207,7 +207,7 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
         moduleContent['url'] = additional_module_url
         module = create_module(moduleContent)
         categoriesForStudienordnung = [z['kategorien'] for z in moduleContent['zuordnungen'] if z['url'] == url][0]
-        module['categories'] = [{'id': getIdForCategory(c['kuerzel']), 'name': c['bezeichnung'], 'ects': c['kreditpunkte']} for c in categoriesForStudienordnung]
+        module['categories'] = [{'id': getIdForCategory(c['kuerzel']), 'name': ' '.join(c['bezeichnung'].split()), 'ects': c['kreditpunkte']} for c in categoriesForStudienordnung]
         module['ects'] = moduleContent['kreditpunkte']
         modules[module['id']] = module
 
@@ -233,7 +233,7 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
         focus = {
             'id': spez['kuerzel'],
             'url': spez['url'],
-            'name': spez['bezeichnung'],
+            'name': ' '.join(spez['bezeichnung'].split()),
             'modules': []
         }
         focusContent = json.loads(requests.get(f'{BASE_URL}{spez["url"]}').content)
