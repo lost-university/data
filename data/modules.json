@@ -1166,7 +1166,7 @@
   },
   {
     "id": "IKAK",
-    "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz  SG",
+    "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz SG",
     "url": "allModules/57384_M_IKAK.json",
     "ects": 2,
     "isDeactivated": true,
@@ -2975,7 +2975,7 @@
   },
   {
     "id": "KommIng2",
-    "name": "Kommunikation 2 für IngenieurInnen  (Teamkommunikation)",
+    "name": "Kommunikation 2 für IngenieurInnen (Teamkommunikation)",
     "url": "allModules/37397_M_KommIng2.json",
     "ects": 4,
     "isDeactivated": false,
@@ -4062,7 +4062,7 @@
   },
   {
     "id": "idks.IKSH",
-    "name": "Social and Human Robotic  SG",
+    "name": "Social and Human Robotic SG",
     "url": "allModules/57354_M_idks.IKSH.json",
     "ects": 2,
     "isDeactivated": true,
