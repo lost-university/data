@@ -1151,7 +1151,7 @@
   {
     "id": "IKAG",
     "name": "Alternde Gesellschaften",
-    "url": "allModules/44020_M_IKAG.json",
+    "url": "allModules/65371_M_IKAG.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "FS",
@@ -1389,28 +1389,12 @@
     ]
   },
   {
-    "id": "IKDL_BU",
-    "name": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
-    "url": "allModules/57339_M_IKDL_BU.json",
-    "ects": 2,
-    "isDeactivated": true,
-    "term": "",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
     "id": "IKDLp",
     "name": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen (Projektarbeit)",
-    "url": "allModules/44247_M_IKDL_p.json",
+    "url": "allModules/64989_M_IKDL_p.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "FS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1478,7 +1462,7 @@
     "url": "allModules/56731_M_IKEI_p.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "",
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1557,7 +1541,7 @@
     "name": "Future Life Design: Successfully shaping your own life path",
     "url": "allModules/56740_M_IKFL.json",
     "ects": 2,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -1573,7 +1557,7 @@
     "name": "Future Life Design: Successfully shaping your own life path (Projektarbeit)",
     "url": "allModules/56743_M_IKFL_p.json",
     "ects": 3,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -1587,7 +1571,7 @@
   {
     "id": "IKGA",
     "name": "Generative AI in der Planung",
-    "url": "allModules/44211_M_IKGA.json",
+    "url": "allModules/64992_M_IKGA.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "FS",
@@ -1607,6 +1591,22 @@
     "ects": 3,
     "isDeactivated": false,
     "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKGD",
+    "name": "Geheimnisse der Datensicherheit: Die CIA-Trias in der Praxis",
+    "url": "allModules/64956_M_IKGD.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1667,7 +1667,7 @@
   {
     "id": "IKGS",
     "name": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden",
-    "url": "allModules/44190_M_IKGS.json",
+    "url": "allModules/65046_M_IKGS.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "HS",
@@ -1683,8 +1683,8 @@
   {
     "id": "IKGSp",
     "name": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden (Projektarbeit)",
-    "url": "allModules/56922_M_IKGS_p.json",
-    "ects": 3,
+    "url": "allModules/65180_M_IKGS_p.json",
+    "ects": 4,
     "isDeactivated": false,
     "term": "HS",
     "recommendedModuleIds": [],
@@ -1701,7 +1701,7 @@
     "name": "Interdisziplinär entwickeln - gerüstet für die technikbasierte Arbeitswelt",
     "url": "allModules/44079_M_IKIE.json",
     "ects": 2,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -1717,7 +1717,7 @@
     "name": "Ideen Inkubator Klimawende",
     "url": "allModules/44073_M_IKII.json",
     "ects": 2,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -1733,7 +1733,7 @@
     "name": "Ideen Inkubator Klimawende (Projektarbeit)",
     "url": "allModules/44076_M_IKII_p.json",
     "ects": 3,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -1747,7 +1747,7 @@
   {
     "id": "IKIS",
     "name": "International Summer School for Sustainability",
-    "url": "allModules/56789_M_IKIS.json",
+    "url": "allModules/65049_M_IKIS.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "HS",
@@ -1763,7 +1763,7 @@
   {
     "id": "IKISp",
     "name": "International Summer School for Sustainability (Projektarbeit)",
-    "url": "allModules/56866_M_IKIS_p.json",
+    "url": "allModules/65386_M_IKIS_p.json",
     "ects": 3,
     "isDeactivated": false,
     "term": "HS",
@@ -1781,7 +1781,7 @@
     "name": "Nachhaltigkeit und Klimaschutz angewandt",
     "url": "allModules/44223_M_IKKA.json",
     "ects": 2,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -1797,7 +1797,7 @@
     "name": "Kommunale Klimawende",
     "url": "allModules/44184_M_IKKK.json",
     "ects": 2,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -1813,7 +1813,7 @@
     "name": "Kommunale Klimawende (Projektarbeit)",
     "url": "allModules/44187_M_IKKK_p.json",
     "ects": 3,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -1907,7 +1907,7 @@
   {
     "id": "IKLDp",
     "name": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten (Projektarbeit)",
-    "url": "allModules/56928_M_IKLD_p.json",
+    "url": "allModules/65051_M_IKLD_p.json",
     "ects": 3,
     "isDeactivated": false,
     "term": "HS",
@@ -1925,7 +1925,7 @@
     "name": "IZM-Projekt",
     "url": "allModules/44082_M_IKLE.json",
     "ects": 2,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -1941,7 +1941,7 @@
     "name": "IZM-Projekt (Projektarbeit)",
     "url": "allModules/44085_M_IKLE_p.json",
     "ects": 4,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -1955,7 +1955,7 @@
   {
     "id": "IKLF",
     "name": "Lernfähigkeit und Gedächtnis",
-    "url": "allModules/44100_M_IKLF.json",
+    "url": "allModules/64995_M_IKLF.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "FS",
@@ -2019,7 +2019,7 @@
   {
     "id": "IKMI",
     "name": "Medien- und Informationskompetenz in Zeiten von KI",
-    "url": "allModules/44109_M_IKMI.json",
+    "url": "allModules/64983_M_IKMI.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "FS",
@@ -2067,7 +2067,7 @@
   {
     "id": "IKMOp",
     "name": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung (Projektarbeit)",
-    "url": "allModules/44058_M_IKMO_p.json",
+    "url": "allModules/65004_M_IKMO_p.json",
     "ects": 3,
     "isDeactivated": false,
     "term": "both",
@@ -2115,10 +2115,10 @@
   {
     "id": "IKNE",
     "name": "Nachhaltige Ernährung für Körper, Geist und Klima",
-    "url": "allModules/56792_M_IKNE.json",
+    "url": "allModules/65054_M_IKNE.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "HS",
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2134,7 +2134,7 @@
     "url": "allModules/56795_M_IKNE_p.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "HS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2147,7 +2147,7 @@
   {
     "id": "IKNG",
     "name": "Neue Narrative für eine nachhaltige Gesellschaft",
-    "url": "allModules/44121_M_IKNG.json",
+    "url": "allModules/65007_M_IKNG.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "FS",
@@ -2163,7 +2163,7 @@
   {
     "id": "IKNGp",
     "name": "Neue Narrative für eine nachhaltige Gesellschaft (Projektarbeit)",
-    "url": "allModules/44124_M_IKNG_p.json",
+    "url": "allModules/65421_M_IKNG_p.json",
     "ects": 3,
     "isDeactivated": false,
     "term": "FS",
@@ -2179,10 +2179,10 @@
   {
     "id": "IKNK",
     "name": "New Work & KI",
-    "url": "allModules/44127_M_IKNK.json",
+    "url": "allModules/65013_M_IKNK.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "FS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2195,10 +2195,10 @@
   {
     "id": "IKNKp",
     "name": "New Work & KI (Projektarbeit)",
-    "url": "allModules/44130_M_IKNK_p.json",
+    "url": "allModules/65395_M_IKNK_p.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "both",
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2213,8 +2213,40 @@
     "name": "Hackathon zu \"Netto-null in Gebäuden und Verkehr\"",
     "url": "allModules/44070_M_IKNN.json",
     "ects": 2,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKNP",
+    "name": "Nachhaltigkeit politisch umsetzen",
+    "url": "allModules/64974_M_IKNP.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKNPp",
+    "name": "Nachhaltigkeit politisch umsetzen (Projektarbeit)",
+    "url": "allModules/64977_M_IKNP_p.json",
+    "ects": 3,
+    "isDeactivated": false,
+    "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2246,7 +2278,39 @@
     "url": "allModules/57681_M_IKNW_p.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "",
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKOR",
+    "name": "Öffentliche Ringvorlesung: Verantwortung heute - zwischen Verpflichtung und Ablehnung",
+    "url": "allModules/64959_M_IKOR.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKORp",
+    "name": "Öffentliche Ringvorlesung: Verantwortung heute - zwischen Verpflichtung und Ablehnung (Projektarbeit)",
+    "url": "allModules/64962_M_IKOR_p.json",
+    "ects": 3,
+    "isDeactivated": false,
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2275,10 +2339,10 @@
   {
     "id": "IKOWp",
     "name": "Offgrid Wasser und Sonne: Hands on (Projektarbeit)",
-    "url": "allModules/57683_M_IKOW_p.json",
-    "ects": 3,
+    "url": "allModules/65019_M_IKOW_p.json",
+    "ects": 4,
     "isDeactivated": false,
-    "term": "",
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2291,7 +2355,7 @@
   {
     "id": "IKPE",
     "name": "Psychologisches Empowerment in Veränderungs- und Wandlungsprozessen",
-    "url": "allModules/44139_M_IKPE.json",
+    "url": "allModules/65056_M_IKPE.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "HS",
@@ -2307,7 +2371,7 @@
   {
     "id": "IKPH",
     "name": "Prototyping für Startup-Ideen beim Hackathon",
-    "url": "allModules/56807_M_IKPH.json",
+    "url": "allModules/65021_M_IKPH.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "FS",
@@ -2326,7 +2390,7 @@
     "url": "allModules/64856_M_IKPI.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2342,7 +2406,7 @@
     "url": "allModules/64860_M_IKPI_p.json",
     "ects": 4,
     "isDeactivated": false,
-    "term": "",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2385,12 +2449,44 @@
     ]
   },
   {
+    "id": "IKPSp_BU",
+    "name": "Prototyping für Startup-Ideen",
+    "url": "allModules/65246_M_IKPS_p_BU.json",
+    "ects": 4,
+    "isDeactivated": true,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IKRE",
     "name": "Resilienz: Schlüsselkompetenz für innere Stärke",
     "url": "allModules/44142_M_IKRE.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "both",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKSE",
+    "name": "Strategie-Entwicklung und -Umsetzung für NPOs",
+    "url": "allModules/64980_M_IKSE.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2417,11 +2513,27 @@
     ]
   },
   {
+    "id": "IKSI",
+    "name": "Serious Game zur Unterstützung der Transformation von Infrastruktursystemen",
+    "url": "allModules/64971_M_IKSI.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IKSM",
     "name": "Strategisches Management von Naturgefahren",
     "url": "allModules/44205_M_IKSM.json",
     "ects": 2,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -2437,6 +2549,54 @@
     "name": "Strategisches Management von Naturgefahren (Projektarbeit)",
     "url": "allModules/44208_M_IKSM_p.json",
     "ects": 2,
+    "isDeactivated": true,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKSO",
+    "name": "Serious Game zur Unterstützung der Transformation sozialer und wirtschaftlich orientierter Systeme",
+    "url": "allModules/43909_M_IKSO.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKSR",
+    "name": "Strategisches Risikomanagement von Naturgefahren",
+    "url": "allModules/64950_M_IKSR.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKSRp",
+    "name": "Strategisches Risikomanagement von Naturgefahren (Projektarbeit)",
+    "url": "allModules/64953_M_IKSR_p.json",
+    "ects": 3,
     "isDeactivated": false,
     "term": "HS",
     "recommendedModuleIds": [],
@@ -2451,7 +2611,7 @@
   {
     "id": "IKSS",
     "name": "Ski-Nation Schweiz",
-    "url": "allModules/57793_M_IKSS.json",
+    "url": "allModules/65023_M_IKSS.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "FS",
@@ -2499,10 +2659,10 @@
   {
     "id": "IKSTp",
     "name": "Starkes Ich – Starkes Team (Projektarbeit)",
-    "url": "allModules/44157_M_IKST_p.json",
+    "url": "allModules/65026_M_IKST_p.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "FS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2529,6 +2689,22 @@
     ]
   },
   {
+    "id": "IKSU_BU",
+    "name": "Startup - Weg zur Gründung Kopie",
+    "url": "allModules/65400_M_IKSU_BU.json",
+    "ects": 2,
+    "isDeactivated": true,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IKSUp",
     "name": "Startup - Weg zur Gründung (Projektarbeit)",
     "url": "allModules/44256_M_IKSU_p.json",
@@ -2545,12 +2721,28 @@
     ]
   },
   {
+    "id": "IKSUp_BU",
+    "name": "Startup - Weg zur Gründung",
+    "url": "allModules/65231_M_IKSU_p_BU.json",
+    "ects": 4,
+    "isDeactivated": true,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IKSW",
     "name": "Stadt der kurzen Wege",
     "url": "allModules/44148_M_IKSW.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "FS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2563,10 +2755,10 @@
   {
     "id": "IKSWp",
     "name": "Stadt der kurzen Wege (Projektarbeit)",
-    "url": "allModules/44151_M_IKSW_p.json",
+    "url": "allModules/65029_M_IKSW_p.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "FS",
+    "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2609,9 +2801,25 @@
     ]
   },
   {
+    "id": "IKTR",
+    "name": "Teaming rocks! Zusammenarbeit verstehen & Selbstführung stärken",
+    "url": "allModules/64968_M_IKTR.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IKTSV2",
     "name": "IKTS_Vorlage 2ECTS",
-    "url": "allModules/43909_M_IKTSV2.json",
+    "url": "allModules/64967_M_IKTSV2.json",
     "ects": 2,
     "isDeactivated": true,
     "term": "",
@@ -2705,9 +2913,25 @@
     ]
   },
   {
+    "id": "IKVA_BU",
+    "name": "Virtual Reality für gesundes Leben und Altern",
+    "url": "allModules/65409_M_IKVA_BU.json",
+    "ects": 2,
+    "isDeactivated": true,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IKVAp",
     "name": "Virtual Reality für gesundes Leben und Altern (Projektarbeit)",
-    "url": "allModules/44175_M_IKVA_p.json",
+    "url": "allModules/65032_M_IKVA_p.json",
     "ects": 3,
     "isDeactivated": false,
     "term": "both",
@@ -2721,9 +2945,25 @@
     ]
   },
   {
+    "id": "IKVAp_BU",
+    "name": "Virtual Reality für gesundes Leben und Altern",
+    "url": "allModules/65412_M_IKVA_p_BU.json",
+    "ects": 3,
+    "isDeactivated": true,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
     "id": "IKVK",
     "name": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter",
-    "url": "allModules/44166_M_IKVK.json",
+    "url": "allModules/65035_M_IKVK.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "both",
@@ -2739,7 +2979,7 @@
   {
     "id": "IKVKp",
     "name": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter (Projektarbeit)",
-    "url": "allModules/44169_M_IKVK_p.json",
+    "url": "allModules/65038_M_IKVK_p.json",
     "ects": 3,
     "isDeactivated": false,
     "term": "both",
@@ -2755,7 +2995,7 @@
   {
     "id": "IKVR",
     "name": "Virtual Reality für Klima und Energie",
-    "url": "allModules/56195_M_IKVR.json",
+    "url": "allModules/65043_M_IKVR.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "both",
@@ -2775,6 +3015,54 @@
     "ects": 3,
     "isDeactivated": false,
     "term": "both",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKVRp_BU",
+    "name": "Virtual Reality für Klima und Energie Kopie",
+    "url": "allModules/65295_M_IKVR_p_BU.json",
+    "ects": 3,
+    "isDeactivated": true,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKVW",
+    "name": "Verantwortungsvoll Wirtschaften: Unternehmen auf dem Prüfstand",
+    "url": "allModules/64944_M_IKVW.json",
+    "ects": 2,
+    "isDeactivated": false,
+    "term": "HS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
+    ]
+  },
+  {
+    "id": "IKVWp",
+    "name": "Verantwortungsvoll Wirtschaften: Unternehmen auf dem Prüfstand (Projektarbeit)",
+    "url": "allModules/64947_M_IKVW_p.json",
+    "ects": 4,
+    "isDeactivated": false,
+    "term": "HS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -3898,7 +4186,7 @@
   {
     "id": "WE3",
     "name": "Web Engineering 3",
-    "url": "allModules/38901_M_WE3.json",
+    "url": "allModules/65059_M_WE3.json",
     "ects": 4,
     "isDeactivated": false,
     "term": "HS",

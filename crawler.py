@@ -184,12 +184,23 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
 
     # 'zuordnungen' contains modules
     zuordnungen = jsonContent['zuordnungen']
+    all_module_ids = {getIdForModule(z['kuerzel']) for z in zuordnungen}
     for zuordnung in zuordnungen:
         module = create_module(zuordnung)
 
         # For some reason each category is also present as a module.
         if module['id'].startswith('Kat'):
             continue
+
+        # Keep only one variant per module. Priority: no suffix > _RJ > _SG.
+        if module['id'].endswith('_SG'):
+            base_id = module['id'][:-3]
+            if base_id in all_module_ids or f'{base_id}_RJ' in all_module_ids:
+                continue
+        elif module['id'].endswith('_RJ'):
+            base_id = module['id'][:-3]
+            if base_id in all_module_ids:
+                continue
 
         if 'kategorien' in zuordnung:
             module['categories'] = [{'id': getIdForCategory(z['kuerzel']), 'name': ' '.join(z['bezeichnung'].split()), 'ects': z['kreditpunkte']} for z in zuordnung['kategorien']]
