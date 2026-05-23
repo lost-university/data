@@ -974,19 +974,9 @@
         "url": "allModules/44235_M_IKDH.json"
       },
       {
-        "id": "IKDH_SG",
-        "name": "Lernlabor «Digitalisieren Hands-on»",
-        "url": "allModules/65389_M_IKDH_SG.json"
-      },
-      {
         "id": "IKDHp",
         "name": "Lernlabor «Digitalisieren Hands-on» (Projektarbeit)",
         "url": "allModules/44232_M_IKDH_p.json"
-      },
-      {
-        "id": "IKDHp_SG",
-        "name": "Lernlabor «Digitalisieren Hands-on»",
-        "url": "allModules/65243_M_IKDH_p_SG.json"
       },
       {
         "id": "IKDK",
@@ -994,29 +984,14 @@
         "url": "allModules/44043_M_IKDK.json"
       },
       {
-        "id": "IKDK_SG",
-        "name": "Demokratie im Zeitalter von KI",
-        "url": "allModules/65383_M_IKDK_SG.json"
-      },
-      {
         "id": "IKDKp",
         "name": "Demokratie im Zeitalter von KI (Projektarbeit)",
         "url": "allModules/44046_M_IKDK_p.json"
       },
       {
-        "id": "IKDKp_SG",
-        "name": "Demokratie im Zeitalter von KI",
-        "url": "allModules/65301_M_IKDK_p_SG.json"
-      },
-      {
         "id": "IKDL",
         "name": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
         "url": "allModules/61146_M_IKDL.json"
-      },
-      {
-        "id": "IKDL_SG",
-        "name": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
-        "url": "allModules/57339_M_IKDL_SG.json"
       },
       {
         "id": "IKDLp",
@@ -1159,19 +1134,9 @@
         "url": "allModules/44094_M_IKKL.json"
       },
       {
-        "id": "IKKL_SG",
-        "name": "Circular Economy",
-        "url": "allModules/65377_M_IKKL_SG.json"
-      },
-      {
         "id": "IKKLp",
         "name": "Circular Economy (Projektarbeit)",
         "url": "allModules/44097_M_IKKL_p.json"
-      },
-      {
-        "id": "IKKLp_SG",
-        "name": "Circular Economy",
-        "url": "allModules/65380_M_IKKL_p_SG.json"
       },
       {
         "id": "IKKP",
@@ -1284,11 +1249,6 @@
         "url": "allModules/65013_M_IKNK.json"
       },
       {
-        "id": "IKNK_SG",
-        "name": "New Work & KI Kopie",
-        "url": "allModules/65392_M_IKNK_SG.json"
-      },
-      {
         "id": "IKNKp",
         "name": "New Work & KI (Projektarbeit)",
         "url": "allModules/65395_M_IKNK_p.json"
@@ -1297,11 +1257,6 @@
         "id": "IKNKp_RJ",
         "name": "New Work & KI",
         "url": "allModules/65234_M_IKNK_p_RJ.json"
-      },
-      {
-        "id": "IKNKp_SG",
-        "name": "New Work & KI",
-        "url": "allModules/65237_M_IKNK_p_SG.json"
       },
       {
         "id": "IKNN",
@@ -1342,11 +1297,6 @@
         "id": "IKOW",
         "name": "Offgrid Wasser und Sonne: Hands on",
         "url": "allModules/56805_M_IKOW.json"
-      },
-      {
-        "id": "IKOW_SG",
-        "name": "Offgrid Wasser und Sonne: Hands on Kopie",
-        "url": "allModules/65398_M_IKOW_SG.json"
       },
       {
         "id": "IKOWp",
@@ -1484,11 +1434,6 @@
         "url": "allModules/65231_M_IKSU_p_BU.json"
       },
       {
-        "id": "IKSUp_SG",
-        "name": "Startup - Weg zur Gründung Kopie",
-        "url": "allModules/65298_M_IKSU_p_SG.json"
-      },
-      {
         "id": "IKSW",
         "name": "Stadt der kurzen Wege",
         "url": "allModules/44148_M_IKSW.json"
@@ -1564,19 +1509,9 @@
         "url": "allModules/65035_M_IKVK.json"
       },
       {
-        "id": "IKVK_SG",
-        "name": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter Kopie",
-        "url": "allModules/65403_M_IKVK_SG.json"
-      },
-      {
         "id": "IKVKp",
         "name": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter (Projektarbeit)",
         "url": "allModules/65038_M_IKVK_p.json"
-      },
-      {
-        "id": "IKVKp_SG",
-        "name": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter Kopie",
-        "url": "allModules/65406_M_IKVK_p_SG.json"
       },
       {
         "id": "IKVR",
@@ -1597,11 +1532,6 @@
         "id": "IKVRp_BU",
         "name": "Virtual Reality für Klima und Energie Kopie",
         "url": "allModules/65295_M_IKVR_p_BU.json"
-      },
-      {
-        "id": "IKVRp_SG",
-        "name": "Virtual Reality für Klima und Energie",
-        "url": "allModules/65415_M_IKVR_p_SG.json"
       },
       {
         "id": "IKVW",

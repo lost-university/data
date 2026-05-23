@@ -1341,44 +1341,12 @@
     ]
   },
   {
-    "id": "IKDH_SG",
-    "name": "Lernlabor «Digitalisieren Hands-on»",
-    "url": "allModules/65389_M_IKDH_SG.json",
-    "ects": 2,
-    "isDeactivated": true,
-    "term": "",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
     "id": "IKDHp",
     "name": "Lernlabor «Digitalisieren Hands-on» (Projektarbeit)",
     "url": "allModules/44232_M_IKDH_p.json",
     "ects": 4,
     "isDeactivated": false,
     "term": "both",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKDHp_SG",
-    "name": "Lernlabor «Digitalisieren Hands-on»",
-    "url": "allModules/65243_M_IKDH_p_SG.json",
-    "ects": 4,
-    "isDeactivated": true,
-    "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1405,44 +1373,12 @@
     ]
   },
   {
-    "id": "IKDK_SG",
-    "name": "Demokratie im Zeitalter von KI",
-    "url": "allModules/65383_M_IKDK_SG.json",
-    "ects": 2,
-    "isDeactivated": true,
-    "term": "",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
     "id": "IKDKp",
     "name": "Demokratie im Zeitalter von KI (Projektarbeit)",
     "url": "allModules/44046_M_IKDK_p.json",
     "ects": 3,
     "isDeactivated": false,
     "term": "FS",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKDKp_SG",
-    "name": "Demokratie im Zeitalter von KI",
-    "url": "allModules/65301_M_IKDK_p_SG.json",
-    "ects": 3,
-    "isDeactivated": true,
-    "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -1469,22 +1405,6 @@
     ]
   },
   {
-    "id": "IKDL_SG",
-    "name": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
-    "url": "allModules/57339_M_IKDL_SG.json",
-    "ects": 2,
-    "isDeactivated": true,
-    "term": "",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
     "id": "IKDLp",
     "name": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen (Projektarbeit)",
     "url": "allModules/64989_M_IKDL_p.json",
@@ -1496,21 +1416,6 @@
     "successorModuleId": null,
     "predecessorModuleId": null,
     "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKDLp_SG",
-    "name": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
-    "url": "allModules/65274_M_IKDL_p_SG.json",
-    "ects": 3,
-    "isDeactivated": false,
-    "term": "",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
     "categoriesForColoring": [
       "GWRIKTS"
     ]
@@ -1952,44 +1857,12 @@
     ]
   },
   {
-    "id": "IKKL_SG",
-    "name": "Circular Economy",
-    "url": "allModules/65377_M_IKKL_SG.json",
-    "ects": 2,
-    "isDeactivated": true,
-    "term": "",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
     "id": "IKKLp",
     "name": "Circular Economy (Projektarbeit)",
     "url": "allModules/44097_M_IKKL_p.json",
     "ects": 3,
     "isDeactivated": false,
     "term": "FS",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKKLp_SG",
-    "name": "Circular Economy",
-    "url": "allModules/65380_M_IKKL_p_SG.json",
-    "ects": 3,
-    "isDeactivated": true,
-    "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2352,22 +2225,6 @@
     ]
   },
   {
-    "id": "IKNK_SG",
-    "name": "New Work & KI Kopie",
-    "url": "allModules/65392_M_IKNK_SG.json",
-    "ects": 2,
-    "isDeactivated": true,
-    "term": "",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
     "id": "IKNKp",
     "name": "New Work & KI (Projektarbeit)",
     "url": "allModules/65395_M_IKNK_p.json",
@@ -2387,22 +2244,6 @@
     "id": "IKNKp_RJ",
     "name": "New Work & KI",
     "url": "allModules/65234_M_IKNK_p_RJ.json",
-    "ects": 3,
-    "isDeactivated": true,
-    "term": "",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKNKp_SG",
-    "name": "New Work & KI",
-    "url": "allModules/65237_M_IKNK_p_SG.json",
     "ects": 3,
     "isDeactivated": true,
     "term": "",
@@ -2534,22 +2375,6 @@
     "ects": 2,
     "isDeactivated": false,
     "term": "FS",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKOW_SG",
-    "name": "Offgrid Wasser und Sonne: Hands on Kopie",
-    "url": "allModules/65398_M_IKOW_SG.json",
-    "ects": 2,
-    "isDeactivated": true,
-    "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2992,22 +2817,6 @@
     ]
   },
   {
-    "id": "IKSUp_SG",
-    "name": "Startup - Weg zur Gründung Kopie",
-    "url": "allModules/65298_M_IKSU_p_SG.json",
-    "ects": 4,
-    "isDeactivated": true,
-    "term": "",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
     "id": "IKSW",
     "name": "Stadt der kurzen Wege",
     "url": "allModules/44148_M_IKSW.json",
@@ -3248,44 +3057,12 @@
     ]
   },
   {
-    "id": "IKVK_SG",
-    "name": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter Kopie",
-    "url": "allModules/65403_M_IKVK_SG.json",
-    "ects": 2,
-    "isDeactivated": true,
-    "term": "",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
     "id": "IKVKp",
     "name": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter (Projektarbeit)",
     "url": "allModules/65038_M_IKVK_p.json",
     "ects": 3,
     "isDeactivated": false,
     "term": "both",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKVKp_SG",
-    "name": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter Kopie",
-    "url": "allModules/65406_M_IKVK_p_SG.json",
-    "ects": 3,
-    "isDeactivated": true,
-    "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -3347,22 +3124,6 @@
     "id": "IKVRp_BU",
     "name": "Virtual Reality für Klima und Energie Kopie",
     "url": "allModules/65295_M_IKVR_p_BU.json",
-    "ects": 3,
-    "isDeactivated": true,
-    "term": "",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKVRp_SG",
-    "name": "Virtual Reality für Klima und Energie",
-    "url": "allModules/65415_M_IKVR_p_SG.json",
     "ects": 3,
     "isDeactivated": true,
     "term": "",

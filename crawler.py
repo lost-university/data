@@ -191,6 +191,9 @@ def fetch_data_for_studienordnung(url, output_directory, additional_module_urls=
         if module['id'].startswith('Kat'):
             continue
 
+        if module['id'].endswith('_SG'):
+            continue
+
         if 'kategorien' in zuordnung:
             module['categories'] = [{'id': getIdForCategory(z['kuerzel']), 'name': ' '.join(z['bezeichnung'].split()), 'ects': z['kreditpunkte']} for z in zuordnung['kategorien']]
             module['ects'] = zuordnung['kategorien'][0]['kreditpunkte']
