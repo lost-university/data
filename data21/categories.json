@@ -919,11 +919,6 @@
         "url": "allModules/65371_M_IKAG.json"
       },
       {
-        "id": "IKAG_RJ",
-        "name": "Alternde Gesellschaften",
-        "url": "allModules/65286_M_IKAG_RJ.json"
-      },
-      {
         "id": "IKAK",
         "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz SG",
         "url": "allModules/57384_M_IKAK.json"
@@ -1149,11 +1144,6 @@
         "url": "allModules/61404_M_IKKP_p.json"
       },
       {
-        "id": "IKKPp_RJ",
-        "name": "Klimakrise: Kann die Politik die Welt noch retten? Kopie",
-        "url": "allModules/65292_M_IKKP_p_RJ.json"
-      },
-      {
         "id": "IKLD",
         "name": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten",
         "url": "allModules/56925_M_IKLD.json"
@@ -1252,11 +1242,6 @@
         "id": "IKNKp",
         "name": "New Work & KI (Projektarbeit)",
         "url": "allModules/65395_M_IKNK_p.json"
-      },
-      {
-        "id": "IKNKp_RJ",
-        "name": "New Work & KI",
-        "url": "allModules/65234_M_IKNK_p_RJ.json"
       },
       {
         "id": "IKNN",
@@ -1399,19 +1384,9 @@
         "url": "allModules/57673_M_IKST.json"
       },
       {
-        "id": "IKST_RJ",
-        "name": "Starkes Ich – Starkes Team",
-        "url": "allModules/65252_M_IKST_RJ.json"
-      },
-      {
         "id": "IKSTp",
         "name": "Starkes Ich – Starkes Team (Projektarbeit)",
         "url": "allModules/65026_M_IKST_p.json"
-      },
-      {
-        "id": "IKSTp_RJ",
-        "name": "Starkes Ich – Starkes Team",
-        "url": "allModules/65240_M_IKST_p_RJ.json"
       },
       {
         "id": "IKSU",
@@ -1517,11 +1492,6 @@
         "id": "IKVR",
         "name": "Virtual Reality für Klima und Energie",
         "url": "allModules/65043_M_IKVR.json"
-      },
-      {
-        "id": "IKVR_RJ",
-        "name": "Virtual Reality für Klima und Energie",
-        "url": "allModules/65255_M_IKVR_RJ.json"
       },
       {
         "id": "IKVRp",

@@ -1165,22 +1165,6 @@
     ]
   },
   {
-    "id": "IKAG_RJ",
-    "name": "Alternde Gesellschaften",
-    "url": "allModules/65286_M_IKAG_RJ.json",
-    "ects": 2,
-    "isDeactivated": true,
-    "term": "",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
     "id": "IKAK",
     "name": "Gesundes Altern mit Hilfe von künstlicher Intelligenz SG",
     "url": "allModules/57384_M_IKAK.json",
@@ -1905,22 +1889,6 @@
     ]
   },
   {
-    "id": "IKKPp_RJ",
-    "name": "Klimakrise: Kann die Politik die Welt noch retten? Kopie",
-    "url": "allModules/65292_M_IKKP_p_RJ.json",
-    "ects": 3,
-    "isDeactivated": true,
-    "term": "",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
     "id": "IKLD",
     "name": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten",
     "url": "allModules/56925_M_IKLD.json",
@@ -2231,22 +2199,6 @@
     "ects": 3,
     "isDeactivated": false,
     "term": "FS",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKNKp_RJ",
-    "name": "New Work & KI",
-    "url": "allModules/65234_M_IKNK_p_RJ.json",
-    "ects": 3,
-    "isDeactivated": true,
-    "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2705,44 +2657,12 @@
     ]
   },
   {
-    "id": "IKST_RJ",
-    "name": "Starkes Ich – Starkes Team",
-    "url": "allModules/65252_M_IKST_RJ.json",
-    "ects": 2,
-    "isDeactivated": true,
-    "term": "",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
     "id": "IKSTp",
     "name": "Starkes Ich – Starkes Team (Projektarbeit)",
     "url": "allModules/65026_M_IKST_p.json",
     "ects": 3,
     "isDeactivated": false,
     "term": "both",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKSTp_RJ",
-    "name": "Starkes Ich – Starkes Team",
-    "url": "allModules/65240_M_IKST_p_RJ.json",
-    "ects": 3,
-    "isDeactivated": true,
-    "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -3079,22 +2999,6 @@
     "ects": 2,
     "isDeactivated": false,
     "term": "both",
-    "recommendedModuleIds": [],
-    "dependentModuleIds": [],
-    "successorModuleId": null,
-    "predecessorModuleId": null,
-    "isMandatory": false,
-    "categoriesForColoring": [
-      "GWRIKTS"
-    ]
-  },
-  {
-    "id": "IKVR_RJ",
-    "name": "Virtual Reality für Klima und Energie",
-    "url": "allModules/65255_M_IKVR_RJ.json",
-    "ects": 2,
-    "isDeactivated": true,
-    "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
