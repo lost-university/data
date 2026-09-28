@@ -650,12 +650,12 @@
       },
       {
         "id": "IKPI",
-        "name": "Projekte intedisziplinär weiterführen",
+        "name": "Projekte interdisziplinär weiterführen",
         "url": "allModules/64856_M_IKPI.json"
       },
       {
         "id": "IKPIp",
-        "name": "Projekte intedisziplinär weiterführen (Projektarbeit)",
+        "name": "Projekte interdisziplinär weiterführen (Projektarbeit)",
         "url": "allModules/64860_M_IKPI_p.json"
       },
       {
@@ -864,6 +864,11 @@
         "url": "allModules/64947_M_IKVW_p.json"
       },
       {
+        "id": "idks.IKAI",
+        "name": "Artificial Intelligence",
+        "url": "allModules/78662_M_idks.IKAI.json"
+      },
+      {
         "id": "idks.IKBD",
         "name": "My Data - Big Data",
         "url": "allModules/57372_M_idks.IKBD.json"
@@ -1053,7 +1058,7 @@
       {
         "id": "DigCod",
         "name": "Digitale Codierungen",
-        "url": "allModules/38920_M_DigCod.json"
+        "url": "allModules/65934_M_DigCod.json"
       },
       {
         "id": "EmbSys1",
@@ -1409,7 +1414,7 @@
       {
         "id": "DigCod",
         "name": "Digitale Codierungen",
-        "url": "allModules/38920_M_DigCod.json"
+        "url": "allModules/65934_M_DigCod.json"
       },
       {
         "id": "FP",
@@ -1446,7 +1451,7 @@
   {
     "id": "SaBa",
     "required_ects": 20,
-    "name": "Studien- Bachelorarbeit",
+    "name": "Studien- und Bachelorarbeit",
     "modules": [
       {
         "id": "BAI21",
