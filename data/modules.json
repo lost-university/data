@@ -68,7 +68,7 @@
     "url": "allModules/61186_M_AJwn.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "FS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -817,14 +817,14 @@
   {
     "id": "DigCod",
     "name": "Digitale Codierungen",
-    "url": "allModules/38920_M_DigCod.json",
+    "url": "allModules/65934_M_DigCod.json",
     "ects": 4,
     "isDeactivated": false,
     "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
-    "predecessorModuleId": "ICTh",
+    "predecessorModuleId": null,
     "isMandatory": false,
     "categoriesForColoring": [
       "Inf",
@@ -1394,7 +1394,7 @@
     "url": "allModules/64989_M_IKDL_p.json",
     "ects": 3,
     "isDeactivated": false,
-    "term": "both",
+    "term": "FS",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -2245,7 +2245,7 @@
     "name": "Nachhaltigkeit politisch umsetzen (Projektarbeit)",
     "url": "allModules/64977_M_IKNP_p.json",
     "ects": 3,
-    "isDeactivated": false,
+    "isDeactivated": true,
     "term": "",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
@@ -2386,7 +2386,7 @@
   },
   {
     "id": "IKPI",
-    "name": "Projekte intedisziplinär weiterführen",
+    "name": "Projekte interdisziplinär weiterführen",
     "url": "allModules/64856_M_IKPI.json",
     "ects": 2,
     "isDeactivated": false,
@@ -2402,7 +2402,7 @@
   },
   {
     "id": "IKPIp",
-    "name": "Projekte intedisziplinär weiterführen (Projektarbeit)",
+    "name": "Projekte interdisziplinär weiterführen (Projektarbeit)",
     "url": "allModules/64860_M_IKPI_p.json",
     "ects": 4,
     "isDeactivated": false,
@@ -3366,8 +3366,8 @@
   },
   {
     "id": "MathSem1",
-    "name": "Mathematisches Seminar 1",
-    "url": "allModules/45131_M_MathSem1.json",
+    "name": "Mathematisch naturwissenschaftliches Seminar 1",
+    "url": "allModules/65938_M_MathSem1.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "FS",
@@ -3382,8 +3382,8 @@
   },
   {
     "id": "MathSem2",
-    "name": "Mathematisches Seminar 2",
-    "url": "allModules/24089_M_MathSem2.json",
+    "name": "Mathematisch naturwissenschaftliches Seminar 2",
+    "url": "allModules/65941_M_MathSem2.json",
     "ects": 2,
     "isDeactivated": false,
     "term": "FS",
@@ -3582,7 +3582,7 @@
     "url": "allModules/57180_M_PWWD.json",
     "ects": 2,
     "isDeactivated": false,
-    "term": "FS",
+    "term": "both",
     "recommendedModuleIds": [],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -4282,6 +4282,22 @@
     "categoriesForColoring": [
       "Auf",
       "Inf"
+    ]
+  },
+  {
+    "id": "idks.IKAI",
+    "name": "Artificial Intelligence",
+    "url": "allModules/78662_M_idks.IKAI.json",
+    "ects": 2,
+    "isDeactivated": true,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "GWRIKTS"
     ]
   },
   {
