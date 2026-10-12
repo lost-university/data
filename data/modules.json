@@ -19,13 +19,12 @@
   {
     "id": "AIAp",
     "name": "AI Applications",
-    "url": "allModules/40870_M_AIAp.json",
+    "url": "allModules/79865_M_AIAp.json",
     "ects": 4,
     "isDeactivated": false,
     "term": "FS",
     "recommendedModuleIds": [
-      "AIFo",
-      "WE1"
+      "AIFo"
     ],
     "dependentModuleIds": [],
     "successorModuleId": null,
@@ -716,6 +715,20 @@
       "Inf",
       "RA"
     ]
+  },
+  {
+    "id": "DMOD",
+    "name": "Datenmodellierung",
+    "url": "allModules/79699_M_DMOD.json",
+    "ects": 4,
+    "isDeactivated": false,
+    "term": "FS",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": []
   },
   {
     "id": "DSy",
@@ -3143,6 +3156,23 @@
     "categoriesForColoring": []
   },
   {
+    "id": "InnoP",
+    "name": "Innovationsprojekt",
+    "url": "allModules/79747_M_InnoP.json",
+    "ects": 6,
+    "isDeactivated": false,
+    "term": "",
+    "recommendedModuleIds": [],
+    "dependentModuleIds": [],
+    "successorModuleId": null,
+    "predecessorModuleId": null,
+    "isMandatory": false,
+    "categoriesForColoring": [
+      "Auf",
+      "Inf"
+    ]
+  },
+  {
     "id": "Inno_2",
     "name": "Innovation 2: Operatives Innovationsmanagement",
     "url": "allModules/57703_M_Inno_2.json",
@@ -4151,7 +4181,6 @@
       "OOP2"
     ],
     "dependentModuleIds": [
-      "AIAp",
       "WE2"
     ],
     "successorModuleId": null,

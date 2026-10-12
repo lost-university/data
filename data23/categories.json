@@ -7,12 +7,12 @@
       {
         "id": "AIAp",
         "name": "AI Applications",
-        "url": "allModules/40870_M_AIAp.json"
+        "url": "allModules/79865_M_AIAp.json"
       },
       {
         "id": "AJwn",
         "name": "Auf Jobsuche, was nun?",
-        "url": "allModules/61186_M_AJwn.json"
+        "url": "allModules/57128_M_AJwn.json"
       },
       {
         "id": "AppArch",
@@ -138,6 +138,11 @@
         "id": "IncResp",
         "name": "Incident Response",
         "url": "allModules/36473_M_IncResp.json"
+      },
+      {
+        "id": "InnoP",
+        "name": "Innovationsprojekt",
+        "url": "allModules/79747_M_InnoP.json"
       },
       {
         "id": "MGE",
@@ -913,7 +918,7 @@
       {
         "id": "AIAp",
         "name": "AI Applications",
-        "url": "allModules/40870_M_AIAp.json"
+        "url": "allModules/79865_M_AIAp.json"
       },
       {
         "id": "AIFo",
@@ -923,7 +928,7 @@
       {
         "id": "AJwn",
         "name": "Auf Jobsuche, was nun?",
-        "url": "allModules/61186_M_AJwn.json"
+        "url": "allModules/57128_M_AJwn.json"
       },
       {
         "id": "AlgDat",
@@ -1109,6 +1114,11 @@
         "id": "IncResp",
         "name": "Incident Response",
         "url": "allModules/36473_M_IncResp.json"
+      },
+      {
+        "id": "InnoP",
+        "name": "Innovationsprojekt",
+        "url": "allModules/79747_M_InnoP.json"
       },
       {
         "id": "MGE",
